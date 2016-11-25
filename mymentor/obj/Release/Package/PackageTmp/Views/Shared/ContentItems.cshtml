@@ -1,0 +1,31 @@
+﻿@using System.Web.UI.WebControls
+@using MyMentor.BL.DomainServices
+@using MyMentor.BL.Extentions
+@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Models
+@using MyMentor.BL.ViewModels
+@using Consts = MyMentor.BL.Consts
+
+@model LessonsViewModel
+
+<div id="clipDetailsContainer"></div>
+<div class="mtr-container-main" id="contentItemsContainer">
+
+        @if (!Model.ContentItems.Any())
+        {
+           @Html.Raw(MyMentorResources.searchHasNotResults)
+        }
+       
+        @foreach (var contentItem in Model.ContentItems)
+        {
+            var contentItemViewModel = new ContentItemViewModel
+            {
+                ContentItemDto = contentItem,
+                LessonFilters = Model.LessonFilters
+            };
+
+            Html.RenderPartial("ContentItem", contentItemViewModel);
+        }
+   
+</div>
+

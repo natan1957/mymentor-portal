@@ -1,0 +1,25 @@
+﻿@using MyMentor.BL.App_GlobalResources
+
+<footer class="footer_container" id="footer_container">
+    <div class="footer fixedWidth clearfix">
+        <ul class="footer_links">
+            <li>@Html.ActionLink(MyMentorResources.footerLessonsAndPackages, "lessons", "Home") |</li>
+            <li>@Html.ActionLink(MyMentorResources.footerTeachers, "lessons", "Home")  |</li>
+            <li>@Html.ActionLink(MyMentorResources.footerApplication, "lessons", "Home")  |</li>
+            <li>@Html.ActionLink(MyMentorResources.footerMyAccounnt, "lessons", "Home")  |</li>
+            <li>@Html.ActionLink(MyMentorResources.footerAbout, "lessons", "Home")  |</li>
+            <li>@Html.ActionLink(MyMentorResources.footerRegulations, "lessons", "Home")  |</li>
+           @* <li>@Html.ActionLink(MyMentorResources.footerTeachersRegulations, "lessons", "Home")  |</li>*@
+            <li>@Html.ActionLink(MyMentorResources.footerContactUs, "lessons", "Home")  </li>
+        </ul>
+        @Html.Raw(MyMentorResources.footerRightsReserved)        
+        @*<div class="MyMentorRights">
+            כל הזכויות שמורות &nbsp; | &nbsp; <span style="direction: ltr;">MyMentor</span>&nbsp;
+            <span style="display: inline-block;">2014 &copy;</span>
+        </div>*@
+    </div>
+</footer>
+@*<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>*@
+@*<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>*@

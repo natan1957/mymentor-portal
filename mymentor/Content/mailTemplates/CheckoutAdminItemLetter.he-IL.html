@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .container {
+            width: 680px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body dir="rtl">
+    <div class="container">
+        <div>
+            <img class="center" src="http://mymentorapp.com/content/images/email-template-icon.png" />
+        </div>
+        אירוע – {event}<br />
+        תאריך –   {dueDate} <br />
+        פריט – {itemCode}, {itemTitle} {itemName}<br />
+        קופון – {couponKey} סוג – {couponType}<br />
+        מחיר פריט  –  {itemPrice} {userCurrencySymbol}, {itemPriceNIS} {siteCurrencySymbol}<br />
+        עמלת אתר  – {siteCouponFee} {couponCurrencySymbol}, {siteCouponFeeNIS} {siteCurrencySymbol}<br />
+        עמלת מורה – {teacherCouponFee} {couponCurrencySymbol}, {teacherCouponFeeNIS} {siteCurrencySymbol}<br />
+        רוכש – {userUserName}, {userFirstName}, {userlastName}, דוא"ל – {userEmail}<br />
+        תלמיד – {studentUserName}, {studentFirstName}, {studentlastName}, דוא"ל – {studentEmail}<br />
+        מורה –   {teacherUserName}, {teacherFirstName}, {teacherlastName}, דוא"ל –  {teacherEmail}<br />
+        עמלת מורה – {TeacherFee} {teacherCurrencySymbol}, {teacherFeeNIS} {siteCurrencySymbol} <br />
+        עמלת המרה למורה –  {teacherExchangeFee} {teacherCurrencySymbol}, {teacherExchangeFeeNIS} {siteCurrencySymbol}<br />
+        סוכן –  {agentUserName} {agentFirstName}, {agentlastName}, דוא"ל –  {agentEmail}<br />
+        עמלת סוכן –  {agentFee} {agentCurrencySymbol}, {agentFeeNIS}, {siteCurrencySymbol} <br />
+        עמלת המרה לסוכן –  {agentExchangeFee} {agentCurrencySymbol}, {agentExchangeFeeNIS} {siteCurrencySymbol}<br />
+        מע"מ – {maamItem} {maamCurrencySymbol}<br />
+
+        <br /><br />
+
+        מכתב – {letterId}
+    </div>
+</body>
+</html>

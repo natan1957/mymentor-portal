@@ -1,0 +1,31 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Extentions
+
+<div id="idletimeout">
+    @Html.Raw(MyMentorResources.inactivityLogoff)
+    <a id="idletimeout-resume" href="#">@MyMentorResources.idleTimeoutResume</a>.
+</div>
+@if (Session.GetLoggedInUser() != null)
+{
+    <script type="text/javascript">
+            $.idleTimeout('#idletimeout', '#idletimeout a', {
+                idleAfter: 600,
+                pollingInterval: 10,
+                keepAliveURL: '/home/keepalive',
+                serverResponseEquals: 'ok',
+                onTimeout: function() {
+                    $(this).slideUp();
+                    window.location = "/account/logoff";
+                },
+                onIdle: function() {
+                    $(this).slideDown(); // show the warning bar
+                },
+                onCountdown: function(counter) {
+                    $(this).find("span").html(counter); // update the counter
+                },
+                onResume: function() {
+                    $(this).slideUp(); // hide the warning bar
+                }
+            });
+    </script>
+}

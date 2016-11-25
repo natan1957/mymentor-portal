@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CodeTableDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DataItems>
+    <CodeTableDataItem>
+      <Key>EMy3CWCOSg</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>Active</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>פעיל</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+    <CodeTableDataItem>
+      <Key>d9w9LsiN2B</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>Blocked</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>חסום</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+    <CodeTableDataItem>
+      <Key>vL5YdA6Bbq</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>Approval Required</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>טעון אישור</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+  </DataItems>
+</CodeTableDto>

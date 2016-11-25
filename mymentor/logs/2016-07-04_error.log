@@ -1,0 +1,105 @@
+2016-07-04 06:57:05.6119 ERROR Parse.ParseException: invalid login parameters
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Account.MyMentorUserManager.<Login>d__32.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Controllers.AccountController.<Login>d__8.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 95
+2016-07-04 06:58:10.3532 ERROR Parse.ParseException: invalid login parameters
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Account.MyMentorUserManager.<Login>d__32.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Controllers.AccountController.<Login>d__8.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 95
+2016-07-04 06:58:17.0720 ERROR Parse.ParseException: invalid login parameters
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Account.MyMentorUserManager.<Login>d__32.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Controllers.AccountController.<Login>d__8.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 95
+2016-07-04 06:58:23.0934 ERROR Parse.ParseException: invalid login parameters
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Account.MyMentorUserManager.<Login>d__32.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Controllers.AccountController.<Login>d__8.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 95
+2016-07-04 06:58:56.4941 ERROR Parse.ParseException: invalid login parameters
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Account.MyMentorUserManager.<Login>d__32.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Controllers.AccountController.<Login>d__8.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 95

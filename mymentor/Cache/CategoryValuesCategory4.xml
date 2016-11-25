@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<ArrayOfCategoryValuesDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CategoryValuesDto>
+    <Key>2yjeZKrshD</Key>
+    <Value_he_il />
+    <Value_en_us />
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>yiSEz2wLXx</Key>
+    <Value_he_il />
+    <Value_en_us />
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>gc3LyBHxfy</Key>
+    <Value_he_il>א</Value_he_il>
+    <Value_en_us>a</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>vU5s58NKwi</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>pLQmhl9vu5</Key>
+    <Value_he_il>אשכנזי</Value_he_il>
+    <Value_en_us>Ashkenazi</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>Lg9b3EOfnt</Key>
+    <Value_he_il>ספרדי</Value_he_il>
+    <Value_en_us>Sefardi</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>r36PityGZR</Key>
+    <Value_he_il>תימן</Value_he_il>
+    <Value_en_us>Yemen</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>IpkRR0fEEf</Key>
+    <Value_he_il>מרוקו</Value_he_il>
+    <Value_en_us>Moroccan</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>cFf9z4F2f9</Key>
+    <Value_he_il>אשכנז צפ' אמריקה</Value_he_il>
+    <Value_en_us>NORAM Ashkenazi</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>nEQx71Ob3e</Key>
+    <Value_he_il>ד</Value_he_il>
+    <Value_en_us>d</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>YipV1FgrP4</ContentTypeId>
+  </CategoryValuesDto>
+</ArrayOfCategoryValuesDto>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<ArrayOfSugOsekDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SugOsekDto>
+    <ObjectId>GbSvXNSHmk</ObjectId>
+    <GetVat>false</GetVat>
+    <Israeli>true</Israeli>
+    <Name_en_us>Employee</Name_en_us>
+    <Name_he_il>שכיר</Name_he_il>
+    <Order>100</Order>
+    <PayVat>true</PayVat>
+    <SugOsekKey>Sachir</SugOsekKey>
+    <Tax>0</Tax>
+  </SugOsekDto>
+  <SugOsekDto>
+    <ObjectId>v8DcOsolU7</ObjectId>
+    <GetVat>true</GetVat>
+    <Israeli>true</Israeli>
+    <Name_en_us>Osek murshe</Name_en_us>
+    <Name_he_il>עוסק מורשה</Name_he_il>
+    <Order>200</Order>
+    <PayVat>true</PayVat>
+    <SugOsekKey>Osek_Murshe</SugOsekKey>
+    <Tax>0</Tax>
+  </SugOsekDto>
+  <SugOsekDto>
+    <ObjectId>FSNg8nnfYm</ObjectId>
+    <GetVat>false</GetVat>
+    <Israeli>true</Israeli>
+    <Name_en_us>Osek patur</Name_en_us>
+    <Name_he_il>עוסק פטור</Name_he_il>
+    <Order>300</Order>
+    <PayVat>true</PayVat>
+    <SugOsekKey>Osek_Patur</SugOsekKey>
+    <Tax>0</Tax>
+  </SugOsekDto>
+  <SugOsekDto>
+    <ObjectId>3Ona68b8SV</ObjectId>
+    <GetVat>true</GetVat>
+    <Israeli>true</Israeli>
+    <Name_en_us>Limited Company</Name_en_us>
+    <Name_he_il>חברה בע"מ</Name_he_il>
+    <Order>400</Order>
+    <PayVat>true</PayVat>
+    <SugOsekKey>Limited_Company</SugOsekKey>
+    <Tax>0</Tax>
+  </SugOsekDto>
+  <SugOsekDto>
+    <ObjectId>96a1I4C522</ObjectId>
+    <GetVat>false</GetVat>
+    <Israeli>true</Israeli>
+    <Name_en_us>Not employed</Name_en_us>
+    <Name_he_il>לא עובד</Name_he_il>
+    <Order>500</Order>
+    <PayVat>true</PayVat>
+    <SugOsekKey>Lo_oved</SugOsekKey>
+    <Tax>0</Tax>
+  </SugOsekDto>
+  <SugOsekDto>
+    <ObjectId>10mUDnjEWD</ObjectId>
+    <GetVat>false</GetVat>
+    <Israeli>false</Israeli>
+    <Name_en_us>Independent</Name_en_us>
+    <Name_he_il>עצמאי</Name_he_il>
+    <Order>800</Order>
+    <PayVat>false</PayVat>
+    <SugOsekKey>Independent</SugOsekKey>
+    <Tax>0</Tax>
+  </SugOsekDto>
+  <SugOsekDto>
+    <ObjectId>8HoLxvgk4z</ObjectId>
+    <GetVat>false</GetVat>
+    <Israeli>false</Israeli>
+    <Name_en_us>Employed</Name_en_us>
+    <Name_he_il>מועסק</Name_he_il>
+    <Order>900</Order>
+    <PayVat>false</PayVat>
+    <SugOsekKey>Employed</SugOsekKey>
+    <Tax>0</Tax>
+  </SugOsekDto>
+  <SugOsekDto>
+    <ObjectId>x6VuBPtz47</ObjectId>
+    <GetVat>false</GetVat>
+    <Israeli>false</Israeli>
+    <Name_en_us>Not employed</Name_en_us>
+    <Name_he_il>לא עובד</Name_he_il>
+    <Order>1000</Order>
+    <PayVat>false</PayVat>
+    <SugOsekKey>Not_employed</SugOsekKey>
+    <Tax>0</Tax>
+  </SugOsekDto>
+</ArrayOfSugOsekDto>

@@ -1,0 +1,131 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.DomainServices
+@using MyMentor.BL.Extentions
+@model MyMentor.BL.ViewModels.LessonAdminViewModel
+
+<div class="lessonAdmin arial">
+    <div class="lessonAdminHeader">
+        @MyMentorResources.lblLessonManagementTitle
+    </div>
+    <table class="lessonAdminTable" border="0" cellpadding="0" cellspacing="0">
+        <tr class="lessonAdminMainTr">
+            <td class="lessonAdmin1">
+                <table class="lessonAdminInnerTable" border="0" cellpadding="0" cellspacing="0">
+                    @if (Model.LessonFilters.Any())
+                    {
+                        <tr>
+                            <td class="adminLabel">
+                                <div>
+                                    @Model.LessonFilters[0].Label:
+                                </div>
+                            </td>
+                            <td>
+                                @Model.ContentItem.Category1
+                            </td>
+                        </tr>
+                    }
+                    @if (Model.LessonFilters.Count() > 1)
+                    {
+                        <tr>
+                            <td class="adminLabel">
+                                <div>
+                                    @Model.LessonFilters[1].Label:
+                                </div>
+                            </td>
+                            <td>
+                                @Model.ContentItem.Category2
+                            </td>
+                        </tr>
+                    }
+                    @if (Model.LessonFilters.Count() > 2)
+                    {
+                        <tr>
+                            <td class="adminLabel">
+                                <div>
+                                    @Model.LessonFilters[2].Label:
+                                </div>
+                            </td>
+                            <td>
+                                @Model.ContentItem.Category3
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </td>
+            <td class="lessonAdmin2">
+                <table class="lessonAdminInnerTable" border="0" cellpadding="0" cellspacing="0">
+                    @if (Model.LessonFilters.Count() > 3)
+                    {
+                        <tr>
+                            <td class="adminLabel">
+                                <div>
+                                    @Model.LessonFilters[3].Label:
+                                </div>
+                            </td>
+                            <td>
+                                @Model.ContentItem.Category4
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                        <td class="adminLabel">
+                            <div>
+                                @MyMentorResources.lblLessonRemarks
+                            </div>
+                        </td>
+                        <td>
+                            @Model.ContentItem.Remarks
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="lessonAdmin3">
+                <table class="lessonAdminInnerTable" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="adminLabel">
+                            <div>
+                                @MyMentorResources.lblPurchases:
+                            </div>
+                        </td>
+                        <td>
+                            @Model.ContentItem.PurchaseCount
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="adminLabel">
+                            <div>
+                                @MyMentorResources.lblDownloads:
+                            </div>
+                        </td>
+                        <td>
+                            @Model.ContentItem.Downloads
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="adminLabel">
+                            <div>
+                                @MyMentorResources.lblDemoDownloads:
+                            </div>
+                        </td>
+                        <td>
+                            @Model.ContentItem.DemoDownloads
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="adminBtns">
+                <a href="javascript:void(0)" class="editLesson btn_mentor arial bold whiteBtn smallBtn" data-item-id="@Model.ContentItem.ObjectId">
+                    @MyMentorResources.lessonsUpdateLesson
+                </a>
+                <a href="javascript:void(0)" class="createPackage btn_mentor arial bold whiteBtn smallBtn" data-item-id="@Model.ContentItem.ObjectId">@MyMentorResources.lessonsCreatePackage</a>
+
+                @if (Model.ContentItem.IsActive)
+                {
+                    <a href="javascript:void(0)" class="editLessonCoupon btn_mentor arial bold whiteBtn smallBtn" data-content-item-type="lesson" data-content-item-id="@Model.ContentItem.ObjectId">
+                        @MyMentorResources.lessonsCreateCupon
+                    </a>
+                }
+            </td>
+        </tr>
+    </table>
+</div>

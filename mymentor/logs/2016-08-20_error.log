@@ -1,0 +1,52 @@
+2016-08-20 12:05:03.7917 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.BL.DomainServices.WorldContentTypeRetriver.GetWorldContentTypeId(HttpContext httpContext) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\WorldContentTypeRetriver.cs:line 63
+   at MyMentor.Account.MyMentorUserManager.<ChangeUserRoleToTeacher>d__4f.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 383
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Account.MyMentorUserManager.<Update>d__39.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 294
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Controllers.AccountController.<Update>d__56.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 494
+2016-08-20 12:06:04.2795 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.BL.DomainServices.WorldContentTypeRetriver.GetWorldContentTypeId(HttpContext httpContext) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\WorldContentTypeRetriver.cs:line 63
+   at MyMentor.Account.MyMentorUserManager.<ChangeUserRoleToTeacher>d__4f.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 383
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Account.MyMentorUserManager.<Update>d__39.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 294
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Controllers.AccountController.<Update>d__56.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 494
+2016-08-20 12:06:43.2840 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.BL.DomainServices.WorldContentTypeRetriver.GetWorldContentTypeId(HttpContext httpContext) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\WorldContentTypeRetriver.cs:line 63
+   at MyMentor.Account.MyMentorUserManager.<ChangeUserRoleToTeacher>d__4f.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 383
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Account.MyMentorUserManager.<Update>d__39.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 294
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Controllers.AccountController.<Update>d__56.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 494
+2016-08-20 12:07:26.2568 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.BL.DomainServices.WorldContentTypeRetriver.GetWorldContentTypeId(HttpContext httpContext) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\WorldContentTypeRetriver.cs:line 63
+   at MyMentor.Account.MyMentorUserManager.<ChangeUserRoleToTeacher>d__4f.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 383
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Account.MyMentorUserManager.<Update>d__39.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 294
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Controllers.AccountController.<Update>d__56.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 494

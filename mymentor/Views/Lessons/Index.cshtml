@@ -1,0 +1,168 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Models
+@model MyMentor.BL.ViewModels.LessonsViewModel
+@{
+    //ViewBag.Title = "Home Page";
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            _mymentor.initPage("lessons", {
+                "updateBundle": {
+                    minPriceWait: "@MyMentorResources.lblMinPriceWait"
+                }
+            });
+        });
+    </script>
+}
+
+@section CurrencyAndAltLangDropdown{
+    </span><span class="headerSeperator">|</span>
+        @Html.ActionLink(" ", "ChangeLanguage", "Home",
+                            new
+                            {
+                                languageCode = Language.AlternameLanguageCode
+                            },
+                            new
+                            {
+                                @class = "content_language_change blackTooltip",
+                                title = MyMentorResources.lblChangeLanguage
+                            })
+    <span class="headerSeperator">|</span>
+
+    <span class="currency_change dropdown_change blackTooltip openedWindow" title="@MyMentorResources.lblChangeCurrency">
+        @Html.Action("GetUserCurrencySymbol", "Home")
+        @Html.Action("GetCurrencyDropDown", "Home")
+    </span>
+}
+<section role="main" class="main_content clearfix">
+    <div id="sticker" class="lessonHeaderContainer pageHeaderContainer ">
+        <div class="lessonHeader pageHeader fixedWidth clearfix">
+            <table class="lessonHeaderTable pageHeaderTable" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="lessonHeaderItem">
+                        <span class="icon">@MyMentorResources.lessonsLessonOrBundle</span>
+                    </td>
+                    <td class="lessonDateItem">
+                        <span class="icon">
+                            @Html.Raw(MyMentorResources.lessonsReadingDate)
+                        </span>
+                    </td>
+                    <td class="lessonTeacherItem">
+                        <span class="icon">@MyMentorResources.lessonsTeacher </span>
+                    </td>
+                    <td class="lessonPriceItem">
+                        <span class="icon">@MyMentorResources.lessonsPrice </span>
+                    </td>
+                    <td class="lessonPurchaseItem">
+                        <span class="icon">@MyMentorResources.lessonsBuy</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="lessonsContentContainer pageContentContainer ">
+        <div class="lessonsContent pageContent fixedWidth clearfix">
+            <div id="clipPlayer"></div>
+            @using (Html.BeginForm("index","Lessons",FormMethod.Get))
+            {
+
+                @Html.Partial("CategorySearch")
+            }
+            
+            @if (Model.LessonDisplayMode == LessonDisplayMode.Lessons)
+            {
+                @Html.Partial("ContentItems", Model)
+            }
+            else
+            {
+                @Html.Partial("BundleItems",Model.BundlesViewModel)
+            }
+
+            @Html.Partial("ResultsPager",Model)
+            
+            
+            <div id="lessonExplain" class="hide">
+                @Html.Raw(Model.LessonFaq)
+            </div>
+            
+            <div id="bundleExplain" class="hide">
+                @Html.Raw(Model.BundleFaq)
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<div id="wait" class="preloader">
+    <img src="~/Content/Images/preloader.GIF" />
+</div>
+
+@*boris added*@
+
+<div id="dialog_addLeasson" class="dialog_mentor" data-lesson-text="@MyMentorResources.shoppingCartLessonAdded" data-bundle-text="@MyMentorResources.shoppingCartBundleAdded">
+    <p class="font18 alefBold center">
+        
+    </p>
+    <div class="dialog_btn_wrapper clearfix">
+        <a class="btn_mentor turkizLightBtn smallBtn arial floatR" href="javascript:void(0)" data-dialog-close>
+            @MyMentorResources.shoppingCartDialogBack
+        </a><a class="btn_mentor turkizLightBtn  smallBtn arial bold floatL"
+               href="/checkout">@MyMentorResources.checkout >></a>
+    </div>
+</div>
+<div id="dialog_orderDemo" class="dialog_mentor" >
+    <p class="font18 alefBold center">
+        @MyMentorResources.shoppingCartDemoAdded
+    </p>
+    <div class="dialog_btn_wrapper clearfix center">
+        <a class="btn_mentor turkizLightBtn smallBtn arial" href="javascript:void(0)" data-dialog-close>
+            @MyMentorResources.shoppingCartDialogBack
+        </a>
+    </div>
+</div>
+
+<div id="dialog_orderError" class="dialog_mentor">
+    <p class="font18 alefBold center title"></p>
+    <div class="dialog_btn_wrapper clearfix center">
+        <a class="btn_mentor turkizLightBtn smallBtn arial" href="javascript:void(0)" data-dialog-close>
+            @MyMentorResources.shoppingCartDialogBack
+        </a>
+    </div>
+</div>
+
+<div id="dialog_appUser" class="dialog_mentor">
+    <p class="font18 alefBold center title">@MyMentorResources.completeRegistration</p>
+    <div class="dialog_btn_wrapper clearfix">
+        <a class="btn_mentor turkizLightBtn smallBtn arial floatR" href="javascript:void(0)" data-dialog-close>
+            @MyMentorResources.shoppingCartDialogBack
+        </a><a class="btn_mentor turkizLightBtn  smallBtn arial bold floatL"
+               href="/Account/UpdateStudent">@MyMentorResources.appUserUpdateDetails>></a>
+        </div>
+    </div>
+
+@Html.Partial("UpdateLesson")
+
+@Html.Partial("UpdateBundle")
+
+@Html.Partial("Coupon")
+
+@*<div id="lessonExplain" class="hide">
+    <div class="lessonPurchaseItemPadding whiteDialog">
+        <div class="orderDemo">
+            לחצן ההפעלה שעל מארז המחשב שלך (או על קצה המחשב הנישא שלך) או על
+        </div>
+        <div class="addToBasket">
+            שינוי הגדרות העכבר עזרה עבור Microsoft Windows
+        </div>
+        <div class="addToBasketSupport">
+            שינוי הגדרות העכבר עזרה עבור Microsoft Windows windows.microsoft.t.
+        </div>
+    </div>
+</div>*@
+
+@*boris added end*@
+
+@Html.Raw(Model.UpdateLessonMessage)

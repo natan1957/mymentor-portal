@@ -1,0 +1,545 @@
+
+.MyMentor_logo { float:right; }
+body { direction: ltr; }
+
+
+
+.topSite > div {
+    margin-left: 0px;
+     margin-right: 25px;
+}
+
+.topSite .helloText { float:left;   margin-right:  25px;  margin-left: 2px;}
+
+.topSite .signInUp {
+    float: left;    margin-left: 0px;     margin-right: 25px;
+}
+
+.topSite .shopping_cart_continue {
+    float: left;
+}
+
+.topSite .shopping_cart {    float: left; background-position:7% 10px;   padding: 10px 15px 0 35px;}
+
+
+.topSite .pageSettings {
+    float: left;
+}
+
+.content_language_change_lesson.leassonAbsolutelanguageIcon {  
+    right: initial;
+    left: 95px;
+}
+
+    .icon_information.leassonAbsoluteIconInformation {  
+    right: initial;
+    left: 133px;
+}
+
+.topSite .world_name {
+    line-height: 36px;
+    padding-left: 10px;
+}
+
+.home_icon { float: left; margin: 25px 18px 0 2px; }
+
+
+nav > ul { float: left; }
+nav > ul > li {
+    float: left;  margin-left: 0px;  margin-right: 22px;
+}
+
+.facebook_icon {  float: left; }
+
+.leftLink {
+    text-align: right;
+}
+
+.floatR {
+    float: left;
+}
+.floatL {
+    float: right;
+}
+
+.footer_links {
+    float: left;
+}
+
+.MyMentorRights {
+    float: right;
+}
+
+
+.footer_links > li {
+    float: left;
+}
+
+.req {
+    background-position: 1% 13px;
+}
+
+.required {
+    background-position:left 5px ;
+    padding-right: 0px;
+    padding-left: 8px;
+}
+
+.inputWrapper.twoColumn input.withPopUp, .inputWrapper.twoColumn select.withPopUp, .inputWrapper.twoColumn .mentorInput.withPopUp {
+    margin-left: 0px;
+     margin-right: 9px;
+}
+
+.inputWrapper.twoColumn input.floatR, .inputWrapper.twoColumn select.floatR, .inputWrapper.twoColumn .mentorInput.floatR
+{ clear:none;
+   clear: left;} 
+.inputWrapper.twoColumn input.floatL, .inputWrapper.twoColumn select.floatL, .inputWrapper.twoColumn .mentorInput.floatL
+{ clear:none;
+  clear: right;} 
+
+
+.checkboxWrapper .inputLabel input {
+    margin-right: 0px;
+    margin-left: 22px;
+}
+
+.inputWrapper .bankLabel {
+    float: left;
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+.inputWrapper .bankInput, .inputWrapper .snifInput {
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+.marginLeftBtn {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+#password_complexity {
+    right:5px;
+    left:inherit;
+}
+
+.mainTitle { float:left;}
+.mainSubTitle { float:left;}
+.mainHomeTab { margin-left: 0px; margin-right: 23px; float:left;}
+.mainHomeTab:last-child {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* lesson page */
+
+.pageHeaderTable td .icon {
+    background-position: left center;
+}
+
+.pageHeaderTable td.lessonHeaderItem .icon {
+    padding-right: 0px; padding-left: 40px;
+}
+
+.pageHeaderTable td.lessonDateItem .icon {
+    padding-right: 0;padding-left: 36px;
+}
+
+.pageHeaderTable td.lessonTeacherItem .icon, .pageHeaderTable td.lessonMyTeacherItem .icon, .pageHeaderTable td.teacherItem .icon {
+    padding-right: 0;padding-left: 57px;
+}
+
+.pageHeaderTable td.lessonPriceItem .icon {
+    padding-right: 0;padding-left: 42px;
+}
+
+.pageHeaderTable td.lessonPurchaseItem .icon {
+    padding-right: 0;padding-left: 28px;
+}
+
+.lessonTable td.lessonHeaderItem, .lessonTable td.teacherItem {
+    border-right:inherit;  border-left: 13px solid #2cbbc4;
+}
+
+.teacherText {
+    padding-left: 12px;
+    padding-right: 4px;
+}
+
+.teacherSound {
+    margin-left: 0;margin-right: 12px;
+}
+
+.orderDemo, .addToBasket, .addToBasketSupport {
+    background-position: left top;
+    padding-right: 0;padding-left: 26px;
+}
+
+.lessonWrapper .lesson_faq {
+    right: 0;
+}
+
+.lessonWrapper.hover .lesson_faq, .lessonWrapper .lesson_faq:hover {
+    left:auto; right: -25px; 
+}
+
+.lessonWrapper .lesson_faq {
+    background-image: url("../images/lessons/icon_lesson_faq_ltr.png");    
+
+}
+    
+    
+.lessonTable td.lessonPurchaseItem, .lessonTable td.lessonStatusItem, .lessonTable td.teacherLangaugeItem {
+    border-left: inherit; border-right: medium none;
+}
+
+.lessonContentHeader      
+{
+    border-right: none;
+    border-left: 13px solid #2CBBC4;
+}
+
+.lessonContentInfo td:first-child , .lessonContentInfo .lessonContentInfoBorder
+{
+    border-right: none;
+    border-left: 13px solid #2CBBC4;
+    
+    }
+
+.closeLesson {
+    right: auto;left: 0;
+}
+
+
+.lessonContentInfo td {
+    padding-left: 35px;
+    padding-right: 15px;
+}
+
+tr.lessonContentInfo > td > div {
+    background-position: left top;
+    padding-right: 0; padding-left: 50px;
+}
+
+tr.lessonContentInfo > td.lessonContentInfoMiddle > div {
+    padding-right: 0; padding-left: 60px;
+}
+
+tr.lessonContentInfo > td > div.lessonContentInfoBtns {
+    padding-left: 0;
+}
+
+.locationIcon {background-position: 5% top !important;}
+
+.showTeacher {
+    margin-left: 0;margin-right: 17px;
+}
+
+.teacherDetails, .sendTeacherMessage, .lessonAdmin 
+{
+    border-right: none;    
+    border-left: 13px solid #2CBBC4;
+}
+
+.teacherDetailsTable td {    
+    padding-left: 35px;
+    padding-right: 15px;
+}
+
+.sendTeacherMessage .btn_mentor {
+    margin-right: 0;  margin-left: 11px;
+}
+
+.sendTeacherMessage textarea {
+    padding-left: 10px;
+    padding-right: 1px;
+}
+
+.lessonAdminMainTr > td {
+    padding-right: 0; padding-left: 10px;
+}
+
+.lessonAdminMainTr > td.lessonAdmin1 {
+    padding-right: 0; padding-left: 35px;
+}
+
+.lessonAdminInnerTable td.adminLabel {
+    padding-left: 0; padding-right: 15px;
+}
+
+.lessonAdminMainTr > td.adminBtns > a {
+    margin-left: 0; margin-right: 15px;
+}
+
+.lessonPackageIcon {
+    right:auto; left: 14px;
+    -moz-border-radius:  0 25px 25px 0 ;
+    -webkit-border-radius: 0 25px 25px 0 ;
+    -khtml-border-radius: 0 25px 25px 0 ;
+    border-radius:0 25px 25px 0 ;
+    padding: 1px 10px 2px 2px;
+}
+
+.lessonPackage .seconderyLesson .lessonHeaderItemPadding .lessonPackageIcon {
+    padding-left: 7px;
+    right: auto; left: 1px;
+}
+
+
+.lessonPackage .seconderyLesson .lessonTable td {
+    border-right: inherit;
+    border-left: 1px solid #d2eaed;
+}
+
+.lessonPackage .lessonTable td.lessonHeaderItem {
+    border-right: inherit;
+    border-left: 13px solid #f49830;
+}
+
+.lessonHeaderItemPadding {
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.lessonPackage .seconderyLesson .lessonHeaderItemPadding {
+    padding-right: 20px; padding-left: 40px;
+}
+
+.lessonPackage .lessonContentHeader { border-right-color:none; border-left-color:#F49830}
+.lessonPackage .lessonContentInfo td:first-child, .lessonPackage .lessonContentInfo .lessonContentInfoBorder 
+{ border-right-color:none; border-left-color:#F49830}
+
+.lessonPackage .teacherDetails, .lessonPackage .sendTeacherMessage, .lessonPackage .lessonAdmin 
+{ border-right-color: none; border-left-color: #F49830;}
+
+.whiteTooltip .lessonPurchaseItemPadding > div {
+    background-position: left 2px;
+   padding-right:0;  padding-left: 36px;
+}
+
+.inputLabel label {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.leftText {
+    padding-left: 0;
+    padding-right: 71px;
+    text-align: right;
+}
+
+.inputPriceText {
+    margin-right: 0;
+    margin-left: 10px;
+    clear: right;
+}
+
+.inputWrapper.twoColumn label.floatL {
+      clear:none;
+    clear: right;
+}
+.inputWrapper.twoColumn label.floatR {
+     clear:none;
+    clear: left;
+}
+
+.twoColumn .field-validation-error-wrapper.floatR {
+    clear:none;
+    clear: left;
+}
+
+.twoColumn .field-validation-error-wrapper.floatL {
+    clear:none;
+    clear: right;
+}
+
+.inputWrapper.twoColumn label.floatLSingle {
+    padding-right: 0;
+    padding-left: 52%;
+}
+
+.dialogPackageLesson .details {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.inputWrapper select, select.mentorInput {
+    padding: 6px 6px 6px 7px;
+}
+
+.lessonSelects select, .teacherSelects select, .lessonSelects input, .teacherSelects input {
+    margin-left: 0px;
+    margin-right: 6px;
+    padding: 0 0px 0 3px;
+}
+
+.dialog_findLesson_inner {
+    direction: rtl;
+}
+
+.lessonSearchItem {
+    direction: ltr;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.dialog_findLesson_inner .cbSearch {
+    float: left;
+}
+
+.dialog_findLesson_inner .lessonWrapper {
+    float: left;
+}
+
+.icon_right_arrow{ background-image: url('../images/icon_left_arrow.png'); }
+.icon_left_arrow { background-image: url('../images/icon_right_arrow.png'); }
+
+/* ==========================================================================
+    myAccount Page
+========================================================================== */
+
+.lessonTableHeader .MyAccountNoteItemPadding {
+    padding: 0 4px;
+}
+
+
+.myAccountDates > a {
+    margin-right: 0px;
+    margin-left: 15px;
+}
+.arrowBtn {
+    background: url("../images/icon_arrow_down.png") no-repeat scroll 90% 12px #f49830;
+    padding-right: 34px;
+    padding-left: 13px;
+}
+
+.PreviousSum {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.eventCodeInputWrapper {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.myAccountHeaderLeft { text-align:right; }
+
+
+.currencyCheckBoxWrapper .btn_mentor {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.MyAccountSumLeftItem {
+    text-align:left;    
+}
+
+.lessonTableHeader .MyAccountSumLeftItem {
+    text-align: center;
+}
+
+.MyAccountSumItem {
+    text-align:left;  
+}
+
+.lessonTableHeader .MyAccountSumItem {
+    text-align: center;
+}
+
+.MyAccountActionItem {
+    text-align:left;
+}
+
+.lessonTableHeader .MyAccountActionItem {
+    text-align: center;
+}
+
+.MyAccountItem {
+    text-align:left;
+}
+
+.lessonTableHeader .MyAccountItem {
+    text-align: center;
+}
+
+/* ==========================================================================
+    myAccount Page End
+========================================================================== */
+
+/* ==========================================================================
+    ShoppingCart Page
+========================================================================== */
+
+.couponSelect { float:left!important; }
+
+.CartHeaderItemFloat {
+    right: 10px;
+    left:initial;
+}
+
+.CartCouponDateItem {
+    border-right: medium none !important;
+    border-left: 1px solid #f0f0f0!important;
+}
+
+.CartPriceItem {
+    border-left: medium none !important;
+    border-right: 1px solid #f0f0f0!important;
+}
+
+.inlineLabelPadding {
+    margin-left: 0px;
+    margin-right: 21px;
+}
+
+.ShoppingCartFor { float: left; }
+
+.ShoppingCartSummary {
+    float: right;
+}
+
+.SummaryLabel {
+    min-width: 275px;
+}
+
+.ShoppingCartFor .SummaryLabel {  min-width: 140px; }
+
+#goToLessonsBtn {
+    margin-right: 20px;
+     margin-left: 0px;
+}
+ 
+/* ==========================================================================
+    ShoppingCart Page End
+========================================================================== */
+
+.adminBtns a {
+    margin: 5px 0 5px 0;
+}
+
+
+.clearRight { clear:left }
+.clearLeft { clear:right }
+.clearNone { clear:none!important }
+
+#dialog_editLessonPackage .dialog_btn_wrapper .btn_mentor {
+    padding: 3px 15px;
+}
+
+
+.bundle-inactive {
+    position: absolute;
+    left: 170px;
+    top: 2px;
+    color: #b94a48;
+    font-size: 1.2em;
+}
+
+.paymentBtn {
+      background-image: url('/Content/Images/btn_xpressCheckout.en-US.gif');
+}
+
+.icon_calendar_input { background-position: 90% 8px; }
+.myAccountHeaderUserNameContainer {  margin-right: 0;  margin-left: 20px; }

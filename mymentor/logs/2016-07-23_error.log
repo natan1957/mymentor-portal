@@ -1,0 +1,179 @@
+2016-07-23 18:24:07.4827 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.Controllers.MyAccountController.GetEventData(AccountStatement accountStatement, String nisCurrencySymbol) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 309
+   at MyMentor.Controllers.MyAccountController.<>c__DisplayClass25.<GetAccountStatements>b__24(AccountStatement accountStatement) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 207
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at MyMentor.Controllers.MyAccountController.GetAccountStatements(IEnumerable`1 accountStatements, EntityDto[] entities, IEnumerable`1 eventTypes, IEnumerable`1 transactionTypes, IEnumerable`1 couponTypes, IEnumerable`1 supportTypes, IEnumerable`1 couponStatuses, String nisCurrencySymbol, IEnumerable`1 purchases, IEnumerable`1 clipStatuses, PurchaseStatusDto[] purchaseStatuses) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 203
+   at MyMentor.Controllers.MyAccountController.<Index>d__2.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2016-07-23 18:48:12.3688 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.Controllers.MyAccountController.GetEventData(AccountStatement accountStatement, String nisCurrencySymbol) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 309
+   at MyMentor.Controllers.MyAccountController.<>c__DisplayClass25.<GetAccountStatements>b__24(AccountStatement accountStatement) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 207
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at MyMentor.Controllers.MyAccountController.GetAccountStatements(IEnumerable`1 accountStatements, EntityDto[] entities, IEnumerable`1 eventTypes, IEnumerable`1 transactionTypes, IEnumerable`1 couponTypes, IEnumerable`1 supportTypes, IEnumerable`1 couponStatuses, String nisCurrencySymbol, IEnumerable`1 purchases, IEnumerable`1 clipStatuses, PurchaseStatusDto[] purchaseStatuses) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 203
+   at MyMentor.Controllers.MyAccountController.<Index>d__2.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2016-07-23 18:53:20.4707 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.Controllers.MyAccountController.GetEventData(AccountStatement accountStatement, String nisCurrencySymbol) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 309
+   at MyMentor.Controllers.MyAccountController.<>c__DisplayClass25.<GetAccountStatements>b__24(AccountStatement accountStatement) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 207
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at MyMentor.Controllers.MyAccountController.GetAccountStatements(IEnumerable`1 accountStatements, EntityDto[] entities, IEnumerable`1 eventTypes, IEnumerable`1 transactionTypes, IEnumerable`1 couponTypes, IEnumerable`1 supportTypes, IEnumerable`1 couponStatuses, String nisCurrencySymbol, IEnumerable`1 purchases, IEnumerable`1 clipStatuses, PurchaseStatusDto[] purchaseStatuses) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 203
+   at MyMentor.Controllers.MyAccountController.<Index>d__2.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-07-23 18:53:34.3184 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.Controllers.MyAccountController.GetEventData(AccountStatement accountStatement, String nisCurrencySymbol) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 309
+   at MyMentor.Controllers.MyAccountController.<>c__DisplayClass25.<GetAccountStatements>b__24(AccountStatement accountStatement) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 207
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at MyMentor.Controllers.MyAccountController.GetAccountStatements(IEnumerable`1 accountStatements, EntityDto[] entities, IEnumerable`1 eventTypes, IEnumerable`1 transactionTypes, IEnumerable`1 couponTypes, IEnumerable`1 supportTypes, IEnumerable`1 couponStatuses, String nisCurrencySymbol, IEnumerable`1 purchases, IEnumerable`1 clipStatuses, PurchaseStatusDto[] purchaseStatuses) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 203
+   at MyMentor.Controllers.MyAccountController.<Index>d__2.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-07-23 18:54:25.1580 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.Controllers.MyAccountController.GetEventData(AccountStatement accountStatement, String nisCurrencySymbol) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 309
+   at MyMentor.Controllers.MyAccountController.<>c__DisplayClass25.<GetAccountStatements>b__24(AccountStatement accountStatement) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 207
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at MyMentor.Controllers.MyAccountController.GetAccountStatements(IEnumerable`1 accountStatements, EntityDto[] entities, IEnumerable`1 eventTypes, IEnumerable`1 transactionTypes, IEnumerable`1 couponTypes, IEnumerable`1 supportTypes, IEnumerable`1 couponStatuses, String nisCurrencySymbol, IEnumerable`1 purchases, IEnumerable`1 clipStatuses, PurchaseStatusDto[] purchaseStatuses) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 203
+   at MyMentor.Controllers.MyAccountController.<Index>d__2.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\MyAccountController.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-07-23 19:45:46.4596 ERROR System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at MyMentor.BL.DomainServices.Mailer.SendMail(String p_strTo, String mailBody, String mailSubject, String bcc, IEnumerable`1 attachments) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\Mailer.cs:line 79
+2016-07-23 19:48:46.0395 ERROR Parse.ParseException: invalid login parameters
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MyMentor.Account.MyMentorUserManager.<Login>d__32.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MyMentor.Controllers.AccountController.<Login>d__8.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 95

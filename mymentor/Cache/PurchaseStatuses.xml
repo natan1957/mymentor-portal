@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<ArrayOfPurchaseStatusDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PurchaseStatusDto>
+    <Description>חבילה בסל הקניות ממתינה לרכישה. עם הרכישה יש לשנות סטטוס</Description>
+    <Order>1200</Order>
+    <PurchaseStatus_en_us>Package is in basket</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>חבילה בסל</PurchaseStatus_he_il>
+    <StatusCode>Package_is_in_basket</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>שיעור נרכש וטרם הורד. יש להציג איקון הורד. עם ההורדה יש לשנות סטטוס לשיעור פעיל</Description>
+    <NextStatus>Lesson_is_active</NextStatus>
+    <Order>800</Order>
+    <PurchaseStatus_en_us>Lesson purchased</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>שיעור נרכש</PurchaseStatus_he_il>
+    <StatusCode>Lesson_purchased</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>שורת החבילה נמחקה (לא הקליפים) ניתן להכניס לסל ולשנות סטטוס לחבילה בסל</Description>
+    <Order>1500</Order>
+    <PurchaseStatus_en_us>Package deleted</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>חבילה נמחקה</PurchaseStatus_he_il>
+    <StatusCode>Package_deleted</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>שיעור נמצא בסל הקניות, ממתין לרכישה. עם הרכישה יש לשנות סטטוס בינתיים להתייחס כמו דמו פעיל</Description>
+    <NextStatus>Lesson_is_in_basket</NextStatus>
+    <Order>600</Order>
+    <PurchaseStatus_en_us>Lesson is in basket</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>שיעור בסל</PurchaseStatus_he_il>
+    <StatusCode>Lesson_is_in_basket</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>הזמנת דמו הוסרה מהסל במידה וקיים דמו או שיעור יש למחוק אותו</Description>
+    <NextStatus>Demo_order_removed</NextStatus>
+    <Order>200</Order>
+    <PurchaseStatus_en_us>Demo order removed</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>הזמנת דמו הוסרה</PurchaseStatus_he_il>
+    <StatusCode>Demo_order_removed</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>חבילה הייתה בסל והוסרה ממנו</Description>
+    <Order>1300</Order>
+    <PurchaseStatus_en_us>Package removed from  basket</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>חבילה הוסרה מהסל</PurchaseStatus_he_il>
+    <StatusCode>Package_removed_from_basket</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description> יש למחוק את השיעור מההתקן הנייד ולשנות סטטוס</Description>
+    <NextStatus>Lesson_deleted</NextStatus>
+    <Order>1000</Order>
+    <PurchaseStatus_en_us>Lesson to be deleted</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>שיעור למחיקה</PurchaseStatus_he_il>
+    <StatusCode>Lesson_to_be_deleted</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>דמו נמחק מההתקן הנייד. במידה וקיים, יש למחוקמהנייד</Description>
+    <NextStatus>Demo_deleted</NextStatus>
+    <Order>500</Order>
+    <PurchaseStatus_en_us>Demo deleted</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>דמו נמחק</PurchaseStatus_he_il>
+    <StatusCode>Demo_deleted</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>חבילה נרכשה, הקליפים שלה נוספו כשורות רכישה</Description>
+    <Order>1400</Order>
+    <PurchaseStatus_en_us>Package purchased</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>חבילה נרכשה</PurchaseStatus_he_il>
+    <StatusCode>Package_purchased</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>דמו בסל ממתין להורדה. יש להציג אייקון הורד. עם ההורדה יש לשנות סטטוס לדמו פעיל</Description>
+    <NextStatus>Demo_is_active</NextStatus>
+    <Order>100</Order>
+    <PurchaseStatus_en_us>Demo ordered</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>דמו הוזמן</PurchaseStatus_he_il>
+    <StatusCode>Demo_ordered</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>דמו הורד להתקן הנייד. אם לא קיים, יש להציג אייקון הורד</Description>
+    <NextStatus>Demo_is_active</NextStatus>
+    <Order>300</Order>
+    <PurchaseStatus_en_us>Demo is active</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>דמו פעיל</PurchaseStatus_he_il>
+    <StatusCode>Demo_is_active</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>יש למחוק את הדמו מההתקן הנייד ולשנות סטטוס לדמו נמחק</Description>
+    <NextStatus>Demo_deleted</NextStatus>
+    <Order>400</Order>
+    <PurchaseStatus_en_us>Demo to be deleted</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>דמו למחיקה</PurchaseStatus_he_il>
+    <StatusCode>Demo_to_be_deleted</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>השיעור נמחק מההתקן הנייד. אם קיים, יש למחוק</Description>
+    <NextStatus>Lesson_deleted</NextStatus>
+    <Order>1100</Order>
+    <PurchaseStatus_en_us>Lesson deleted</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>שיעור נמחק</PurchaseStatus_he_il>
+    <StatusCode>Lesson_deleted</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>שיעור הוסר מסל הקניות. במידה וקיים שיעור או דמו יש למחוק</Description>
+    <NextStatus>Lesson_removed_from_basket</NextStatus>
+    <Order>700</Order>
+    <PurchaseStatus_en_us>Lesson removed from  basket</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>שיעור הוסר מהסל</PurchaseStatus_he_il>
+    <StatusCode>Lesson_removed_from_basket</StatusCode>
+  </PurchaseStatusDto>
+  <PurchaseStatusDto>
+    <Description>שיעור הורד להתקן הנייד. יש לבדוק קיום ועדכניות ולהציג אפשרות  להוריד או לעדכן</Description>
+    <NextStatus>Lesson_is_active</NextStatus>
+    <Order>900</Order>
+    <PurchaseStatus_en_us>Lesson is active</PurchaseStatus_en_us>
+    <PurchaseStatus_he_il>שיעור פעיל</PurchaseStatus_he_il>
+    <StatusCode>Lesson_is_active</StatusCode>
+  </PurchaseStatusDto>
+</ArrayOfPurchaseStatusDto>

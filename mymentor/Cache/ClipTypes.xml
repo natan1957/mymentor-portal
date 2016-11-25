@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfClipTypeDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClipTypeDto>
+    <ObjectId>enaWrne5xe</ObjectId>
+    <ClipTypeName>sourse</ClipTypeName>
+    <Value_en_us>source</Value_en_us>
+    <Value_he_il>מקור</Value_he_il>
+  </ClipTypeDto>
+  <ClipTypeDto>
+    <ObjectId>piL85bMGtR</ObjectId>
+    <ClipTypeName>clip</ClipTypeName>
+    <Value_en_us>clip</Value_en_us>
+    <Value_he_il>שיעור</Value_he_il>
+  </ClipTypeDto>
+</ArrayOfClipTypeDto>

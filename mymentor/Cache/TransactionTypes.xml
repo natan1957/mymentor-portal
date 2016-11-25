@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<ArrayOfTransactionTypeDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TransactionTypeDto>
+    <TransactionCode>emlat_more_gviya</TransactionCode>
+    <TransactionType_he_il>עמלת גביה - מורה</TransactionType_he_il>
+    <ObjectId>0w8yKuOdus</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>kizuz_basket</TransactionCode>
+    <TransactionType_en_us>Basket Offsetting</TransactionType_en_us>
+    <TransactionType_he_il>קיזוז ברכישת סל</TransactionType_he_il>
+    <ObjectId>4KTAcnOeDn</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>emlat_hamara_more</TransactionCode>
+    <TransactionType_en_us>Teacher Conversion Commision</TransactionType_en_us>
+    <TransactionType_he_il>עמלת המרה - מורה</TransactionType_he_il>
+    <ObjectId>62swY0ScqK</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>kniyat_koupon</TransactionCode>
+    <TransactionType_he_il>רכישת קופון</TransactionType_he_il>
+    <ObjectId>9XSc4eo9l9</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>emlat_sochen</TransactionCode>
+    <TransactionType_he_il>עמלת סוכן</TransactionType_he_il>
+    <ObjectId>CMOtjcyYXB</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>kniyat_chavila</TransactionCode>
+    <TransactionType_he_il>רכישת חבילה</TransactionType_he_il>
+    <ObjectId>HLqWgpMSwx</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>kizuzz_kupon</TransactionCode>
+    <TransactionType_he_il>קיזוז ברכישת קופון</TransactionType_he_il>
+    <ObjectId>M8ryLbK98F</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>Agent_Ex_Commission</TransactionCode>
+    <TransactionType_en_us>Agent exchange fee</TransactionType_en_us>
+    <TransactionType_he_il>עמלת המרה לסוכן</TransactionType_he_il>
+    <ObjectId>QOWa0Mws4C</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>Coup_Site_Credit</TransactionCode>
+    <TransactionType_en_us>Coupon selling credit</TransactionType_en_us>
+    <TransactionType_he_il>זיכוי מכירת קופון</TransactionType_he_il>
+    <ObjectId>RdQpXXNNXv</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>tagmul_more</TransactionCode>
+    <TransactionType_he_il>תגמול מורה</TransactionType_he_il>
+    <ObjectId>TZlih6TZt7</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>emlat_hamara_sochen</TransactionCode>
+    <TransactionType_he_il>עמלת המרה - סוכן</TransactionType_he_il>
+    <ObjectId>VRs6E27aEH</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>kniyat_shiur</TransactionCode>
+    <TransactionType_he_il>רכישת שיעור</TransactionType_he_il>
+    <ObjectId>XFL17JlnOv</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>tashlum_kupon</TransactionCode>
+    <TransactionType_he_il>תשלום ברכישת קופון</TransactionType_he_il>
+    <ObjectId>YErYvVJj2H</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>teacher_fee</TransactionCode>
+    <TransactionType_en_us>Teacher Fee</TransactionType_en_us>
+    <TransactionType_he_il>עמלת מורה</TransactionType_he_il>
+    <ObjectId>Z8mcI6beMc</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>chiuv_rechisha</TransactionCode>
+    <TransactionType_he_il>חיוב בגין רכישה</TransactionType_he_il>
+    <ObjectId>bmIzso4OQs</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>Coup_Buyer_Debit</TransactionCode>
+    <TransactionType_en_us>Coupon getting debit</TransactionType_en_us>
+    <TransactionType_he_il>חיוב קבלת קופון</TransactionType_he_il>
+    <ObjectId>ec6NRbevYd</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>emlat_gviya_sochen</TransactionCode>
+    <TransactionType_he_il>עמלת גביה - סוכן</TransactionType_he_il>
+    <ObjectId>i0WLekmta8</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>zikui_tashlum</TransactionCode>
+    <TransactionType_he_il>זיכוי בגין תשלום</TransactionType_he_il>
+    <ObjectId>ioWS9Tf3gR</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>amlat_haavara</TransactionCode>
+    <TransactionType_he_il>עמלת העברה</TransactionType_he_il>
+    <ObjectId>kBgVWyDMEE</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>Coup_VAT_Debit</TransactionCode>
+    <TransactionType_he_il>חיוב מע"מ קופון</TransactionType_he_il>
+    <ObjectId>lCbA4IKIKv</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>Coup_Buyer_Payment</TransactionCode>
+    <TransactionType_en_us>Coupon Purchess payment</TransactionType_en_us>
+    <TransactionType_he_il>תשלום רכישת קופון</TransactionType_he_il>
+    <ObjectId>q4LShJ9xG7</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>Coup_VAT_Credit</TransactionCode>
+    <TransactionType_en_us>VAT credit coupon</TransactionType_en_us>
+    <TransactionType_he_il>זיכוי מע"מ קופון</TransactionType_he_il>
+    <ObjectId>vOE1WzMaHj</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>tagmul_atar</TransactionCode>
+    <TransactionType_he_il>תגמול אתר</TransactionType_he_il>
+    <ObjectId>yOKB9iOrrW</ObjectId>
+  </TransactionTypeDto>
+  <TransactionTypeDto>
+    <TransactionCode>Agent_Commission</TransactionCode>
+    <TransactionType_en_us>Agent Commision</TransactionType_en_us>
+    <TransactionType_he_il>עמלת סוכן</TransactionType_he_il>
+    <ObjectId>zyGH7JK9SG</ObjectId>
+  </TransactionTypeDto>
+</ArrayOfTransactionTypeDto>

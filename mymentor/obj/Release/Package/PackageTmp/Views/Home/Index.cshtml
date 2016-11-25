@@ -1,0 +1,107 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Extentions
+@model MyMentor.Models.HomePageViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<section role="main" class="main_content clearfix">
+    <div class="homepageBannerContainer">
+        @if (string.IsNullOrEmpty(Model.BannerName))
+        {
+            Html.RenderPartial("WorldBanners/General");
+        }
+        else
+        {
+            Html.RenderPartial(string.Concat("Worldbanners/",Model.BannerName));
+        }
+
+    </div>
+    <div class="mainHomeTabsContainer">
+        <div class="mainHomeTabs fixedWidth clearfix">
+            <a href="home/lessons" style="background: url('/content/images/Homepage/icon_bible.png') no-repeat center 35px #0C6169;"
+               class="mainHomeTab green">
+                <span class="mainHomeTabPadding">
+                    <span class="mainHomeTabTitle">
+                        @MyMentorResources.homepageLessongsAndPackages
+                    </span> <span class="mainHomeTabSubTitle">טקסט על העמוד</span>
+                </span>
+            </a><a href="#" style="background: url('/content/images/Homepage/icon_teachers.png') no-repeat center 55px #F49830;"
+                   class="mainHomeTab orange">
+                <span class="mainHomeTabPadding">
+                    <span class="mainHomeTabTitle">
+                        @MyMentorResources.homepageTeachers
+                    </span> <span class="mainHomeTabSubTitle">טקסט על העמוד</span>
+                </span>
+            </a><a href="#" style="background: url('/content/images/Homepage/icon_app.png') no-repeat center 40px #CF0A2C;"
+                   class="mainHomeTab red">
+                <span class="mainHomeTabPadding">
+                    <span class="mainHomeTabTitle">
+                        @MyMentorResources.homepageApplication
+                    </span> <span class="mainHomeTabSubTitle">טקסט על העמוד</span>
+                </span>
+            </a><a style="background: url('/content/images/Homepage/image_bible_movie.jpg') no-repeat center 0px #CF0A2C;"
+                   href="#" class="mainHomeTab movie">
+                <span class="mainHomeTabPadding">
+                    <span class="mainHomeTabSubTitle">
+                        @MyMentorResources.homepageHowWeTeach
+                    </span>
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <div id="dialog_welcome" class="dialog_welcome dialog_mentor grey_text_dialog hide"
+         title="&lt;img src=&quot;/Content/images/dialog_logo.png&quot; /&gt;">
+        <p class="welcomeText bordo">
+           @MyMentorResources.worldpickerTitle
+        </p>
+        <p class="font18 arial">
+           @MyMentorResources.worldpickerSubTitle
+        </p>
+        @*<p class="arial">
+            בחרו עולמות תוכן:
+        </p>*@
+        <div class="mainHomeTabsDialog clearfix">
+            @foreach (var world in Model.ContentWorlds)
+            {
+                <a href="javascript:void(0);" data-bind="click:function(data, event){chooseContent(data,event)}" 
+                   data-banner-view="@world.FixedId" 
+                   style="background: url('/Content/images/Homepage/@world.IconFileName') no-repeat scroll center 20px rgb(44, 186, 196);"
+                   class="mainHomeTab turkiz whiteTooltip" title="@world.GetLocalizedField("description")">
+                    <span class="mainHomeTabPadding">
+                        <span class="mainHomeTabTitle ">
+                            @world.GetLocalizedField("value")
+                        </span>
+
+                        <span class="hiddenToolTip">
+                            <span class="lessonHeaderToolTip">
+                                <span class="lessonTextToolTip">asasd asd as</span>
+                            </span>
+                        </span>
+                    </span>
+                </a>
+            }
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @{
+        var showWorldPicker = Model.ContentWorlds.Count() > 1;
+        var singleWorldId = Model.ContentWorlds.Count()==1 ? Model.ContentWorlds.Single().FixedId: string.Empty;
+    }
+    <script>
+        $(document).ready(function() {
+            _mymentor.initPage("homepage", {
+                singleWorldId: "@singleWorldId",
+                showWorldsPicker: $.parseJSON("@showWorldPicker.ToString().ToLower()"),
+                userName: "@Session.GetLoggedInUser()"
+            });
+        });
+    </script>
+}
+
+
+

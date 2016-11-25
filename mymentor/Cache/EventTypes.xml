@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfEventTypeDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EventTypeDto>
+    <EventTypeKey>Coup_Purch</EventTypeKey>
+    <EventType_en_us>Coup-purch</EventType_en_us>
+    <EventType_he_il>רכישת קופון</EventType_he_il>
+  </EventTypeDto>
+  <EventTypeDto>
+    <EventTypeKey>Basket_Purch</EventTypeKey>
+    <EventType_en_us>Basket Purches</EventType_en_us>
+    <EventType_he_il>רכישת סל</EventType_he_il>
+  </EventTypeDto>
+  <EventTypeDto>
+    <EventTypeKey>Curr_Ex</EventTypeKey>
+    <EventType_en_us>Currency change</EventType_en_us>
+    <EventType_he_il>החלפת מטבע משתמש</EventType_he_il>
+  </EventTypeDto>
+  <EventTypeDto>
+    <EventTypeKey>Reward</EventTypeKey>
+    <EventType_en_us>Compensation</EventType_en_us>
+    <EventType_he_il>תיגמול מורה/סוכן</EventType_he_il>
+  </EventTypeDto>
+</ArrayOfEventTypeDto>

@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<ArrayOfCategoryValuesDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CategoryValuesDto>
+    <Key>Ye3BrgiL8g</Key>
+    <Value_he_il>8-9</Value_he_il>
+    <Value_en_us>8-9</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>all</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>vU5s58NKwi</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>aDnh2tAn9r</Key>
+    <Value_he_il>ג</Value_he_il>
+    <Value_en_us>c</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>clip</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>YipV1FgrP4</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>GWOYNzkOLZ</Key>
+    <Value_he_il>9-10</Value_he_il>
+    <Value_en_us>9-10</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>all</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>vU5s58NKwi</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>4eo4rI4Op6</Key>
+    <Value_he_il>10-11</Value_he_il>
+    <Value_en_us>10-11</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>all</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>vU5s58NKwi</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>JwdAWEinmz</Key>
+    <Value_he_il>קריאה</Value_he_il>
+    <Value_en_us>Reading</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>source</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>Fb0ypT0HJB</Key>
+    <Value_he_il>הפטרה</Value_he_il>
+    <Value_en_us>Haftarah</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>all</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>KAREntTCSE</Key>
+    <Value_he_il>עלייה ראשונה</Value_he_il>
+    <Value_en_us>First Aliyah</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>clip</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>ceB32hY7sn</Key>
+    <Value_he_il>עלייה שניה</Value_he_il>
+    <Value_en_us>Second Aliyah</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>clip</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>STo4laCdp4</Key>
+    <Value_he_il>עלייה שלישית</Value_he_il>
+    <Value_en_us>Third Aliyah</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>clip</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>rcsyXsJNnZ</Key>
+    <Value_he_il>עלייה רביעית</Value_he_il>
+    <Value_en_us>Fourth Aliyah</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>clip</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>mpL7k7fSZt</Key>
+    <Value_he_il>עלייה חמישית</Value_he_il>
+    <Value_en_us>Fifth Aliyah</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>clip</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>kR89Djv0Ff</Key>
+    <Value_he_il>עלייה שישית</Value_he_il>
+    <Value_en_us>Sixth Aliyah</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>clip</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>mDINADdmVz</Key>
+    <Value_he_il>עלייה שביעית</Value_he_il>
+    <Value_en_us>Seventh Aliyah</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>clip</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>1Ocjwyj2RQ</Key>
+    <Value_he_il>מפטיר</Value_he_il>
+    <Value_en_us>Maftir</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>clip</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>JUZYr564cH</Key>
+    <Value_he_il>ברכה</Value_he_il>
+    <Value_en_us>Bless</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>all</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>EOHpayAGu2</Key>
+    <Value_he_il>תפילה</Value_he_il>
+    <Value_en_us>Prayer</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>all</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>gHZQSaCKhP</Key>
+    <Value_he_il>אחרים</Value_he_il>
+    <Value_en_us>Other</Value_en_us>
+    <ParentCategoryId />
+    <LessonType>clip</LessonType>
+    <AdditionalInfo>
+      <KeyValuePairOfStringString />
+    </AdditionalInfo>
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+</ArrayOfCategoryValuesDto>

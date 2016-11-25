@@ -1,0 +1,21 @@
+﻿@model MyMentor.BL.Models.FixTransactionErrorsModel
+
+@{
+    ViewBag.Title = "Transaction Errors";
+    Layout = "~/Views/Shared/MasterPages/_AccountLayout.cshtml";
+}
+
+<div class="admin main_content">
+    <div>
+        @using (Html.BeginForm())
+        {
+            <input type="text" placeholder="event id" name="eventId" value="@Model.EventId" />
+            <input type="submit" value="Get Errors" name="GetTransactionErrors" />
+            <input type="submit" value="Fix Errors" name="FixTransactionErrors" />
+            <span class="field-validation-error">@Model.Error</span>
+        }
+
+    </div>
+    @Html.Partial("Partial/OnGoingEvents",Model.EventsWithErrors)
+    
+</div>

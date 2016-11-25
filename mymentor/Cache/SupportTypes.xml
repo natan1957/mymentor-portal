@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfSupportTypeDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SupportTypeDto>
+    <SupportTypeCode>false</SupportTypeCode>
+    <SupportType_en_us>Without support</SupportType_en_us>
+    <SupportType_he_il>ללא תמיכה</SupportType_he_il>
+    <ObjectId>TUXaUHqEdP</ObjectId>
+  </SupportTypeDto>
+  <SupportTypeDto>
+    <SupportTypeCode>true</SupportTypeCode>
+    <SupportType_en_us>With support</SupportType_en_us>
+    <SupportType_he_il>עם תמיכה</SupportType_he_il>
+    <ObjectId>hjfY5SiNTI</ObjectId>
+  </SupportTypeDto>
+</ArrayOfSupportTypeDto>

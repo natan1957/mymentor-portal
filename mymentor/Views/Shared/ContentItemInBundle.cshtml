@@ -1,0 +1,185 @@
+﻿@using System.Web.UI.WebControls
+@using MyMentor.BL.DomainServices
+@using MyMentor.BL.Extentions
+@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.ViewModels
+@using Consts = MyMentor.BL.Consts
+
+@model MyMentor.BL.Dto.ContentItemDto
+           
+<div class="lessonWrapper seconderyLesson">
+    <div class="lessonTop">
+        <table class="lessonTable" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="lessonHeaderItem">
+                    <div class="lessonHeaderItemPadding">
+                        <div class="lessonPackageIcon" style="">
+                            @Model.OrderInBundle
+                        </div>
+                        <h3 class="lessonHeaderText">
+                            @Model.PortalNamePart1
+                        </h3>
+                        <a class="content_language_change_lesson whiteTooltip" href="javascript:void(0);"
+                           title="">
+                            <span class="hiddenToolTip">
+                                <span class="lessonHeaderToolTip">
+                                    <span class="lessonHeaderTextToolTip">
+                                        @Model.PortalNamePart1Alt
+                                    </span> <span class="lessonTextToolTip">@Model.PortalNamePart2Alt</span>
+                                </span>
+                            </span>
+                        </a>
+                        @if (!Model.IsActive)
+                        {
+                            <span class="lesson-inactive">@Model.LessonStatus</span>
+                        }
+                        <div>
+                            @Model.PortalNamePart2
+                        </div>
+                    </div>
+                </td>
+                <td class="lessonDateItem"></td>
+                <td class="lessonTeacherItem">
+                    <div class="lessonTeacherItemPadding">
+                        <table class="teacherTable" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td></td>
+                                <td style="width: 100%;">
+                                    @*<div style="" class="bordo font16 center">מוקפא ע"י המורה</div>*@
+                                </td>
+                                <td>
+                                    @if (Model.HasDemoClip)
+                                    {
+                                        @Ajax.ActionLink(" ", "ShowClipPlayer", "home", new { clipId = Model.ObjectId }, new AjaxOptions
+                                                                                        {
+                                                                                            HttpMethod = "Get",
+                                                                                            LoadingElementDuration = 1500,
+                                                                                            LoadingElementId = "mentorDownloading",
+                                                                                            InsertionMode = InsertionMode.Replace,
+                                                                                            UpdateTargetId = "clipPlayer",
+                                                                                            OnBegin = "beginDownloadClip",
+                                                                                            OnSuccess = "playClip"
+                                                                                        }, new { @class = "teacherSound" })
+                                        <input type="button" data-action="stopClip" class="stopClip" />
+                                    }
+                                    <img class="mentorDownloading" src="~/Content/Images/mentor-downloding.gif" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td class="lessonPriceItem">
+                    <div class="lessonPriceItemPadding">
+                        @MyMentorResources.phLessonPrice: <strong>@Model.ConvertedPrice</strong>
+                        <br />
+                        @MyMentorResources.lblSupport: <strong>@Model.ConvertedPriceWithSupport </strong>
+                        <br />
+                        @if (Model.DisplayIsIncludedInBundle)
+                        {
+                            if (Model.ExistsInMultipleBundles)
+                            {
+                                <a class="bordo bold goTobundle" href="@Html.AppendQueryString("clipId",@Model.ObjectId)">@MyMentorResources.showMoreBundles</a>
+                            }
+                            else
+                            {
+                                <a class="bordo bold goTobundle" href="@Html.AppendQueryString("clipId",@Model.ObjectId)">@MyMentorResources.showBundle</a>
+                            }
+                        }
+                    </div>
+                </td>
+                <td class="lessonPurchaseItem">
+                    <div class="lessonPurchaseItemPadding" data-item-id="@Model.ObjectId">
+                        <a class="orderDemo" href="javascript:void(0)" data-item-shopping-cart="demo-lesson">@MyMentorResources.orderDemo</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="lessonContent">
+        <table class="lessonContentTable" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="lessonContentHeader" colspan="3">
+                    <a class="closeLesson" href="javascript:void(0)"></a><span class="lessonContentHeaderName bold">
+                        @Model.PortalNamePart1
+                    </span>@Model.PortalNamePart2
+                </td>
+            </tr>
+            <tr class="lessonContentInfo">
+                <td>
+                        @if (!string.IsNullOrEmpty(Model.Description))
+                        {
+                            <div class="bibleIcon">
+                                @Model.Description
+                            </div>
+                        }
+
+                        @if (!string.IsNullOrEmpty(Model.ReadingDates))
+                        {
+                            <div class="calendarIcon">
+                                @Model.ReadingDates
+                            </div>
+                        }
+                </td>
+                <td class="lessonContentInfoMiddle">
+                    <div class="teacherIcon">
+                        @MyMentorResources.lblPreformer: @Model.Performer
+                        <br />
+                        @Model.TeamimAndNikud
+                    </div>
+                    <div class="locationIcon">
+                        <div>
+                            @MyMentorResources.lblTeachingArea2: @Model.TeachingArea
+                        </div>
+                        <div>
+                            @MyMentorResources.lblTeacherResidence: @Model.TeacherResidence
+                        </div>
+                    </div>
+                    <div class="lessonContentInfoBtns">
+                        <a href="javascript:void(0)" class="btn_mentor turkizBtn smallBtn showTeacher arial bold">
+                            @MyMentorResources.lblTeacherDetails
+                        </a> <a href="javascript:void(0)" class="btn_mentor turkizBtn  smallBtn sendMessage arial bold">
+                            @MyMentorResources.lblSendMessage
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div class="settingIcon">
+                        @MyMentorResources.lblCreated: @Model.CreatedAt.Value.ToString("dd/MM/yyyy")
+                        <br />
+                        @MyMentorResources.lblUpdated: @Model.UpdatedAt.Value.ToString("dd/MM/yyyy")
+                        <br />
+                        @MyMentorResources.lblLessonVersion: @Model.Version
+                        <br />
+                        @MyMentorResources.lblStatus: @Model.LessonStatus
+                        <br />
+                        @MyMentorResources.lblItemId : @Model.ObjectId
+                        <br />
+                        @MyMentorResources.lblClipSize : @Model.ClipSize.ToString("##.#") M
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="teacherDetails">
+        <table class="teacherDetailsTable" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <div class="teacherDetailsText">@Model.TeacherDescription</div>
+                </td>
+                <td>
+                    <div>
+                        <a href="javascript:void(0)" class="btn_mentor turkizBtn smallBtn arial bold">
+                            עבור לעמוד
+                            המורה
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="sendTeacherMessage">
+        <textarea placeholder="כתוב הודעה"></textarea>
+        <a href="javascript:void(0)" class="btn_mentor smallBtn">שלח</a>
+    </div>
+        
+</div>

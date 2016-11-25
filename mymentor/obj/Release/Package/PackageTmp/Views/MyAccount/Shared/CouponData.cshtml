@@ -1,0 +1,38 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@model MyMentor.BL.ViewModels.AccountStatementViewModel
+
+<span class="hiddenToolTip">
+    <b>@MyMentorResources.myAccountCouponCode</b>: @Model.Coupon.ObjectId
+    <br />
+    <b>@MyMentorResources.myAccountCouponType</b>: @Model.Coupon.CouponType
+    <br />
+    <b>@MyMentorResources.myAccountCouponBundle</b>: @Model.Coupon.Bundle
+    <br />
+    <b>@MyMentorResources.myAccountCouponClip</b>: @Model.Coupon.Clip
+    <br />
+    <b>@Model.Coupon.SupportType</b>
+    <br />
+    <b>@MyMentorResources.myAccountCouponIssuedBy</b>: <a class="myAccountUser" href="javascript:void(0)">@Model.Coupon.IssuedBy</a>
+    <br />
+    <b>@MyMentorResources.myAccountCouponIssuedByName</b>: @Model.Coupon.IssuerName
+    <br />
+    <b>@MyMentorResources.myAccountCouponIssuedFor</b>: <a class="myAccountUser" href="javascript:void(0)">@Model.Coupon.IssuedFor</a>
+    <br />
+    <b>@MyMentorResources.myAccountCouponIssuedForName</b>: @Model.Coupon.RecieversName
+    <br />
+    <b>@MyMentorResources.myAccountCouponIssueEvent</b>: <a class="eventUpdate" href="javascript:void(0)">@Model.Coupon.IssueEventId</a>
+    <br />
+    <b>@MyMentorResources.myAccountCouponOriginalPrice</b>:@Html.Raw(Model.Coupon.OriginalPrice)
+    <br />
+    <b>@MyMentorResources.myAccountCouponDiscountPrice</b>: @Html.Raw(Model.Coupon.DiscountPrice)
+    <br />
+    <b>@MyMentorResources.myAccountCouponStatus</b>: @Model.Coupon.CouponStatus
+    <br />
+    <b>@MyMentorResources.myAccountCouponUseDate</b>: <a class="myAccountDateUpdate" href="javascript:void(0)">@Model.Coupon.UseDate</a>
+    <br />
+    <b>@MyMentorResources.myAccountCouponUseEvent</b>: <a class="eventUpdate" href="javascript:void(0)">@Model.Coupon.UseEvent</a>
+    <br />
+    <b>@MyMentorResources.myAccountCouponTeacherFee</b>: @Html.Raw(Model.Coupon.TeacherFee)
+    <br />
+    <b>@MyMentorResources.myAccountCouponSiteFee</b>: @Html.Raw(Model.Coupon.SiteCouponFee)
+</span>

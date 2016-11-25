@@ -1,0 +1,66 @@
+﻿@using MyMentor.BL.Extentions
+@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Models
+
+@model MyMentor.BL.ViewModels.LessonsViewModel
+
+<div class="lessonSelects clearfix">
+
+    @foreach (var filter in Model.LessonFilters)
+    {
+        if (filter.ColumnName == "category2")
+        {
+            <select id="category2" name="category2" class="mentorInput" data-items="@filter.Values.GetJson()" data-bind="value:category2SelectedValue">
+                <option value="">@filter.Label</option>
+            </select>
+            @Html.Hidden("category2_hidden", filter.SelectedValue, new { id = "category2_hidden", @data_bind = "value:category2SelectedValue", @class = "mentorInput" })
+        }
+        else if (filter.ColumnName == "category5")
+        {
+            <input type="text" name="@filter.ColumnName" value="@filter.SelectedValue" class="mentorTextInput mentorInput" placeholder="@MyMentorResources.phTeacherName" />
+            
+        }
+        else
+        {
+            @Html.DropDownList(filter.ColumnName, new SelectList(filter.Values, "Key", "Value"), filter.Label, new { @class = "mentorInput", @id = "" })
+        }
+    }
+
+
+    <div class="mentorInputContainer">
+        <div class="mentorInput" id="residenceContainer">
+            <a href="javascript:void(0);" data-placeholder="@MyMentorResources.phTeachingArea" data-clear-selection="@MyMentorResources.treeClearSelectrion" id="teachingArea" data-bind="click:showResidenceView,html:selectedResidence,event:{blur:residenceBlur, keydown:residencekeyDown}"></a>
+            @Html.HiddenFor(model => model.ResidenceJson,new{disabled="true"})
+            <input type="hidden" id="category6" data-bind="value:selectedResidenceName" data-selected-residence-name="@Model.SelectedResidenceName" />
+            <input type="hidden" name="category6" id="residenceId" data-bind="value:selectedResidenceId" data-selected-residence-id="@Model.SelectedResidenceId" />
+            
+            <input type="hidden" id="category8" data-bind="value:selectedCityName" data-selected-residence-name="@Model.SelectedCityName" />
+            <input type="hidden" name="category8" id="cityId" data-bind="value:selectedCityId" data-selected-residence-id="@Model.SelectedCityId" />
+        </div>
+        <div id="residenceView" style="display:none;"></div>
+    </div>
+
+
+    <div class="mtr-date-container">
+        <input class="mentorInput" name="category7" type="text" value="@Model.SelecteDate" id="datepicker" data-isrtl="@Model.IsRTL" data-regional="@Model.CalendarRegional" placeholder="@MyMentorResources.phSelectDate" />
+    </div>
+
+    <a href="javascript:void(0)" class="btn_mentor smallBtn" onclick="document.getElementById('btnSubmit').click();">@MyMentorResources.lblSearch</a>
+    @if (Model.LessonDisplayMode == LessonDisplayMode.Bundles)
+    {
+        <a href="javascript:void(0)" class="btn_mentor smallBtn" onclick=" document.getElementById('btnSubmit').click(); ">@MyMentorResources.lblBackToLessons</a>
+    }
+    <input type="submit" id="btnSubmit" value="חפש" style="visibility:hidden" />
+    @*<select class="mentorInput floatL" name="SortBy" data-selected-sort="@Model.SortBy" id="selectedSort">
+        <option value="">@MyMentorResources.lblSortBy</option>
+        <option value="updatedAt">@MyMentorResources.lblSortByDate</option>
+        @foreach (var filter in Model.LessonFilters)
+        {
+            <option value="@filter.ColumnName">@filter.Label</option>
+        }
+
+    </select>*@
+</div>
+@*<div>
+    נמצאו @Model.ItemsCount תוצאות
+</div>*@

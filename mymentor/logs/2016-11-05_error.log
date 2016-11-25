@@ -1,0 +1,855 @@
+2016-11-05 08:19:04.8334 ERROR Parse.ParseException: Invalid username/password.
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Account.MyMentorUserManager.<Login>d__31.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 222
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Controllers.AccountController.<Login>d__8.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 95
+2016-11-05 08:19:15.3693 ERROR Parse.ParseException: Invalid username/password.
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Account.MyMentorUserManager.<Login>d__31.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 222
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MyMentor.Controllers.AccountController.<Login>d__8.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 95
+2016-11-05 09:18:41.8487 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.BL.DomainServices.ParseLogger.<Log>d__3.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\ParseLogger.cs:line 23
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Controllers.AccountController.<ChangePassword>d__79.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 712
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2016-11-05 09:19:32.2021 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.BL.DomainServices.ParseLogger.<Log>d__3.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\ParseLogger.cs:line 23
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Controllers.AccountController.<ChangePassword>d__79.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 712
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2016-11-05 09:20:08.3640 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.BL.DomainServices.ParseLogger.<Log>d__3.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\ParseLogger.cs:line 23
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Controllers.AccountController.<ChangePassword>d__79.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 712
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2016-11-05 09:21:24.6085 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.BL.DomainServices.ParseLogger.<Log>d__3.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\ParseLogger.cs:line 23
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Controllers.AccountController.<ChangePassword>d__79.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 712
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2016-11-05 09:22:24.8868 ERROR System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.Repository.ParseRepository.FindClipStatuses() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1.CreateFilter(ParseUser currentUser) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 42
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1..ctor(ParseQuery`1 p_query, ContentItemsRequest p_contentItemRequest, ParseUser currentUser, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 25
+   at MyMentor.Repository.ParseRepository.FindAllClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 305
+   at MyMentor.Repository.ParseRepository.FindAggregatedBundlesAndClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 136
+   at MyMentor.Controllers.LessonsController.GetContentItems(LessonsViewModel model, ContentItemsRequest contentItemsRequest) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 769
+   at MyMentor.Controllers.LessonsController.GetLessons(ContentItemsRequest request, LessonsViewModel model, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 881
+   at MyMentor.Controllers.LessonsController.<Index>d__0.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+<---
+
+2016-11-05 09:29:15.4189 ERROR System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.Repository.ParseRepository.FindClipStatuses() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1.CreateFilter(ParseUser currentUser) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 42
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1..ctor(ParseQuery`1 p_query, ContentItemsRequest p_contentItemRequest, ParseUser currentUser, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 25
+   at MyMentor.Repository.ParseRepository.FindAllClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 305
+   at MyMentor.Repository.ParseRepository.FindAggregatedBundlesAndClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 136
+   at MyMentor.Controllers.LessonsController.GetContentItems(LessonsViewModel model, ContentItemsRequest contentItemsRequest) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 769
+   at MyMentor.Controllers.LessonsController.GetLessons(ContentItemsRequest request, LessonsViewModel model, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 881
+   at MyMentor.Controllers.LessonsController.<Index>d__0.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+<---
+
+2016-11-05 09:29:20.7932 ERROR System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.Repository.ParseRepository.FindClipStatuses() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1.CreateFilter(ParseUser currentUser) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 42
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1..ctor(ParseQuery`1 p_query, ContentItemsRequest p_contentItemRequest, ParseUser currentUser, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 25
+   at MyMentor.Repository.ParseRepository.FindAllClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 305
+   at MyMentor.Repository.ParseRepository.FindAggregatedBundlesAndClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 136
+   at MyMentor.Controllers.LessonsController.GetContentItems(LessonsViewModel model, ContentItemsRequest contentItemsRequest) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 769
+   at MyMentor.Controllers.LessonsController.GetLessons(ContentItemsRequest request, LessonsViewModel model, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 881
+   at MyMentor.Controllers.LessonsController.<Index>d__0.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+<---
+
+2016-11-05 09:29:33.9103 ERROR System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.Repository.ParseRepository.FindClipStatuses() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1.CreateFilter(ParseUser currentUser) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 42
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1..ctor(ParseQuery`1 p_query, ContentItemsRequest p_contentItemRequest, ParseUser currentUser, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 25
+   at MyMentor.Repository.ParseRepository.FindAllClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 305
+   at MyMentor.Repository.ParseRepository.FindAggregatedBundlesAndClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 136
+   at MyMentor.Controllers.LessonsController.GetContentItems(LessonsViewModel model, ContentItemsRequest contentItemsRequest) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 769
+   at MyMentor.Controllers.LessonsController.GetLessons(ContentItemsRequest request, LessonsViewModel model, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 881
+   at MyMentor.Controllers.LessonsController.<Index>d__0.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+<---
+
+2016-11-05 09:30:23.9423 ERROR System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.Repository.ParseRepository.FindClipStatuses() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1.CreateFilter(ParseUser currentUser) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 42
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1..ctor(ParseQuery`1 p_query, ContentItemsRequest p_contentItemRequest, ParseUser currentUser, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 25
+   at MyMentor.Repository.ParseRepository.FindAllClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 305
+   at MyMentor.Repository.ParseRepository.FindAggregatedBundlesAndClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 136
+   at MyMentor.Controllers.LessonsController.GetContentItems(LessonsViewModel model, ContentItemsRequest contentItemsRequest) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 769
+   at MyMentor.Controllers.LessonsController.GetLessons(ContentItemsRequest request, LessonsViewModel model, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 881
+   at MyMentor.Controllers.LessonsController.<Index>d__0.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) System.NullReferenceException: Object reference not set to an instance of an object.
+   at Parse.Internal.HttpClient.<>c__DisplayClass16.<ExecuteAsync>b__d(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+<---
+
+2016-11-05 14:20:01.5507 ERROR System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> Parse.ParseException: {"code":1,"message":"Internal server error."}
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.Repository.ParseRepository.FindClipStatuses() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1.CreateFilter(ParseUser currentUser) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 42
+   at MyMentor.BL.DomainServices.QueryFilters.TeacherFilter`1..ctor(ParseQuery`1 p_query, ContentItemsRequest p_contentItemRequest, ParseUser currentUser, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\QueryFilters\TeacherFilter.cs:line 25
+   at MyMentor.Repository.ParseRepository.FindAllClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 305
+   at MyMentor.Repository.ParseRepository.FindAggregatedBundlesAndClips(ContentItemsRequest p_request) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 136
+   at MyMentor.Controllers.LessonsController.GetContentItems(LessonsViewModel model, ContentItemsRequest contentItemsRequest) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 769
+   at MyMentor.Controllers.LessonsController.GetLessons(ContentItemsRequest request, LessonsViewModel model, IMyMentorRepository repository) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 881
+   at MyMentor.Controllers.LessonsController.<Index>d__0.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\LessonsController.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Task )
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass34.<BeginInvokeAsynchronousActionMethod>b__33(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass45.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3e()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<>c__DisplayClass28.<BeginInvokeAction>b__19()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass1e.<BeginInvokeAction>b__1b(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> Parse.ParseException: {"code":1,"message":"Internal server error."}
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.BL.Extentions.ParseObjectExtentions.FindAsyncAndLog[T](ParseQuery`1 parseQuery) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Extentions\ParseObjectExtentions.cs:line 240
+   at MyMentor.Repository.ParseRepository.<>c__DisplayClass13e.<FindClipStatuses>b__13a() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1236
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Parse.ParseException: {"code":1,"message":"Internal server error."}
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+<---
+

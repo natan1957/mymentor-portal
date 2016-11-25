@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<CodeTableDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DataItems>
+    <CodeTableDataItem>
+      <Key>VMHmR2UJHl</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>Hebrew</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>עברית</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+    <CodeTableDataItem>
+      <Key>NWUKr7bEgJ</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>English</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>אנגלית</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+  </DataItems>
+</CodeTableDto>

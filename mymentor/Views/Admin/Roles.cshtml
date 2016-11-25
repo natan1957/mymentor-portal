@@ -1,0 +1,18 @@
+﻿@model Dictionary<string,string>
+@{
+    ViewBag.Title = "Roles";
+    Layout = "~/Views/Shared/MasterPages/_AccountLayout.cshtml";
+}
+
+
+<section role="main" class="main_content clearfix">
+    <div class="fixedWidth innerPageContainer">
+        <div class="formContainer">
+            @using (Html.BeginForm("Roles", "Admin", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                <input type="submit" value="set as admin" />
+                @Html.DropDownList("selectedUserId", new SelectList(Model, "Key","Value"))
+            }
+        </div>
+    </div>
+</section>

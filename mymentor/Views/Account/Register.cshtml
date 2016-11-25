@@ -1,0 +1,115 @@
+﻿@model MyMentor.Models.RegisterViewModel
+@using CaptchaMvc.HtmlHelpers
+@using MvcReCaptcha.Helpers
+@using MyMentor.BL.App_GlobalResources
+
+@{
+    Layout = "~/Views/Shared/MasterPages/_AccountLayout.cshtml";
+    ViewBag.Title = "רישום לפורטל";
+}
+
+
+
+<section role="main" class="main_content clearfix">
+    <div class="fixedWidth innerPageContainer">
+        <div class="formContainer">
+            <h1 class="mentor_header">
+                @MyMentorResources.lblSiteRegistration
+            </h1>
+            @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                <div class="inputWrapper">
+                    @Html.TextBoxFor(m => m.FirstName, new { @class = "req", placeholder = MyMentorResources.phFirstName })
+                    @Html.ValidationMessageFor(m => m.FirstName)
+                </div>
+                <div class="inputWrapper">
+                    @Html.TextBoxFor(m => m.LastName, new { @class = "req", placeholder = MyMentorResources.phLastName })
+                    @Html.ValidationMessageFor(m => m.LastName)
+                </div>
+                <div class="inputWrapper">
+                    @Html.TextBoxFor(m => m.Phone, new { @class = "req", placeholder = MyMentorResources.phPhone })
+                    @Html.ValidationMessageFor(m => m.Phone)
+                </div>
+                <div class="inputWrapper">
+                    @Html.DropDownListFor(model => model.CountryOfResidence, new SelectList(Model.Countries, "Key", "Value", Model.CountryOfResidence), MyMentorResources.phCountry, new Dictionary<string, object>
+                      {
+                         {"id", "coutryOfResidence"},{"class","req"}
+                      })
+                    @Html.ValidationMessageFor(m => m.CountryOfResidence)
+                </div>
+                <div class="inputWrapper">
+                    @Html.DropDownListFor(model => model.SelectedDeviceType, new SelectList(Model.DeviceTypes, "Key", "Value", Model.SelectedDeviceType), MyMentorResources.phDeviceType, new Dictionary<string, object>
+                      {
+                         {"data-bind", "value:selectedDeviceType"},
+                         {"data-unsupported-text",ViewBag.DeviceUnSupportedText},
+                         {"id", "deviceType"},{"class","req"}
+                      })
+                    @Html.ValidationMessageFor(m => m.SelectedDeviceType)
+                </div>
+                <div class="inputWrapper">
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "req", placeholder = MyMentorResources.phUserName })
+                    @Html.ValidationMessageFor(m => m.UserName)
+                </div>
+                <div class="inputWrapper" style="position:relative;">
+                    @Html.PasswordFor(m => m.Password, new { @class = "req", placeholder = MyMentorResources.phPassword })
+                    @Html.ValidationMessageFor(m => m.Password)
+                    <div id="password_complexity" class="inline-hints sidetip"></div>
+                </div>
+                <div class="inputWrapper">
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "req", placeholder = MyMentorResources.phPasswordConfirm })
+                    @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                </div>
+                <div class="inputWrapper arial">
+                    @Html.Captcha(MyMentorResources.captchaChangeImage, MyMentorResources.captchaInstructions, 5, MyMentorResources.validationRequiredField, true)
+                    @if (ViewBag.IsCaptchaError != null)
+                    {
+                        <span class="field-validation-error" data-valmsg-for="CaptchaInputText" data-valmsg-replace="true">
+                            <span  class="">@MyMentorResources.validationCaptchaIsNotValid</span>
+                        </span>
+                    }
+                </div>
+
+                <div class="clearfix">
+                    <div class="inputLabel arial grey_text">
+                        @Html.CheckBoxFor(m => m.RegisterAsTeacher)
+
+                        <label for="teacherReq">
+                            @Html.Raw(MyMentorResources.lblRegisterAsTeacher)
+                        </label>
+                    </div>
+                </div>
+                <br />
+                <div class="clearfix">
+                    <div class="saveCompWrapper floatR arial grey_text">
+                        @Html.CheckBoxFor(m => m.ApproveTerms)
+                        @Html.Raw(MyMentorResources.lblTems)
+                        @Html.ValidationMessageFor(m => m.ApproveTerms)
+                    </div>
+                    <a href="javascript:void(0);" class="btn_mentor floatL" id="btnSubmit">@MyMentorResources.btnSend</a>
+                   
+                </div>
+                <div class="field-validation-error" data-bind="visible:!isValid()">@MyMentorResources.formValidationSummary</div>
+                @Html.Raw(MyMentorResources.lblAlreadyRegisterd)
+            }
+        </div>
+    </div>
+</section>
+@if (Model.ShowSuccessMessage)
+{
+    if (Model.RegisterAsTeacher)
+    {
+        @Html.Raw(ViewBag.TeacherSuccessMessage)
+    }
+    else
+    {
+        @Html.Raw(ViewBag.StudentSuccessMessage)
+    }
+}
+
+
+
+<script>
+    $(document).ready(function () {
+        _mymentor.initPage("register", {});
+    });
+</script>

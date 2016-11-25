@@ -1,0 +1,64 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@model MyMentor.BL.ViewModels.SearchLessonViewModel
+
+<div id="dialog_findLesson" class="dialog_mentor" title="@MyMentorResources.serachLessonTitle">
+    @using(Ajax.BeginForm("SearchLessons", "Lessons", new AjaxOptions
+    {
+        HttpMethod = "Get",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "lessonsSearchResults",
+         OnSuccess = "new _mymentor.modules.updateBundle().lessonSearchComplete(data)"
+         
+    },
+    new { id="searchLessonsForm"}
+    ))
+    {
+    <div class="lessonSelects clearfix">
+        <select class="mentorInput" name="category1" data-bind="value:SelectedCategory1Value,options:Category1ValuesForSearch,
+            optionsText:'Value',
+            optionsValue:'Key',
+            value:SelectedCategory1Value">
+
+            <option value="" data-bind="text:CategoryName1"></option>
+        </select>
+        <select class="mentorInput" name="category2" data-bind="value:SelectedCategory2Value,options:ComputedCategory2Value,
+            optionsText:'Value',
+            optionsValue:'Key',
+            value:SelectedCategory2Value">
+            <option value="" data-bind="text:CategoryName2"></option>
+        </select>
+        <select class="mentorInput" name="category3" data-bind="value:SelectedCategory3Value,options:Category3ValuesForSearch,
+            optionsText:'Value',
+            optionsValue:'Key',
+            value:SelectedCategory3Value">
+            <option value="" data-bind="text:CategoryName3"></option>
+        </select>
+        <select class="mentorInput" name="category4" data-bind="value:SelectedCategory4Value,options:Category4ValuesForSearch,
+            optionsText:'Value',
+            optionsValue:'Key',
+            value:SelectedCategory4Value">
+            <option value="" data-bind="text:CategoryName4"></option>
+        </select>
+        <input type="hidden" name="StatusId" data-bind="value:BundleStatus" />
+        <input type="hidden" name="ObjectId" data-bind="value:ObjectId" />
+        <input type="hidden" name="TeacherName" data-bind="value:TeacherName" />
+        <a href="javascript:void(0)" class="btn_mentor smallBtn" onclick="$('body').css('cursor', 'wait'); $('.btn_mentor').css('cursor', 'wait'); $('#searchLessonsForm').submit();">@MyMentorResources.lblSearch</a>
+        &nbsp;
+        <a class="icon_question_blue whiteTooltip" title="@Model.DescriptionPopupText" href="javascript:void(0);" ></a>
+    </div>
+    }
+    <div class="hrClass">
+    </div>
+    <div class="dialog_findLesson_inner" id="lessonsSearchResults">
+        @if (Model != null)
+        {
+            @Html.Partial("LessonsSearchResults", Model.ClipResults)
+        }
+    </div>
+    <div class="dialog_btn_wrapper clearfix">
+        <a class="btn_mentor smallBtn floatL " href="javascript:void(0);" id="chooseLessons">@MyMentorResources.searchAddLessons</a>
+
+
+        <a class="btn_mentor smallBtn floatL marginLeftBtn closeDialog" href="javascript:void(0);">@MyMentorResources.btnPackageClose</a>
+    </div>
+</div>

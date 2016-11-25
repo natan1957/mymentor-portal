@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .container {
+            width: 680px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img class="center" src="http://mymentorapp.com/content/images/email-template-icon.png" />
+        </div>
+        <p>
+            Hello {teacherFirstName}.
+        </p>
+        <p>
+            We are happy to inform you that {itemTitle} {itemName}  was purchased.
+            This will add to your account {teacherFee}  {teacherCurrencySymbol}.
+            Your account will be charged an exchange fee of {teacherExchangeFee} {teacherCurrencySymbol}
+        </p>
+
+        <p>
+            Sincerely,<br />
+            MyMentorApp team
+        </p>
+
+        <p>
+            Event – {event}  Letter – {itemCode}  Item – {itemCode}  Date –  {dueDate}  Coupon – {couponKey}
+        </p>
+    </div>
+</body>
+</html>

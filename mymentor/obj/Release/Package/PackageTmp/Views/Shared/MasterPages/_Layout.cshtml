@@ -1,0 +1,123 @@
+﻿@using System.Web.UI.HtmlControls
+@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Extentions
+@using MyMentor.BL.Models
+@using MyMentor.Controllers
+@using MyMentor.Factories
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewBag.Title - My Mentor</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="MyMentor">
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Sharing tags unmark when filled -->
+    <!-- <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">-->
+    @Styles.Render("~/Content/css")
+    @if (Language.Direction == LanguageDirection.LTR)
+    {
+        <link href="~/Content/css/ltr.css" rel="stylesheet" />
+    }
+    else
+    {
+        <link href="~/Content/dynatree-rtl.css" rel="stylesheet" />
+    }
+    @*<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">*@
+
+    <!--[if lt IE 9]>
+       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script> window.html5 || document.write('<script src="/Scripts/vendor/html5shiv.js"><\/script>')</script> <![endif]-->
+    @*  @Scripts.Render("~/bundles/modernizr")
+        <link href="/Content/he-il/mymentor-portal.css" rel="stylesheet" />
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+
+        <script type="text/html" src="//ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js">
+        </script>*@
+
+    <script src="~/Scripts/vendor/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/vendor/jquery-ui-1.10.4.min.js"></script>
+   
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/mymentor")
+
+  
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+   @Html.Partial("MasterPages/KeepAlive")
+    <div id="domMessage" style="display:none;">
+        <h1>@MyMentorResources.pleaseWait</h1>
+    </div>
+    <header>
+        <div id="topSiteContainer">
+            @if (!string.IsNullOrEmpty(Session.GetImpersonatingUserName()) && Session.GetLoggedInUser() != null)
+            {
+                <div id="impersonationDashboard">
+                    <span>user @Session.GetImpersonatingUserName() is impersonating @Session.GetLoggedInUser().Username</span>
+                    @Html.ActionLink("Stop Impersonation", "StopImpersonation", "Account")
+                </div>
+            }
+            <div class="topSite fixedWidth">
+                @{
+                    Html.RenderAction("UserDetails", "Account");
+                }
+
+                <div class="pageSettings">
+                    <span title="@MyMentorResources.lblChangeInterfaceLanguage" class="language_change dropdown_change blackTooltip openedWindow">
+                        @Language.CurrentDisplayName
+                        <span class="dropdown_change_inner">
+                            @Html.ActionLink("עברית", "ChangeInterfaceLanguage", "Home", new { languageCode = "he-IL" }, new { })
+                            @Html.ActionLink("English", "ChangeInterfaceLanguage", "Home", new { languageCode = "en-US" }, new { })
+                        </span>
+                    
+                    @RenderSection("CurrencyAndAltLangDropdown", required: false)
+                    @*<span class="headerSeperator">|</span>
+                        @Html.ActionLink(" ", "ChangeWorld", "Home", null, new { @class = "world_change blackTooltip" , title = MyMentorResources.lblChangeContentWorld})*@
+                </div>
+                @Html.Action("GetShoppingCartSummary","Home")
+                <span class="world_name">@Html.Action("GetContentTypeDisplayName", "Home")</span>
+                <a class="contactTopLink floatL" href="contact.html">@MyMentorResources.topnavContactUs</a>
+            </div>
+        </div>
+        <div class="topNavContainer">
+            <div class="topNav fixedWidth">
+                <nav>
+                    <a href="/" class="home_icon ir">@MyMentorResources.topnavHomePage</a>
+                    <ul>
+                        <li>@Html.ActionLink(MyMentorResources.topnavClipsAndBundles, "index", "Lessons")</li>
+                        <li>@Html.ActionLink(MyMentorResources.topnavTeachers, "Index", "Home")</li>
+                        <li><a href="my_lessons_bible.html">@MyMentorResources.topnavMyLessons</a></li>
+                        @*<li>@Html.ActionLink(Resources.MyMentorResources.topnavMyLessons, "Index", "Home")</li>*@
+                        <li>@Html.ActionLink(MyMentorResources.topnavApplication, "Index", "Home")</li>
+                        <li>@Html.ActionLink(MyMentorResources.topnavGuides, "Index", "Guides")</li>
+                        <li id="myAccount">@Html.ActionLink(MyMentorResources.topnavMyAccount, "Index", "MyAccount")</li>
+                        <li>@Html.ActionLink(MyMentorResources.topnavAbout, "Index", "Home")</li>
+                        @*  <li>@Html.ActionLink(MyMentorResources.topnavContactUs, "Index", "Home")</li>*@
+                    </ul>
+                    <a href="#" class="facebook_icon ir">facebook</a> <a class="MyMentor_logo ir" href="/">MyMentor</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    @Html.Partial("Navigation/SiteFooter")
+
+</body>
+</html>

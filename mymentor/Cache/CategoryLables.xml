@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<ArrayOfCategoryLabelDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CategoryLabelDto>
+    <ContentType>vU5s58NKwi</ContentType>
+    <Culture>en-us</Culture>
+    <Category1>main</Category1>
+    <Category2>Language</Category2>
+    <Category3>For age</Category3>
+    <Category4>category4</Category4>
+    <Category5>teacher</Category5>
+  </CategoryLabelDto>
+  <CategoryLabelDto>
+    <ContentType>YipV1FgrP4</ContentType>
+    <Culture>en-us</Culture>
+    <Category1>ccc</Category1>
+    <Category2>ggg</Category2>
+    <Category3>dddd</Category3>
+    <Category4>kkk</Category4>
+    <Category5>hhh</Category5>
+  </CategoryLabelDto>
+  <CategoryLabelDto>
+    <ContentType>woYLQPY5RU</ContentType>
+    <Culture>he-il</Culture>
+    <Category1>ראשי</Category1>
+    <Category2>פרשה / מועד</Category2>
+    <Category3>קריאה</Category3>
+    <Category4>נוסח</Category4>
+    <Category5>מורה</Category5>
+  </CategoryLabelDto>
+  <CategoryLabelDto>
+    <ContentType>YipV1FgrP4</ContentType>
+    <Culture>he-il</Culture>
+    <Category1>כככ</Category1>
+    <Category2>גגג</Category2>
+    <Category3>דדדד</Category3>
+    <Category4>קקק</Category4>
+    <Category5>ייי</Category5>
+  </CategoryLabelDto>
+  <CategoryLabelDto>
+    <ContentType>woYLQPY5RU</ContentType>
+    <Culture>en-us</Culture>
+    <Category1>Main</Category1>
+    <Category2>Portion/Holiday</Category2>
+    <Category3>Kria</Category3>
+    <Category4>Version</Category4>
+    <Category5>teacher</Category5>
+  </CategoryLabelDto>
+  <CategoryLabelDto>
+    <ContentType />
+    <Culture>he-il</Culture>
+    <Category1> </Category1>
+    <Category2> </Category2>
+    <Category3> </Category3>
+    <Category4> </Category4>
+    <Category5> </Category5>
+  </CategoryLabelDto>
+  <CategoryLabelDto>
+    <ContentType />
+    <Culture>en-us</Culture>
+    <Category1> </Category1>
+    <Category2> </Category2>
+    <Category3> </Category3>
+    <Category4> </Category4>
+    <Category5> </Category5>
+  </CategoryLabelDto>
+  <CategoryLabelDto>
+    <ContentType>vU5s58NKwi</ContentType>
+    <Culture>he-il</Culture>
+    <Category1>ראשי</Category1>
+    <Category2>שפה</Category2>
+    <Category3>לגיל</Category3>
+    <Category4>קטגוריה4</Category4>
+    <Category5>מורה</Category5>
+  </CategoryLabelDto>
+</ArrayOfCategoryLabelDto>

@@ -1,0 +1,132 @@
+﻿@using System.Web.UI.WebControls
+@using MyMentor.BL.DomainServices
+@using MyMentor.BL.Extentions
+@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.ViewModels
+@using Consts = MyMentor.BL.Consts
+
+@model BundleItemViewModel
+@{
+        var contentItemViewModel = new ContentItemViewModel
+        {
+            ContentItemDto = Model.ContentItem,
+            LessonFilters = Model.LessonFilters
+        };
+
+        Html.RenderPartial("ContentItem", contentItemViewModel);
+}
+
+@foreach(var bundleItem in Model.Bundles)
+{ 
+    <div class="lessonPackage">
+        <div class="lessonWrapper mainLesson">
+            <a title="" class="lesson_faq bundle_faq whiteTooltip" href="javascript:void(0)"></a>
+            <div class="lessonTop">
+                <div class="lessonPackageIcon"><span class="PackageExpandIcon">+</span>
+                    @MyMentorResources.lblBundle
+                </div>
+                <a class="content_language_change_lesson whiteTooltip leassonAbsolutelanguageIcon" href="javascript:void(0);"
+                   title="">
+                    <span class="hiddenToolTip">
+                        <span class="lessonHeaderToolTip">
+                            <span class="lessonHeaderTextToolTip">
+                                @bundleItem.BundleNameAlt
+                            </span> @*<span class="lessonTextToolTip">@bundleItem.PortalNamePart2Alt</span>*@
+                        </span>
+                    </span>
+                </a>
+                @if (!bundleItem.IsActive)
+                {
+                    <span class="bundle-inactive">@bundleItem.BundleStatus</span>
+                }
+                
+                @if (!string.IsNullOrEmpty(bundleItem.BundleLocalizedDescription))
+                {
+                    <a class="icon_information whiteTooltip leassonAbsoluteIconInformation" href="javascript:void(0);" title="@bundleItem.BundleLocalizedDescription"></a>
+                }
+                <table class="lessonTable" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="lessonHeaderItem">
+                            <div class="lessonHeaderItemPadding">
+                                
+                                @*<div style="" class="lessonHeaderTextStatus floatL bordo font16">מוקפא ע"י המורה</div>*@
+                                <h3 class="lessonHeaderText">
+                                    @bundleItem.BundleName
+                                </h3>
+                               
+                            </div>
+                        </td>
+                        <td class="lessonDateItem">
+                            <div class="lessonDateItemPadding">
+                                @*@Html.Raw(bundleItem.ReadingDates)*@
+                            </div>
+                        </td>
+                        <td class="lessonTeacherItem">
+                            <div class="lessonTeacherItemPadding">
+                                <table class="teacherTable" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td>
+                                            <div class="teacherImage">
+                                                <img src="@bundleItem.TeacherImage" />
+                                            </div>
+                                        </td>
+                                        <td style="width: 100%;">
+                                            <div class="teacherText">
+                                                @bundleItem.TeacherName
+                                            </div>
+                                            @if (!bundleItem.TeacherIsActive)
+                                            {
+                                                <div class="teacherText">
+                                                    <span class="teacher-inactive">@bundleItem.TeacherStatus</span>
+                                                </div>
+                                            }
+                                        </td>
+                                       
+                                        @*<td>
+                                            <a class="teacherSound" href="javascript:void(0)"></a>
+                                        </td>*@
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                        <td class="lessonPriceItem">
+                            <div class="lessonPriceItemPadding">
+                                <span>@MyMentorResources.lblPackagePrice: </span>
+                                <span class="bold strikthrough" style="">@bundleItem.ConvertedPriceWithoutDiscount</span>
+                                <span class="bordo bold block">@bundleItem.ConvertedPrice </span>
+                                @MyMentorResources.lblSupport: <strong>@bundleItem.ConvertedSupportPrice </strong>
+                                <br />
+                                @*<span class="bordo bold">משתתף בחבילת מבצע</span>*@
+                            </div>
+                        </td>
+                        <td class="lessonPurchaseItem">
+                            <div class="lessonPurchaseItemPadding" data-item-id="@bundleItem.ObjectId">
+                                <a class="addToBasket" href="javascript:void(0)" data-item-shopping-cart="bundle">@MyMentorResources.addToBasket</a>
+                                <a class="addToBasketSupport" href="javascript:void(0)" data-item-shopping-cart="bundle+support">@MyMentorResources.addToBasketWithSupport</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        @{
+            var i = 1;
+             foreach (var clip in bundleItem.Clips)
+             {
+                 clip.OrderInBundle = i;
+                 Html.RenderPartial("ContentItemInBundle", clip);
+                 i++;
+             }
+        }
+        @{
+
+             var securityTrimmer = new SecurityTrimmer(Session);
+             if (securityTrimmer.OnlyVisibleFor(Consts.Roles.Administrators | Consts.Roles.Teachers, new OwnTeacherSecurityTrimmer(Session.GetLoggedInUser(), Model.ContentItem.TeacherId,Model.ContentItem.TeacherIsActive)))
+             {
+                 Model.CurrentBundle = bundleItem;
+                 Html.RenderPartial("BundleAdmin", Model);
+             }
+        }
+    </div>
+}
+

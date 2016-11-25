@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .container {
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body dir="rtl">
+    <div class="container">
+        <div>
+            <img class="center" src="http://mymentorapp.com/content/images/email-template-icon.png" />
+        </div>
+        <p>שלום {StudentFirstName}.</p>
+        <p>זוהי הודעה ממערכת <b>MyMentorApp</b> אין להשיב על הודעה זו.</p>
+        <p>
+            אנו שמחים להודיע לך ש {TeacherFullName} רכש/ה עבורך קופון הנחה עבור {ItemType}: {ItemNamePart1} - {ItemNamePart2}.<br /><br/>
+            מחיר השיעור המקורי של השיעור הוא {OriginalPrice} ולאחר הנחת הקופון,  המחיר עבורך הוא {StudentPrice}.
+        </p>
+        <p>
+            מספר הקופון: {CouponNumber}.
+        </p>
+        <p>
+            את הקופון עליך לממש לא יאוחר מ {ValidUntil} אחרת יפוג תוקפו. לאחר תפוגת התוקף, לא ניתן יהיה להשתמש בו והסכום הכספי שהושקע בו יאבד.<br /><br/>
+            לשם מימוש הקופון, עליך לבצע לוגאין לפורטל <a href="http://www.mymentorapp.com">www.mymentorapp.com</a> לעבור לקופה ולבחור את הקופון מרשימת הקופונים הממתינים למימוש.
+        </p>
+        <p>מערכת <b>MyMentorApp</b> מאחלת לך לימוד פורה ומהנה.</p>
+        <p>תאריך - {PurchaseDate}{Event}</p>
+    </div>
+</body>
+</html>

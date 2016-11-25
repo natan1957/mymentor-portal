@@ -1,0 +1,53 @@
+﻿@model MyMentor.Models.LoginViewModel
+@using MyMentor.BL.App_GlobalResources
+
+@{
+    Layout = "~/Views/Shared/MasterPages/_AccountLayout.cshtml";
+    ViewBag.Title = MyMentorResources.lblTitleLogin;                
+}
+
+<section role="main" class="main_content clearfix">
+    <div class="fixedWidth innerPageContainer">
+        <div class="formContainer">
+            <h1 class="mentor_header">
+                @MyMentorResources.lblTitleLogin                
+            </h1>
+            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.ValidationSummary(true);
+                
+                <div class="inputWrapper">
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = @MyMentorResources.phEmail })
+                    @Html.ValidationMessageFor(m => m.UserName)
+                </div>
+                <div class="inputWrapper">
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = @MyMentorResources.phPassword })
+                    @Html.ValidationMessageFor(m => m.Password)
+                </div>
+                <div class="leftLink lineHeight14">
+                    <a class="grey_text arial" href="changepassword">@MyMentorResources.lblForgotPassword</a>
+                </div>
+                <div class="clearfix">
+                    <div class="saveCompWrapper inputLabel floatR arial grey_text">                        
+                        @Html.CheckBoxFor(m => m.RememberMe)
+                        <label for="RememberMe">
+                           @MyMentorResources.lblSaveLogin
+                        </label>
+                    </div>
+                   
+                    <a href="javascript:void(0);" class="btn_mentor floatL" onclick="javascript: if ($('form').valid()) $('form').submit();">@MyMentorResources.btnSend</a>                    
+                </div>
+                <div class="leftLink signInText">
+                  @MyMentorResources.lblNotRegisterdQuestion <a class="turkiz noUnderLine" href="register">@MyMentorResources.lblRegisterNow &gt;</a>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+
+<script>
+    $(document).ready(function () {
+        _mymentor.initPage("login", {});
+    });
+</script>

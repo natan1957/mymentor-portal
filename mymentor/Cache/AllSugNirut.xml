@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ArrayOfSugNirutDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SugNirutDto>
+    <ObjectId>AD0MrhuHdI</ObjectId>
+    <Name>open</Name>
+    <Title>גלוי</Title>
+    <Title_en_us>Open</Title_en_us>
+  </SugNirutDto>
+  <SugNirutDto>
+    <ObjectId>LMUGUXKVdw</ObjectId>
+    <Name>hidden</Name>
+    <Title>נסתר</Title>
+    <Title_en_us>Hidden</Title_en_us>
+  </SugNirutDto>
+  <SugNirutDto>
+    <ObjectId>p3K8kJXtUZ</ObjectId>
+    <Name>no_email_phone</Name>
+    <Title>ללא דוא"ל וטלפון</Title>
+  </SugNirutDto>
+</ArrayOfSugNirutDto>

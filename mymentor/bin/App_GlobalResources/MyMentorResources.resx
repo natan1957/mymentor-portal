@@ -1,0 +1,1493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btnSend" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="btnUpdatePassword" xml:space="preserve">
+    <value>Update Password</value>
+  </data>
+  <data name="captchaChangeImage" xml:space="preserve">
+    <value>Change Image</value>
+  </data>
+  <data name="captchaInstructions" xml:space="preserve">
+    <value>Type the letters in the image</value>
+  </data>
+  <data name="dlgEnglishFIrstName" xml:space="preserve">
+    <value>English first name</value>
+  </data>
+  <data name="emailRegistrationSuccessSubject" xml:space="preserve">
+    <value>Your registration MyMentorApp to completed successfully</value>
+  </data>
+  <data name="footerAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="footerApplication" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="footerContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="footerLessonsAndPackages" xml:space="preserve">
+    <value>Lessons</value>
+  </data>
+  <data name="footerMyAccounnt" xml:space="preserve">
+    <value>My Account</value>
+  </data>
+  <data name="footerRegulations" xml:space="preserve">
+    <value>Regulations</value>
+  </data>
+  <data name="footerRightsReserved" xml:space="preserve">
+    <value>&lt;div class="MyMentorRights"&gt;
+            All rights reserved &amp;nbsp; | &amp;nbsp; &lt;span style="direction: ltr;"&gt;MyMentor&lt;/span&gt;&amp;nbsp;
+            &lt;span style="display: inline-block;"&gt;2014 &amp;copy;&lt;/span&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="footerTeachers" xml:space="preserve">
+    <value>Teachers</value>
+  </data>
+  <data name="footerTeachersRegulations" xml:space="preserve">
+    <value>Teachers Regulations</value>
+  </data>
+  <data name="lblAlreadyRegisterd" xml:space="preserve">
+    <value>&lt;div class="leftLink signInText"&gt;
+                    already registerd? &lt;a class="turkiz noUnderLine" href="login"&gt;login now &amp;gt;&lt;/a&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="lblCaptchaInstructions" xml:space="preserve">
+    <value>Enter the code that appears in the picture</value>
+  </data>
+  <data name="lblChangePicture" xml:space="preserve">
+    <value>Change Picture</value>
+  </data>
+  <data name="lblFileName" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="lblForgotPassword" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="lblNotRegisterdQuestion" xml:space="preserve">
+    <value>Not reigsterd yet?</value>
+  </data>
+  <data name="lblProfilePicture" xml:space="preserve">
+    <value>Profile Picture</value>
+  </data>
+  <data name="lblRegisterAsTeacher" xml:space="preserve">
+    <value>I would like to register as a teacher</value>
+  </data>
+  <data name="lblRegisterNow" xml:space="preserve">
+    <value>Register here</value>
+  </data>
+  <data name="lblRegistrationConfirmationForStudent" xml:space="preserve">
+    <value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="Register for MyMentor"&gt;
+        &lt;p class="font18 alefBold center"&gt;
+            Hello {0}. Registration was successful!
+            In a few moments your will receive an email containing a link to download the app
+        &lt;/p&gt;
+        &lt;p&gt;
+          After you finish the download, you will be asked to login in order to register your device
+        &lt;/p&gt;
+        &lt;p&gt;
+            MyMentor team wishes you a productive and enjoyable experience
+        &lt;/p&gt;
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;Go to Portal &gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</value>
+  </data>
+  <data name="lblRegistrationConfirmationForTeacher" xml:space="preserve">
+    <value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="Register to MyMentor"&gt;
+        &lt;p class="font18 alefBold center"&gt;
+            Hello {0}. Registration was successful!
+        &lt;/p&gt;
+        &lt;p&gt;
+             In a few moments your will receive an email containing a link to download the app
+        &lt;/p&gt;
+        &lt;p&gt;
+            After you finish the download, you will be asked to login in order to register your device
+        &lt;/p&gt;
+       
+            &lt;p&gt;
+                The teacher permissions will go into effect after admin approval.
+            &lt;/p&gt;
+       
+        &lt;p&gt;
+            MyMentor team wishes you a productive and enjoyable experience
+        &lt;/p&gt;
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+               
+                    &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatL"
+                       href="/account/update"&gt;Go to the teacher form &gt;&gt;&lt;/a&gt;
+                
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;Go to the Portal &gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</value>
+  </data>
+  <data name="lblSaveLogin" xml:space="preserve">
+    <value>Save Login</value>
+  </data>
+  <data name="lblShowContactDetailsInPortal" xml:space="preserve">
+    <value>Show contact details in the portal</value>
+  </data>
+  <data name="lblSiteRegistration" xml:space="preserve">
+    <value>Site Registration</value>
+  </data>
+  <data name="lblTeachingArea" xml:space="preserve">
+    <value>Teaching Area</value>
+  </data>
+  <data name="lblTeachingPlace" xml:space="preserve">
+    <value>Teaching Place:</value>
+  </data>
+  <data name="lblTems" xml:space="preserve">
+    <value>&lt;label for="ApproveTerms"&gt;
+                           I'm accepting the &lt;a href="#"&gt;terms&lt;/a&gt; and conditions
+                        &lt;/label&gt;</value>
+  </data>
+  <data name="lblTitleChangePassword" xml:space="preserve">
+    <value>Change Passwod</value>
+  </data>
+  <data name="lblTitleLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="lblUpdateStudent" xml:space="preserve">
+    <value>Update Student</value>
+  </data>
+  <data name="lblUpdateTeacher" xml:space="preserve">
+    <value>Update Teacher</value>
+  </data>
+  <data name="lblVersion" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="passwordIncorrect" xml:space="preserve">
+    <value>Invalid username or password</value>
+  </data>
+  <data name="phAccountNumber" xml:space="preserve">
+    <value>Account number</value>
+  </data>
+  <data name="phACPAgentCommission" xml:space="preserve">
+    <value>Agents ACP commission</value>
+  </data>
+  <data name="phAgentFullName" xml:space="preserve">
+    <value>Agent full name</value>
+  </data>
+  <data name="phAshkenazi" xml:space="preserve">
+    <value>Ashkenazi</value>
+  </data>
+  <data name="phBankName" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="phBeneficiaryFullName" xml:space="preserve">
+    <value>Beneficiary full name</value>
+  </data>
+  <data name="phBranch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="phCityOfResidence" xml:space="preserve">
+    <value>Residence</value>
+  </data>
+  <data name="phContentWorld" xml:space="preserve">
+    <value>Content World</value>
+  </data>
+  <data name="phCountry" xml:space="preserve">
+    <value>Country of residence</value>
+  </data>
+  <data name="phCuponType" xml:space="preserve">
+    <value>Coupon Type</value>
+  </data>
+  <data name="phCurrency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="phDeviceType" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="phEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="phEnglishCityOfResidence" xml:space="preserve">
+    <value>English city of residence</value>
+  </data>
+  <data name="phEnglishFirstName" xml:space="preserve">
+    <value>English first name</value>
+  </data>
+  <data name="phEnglishLastName" xml:space="preserve">
+    <value>English last name</value>
+  </data>
+  <data name="phEnterEmailAddress" xml:space="preserve">
+    <value>Please enter your email address</value>
+  </data>
+  <data name="phExteaFeeForStudentHome" xml:space="preserve">
+    <value>Extra fee for home tutor</value>
+  </data>
+  <data name="phFirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="phFullAddress" xml:space="preserve">
+    <value>Full address for mail</value>
+  </data>
+  <data name="phGovId" xml:space="preserve">
+    <value>Gov Id</value>
+  </data>
+  <data name="phIRSNumber" xml:space="preserve">
+    <value>IRS number</value>
+  </data>
+  <data name="phLanguage" xml:space="preserve">
+    <value>Selected language</value>
+  </data>
+  <data name="phLastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="phLessonPrice" xml:space="preserve">
+    <value>Lesson price</value>
+  </data>
+  <data name="phMorocan" xml:space="preserve">
+    <value>Morocan</value>
+  </data>
+  <data name="phOtherVersion" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="phPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="phPasswordConfirm" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="phPaypalEmail" xml:space="preserve">
+    <value>Paypal Email</value>
+  </data>
+  <data name="phPhone" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="phPicture" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="phResidence" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="phSalesStatus" xml:space="preserve">
+    <value>Sales Status</value>
+  </data>
+  <data name="phSefaradi" xml:space="preserve">
+    <value>Sefaradi</value>
+  </data>
+  <data name="phShowContactDetailsInPortal" xml:space="preserve">
+    <value>Show contact details in portal</value>
+  </data>
+  <data name="phSTRCommissionRate" xml:space="preserve">
+    <value>STR commission rate</value>
+  </data>
+  <data name="phTeacherHomePage" xml:space="preserve">
+    <value>Home page</value>
+  </data>
+  <data name="phTeacherTCPCommission" xml:space="preserve">
+    <value>Teachers TCP commission</value>
+  </data>
+  <data name="phTeachesAtHome" xml:space="preserve">
+    <value>Teaches at home</value>
+  </data>
+  <data name="phTeachesAtOtherLocation" xml:space="preserve">
+    <value>Teaches at another location</value>
+  </data>
+  <data name="phTeachesAtStudentsHome" xml:space="preserve">
+    <value>Teaches at students home</value>
+  </data>
+  <data name="phTeachesSince" xml:space="preserve">
+    <value>Teaches since</value>
+  </data>
+  <data name="phTeachingLanguage1" xml:space="preserve">
+    <value>Teaching language 1</value>
+  </data>
+  <data name="phTeachingLanguage2" xml:space="preserve">
+    <value>Teaching language 2</value>
+  </data>
+  <data name="phTeachingLanguage3" xml:space="preserve">
+    <value>Teaching language 3</value>
+  </data>
+  <data name="phUserName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="phUserPublishStatus" xml:space="preserve">
+    <value>User publishing status</value>
+  </data>
+  <data name="phUserStatus" xml:space="preserve">
+    <value>User status</value>
+  </data>
+  <data name="phVATNumber" xml:space="preserve">
+    <value>VAT number</value>
+  </data>
+  <data name="phVisibilityStatus" xml:space="preserve">
+    <value>Visibility status</value>
+  </data>
+  <data name="phYemen" xml:space="preserve">
+    <value>Yemen</value>
+  </data>
+  <data name="register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="topnavAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="topnavApplication" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="topnavClipsAndBundles" xml:space="preserve">
+    <value>Lessons</value>
+  </data>
+  <data name="topnavContactUs" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="topnavGuides" xml:space="preserve">
+    <value>Guides</value>
+  </data>
+  <data name="topnavMyAccount" xml:space="preserve">
+    <value>My Account</value>
+  </data>
+  <data name="topnavTeachers" xml:space="preserve">
+    <value>Teachers</value>
+  </data>
+  <data name="ttlManagerArea" xml:space="preserve">
+    <value>6. Manager Area</value>
+  </data>
+  <data name="ttlPayments" xml:space="preserve">
+    <value>4. Payment Type</value>
+  </data>
+  <data name="ttlPersonalDetails" xml:space="preserve">
+    <value>1. Personal Details</value>
+  </data>
+  <data name="ttlPrefferences" xml:space="preserve">
+    <value>5. Preferences</value>
+  </data>
+  <data name="ttlProffesionalData" xml:space="preserve">
+    <value>2. Proffesional Data</value>
+  </data>
+  <data name="ttlStatus" xml:space="preserve">
+    <value>3. Statuses</value>
+  </data>
+  <data name="validationCaptchaIsNotValid" xml:space="preserve">
+    <value>The characters you entered do not match the ones in the image</value>
+  </data>
+  <data name="validationChangePasswordError" xml:space="preserve">
+    <value>An error occured, please try again later</value>
+  </data>
+  <data name="validationChangePasswordSuccess" xml:space="preserve">
+    <value>Password changed successfully, To complete this procedure please follow the link in the email that will be sent to you shortly</value>
+  </data>
+  <data name="validationEmail" xml:space="preserve">
+    <value>A valid Email address is required</value>
+  </data>
+  <data name="validationPasswordConfirmationField" xml:space="preserve">
+    <value>Password and password confirmation fields do not match</value>
+  </data>
+  <data name="validationPasswordField" xml:space="preserve">
+    <value>you must enter at least {2} characters</value>
+  </data>
+  <data name="validationRegistrationTermsApproval" xml:space="preserve">
+    <value>You must accept the terms in order to continue</value>
+  </data>
+  <data name="validationRequiredField" xml:space="preserve">
+    <value> required field</value>
+  </data>
+  <data name="phSugTagmul" xml:space="preserve">
+    <value>Type of Remuneration</value>
+  </data>
+  <data name="checkout" xml:space="preserve">
+    <value>Check out</value>
+  </data>
+  <data name="lblHello" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="lblHelloVisitor" xml:space="preserve">
+    <value>Hello visitor</value>
+  </data>
+  <data name="lblLogoff" xml:space="preserve">
+    <value>Log off</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="lblSortBy" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="lblSortByDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblUpdateUserDetails" xml:space="preserve">
+    <value>Update user details</value>
+  </data>
+  <data name="lessonsBuy" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="lessonsInBasket" xml:space="preserve">
+    <value>Items in basket</value>
+  </data>
+  <data name="lessonsLessonOrBundle" xml:space="preserve">
+    <value>Lesson/Bundle</value>
+  </data>
+  <data name="lessonsPrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="lessonsReadingDate" xml:space="preserve">
+    <value>Reading &lt;br&gt; Date</value>
+  </data>
+  <data name="lessonsTeacher" xml:space="preserve">
+    <value>Teacher</value>
+  </data>
+  <data name="phSelectDate" xml:space="preserve">
+    <value>select date</value>
+  </data>
+  <data name="phTeachingArea" xml:space="preserve">
+    <value>teaching area</value>
+  </data>
+  <data name="topnavHomePage" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="topnavMyLessons" xml:space="preserve">
+    <value>My Lessons</value>
+  </data>
+  <data name="lblClipSize" xml:space="preserve">
+    <value>Clip size</value>
+  </data>
+  <data name="lblCreated" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="lblDemoDownloads" xml:space="preserve">
+    <value>Demo downloads</value>
+  </data>
+  <data name="lblDownloads" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="lblExistsNikud" xml:space="preserve">
+    <value>Contains nikud</value>
+  </data>
+  <data name="lblExistsTeamim" xml:space="preserve">
+    <value>Contains teamim</value>
+  </data>
+  <data name="lblExistsTeamimAndNukud" xml:space="preserve">
+    <value>Contains teamim and nikud</value>
+  </data>
+  <data name="lblFileSize" xml:space="preserve">
+    <value>File size</value>
+  </data>
+  <data name="lblItemId" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="lblLessonInactive" xml:space="preserve">
+    <value>lesson inactive</value>
+  </data>
+  <data name="lblLessonManagementTitle" xml:space="preserve">
+    <value>Teacher/Manager</value>
+  </data>
+  <data name="lblLessonRemarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="lblLessonVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="lblModified" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="lblPreformer" xml:space="preserve">
+    <value>Performer</value>
+  </data>
+  <data name="lblPurchases" xml:space="preserve">
+    <value>Purchases</value>
+  </data>
+  <data name="lblSendMessage" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblSupport" xml:space="preserve">
+    <value>Support Price</value>
+  </data>
+  <data name="lblTeacherDetails" xml:space="preserve">
+    <value>Teacher Details</value>
+  </data>
+  <data name="lblTeacherInactive" xml:space="preserve">
+    <value>Teacher Inactive</value>
+  </data>
+  <data name="lblTeacherResidence" xml:space="preserve">
+    <value>Teacher's residence</value>
+  </data>
+  <data name="lblTeachingArea2" xml:space="preserve">
+    <value>Teaching area</value>
+  </data>
+  <data name="phTeacherName" xml:space="preserve">
+    <value>Teacher Name</value>
+  </data>
+  <data name="lblUpdated" xml:space="preserve">
+    <value>Updated At</value>
+  </data>
+  <data name="lblChangeInterfaceLanguage" xml:space="preserve">
+    <value>Change interface language</value>
+  </data>
+  <data name="lblChangeLanguage" xml:space="preserve">
+    <value>Change to Hebrew</value>
+  </data>
+  <data name="phTeacherDescription" xml:space="preserve">
+    <value>teacher description</value>
+  </data>
+  <data name="phTeacherDescriptionEnglish" xml:space="preserve">
+    <value>english teachers description</value>
+  </data>
+  <data name="lessonUpdateCreated" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="lessonUpdateDescription" xml:space="preserve">
+    <value>Lesson Description</value>
+  </data>
+  <data name="lessonUpdateDescriptionEnglish" xml:space="preserve">
+    <value>Lesosn Description English</value>
+  </data>
+  <data name="lessonUpdateDialogTitle" xml:space="preserve">
+    <value>Lesson Update</value>
+  </data>
+  <data name="lessonUpdateLessonName" xml:space="preserve">
+    <value>Lesson Name</value>
+  </data>
+  <data name="lessonUpdateLessonPrice" xml:space="preserve">
+    <value>Lesson Price</value>
+  </data>
+  <data name="lessonUpdateMinPrice" xml:space="preserve">
+    <value>Minimum Price</value>
+  </data>
+  <data name="lessonUpdateModified" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="lessonUpdatePerformaerEnglish" xml:space="preserve">
+    <value>Performer English</value>
+  </data>
+  <data name="lessonUpdatePerformer" xml:space="preserve">
+    <value>Performer</value>
+  </data>
+  <data name="lessonUpdateReadingDates" xml:space="preserve">
+    <value>Reading Dates</value>
+  </data>
+  <data name="lessonUpdateReamrksEngilish" xml:space="preserve">
+    <value>Remarks English</value>
+  </data>
+  <data name="lessonUpdateRemarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="lessonUpdateStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lessonUpdateSupportPrice" xml:space="preserve">
+    <value>Support Price</value>
+  </data>
+  <data name="lessonUpdateTeacher" xml:space="preserve">
+    <value>Teacher</value>
+  </data>
+  <data name="lessonUpdateVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="lblPleaseWait" xml:space="preserve">
+    <value>Please Wait</value>
+  </data>
+  <data name="lblSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lessonUpdateMinPriceValidation" xml:space="preserve">
+    <value>price has to be higher than minimum price</value>
+  </data>
+  <data name="validationNumericField" xml:space="preserve">
+    <value>please enter numbers only</value>
+  </data>
+  <data name="emailNewTeacherSubject" xml:space="preserve">
+    <value>new teacher registration</value>
+  </data>
+  <data name="homepageApplication" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="homepageHowWeTeach" xml:space="preserve">
+    <value>This is how we teach &gt;&gt;</value>
+  </data>
+  <data name="homepageLessongsAndPackages" xml:space="preserve">
+    <value>Lessons and Packages</value>
+  </data>
+  <data name="homepageTeachers" xml:space="preserve">
+    <value>Teachers</value>
+  </data>
+  <data name="lblChangeContentWorld" xml:space="preserve">
+    <value>Change content world</value>
+  </data>
+  <data name="lblChangeCurrency" xml:space="preserve">
+    <value>Change Currency</value>
+  </data>
+  <data name="lblWorldDisplayName" xml:space="preserve">
+    <value>Content World:</value>
+  </data>
+  <data name="worldBannerGeneralMainTitle" xml:space="preserve">
+    <value>Learning while having fun</value>
+  </data>
+  <data name="worldBannerGeneralSubTitle" xml:space="preserve">
+    <value>Everything you need for easy learning</value>
+  </data>
+  <data name="worldBannerToraMainTitle" xml:space="preserve">
+    <value>Learning while having fun</value>
+  </data>
+  <data name="worldBannerToraSubTitle" xml:space="preserve">
+    <value>Everything you need for tora studies</value>
+  </data>
+  <data name="worldpickerSubTitle" xml:space="preserve">
+    <value>Please choose your content</value>
+  </data>
+  <data name="worldpickerTitle" xml:space="preserve">
+    <value>Welcome !</value>
+  </data>
+  <data name="btnPackageAddLesson" xml:space="preserve">
+    <value>Add Lesson</value>
+  </data>
+  <data name="btnPackageClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnPackageSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnPackageSaveAsNew" xml:space="preserve">
+    <value>Save as new</value>
+  </data>
+  <data name="lblPackageCreated" xml:space="preserve">
+    <value>Created At</value>
+  </data>
+  <data name="lblPackageDescription" xml:space="preserve">
+    <value>Package Description</value>
+  </data>
+  <data name="lblPackageDescriptionEnglish" xml:space="preserve">
+    <value>Package Description English</value>
+  </data>
+  <data name="lblPackageId" xml:space="preserve">
+    <value>Package Id:</value>
+  </data>
+  <data name="lblPackageLessonsListTitle" xml:space="preserve">
+    <value>Lessons List</value>
+  </data>
+  <data name="lblPackageMinPrice" xml:space="preserve">
+    <value>Minimum Price</value>
+  </data>
+  <data name="lblPackageModified" xml:space="preserve">
+    <value>Modified At</value>
+  </data>
+  <data name="lblPackageName" xml:space="preserve">
+    <value>Package Name</value>
+  </data>
+  <data name="lblPackageNameAddition" xml:space="preserve">
+    <value>Package Name Addition</value>
+  </data>
+  <data name="lblPackageNameAdditionEnglish" xml:space="preserve">
+    <value>Package Name Addition english</value>
+  </data>
+  <data name="lblPackagePrice" xml:space="preserve">
+    <value>Package Price</value>
+  </data>
+  <data name="lblPackageStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblPackageSupportPrice" xml:space="preserve">
+    <value>Support Price</value>
+  </data>
+  <data name="lblPackageTeacher" xml:space="preserve">
+    <value>Teacher</value>
+  </data>
+  <data name="lessonsCreateCupon" xml:space="preserve">
+    <value>Create Coupon</value>
+  </data>
+  <data name="lessonsCreatePackage" xml:space="preserve">
+    <value>Create Package</value>
+  </data>
+  <data name="lessonsUpdateLesson" xml:space="preserve">
+    <value>Update Lesson</value>
+  </data>
+  <data name="errTooManyClipsInBundle" xml:space="preserve">
+    <value>Cannot add any more clips to this bundle, it is possible to add up to {0} lessons</value>
+  </data>
+  <data name="phSelecteCategory" xml:space="preserve">
+    <value>select category</value>
+  </data>
+  <data name="lblMinPriceWait" xml:space="preserve">
+    <value>calcualting minimum price...</value>
+  </data>
+  <data name="errCanotAddBundleGeneral" xml:space="preserve">
+    <value>There was an error creating the bundle, please try again later or contact the system administrator</value>
+  </data>
+  <data name="errSameBundleName" xml:space="preserve">
+    <value>There is another bundle in with the same name, please enter a different name</value>
+  </data>
+  <data name="lblBackToLessons" xml:space="preserve">
+    <value>Back To Clips</value>
+  </data>
+  <data name="lblIsInBundle" xml:space="preserve">
+    <value>Click here for bundles</value>
+  </data>
+  <data name="lblBundle" xml:space="preserve">
+    <value>Bundle</value>
+  </data>
+  <data name="lessonUpdatePackage" xml:space="preserve">
+    <value>Update Package</value>
+  </data>
+  <data name="lessonDeletePackage" xml:space="preserve">
+    <value>Delete Package</value>
+  </data>
+  <data name="addToBasket" xml:space="preserve">
+    <value>Add To Basket</value>
+  </data>
+  <data name="addToBasketWithSupport" xml:space="preserve">
+    <value>Add  With Support</value>
+  </data>
+  <data name="errTeacherNotFound" xml:space="preserve">
+    <value>The teacher was not found in the system</value>
+  </data>
+  <data name="goToTeacherPage" xml:space="preserve">
+    <value>Go To Teacher's Page</value>
+  </data>
+  <data name="orderDemo" xml:space="preserve">
+    <value>Order Free Demo</value>
+  </data>
+  <data name="performerIsNotTeacher" xml:space="preserve">
+    <value>Not performed by teacher</value>
+  </data>
+  <data name="validationDateInPastError" xml:space="preserve">
+    <value>dates must be in the future</value>
+  </data>
+  <data name="writeMessage" xml:space="preserve">
+    <value>Write Message</value>
+  </data>
+  <data name="deleteBundleConfirm" xml:space="preserve">
+    <value>This bundle will be deleted, please confirm.</value>
+  </data>
+  <data name="deleteLessonInPackage" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="pleaseWait" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="searchAddLessons" xml:space="preserve">
+    <value>Add Lessons</value>
+  </data>
+  <data name="searchHasNotResults" xml:space="preserve">
+    <value>&lt;div&gt;
+                &lt;p&gt;No results found&lt;/p&gt;
+                &lt;p&gt;Please change the search filters&lt;/p&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="serachLessonTitle" xml:space="preserve">
+    <value>Search Lesson</value>
+  </data>
+  <data name="updateBundleInactiveLessonInBundle" xml:space="preserve">
+    <value>The package contains inactive lessons</value>
+  </data>
+  <data name="updateBundleNoLessonsSelected" xml:space="preserve">
+    <value>There are no lessons selected for this package</value>
+  </data>
+  <data name="updateBundleTeacherNotFound" xml:space="preserve">
+    <value>The specified teacher could not be found in the system</value>
+  </data>
+  <data name="updateLessonGeneralError" xml:space="preserve">
+    <value>There was an error updating the lesson</value>
+  </data>
+  <data name="phUserGroup" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="phUserSubGroup" xml:space="preserve">
+    <value>Sub Group</value>
+  </data>
+  <data name="managerAreaForStudent" xml:space="preserve">
+    <value>Admin Section</value>
+  </data>
+  <data name="treeClearSelectrion" xml:space="preserve">
+    <value>Clear Selection</value>
+  </data>
+  <data name="lessonPriceIsZero" xml:space="preserve">
+    <value>Please set a price for the lesson</value>
+  </data>
+  <data name="clipDuration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="formValidationSummary" xml:space="preserve">
+    <value>There are some errors in this form</value>
+  </data>
+  <data name="illegalEmailAddress" xml:space="preserve">
+    <value>The E-Mail is not in a correct format</value>
+  </data>
+  <data name="registrationGeneralError" xml:space="preserve">
+    <value>General error, please try again later</value>
+  </data>
+  <data name="selectGroup" xml:space="preserve">
+    <value>Select Group</value>
+  </data>
+  <data name="selectSubGroup" xml:space="preserve">
+    <value>Select sub group</value>
+  </data>
+  <data name="userExistsInTheSystem" xml:space="preserve">
+    <value>This user name is taken</value>
+  </data>
+  <data name="userNotAllowedToLogin" xml:space="preserve">
+    <value>Cannot login to the system, the user status is {0}</value>
+  </data>
+  <data name="lblBundleInactive" xml:space="preserve">
+    <value>Bundle Inactive</value>
+  </data>
+  <data name="bundleNameNotSet" xml:space="preserve">
+    <value>Bundle name not set, please select a category value or set a package name addition value</value>
+  </data>
+  <data name="idleTimeoutResume" xml:space="preserve">
+    <value>Click here to continue using this web page</value>
+  </data>
+  <data name="inactivityLogoff" xml:space="preserve">
+    <value>You will be logged off in &lt;span&gt;&lt;!-- countdown place holder --&gt;&lt;/span&gt;&amp;nbsp;seconds due to inactivity.</value>
+  </data>
+  <data name="couponAmountForPayment" xml:space="preserve">
+    <value>Amount for payment:</value>
+  </data>
+  <data name="couponAmountToPay" xml:space="preserve">
+    <value>Amount to pay:</value>
+  </data>
+  <data name="couponBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="couponBundleName" xml:space="preserve">
+    <value>Package name</value>
+  </data>
+  <data name="couponCreateCoupon" xml:space="preserve">
+    <value>Create Coupon</value>
+  </data>
+  <data name="couponCurrentPrice" xml:space="preserve">
+    <value>Current  price:</value>
+  </data>
+  <data name="couponDiscountToolittle" xml:space="preserve">
+    <value>The discount price must be lower than 10% of the original price</value>
+  </data>
+  <data name="couponFor" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="couponLessonName" xml:space="preserve">
+    <value>lesson name:</value>
+  </data>
+  <data name="couponMaxDiscountWarnning" xml:space="preserve">
+    <value>Notice  - the discount exceeds the maximum allowed - </value>
+  </data>
+  <data name="couponNumber" xml:space="preserve">
+    <value>coupon number</value>
+  </data>
+  <data name="couponPay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="couponPriceIsZero" xml:space="preserve">
+    <value>Please enter a discount price</value>
+  </data>
+  <data name="couponRegularDiscountPrice" xml:space="preserve">
+    <value>Regular discount price:</value>
+  </data>
+  <data name="couponRegularPriceForStudent" xml:space="preserve">
+    <value>Student price:</value>
+  </data>
+  <data name="couponSentToYou" xml:space="preserve">
+    <value>Sent to you and {0}</value>
+  </data>
+  <data name="couponStudentEmailAddress" xml:space="preserve">
+    <value>Student email address</value>
+  </data>
+  <data name="couponStudentPrice" xml:space="preserve">
+    <value>Student price</value>
+  </data>
+  <data name="couponTeacherDiscountPrice" xml:space="preserve">
+    <value>Teacher discount price:</value>
+  </data>
+  <data name="couponTitle" xml:space="preserve">
+    <value>Create coupon for lesson/bundle</value>
+  </data>
+  <data name="couponUserNotFoundError" xml:space="preserve">
+    <value>The user was not found</value>
+  </data>
+  <data name="couponValidUntil" xml:space="preserve">
+    <value>coupon is valid for a week until</value>
+  </data>
+  <data name="couponWillBeChargedFromYourAccount" xml:space="preserve">
+    <value>Will be charged from your account:</value>
+  </data>
+  <data name="couponYourBallance" xml:space="preserve">
+    <value>Your ballance:</value>
+  </data>
+  <data name="coupunIncludingSupport" xml:space="preserve">
+    <value>Including support</value>
+  </data>
+  <data name="generalError" xml:space="preserve">
+    <value>There was  a system error, please try again later</value>
+  </data>
+  <data name="couponEmailSubject" xml:space="preserve">
+    <value>Message from MyMentroApp - {0} bought you a discount coupon - {1}</value>
+  </data>
+  <data name="couponApprove" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="couponNumericValidation" xml:space="preserve">
+    <value>Value must be a number</value>
+  </data>
+  <data name="createCouponGeneralError" xml:space="preserve">
+    <value>Cannot create a coupon right now, please try again at another time</value>
+  </data>
+  <data name="paypalCuponFor" xml:space="preserve">
+    <value>Coupon for:</value>
+  </data>
+  <data name="paypalCuponForBundle" xml:space="preserve">
+    <value>Coupon for bundle :</value>
+  </data>
+  <data name="shoppingCartBundleAdded" xml:space="preserve">
+    <value>The bundle was added to the shopping cart</value>
+  </data>
+  <data name="shoppingCartDemoAdded" xml:space="preserve">
+    <value>The demo was added to the shopping cart</value>
+  </data>
+  <data name="shoppingCartDialogBack" xml:space="preserve">
+    <value>&lt;&lt;Back to lessons and packages</value>
+  </data>
+  <data name="shoppingCartLessonAdded" xml:space="preserve">
+    <value>The lesson was added to the shopping cart</value>
+  </data>
+  <data name="myAccountAction" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="myAccountAmount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="myAccountCredit" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="myAccountDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="myAccountEndDate" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="myAccountEvent" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="myAccountFill" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="myAccountItem" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="myAccountOrder" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="myAccountPrevCredit" xml:space="preserve">
+    <value>Previous Credit</value>
+  </data>
+  <data name="myAccountRemarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="myAccountShow" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="myAccountStartDate" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="myAccountStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="myAccountTitle" xml:space="preserve">
+    <value>My Account</value>
+  </data>
+  <data name="myAccountType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="myAccountUser" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="coupon" xml:space="preserve">
+    <value>Coupon</value>
+  </data>
+  <data name="itemFor" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="myAccountDueDate" xml:space="preserve">
+    <value>Due date</value>
+  </data>
+  <data name="myAccountNoResults" xml:space="preserve">
+    <value>Could not find matches</value>
+  </data>
+  <data name="myAccountDateError" xml:space="preserve">
+    <value>Start date is after the end date</value>
+  </data>
+  <data name="userNameDoesNotExist" xml:space="preserve">
+    <value>The user does not exist in the system</value>
+  </data>
+  <data name="myAccountCouponBundle" xml:space="preserve">
+    <value>Bundle</value>
+  </data>
+  <data name="myAccountCouponClip" xml:space="preserve">
+    <value>Lesson</value>
+  </data>
+  <data name="myAccountCouponCode" xml:space="preserve">
+    <value>Coupon Code</value>
+  </data>
+  <data name="myAccountCouponDiscountPrice" xml:space="preserve">
+    <value>Discount Price</value>
+  </data>
+  <data name="myAccountCouponIssuedBy" xml:space="preserve">
+    <value>Issued By</value>
+  </data>
+  <data name="myAccountCouponIssuedByName" xml:space="preserve">
+    <value>Issued By Name</value>
+  </data>
+  <data name="myAccountCouponIssuedFor" xml:space="preserve">
+    <value>Issued For</value>
+  </data>
+  <data name="myAccountCouponIssuedForName" xml:space="preserve">
+    <value>Issued For Name</value>
+  </data>
+  <data name="myAccountCouponIssueEvent" xml:space="preserve">
+    <value>Issue Event</value>
+  </data>
+  <data name="myAccountCouponOriginalPrice" xml:space="preserve">
+    <value>Original Price</value>
+  </data>
+  <data name="myAccountCouponSiteFee" xml:space="preserve">
+    <value>Site Fee</value>
+  </data>
+  <data name="myAccountCouponStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="myAccountCouponTeacherFee" xml:space="preserve">
+    <value>Teacher Fee</value>
+  </data>
+  <data name="myAccountCouponType" xml:space="preserve">
+    <value>Coupon Type</value>
+  </data>
+  <data name="myAccountCouponUseDate" xml:space="preserve">
+    <value>User Date</value>
+  </data>
+  <data name="myAccountCouponUseEvent" xml:space="preserve">
+    <value>Use Event</value>
+  </data>
+  <data name="myAccountEventCode" xml:space="preserve">
+    <value>Event code</value>
+  </data>
+  <data name="myAccountEventCouponCode" xml:space="preserve">
+    <value>Coupon code</value>
+  </data>
+  <data name="myAccountEventCreatedAt" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="myAccountEventCreatedBy" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="myAccountEventCreatedByDisplayName" xml:space="preserve">
+    <value>Created by name</value>
+  </data>
+  <data name="myAccountEventEndTime" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="myAccountEventPaymentCode" xml:space="preserve">
+    <value>Payment code</value>
+  </data>
+  <data name="myAccountEventStartTime" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="myAccountEventStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="myAccountEventType" xml:space="preserve">
+    <value>Event type</value>
+  </data>
+  <data name="Min2LessonsInBundle" xml:space="preserve">
+    <value>You must select at least 2 lessons for this bundle</value>
+  </data>
+  <data name="myAccountEventAmount" xml:space="preserve">
+    <value>payment amount</value>
+  </data>
+  <data name="myAccountPaypalId" xml:space="preserve">
+    <value>Paypal Transaction ID</value>
+  </data>
+  <data name="myAccountPaypalStatus" xml:space="preserve">
+    <value>Paypal payment status</value>
+  </data>
+  <data name="couponAlreadyExists" xml:space="preserve">
+    <value>This coupon exists. Are you sure you want to create another coupon? not recommended.</value>
+  </data>
+  <data name="collapse" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="expand" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="residenceCountry" xml:space="preserve">
+    <value>country</value>
+  </data>
+  <data name="sugOsek" xml:space="preserve">
+    <value>Employee Type</value>
+  </data>
+  <data name="chooseSugOsek" xml:space="preserve">
+    <value>Select Employee Type</value>
+  </data>
+  <data name="phAdminRemarks" xml:space="preserve">
+    <value>Admin Remarks</value>
+  </data>
+  <data name="phLockCountry" xml:space="preserve">
+    <value>Lock Country</value>
+  </data>
+  <data name="phLockCurrency" xml:space="preserve">
+    <value>Lock Currency</value>
+  </data>
+  <data name="phLockSugNirut" xml:space="preserve">
+    <value>Lock Visibility Type</value>
+  </data>
+  <data name="phLockSugOsek" xml:space="preserve">
+    <value>Lock Employee Type</value>
+  </data>
+  <data name="phOriginalTaxPercent" xml:space="preserve">
+    <value>Tax Rate</value>
+  </data>
+  <data name="sugOsekRequired" xml:space="preserve">
+    <value>Employee Type is requiered</value>
+  </data>
+  <data name="teacherHidden" xml:space="preserve">
+    <value>InvisibleTeacher</value>
+  </data>
+  <data name="aboutPaypal" xml:space="preserve">
+    <value>About Paypal</value>
+  </data>
+  <data name="appUserMoreDetails" xml:space="preserve">
+    <value>&lt;div id="appuserMessage" class="dialog_mentor" title="MyMentor Registration"&gt;
+        &lt;p class="font18 alefBold center"&gt;
+	   Hello {0}. Registration was successfull!
+        &lt;/p&gt;
+        &lt;p&gt;
+Please complete you registration by filling in the required fields
+        &lt;/p&gt;
+        
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;complete registration&gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="appUserUpdateDetails" xml:space="preserve">
+    <value>Update account</value>
+  </data>
+  <data name="chooseCurrency" xml:space="preserve">
+    <value>choose currency</value>
+  </data>
+  <data name="checkoutBackTolessons" xml:space="preserve">
+    <value>Back to lessons</value>
+  </data>
+  <data name="checkoutBalance" xml:space="preserve">
+    <value>Your Balance</value>
+  </data>
+  <data name="checkoutPay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="checkoutPurchaseFor" xml:space="preserve">
+    <value>Purchase For</value>
+  </data>
+  <data name="checkoutSubstractedFromBalance" xml:space="preserve">
+    <value>Substracted From Balance</value>
+  </data>
+  <data name="checkoutTitle" xml:space="preserve">
+    <value>Checkout</value>
+  </data>
+  <data name="checkoutTotalPayment" xml:space="preserve">
+    <value>Total Payment</value>
+  </data>
+  <data name="checkoutTotalPurchase" xml:space="preserve">
+    <value>Total Purchase</value>
+  </data>
+  <data name="checkoutTotalPurchaseAfterCoupon" xml:space="preserve">
+    <value>Total Purchase After Coupon</value>
+  </data>
+  <data name="checkoutUnusedCouponsTitle" xml:space="preserve">
+    <value>You have unused coupons !</value>
+  </data>
+  <data name="checkoutAddCoupon" xml:space="preserve">
+    <value>Add Coupon</value>
+  </data>
+  <data name="checkoutBundle" xml:space="preserve">
+    <value>Bundle</value>
+  </data>
+  <data name="checkoutCoupon" xml:space="preserve">
+    <value>Coupon</value>
+  </data>
+  <data name="checkoutCouponTitleTemplate" xml:space="preserve">
+    <value>Coupon for {0}: {1} original price-{2} your price-{3} expires on {4}</value>
+  </data>
+  <data name="checkoutIncludingSupport" xml:space="preserve">
+    <value>Including Support</value>
+  </data>
+  <data name="checkoutLesson" xml:space="preserve">
+    <value>Lesson</value>
+  </data>
+  <data name="checkoutPrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="checkoutRemoveCoupon" xml:space="preserve">
+    <value>Remove Coupon</value>
+  </data>
+  <data name="checkoutRemovePurchase" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="checkoutUseCoupon" xml:space="preserve">
+    <value>Do you want to utilize this coupon?</value>
+  </data>
+  <data name="completeRegistration" xml:space="preserve">
+    <value>You must complete your registration</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="checkoutAddCouponConfirm" xml:space="preserve">
+    <value>Do you want to use this coupon?</value>
+  </data>
+  <data name="checkoutConfirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="showMoreBundles" xml:space="preserve">
+    <value>Show More Bundles</value>
+  </data>
+  <data name="addupdateBundle" xml:space="preserve">
+    <value>Add/Update bundle</value>
+  </data>
+  <data name="bundlePriceLessThanClipsSum" xml:space="preserve">
+    <value>The bundle price has to be lower than 10% of all it's clips</value>
+  </data>
+  <data name="showBundle" xml:space="preserve">
+    <value>Show bundle</value>
+  </data>
+  <data name="purchaseForUserDoesNotExist" xml:space="preserve">
+    <value>The user {0} does not exist in the system</value>
+  </data>
+  <data name="includingSupport" xml:space="preserve">
+    <value>Including support</value>
+  </data>
+  <data name="notIncludingSupport" xml:space="preserve">
+    <value>Not including support</value>
+  </data>
+  <data name="maBundleId" xml:space="preserve">
+    <value>Bundle Code</value>
+  </data>
+  <data name="maBundleName" xml:space="preserve">
+    <value>Bundle Name</value>
+  </data>
+  <data name="maBundleStatus" xml:space="preserve">
+    <value>Bundle Status</value>
+  </data>
+  <data name="maBuyerName" xml:space="preserve">
+    <value>Buter Name</value>
+  </data>
+  <data name="maBuyerUserName" xml:space="preserve">
+    <value>Buyer</value>
+  </data>
+  <data name="maCouponId" xml:space="preserve">
+    <value>Coupon Code</value>
+  </data>
+  <data name="maDownloadsCounter" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="maEventId" xml:space="preserve">
+    <value>Event Code</value>
+  </data>
+  <data name="maFirstDownloadDate" xml:space="preserve">
+    <value>First Download</value>
+  </data>
+  <data name="maLessonId" xml:space="preserve">
+    <value>Lesson Code</value>
+  </data>
+  <data name="maLessons" xml:space="preserve">
+    <value>Lessons</value>
+  </data>
+  <data name="maLessontatus" xml:space="preserve">
+    <value>Lesson Status</value>
+  </data>
+  <data name="maName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="maPrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="maPurchaseStatus" xml:space="preserve">
+    <value>PurchaseStatus</value>
+  </data>
+  <data name="maRecieverName" xml:space="preserve">
+    <value>Reciever Name</value>
+  </data>
+  <data name="maRecieverUserName" xml:space="preserve">
+    <value>Reciever</value>
+  </data>
+  <data name="maStatusDate" xml:space="preserve">
+    <value>Status Date</value>
+  </data>
+  <data name="maSupportPrice" xml:space="preserve">
+    <value>Support Price</value>
+  </data>
+  <data name="maTeacherName" xml:space="preserve">
+    <value>Teacher Name</value>
+  </data>
+  <data name="maTeacherUserName" xml:space="preserve">
+    <value>Teacher User Name</value>
+  </data>
+  <data name="checkoutBalanceCover" xml:space="preserve">
+    <value>Balance Cover</value>
+  </data>
+  <data name="LetterCopy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="LetterSource" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="errorCreatingCoupon" xml:space="preserve">
+    <value>Error creating a coupon!! User-{0} Event-{1}</value>
+  </data>
+  <data name="teacherRegistrationEmailSubject" xml:space="preserve">
+    <value>Teacher registration request by {0}</value>
+  </data>
+  <data name="couponErrAgentNotFound" xml:space="preserve">
+    <value>Agent not found</value>
+  </data>
+  <data name="couponErrPaymentFailedDbError" xml:space="preserve">
+    <value>Payment failed. Database update failed</value>
+  </data>
+  <data name="couponErrPaymentSuccessDbError" xml:space="preserve">
+    <value>Payment was done. Database update failed</value>
+  </data>
+  <data name="couponErrUserCancelDbErrpr" xml:space="preserve">
+    <value>User canceled payment. Database updaste failed</value>
+  </data>
+  <data name="couponLetterEventPlaceholder" xml:space="preserve">
+    <value>, Event - {0}</value>
+  </data>
+  <data name="newTeacherEmailApprovalSubject" xml:space="preserve">
+    <value>MyMentorApp – {0}, Your registration as a teacher was approved.</value>
+  </data>
+</root>

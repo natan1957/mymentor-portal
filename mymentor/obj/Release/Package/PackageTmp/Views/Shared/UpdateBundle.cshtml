@@ -1,0 +1,149 @@
+﻿@using MyMentor.BL.App_GlobalResources
+
+<div id="dialog_editLessonPackage" class="dialog_mentor" title="@MyMentorResources.addupdateBundle" data-bind="attr:{'data-title-mask':BundleTitleMask}">
+    <div class="inputWrapper clearfix">
+        <label>
+            @if (Model != null)
+{
+    <span class="floatL" data-bind="visible:ObjectId()!=undefined && ObjectId().length > 0">
+        @MyMentorResources.lblPackageId
+        <!-- ko text: ObjectId --><!-- /ko -->
+    </span>
+}
+            @MyMentorResources.lblPackageName <span class="lessonName margin10b font18 alef">
+                <span class="lessonHeaderText" data-bind="html:lessonTitleComputed"></span>
+            </span>
+        </label>
+    </div>
+    <div class="inputWrapper">
+        <label for="">
+            @MyMentorResources.lblPackageNameAddition
+        </label>
+        <input type="text" placeholder="" data-bind="value:Remarks_he_il">
+    </div>
+    <div class="inputWrapper">
+        <label for="">
+            @MyMentorResources.lblPackageNameAdditionEnglish
+        </label>
+        <input class="englishInput" type="text" placeholder="" data-bind="value:Remarks_en_us">
+    </div>
+    <div class="inputWrapper">
+        <label for="">
+            @MyMentorResources.lblPackageDescription
+        </label>
+        <textarea class="descriptionInput" placeholder="" data-bind="value:Description_he_il"></textarea>
+    </div>
+    <div class="inputWrapper">
+        <label for="">
+            @MyMentorResources.lblPackageDescriptionEnglish
+        </label>
+        <textarea class="descriptionInput englishInput" placeholder="" data-bind="value:Description_en_us"></textarea>
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+        <label for="" class="floatR">
+            @MyMentorResources.lblPackageTeacher
+        </label>
+        <label for="" class="floatL">
+            @MyMentorResources.lblPackageMinPrice
+        </label>
+        <input type="text" class="floatR" placeholder="" value="" data-bind="value:TeacherName" disabled="disabled">
+        <span class="inputPriceText arial floatL">@Html.Action("GetUserCurrencySymbol", "Home")</span>
+        <input type="text" class="inputPrice floatL" placeholder=""  value="" data-bind="value:MinimumPrice" disabled="disabled">
+    </div>
+  
+    <div class="inputWrapper twoColumn clearfix">
+        <label for="" class="floatR" data-bind="html:CategoryName1"></label>
+        <label for="" class="floatL">
+            @MyMentorResources.lblPackagePrice
+            <div class="field-validation-error" data-bind='visible: Price.numericError, text: "@MyMentorResources.validationNumericField    "'></div>
+            <div class="field-validation-error" data-bind='visible: Price.requiredError, text: "@MyMentorResources.validationNumericField    "'></div>
+            <div class="field-validation-error" data-bind='visible: Price.minPriceError, text: "@MyMentorResources.lessonUpdateMinPriceValidation    "'></div>
+        </label>
+       
+        <select class="floatR" data-bind="options:Category1Values,
+                                            optionsText:'Value',
+                                            optionsValue:'Key',
+                                            value:SelectedCategory1Value,visible:Category1VisibleComputed()"></select>
+        <span class="inputPriceText arial floatL">@Html.Action("GetUserCurrencySymbol", "Home")</span>
+        <input type="text" class="inputPrice floatL" placeholder="" data-bind="value:Price">
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+        <label for="" class="floatR" data-bind="html:CategoryName2"></label>
+        <label for="" class="floatL">
+            @MyMentorResources.lblPackageSupportPrice
+            <div class="field-validation-error" data-bind='visible: SupportPrice.numericError, text: "@MyMentorResources.validationNumericField    "'></div>
+        </label>
+        <select class="floatR" data-bind="options:ComputedCategory2Value,
+                                           optionsText:'Value',
+                                            optionsValue:'Key',
+                                          value:SelectedCategory2Value,visible:Category2VisibleComputed()"></select>
+        <span class="inputPriceText arial floatL">@Html.Action("GetUserCurrencySymbol", "Home")</span>
+        <input type="text" class="inputPrice floatL" placeholder="" value="" data-bind="value:SupportPrice">
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+        <label for="" class="floatR" data-bind="html:CategoryName3"></label>
+        <label for="" class="floatL">
+            @MyMentorResources.lblPackageStatus
+        </label>
+        <select class="floatR" data-bind="options:Category3Values,
+                                          optionsText:'Value',
+                                          optionsValue:'Key',
+                                          value:SelectedCategory3Value,visible:Category3VisibleComputed()"></select>
+        <select class="floatL" data-bind="options:StatusValues,
+                                          optionsText:'Value',
+                                          optionsValue:'Key',
+                                          value:SelectedStatus"></select>
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+        <label for="" class="floatR" data-bind="html:CategoryName4"></label>
+        <label for="" class="floatL" data-bind="visible:Created()!=undefined">
+            @MyMentorResources.lblPackageCreated
+        </label>
+        <select class="floatR" data-bind="options:Category4Values,
+                                          optionsText:'Value',
+                                          optionsValue:'Key',
+                                          value:SelectedCategory4Value,visible:Category4VisibleComputed()"></select>
+        <input type="text" class="floatL" placeholder="" data-bind="value:Created, visible:Created()!=undefined" disabled="disabled">
+    </div>
+    <div class="inputWrapper twoColumn clearfix" data-bind="visible:Updated() != undefined">
+        <label for="" class="floatLSingle">
+            @MyMentorResources.lblPackageModified
+        </label>
+        <input type="text" class="floatL" placeholder="" data-bind="value:Updated" disabled="disabled">
+    </div>
+    <div class="clearfix">
+        <span class="mentor_header">@MyMentorResources.lblPackageLessonsListTitle</span>
+        <a class="icon_question_blue floatL whiteTooltip" data-bind="attr:{title:LessonsExplanation}" href="javascript:void(0);"></a>
+    </div>
+    <div class="dialogPackageLesson arial">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="dialogPackageLessonTable" data-bind="foreach:BundleClips">
+            <tr>
+                <td class="details">
+                    <div class="azure" data-bind="html:ClipNamePart1"></div>
+                    <!-- ko text: ClipNamePart2 --><!-- /ko -->
+                </td>
+                <td class="priceStatus">
+                    <br />
+                    <!-- ko text: Price --><!-- /ko --> @Html.Action("GetUserCurrencySymbol", "Home")
+                    <br />
+                    <!-- ko text: Status --><!-- /ko -->
+                </td>
+                <td class="delete">
+                    <a href="javascript:void(0);" class="deleteLesson" data-bind="attr:{'data-item-id':Id}">@MyMentorResources.deleteLessonInPackage</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="dialog_btn_wrapper center clearfix">
+        <a class="btn_mentor closeDialog" href="javascript:void(0);">@MyMentorResources.btnPackageClose</a> &nbsp; &nbsp;
+        <a id="findDialog" class="btn_mentor" href="javascript:void(0);">@MyMentorResources.btnPackageAddLesson</a>
+        &nbsp;&nbsp; <a class="btn_mentor" href="javascript:void(0);" id="saveBundleAsNew">@MyMentorResources.btnPackageSaveAsNew</a> &nbsp;&nbsp;
+        <a class="btn_mentor" href="javascript:void(0);" id="saveBundle">@MyMentorResources.btnPackageSave</a>
+    </div>
+    <div class="field-validation-error" data-bind="visible:!isValid()">@MyMentorResources.formValidationSummary</div>
+    <div class="field-validation-error" data-bind='visible: BundleName.emptyError, text: "@MyMentorResources.bundleNameNotSet"'></div>
+    <div class="field-validation-error" data-bind='visible: BundleClips.min2Error, text: "@MyMentorResources.Min2LessonsInBundle"'></div>
+    <div class="field-validation-error" data-bind='visible: errorAddingClips() !=undefined, text:errorAddingClips'></div>
+</div>
+
+@Html.Action("GetLessonsSearchData", "Lessons")

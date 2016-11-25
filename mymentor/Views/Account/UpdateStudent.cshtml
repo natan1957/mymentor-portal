@@ -1,0 +1,218 @@
+﻿@model MyMentor.Models.StudentDetailsViewModel
+@using CaptchaMvc.HtmlHelpers
+@using MvcReCaptcha.Helpers
+@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Extentions
+@using MyMentor.BL.Models
+
+@{
+    Layout = "~/Views/Shared/MasterPages/_AccountLayout.cshtml";
+}
+
+
+<section role="main" class="main_content clearfix">
+    @using (Html.BeginForm("UpdateStudent", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+         <div class="fixedWidth innerPageContainer">
+            <div class="formContainer">
+                <h1 class="mentor_header">
+                    @MyMentorResources.lblUpdateStudent
+                </h1>
+
+
+                <div class="inputWrapper">
+                    @Html.LabelFor(m => m.FirstName, new { @class = "required" })
+                    @Html.TextBoxFor(m => m.FirstName, new { @placeholder = MyMentorResources.phFirstName })
+                    @Html.ValidationMessageFor(m => m.FirstName)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(m => m.LastName, new { @class = "required" })
+                    @Html.TextBoxFor(m => m.LastName, new { @placeholder = MyMentorResources.phLastName })
+                    @Html.ValidationMessageFor(m => m.LastName)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(m => m.Phone, new { @class = "required" })
+                    @Html.TextBoxFor(m => m.Phone, new { @placeholder = MyMentorResources.phPhone })
+                    @Html.ValidationMessageFor(m => m.Phone)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.MailRecipientAddress, new { @class = "required" })
+                    @Html.TextBoxFor(model => model.MailRecipientAddress)
+                    @Html.ValidationMessageFor(model => model.MailRecipientAddress)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(m => m.Email, new { @class = "required" })
+                    @Html.TextBoxFor(m => m.Email, new { @placeholder = MyMentorResources.phEmail })
+                    @Html.ValidationMessageFor(m => m.Email)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(m => m.CountryOfResidence, new { @for = "coutryOfResidence", @class = "required" })
+                    @Html.DropDownListFor(model => model.CountryOfResidence, new SelectList(Model.Countries, "Id", "Name", Model.CountryOfResidence), new Dictionary<string, object>
+                {
+                    {"id", "coutryOfResidence"}
+                })
+                    @Html.ValidationMessageFor(m => m.CountryOfResidence)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(m => m.SelectedDeviceType, new { @for = "deviceType", @class = "required" })
+                    @Html.DropDownListFor(model => model.SelectedDeviceType, new SelectList(Model.DeviceTypes, "Key", "Value", Model.SelectedDeviceType), MyMentorResources.phDeviceType, new Dictionary<string, object>
+                {
+                    {"data-bind", "value:selectedDeviceType"},
+                    {"data-unsupported-text",ViewBag.DeviceUnSupportedText},
+                    {"id", "deviceType"}
+                })
+                    @Html.ValidationMessageFor(m => m.SelectedDeviceType)
+                </div>
+
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.UserPrefferences.SelectedContentType)
+                    @Html.DropDownListFor(model => model.UserPrefferences.SelectedContentType, new SelectList(Model.UserPrefferences.ContentTypes, "Key", "Value"))
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.UserPrefferences.SelectedCurrency, new { @class = "required" })
+                    @Html.DropDownListFor(model => model.UserPrefferences.SelectedCurrency, new SelectList(Model.UserPrefferences.Currencies, "Key", "Value"), MyMentorResources.chooseCurrency)
+                    @Html.ValidationMessageFor(model => model.UserPrefferences.SelectedCurrency)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.UserPrefferences.SelectedLanguage)
+                    @Html.DropDownListFor(model => model.UserPrefferences.SelectedLanguage, new SelectList(Model.UserPrefferences.Languages, "Key", "Value"))
+                </div>
+
+                <div class="clearfix">
+                    <div class="inputLabel arial grey_text">
+                        @Html.CheckBoxFor(m => m.RegisterAsTeacher)
+
+                        <label for="teacherReq">
+                            @Html.Raw(MyMentorResources.lblRegisterAsTeacher)
+                        </label>
+                    </div>
+                </div>
+                @if (!ViewBag.IsAdmin)
+                {
+                    <div class="clearfix">
+                        <a href="javascript:void(0);" class="btn_mentor floatL submit">@MyMentorResources.btnSend</a>
+                        <a class="btn_mentor floatL marginLeftBtn" href="/" id="">@MyMentorResources.btnBack</a>
+                    </div>
+                    <div class="field-validation-error" data-bind="visible:!isValid()">@MyMentorResources.formValidationSummary</div>
+                }
+
+            </div>
+        </div>
+       
+        if (ViewBag.IsAdmin)
+        {
+            <div class="adminWrapper">
+                <div class="fixedWidth">
+                    <div class="formContainer">
+                        <p class="white font18">
+                            @MyMentorResources.managerAreaForStudent
+                        </p>
+
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.TCPTeacherCommission, new { @class = "white" })
+                            @Html.TextBoxFor(model => model.AdminData.TCPTeacherCommission)
+                        </div>
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.AgentUserName, new { @class = "white" })
+                            @Html.TextBoxFor(model => model.AdminData.AgentUserName)
+                        </div>
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.ACPAgentCommission, new { @class = "white" })
+                            @Html.TextBoxFor(model => model.AdminData.ACPAgentCommission)
+                        </div>
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.STRCommissionRatio, new { @class = "white" })
+                            @Html.TextBoxFor(model => model.AdminData.STRCommissionRatio)
+                            @Html.ValidationMessageFor(model => model.AdminData.STRCommissionRatio)
+                        </div>
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.UserPublishingStatus, new { @class = "white" })
+                            @Html.DropDownListFor(model => model.AdminData.UserPublishingStatus, new SelectList(Model.SugLessonPublishingStatus, "Key", "Value"))
+                        </div>
+
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.Group, new { @class = "white" })
+                            @Html.DropDownListFor(model => model.AdminData.Group,
+                            new SelectList(Model.Groups, "ObjectId",Language.CurrentLanguageCode == Cultures.HE_IL ? "Name":"NameEnglish", "select value"),
+                            new
+                            {
+                                data_subgroups = Model.SubGroups.ConvertToUserGroupDtos().GetJson(),
+                                id = "userGroups"
+                            })
+                        </div>
+
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.SubGroup, new { @class = "white" })
+                            <select name="AdminData.SubGroup" id="userSubGroups" data-selected-subgroup="@Model.AdminData.SubGroup"></select>
+                        </div>
+
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.UserStatus, new { @class = "white" })
+                            @Html.DropDownListFor(model => model.AdminData.UserStatus, new SelectList(Model.UserStatusValues, "Key", "Value"))
+                        </div>
+                        
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.AdminRemarks, new { @class = "white" })
+                            @Html.TextAreaFor(model => model.AdminData.AdminRemarks, new { @rows = 5, @class = "account-admin-comments" })
+                        </div>
+                        
+                        <div class="">
+                            @Html.CheckBoxFor(model => model.AdminData.LockCountry)
+                            @Html.LabelFor(model => model.AdminData.LockCountry, new { @class = "white" })
+                        </div>
+
+                        <div class="">
+                            @Html.CheckBoxFor(model => model.AdminData.LockCurrency)
+                            @Html.LabelFor(model => model.AdminData.LockCurrency, new { @class = "white" })
+                        </div>
+
+                        <br />
+
+                        @*<div class="clearfix saveCompWrapper inputLabel  arial grey_text">
+                                @Html.CheckBoxFor(m => m.ApproveTerms)
+                                @Html.Raw(MyMentor.BL.App_GlobalResources.MyMentorResources.lblTems)
+
+                            </div>*@
+                        <div class="clearfix">
+                            <a href="javascript:void(0);" class="btn_mentor floatL submit">@MyMentorResources.btnSend</a>
+                            <a class="btn_mentor floatL marginLeftBtn" href="/" id="">חזור</a>
+                        </div>
+                        <div class="field-validation-error" data-bind="visible:!isValid()">@MyMentorResources.formValidationSummary</div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</section>
+
+
+@if (Model.UpdateSuccess != null)
+{
+    @Html.Raw(ViewBag.UpdateStudentMessage)
+}
+@if (Model.AppUserMessage != null)
+{
+    @Html.Raw(Model.AppUserMessage)
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+        $(document).ready(function () {
+            _mymentor.initPage("updateStudent", {
+                "lockCountry": "@Model.AdminData.LockCountry",
+                "lockSugOsek": "@Model.AdminData.LockSugOsek",
+                "lockCurreny": "@Model.AdminData.LockCurrency",
+                "lockSugNirut": "@Model.AdminData.LockSugNirut",
+                "countryLockedMessage": "@Model.Messages.CountryLocked",
+                "sugOsekLockedMessage": "@Model.Messages.SugOsekLocked",
+                "currencyLockedMessage": "@Model.Messages.CurrencyLocked",
+                "sugNirutLockedMessage": "@Model.Messages.SugNirutLocked",
+                "agentNotFoundMessage": "@Model.Messages.AgentNotFound"
+
+            });
+        });
+    </script>
+}
+

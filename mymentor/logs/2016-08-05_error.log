@@ -1,0 +1,66 @@
+2016-08-05 07:16:03.9592 ERROR System.IO.FileLoadException: Could not load file or assembly 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb'
+   at MyMentor.BL.Paypal.ExpressCheckoutManager.ValidatePayment(List`1 checkoutItems, String currency, Double totalPayment)
+   at MyMentor.Logic.CheckoutLogic.GetPaymentUrl(CheckoutManager checkoutManager, CheckoutViewModel checkoutViewModel) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 191
+   at MyMentor.Logic.CheckoutLogic.ExecuteCompleteCheckout(ParseUser loggedInUser, CheckoutViewModel checkoutViewModel, String worldId, Purchase[] userHistoricalPurchases, String& paymentUrl) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 64
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2016-08-05 07:16:14.7051 ERROR System.IO.FileLoadException: Could not load file or assembly 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb'
+   at MyMentor.BL.Paypal.ExpressCheckoutManager.ValidatePayment(List`1 checkoutItems, String currency, Double totalPayment)
+   at MyMentor.Logic.CheckoutLogic.GetPaymentUrl(CheckoutManager checkoutManager, CheckoutViewModel checkoutViewModel) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 191
+   at MyMentor.Logic.CheckoutLogic.ExecuteCompleteCheckout(ParseUser loggedInUser, CheckoutViewModel checkoutViewModel, String worldId, Purchase[] userHistoricalPurchases, String& paymentUrl) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 64
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2016-08-05 07:17:53.0427 ERROR System.IO.FileLoadException: Could not load file or assembly 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb'
+   at MyMentor.BL.Paypal.ExpressCheckoutManager.ValidatePayment(List`1 checkoutItems, String currency, Double totalPayment)
+   at MyMentor.Logic.CheckoutLogic.GetPaymentUrl(CheckoutManager checkoutManager, CheckoutViewModel checkoutViewModel) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 191
+   at MyMentor.Logic.CheckoutLogic.ExecuteCompleteCheckout(ParseUser loggedInUser, CheckoutViewModel checkoutViewModel, String worldId, Purchase[] userHistoricalPurchases, String& paymentUrl) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 64
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2016-08-05 07:18:52.0067 ERROR System.IO.FileLoadException: Could not load file or assembly 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb'
+   at MyMentor.BL.Paypal.ExpressCheckoutManager.ValidatePayment(List`1 checkoutItems, String currency, Double totalPayment)
+   at MyMentor.Logic.CheckoutLogic.GetPaymentUrl(CheckoutManager checkoutManager, CheckoutViewModel checkoutViewModel) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 191
+   at MyMentor.Logic.CheckoutLogic.ExecuteCompleteCheckout(ParseUser loggedInUser, CheckoutViewModel checkoutViewModel, String worldId, Purchase[] userHistoricalPurchases, String& paymentUrl) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 64
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2016-08-05 07:20:49.4777 ERROR System.IO.FileLoadException: Could not load file or assembly 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb'
+   at MyMentor.BL.Paypal.ExpressCheckoutManager.ValidatePayment(List`1 checkoutItems, String currency, Double totalPayment)
+   at MyMentor.Logic.CheckoutLogic.GetPaymentUrl(CheckoutManager checkoutManager, CheckoutViewModel checkoutViewModel) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 191
+   at MyMentor.Logic.CheckoutLogic.ExecuteCompleteCheckout(ParseUser loggedInUser, CheckoutViewModel checkoutViewModel, String worldId, Purchase[] userHistoricalPurchases, String& paymentUrl) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 64
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2016-08-05 07:23:39.7307 ERROR System.IO.FileLoadException: Could not load file or assembly 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'PayPal, Version=1.7.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb'
+   at MyMentor.BL.Paypal.ExpressCheckoutManager.ValidatePayment(List`1 checkoutItems, String currency, Double totalPayment)
+   at MyMentor.Logic.CheckoutLogic.GetPaymentUrl(CheckoutManager checkoutManager, CheckoutViewModel checkoutViewModel) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 191
+   at MyMentor.Logic.CheckoutLogic.ExecuteCompleteCheckout(ParseUser loggedInUser, CheckoutViewModel checkoutViewModel, String worldId, Purchase[] userHistoricalPurchases, String& paymentUrl) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 64
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+

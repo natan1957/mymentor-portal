@@ -1,0 +1,104 @@
+﻿@using Microsoft.Ajax.Utilities
+@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Models
+
+<div id="dialog_coupon" class="dialog_mentor arial" title="@MyMentorResources.couponTitle" data-wait="@MyMentorResources.pleaseWait">
+    <div class="inputWrapper clearfix">
+        <label for="" class="">
+            <span class="lessonOrBundleLabel" data-lesson="@MyMentorResources.couponLessonName" data-bundle="@MyMentorResources.couponBundleName"></span> 
+            <span class="lessonName margin10b font18 alef">
+                <span class="lessonHeaderText"></span>
+                <br>
+                <span class="lessonHeaderText2"></span>
+            </span>
+        </label>
+    </div>
+    <div id="dialog_couponStep1" data-coupon-exists ="@MyMentorResources.couponAlreadyExists">
+        <div class="inputWrapper">
+            <input type="text" id="couponStudentEmailAddress" placeholder="@MyMentorResources.couponStudentEmailAddress" />
+        </div>
+        <div>
+            <span class="field-validation-error" id="studentValidationError"></span>
+        </div>
+        <div class="inputLabel arial margin10b">
+            <input type="checkbox" id="supportIncluded">
+            <label for="supportIncluded">
+                @MyMentorResources.coupunIncludingSupport
+            </label>
+        </div>
+        <p class="margin10b">
+           @MyMentorResources.couponCurrentPrice <span class="bold lessonPrice"></span><span class="bold lessonPriceWithSupport" style="display: none;"></span>
+        </p>
+        <div class="inputWrapper twoColumn clearfix">
+            <input type="text"   id="couponDiscountPrice" placeholder="@MyMentorResources.couponStudentPrice" data-numeric-val-error="@MyMentorResources.couponNumericValidation" class="floatR" />
+        </div>
+        <div>
+            <span class="field-validation-error" id="couponPriceError"></span>
+        </div>
+        <p class="azure margin10b ">
+            @MyMentorResources.couponTeacherDiscountPrice <span class="bold teacherDiscountPrice"></span><span class="bold teacherDiscountPriceWithSupport" style="display: none;"></span> &nbsp;&nbsp;&nbsp; <a href="javascript:void(0);"
+   class="icon_question_blue whiteTooltip" title=""></a>
+        </p>
+        <div class="dialog_btn_wrapper clearfix">
+            <a id="couponStep1" href="javascript:void(0);" class="btn_mentor floatL">@MyMentorResources.couponCreateCoupon</a>
+        </div>
+        <div>
+            <span class="field-validation-error" id="couponGeneralError"></span>
+        </div>
+    </div>
+    <div id="dialog_couponStep2" style="display: none;">
+        <p>
+            @MyMentorResources.couponFor  <span class="couponFor"></span>
+        </p>
+        <a class="icon_question_blue whiteTooltip floatL" href="javascript:void(0);"></a>
+        <p>
+            @MyMentorResources.couponCurrentPrice <span class="bold couponCurrentPrice"></span>
+        </p>
+        <p>
+            @MyMentorResources.couponRegularDiscountPrice <span class="regularDiscountPrice"></span>
+        </p>
+
+        <p>
+            @MyMentorResources.couponRegularPriceForStudent <span class="bordo bold regularPriceForStudent"></span>
+        </p>
+        @*<p class="bordo bold margin10 maxDiscountWarnning" >
+            @Html.Raw( MyMentorResources.couponMaxDiscountWarnning) <span class="maxAllowedDiscount"></span> 
+        </p>*@
+
+        <div class="leftText">
+            <p>
+                @MyMentorResources.couponAmountToPay <span class="gapToPay"></span> 
+            </p>
+            <p>
+                @MyMentorResources.couponYourBallance <span class="ballance"></span> 
+            </p>
+            <p>
+                @MyMentorResources.couponWillBeChargedFromYourAccount <span class="willBeChargedFromAccount"></span>
+            </p>
+            <p>
+                @MyMentorResources.couponAmountForPayment <span class="amountForPayment"></span>
+            </p>
+        </div> <br>
+        <div class="dialog_btn_wrapper clearfix">
+            @{
+                var url = string.Format("/Content/Images/horizontal_solution_PPeCheck.{0}.gif", Language.CurrentLanguageCode);
+            }
+            <a href="https://www.paypal.com/uk/webapps/mpp/paypal-popup" target="_blank" id="paypallogo" title="@MyMentorResources.aboutPaypal"><img src="@url" class="paypal-logo-hoz" /></a>
+            <a id="couponStep2" href="javascript:void(0);" class="btn_mentor floatL" data-payment="@MyMentorResources.couponPay" data-approval="@MyMentorResources.couponApprove" ></a>
+            <a href="javascript:void(0);" class="btn_mentor marginLeftBtn floatL" id="couponBackTo1">@MyMentorResources.couponBack</a>
+        </div>
+    </div>
+    <div id="dialog_couponStep3" style="display: none;">
+        <p class="font18 alef center">
+            @MyMentorResources.couponNumber <span class="arial couponNumber"></span> &nbsp;<span class="couponSentTo">@MyMentorResources.couponSentToYou</span> 
+            <br />
+            @MyMentorResources.couponValidUntil <span class="arial couponValidUntil"></span>
+        </p>
+    </div>
+    
+    <div id="dialog_error" style="display: none;">
+        <p class="font18 alef center">
+            <span id="couponErrorText" class="field-validation-error"></span>
+        </p>
+    </div>
+</div>

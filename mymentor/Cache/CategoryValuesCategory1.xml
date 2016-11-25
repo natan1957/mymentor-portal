@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<ArrayOfCategoryValuesDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CategoryValuesDto>
+    <Key>3N7UgiBclX</Key>
+    <Value_he_il />
+    <Value_en_us />
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>etWUXWeHkF</Key>
+    <Value_he_il />
+    <Value_en_us />
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>eZGA1wmcpe</Key>
+    <Value_he_il />
+    <Value_en_us />
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>HzVXRl9UOW</Key>
+    <Value_he_il>א</Value_he_il>
+    <Value_en_us>a</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>YipV1FgrP4</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>W1AdxT9lMP</Key>
+    <Value_he_il>בראשית</Value_he_il>
+    <Value_en_us>Bereishit(Genesis)</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>Ea8eZ5xkXO</Key>
+    <Value_he_il>קריאה</Value_he_il>
+    <Value_en_us>Reading</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>vU5s58NKwi</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>npYcCoI3Dd</Key>
+    <Value_he_il>שמות</Value_he_il>
+    <Value_en_us>Shemot(Exodus)</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>ThN5a9Af5E</Key>
+    <Value_he_il>ויקרא</Value_he_il>
+    <Value_en_us>Vayikra(Leviticus)</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>SU3p4W2O6F</Key>
+    <Value_he_il>במדבר</Value_he_il>
+    <Value_en_us>Bamidbar(Numbers)</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>ViqjXc2puc</Key>
+    <Value_he_il>דברים</Value_he_il>
+    <Value_en_us>Dvarim(Deuteronomy)</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>Mdq8vyNP1x</Key>
+    <Value_he_il>חגים ומועדים</Value_he_il>
+    <Value_en_us>Holidays</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>rYGYl0UGnD</Key>
+    <Value_he_il>מועדים מיוחדים</Value_he_il>
+    <Value_en_us>Special days</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>bxJKU2IAFO</Key>
+    <Value_he_il>ברכות</Value_he_il>
+    <Value_en_us>Blessings</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>W3VQpesPw8</Key>
+    <Value_he_il>תפילות</Value_he_il>
+    <Value_en_us>Prayers</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>f9LCnSk1Vh</Key>
+    <Value_he_il>אחרים</Value_he_il>
+    <Value_en_us>Other</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>ACSHs8mkjd</Key>
+    <Value_he_il>פרשות</Value_he_il>
+    <Value_en_us>Parashot</Value_en_us>
+    <ParentCategoryId />
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId>woYLQPY5RU</ContentTypeId>
+  </CategoryValuesDto>
+</ArrayOfCategoryValuesDto>

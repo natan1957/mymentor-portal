@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArrayOfCouponStatusDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CouponStatusDto>
+    <CouponStatusCode>Used</CouponStatusCode>
+    <CouponStatus_en_us>Used</CouponStatus_en_us>
+    <CouponStatus_he_il>נוצל</CouponStatus_he_il>
+    <ObjectId>CjuOZlV3jU</ObjectId>
+  </CouponStatusDto>
+  <CouponStatusDto>
+    <CouponStatusCode>Active</CouponStatusCode>
+    <CouponStatus_en_us>Active</CouponStatus_en_us>
+    <CouponStatus_he_il>פעיל</CouponStatus_he_il>
+    <ObjectId>NOk6gtjbTH</ObjectId>
+  </CouponStatusDto>
+  <CouponStatusDto>
+    <CouponStatusCode>Pending</CouponStatusCode>
+    <CouponStatus_en_us>Pending</CouponStatus_en_us>
+    <CouponStatus_he_il>בתהליך</CouponStatus_he_il>
+    <ObjectId>SDXh9gDYEw</ObjectId>
+  </CouponStatusDto>
+  <CouponStatusDto>
+    <CouponStatusCode>Was_Duplicate</CouponStatusCode>
+    <CouponStatus_en_us>Was_Duplicate</CouponStatus_en_us>
+    <CouponStatus_he_il>כפול</CouponStatus_he_il>
+    <ObjectId>WPk8WLY2yR</ObjectId>
+  </CouponStatusDto>
+</ArrayOfCouponStatusDto>

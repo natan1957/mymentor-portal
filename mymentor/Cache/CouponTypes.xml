@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArrayOfCouponTypeDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CouponTypeDto>
+    <ObjectId>6JUndafWq0</ObjectId>
+    <CouponTypeCode>Special_Discount</CouponTypeCode>
+    <CouponType_he_il>מיוחד</CouponType_he_il>
+    <CouponType_en_us>Special</CouponType_en_us>
+    <Order>0</Order>
+  </CouponTypeDto>
+  <CouponTypeDto>
+    <ObjectId>YpBj8sMlzX</ObjectId>
+    <CouponTypeCode>Manager_Discount</CouponTypeCode>
+    <CouponType_he_il>מנהל</CouponType_he_il>
+    <CouponType_en_us>Manager</CouponType_en_us>
+    <Order>0</Order>
+  </CouponTypeDto>
+  <CouponTypeDto>
+    <ObjectId>a8eVI7mG5b</ObjectId>
+    <CouponTypeCode>Self_Coupon</CouponTypeCode>
+    <CouponType_he_il>עצמי</CouponType_he_il>
+    <CouponType_en_us>Self</CouponType_en_us>
+    <Order>0</Order>
+  </CouponTypeDto>
+  <CouponTypeDto>
+    <ObjectId>tVOzs25xdl</ObjectId>
+    <CouponTypeCode>Regular_Discount</CouponTypeCode>
+    <CouponType_he_il>רגיל</CouponType_he_il>
+    <CouponType_en_us>Regular</CouponType_en_us>
+    <Order>0</Order>
+  </CouponTypeDto>
+</ArrayOfCouponTypeDto>

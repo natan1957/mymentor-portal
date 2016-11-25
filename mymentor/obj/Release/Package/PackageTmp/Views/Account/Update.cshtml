@@ -1,0 +1,456 @@
+﻿@using MyMentor.BL.App_GlobalResources
+
+@model MyMentor.Models.UserDetailsViewModel
+
+@using MyMentor.BL.Extentions
+@using MyMentor.BL.Models
+
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Views/Shared/MasterPages/_AccountLayout.cshtml";
+}
+
+<section role="main" class="main_content clearfix">
+    @using (Html.BeginForm("Update", "Account", FormMethod.Post, new Dictionary<string, object> { { "enctype", "multipart/form-data" }, { "id", "accountUpdate" } }))
+    {
+        <input type="hidden" id="category6" data-bind="value:selectedResidenceName" />
+        <input type="hidden" name="Residence" id="residenceId" data-bind="value:selectedResidenceId" />
+        <input type="hidden" id="residenceTitleSaved" value="@Model.ResidenceTitle" />
+        <input type="hidden" id="residenceIdSaved" value="@Model.Residence" />
+
+        <div class="fixedWidth innerPageContainer">
+            <div class="formContainer">
+                <h1 class="mentor_header">
+                    @MyMentorResources.lblUpdateTeacher
+                </h1>
+                <p class="turkiz font18">
+                    @MyMentorResources.ttlPersonalDetails
+                </p>
+                <div class="inputWrapper twoColumn clearfix">
+                    @Html.LabelFor(model => model.FirstName, new { @class = "required floatR" })
+                    @Html.LabelFor(model => model.FirstNameEnglish, new { @class = "required floatL" })
+
+                    @Html.TextBoxFor(model => model.FirstName, new { @class = "floatR" })
+
+                    <a class="icon_question_blue floatL whiteTooltip clearLeft" href="#" title="@MyMentorResources.dlgEnglishFIrstName"> </a>
+
+                    @Html.TextBoxFor(model => model.FirstNameEnglish, new { @class = "englishInput dirLeft floatL withPopUp clearNone" })
+                </div>
+                <div class="inputWrapper twoColumn clearfix">
+                    @Html.ValidationMessageFor(model => model.FirstName)
+                    @Html.ValidationMessageFor(model => model.FirstNameEnglish)
+                </div>
+                <div class="inputWrapper twoColumn clearfix">
+                    @Html.LabelFor(model => model.LastName, new { @class = "required floatR" })
+                    @Html.LabelFor(model => model.LastNameEnglish, new { @class = "required floatL" })
+
+                    @Html.TextBoxFor(model => model.LastName, new { @class = "floatR" })
+                    @Html.TextBoxFor(model => model.LastNameEnglish, new { @class = "englishInput dirLeft floatL" })
+                </div>
+                <div class="inputWrapper twoColumn clearfix">
+                    @Html.ValidationMessageFor(model => model.LastName)
+                    @Html.ValidationMessageFor(model => model.LastNameEnglish)
+                </div>                
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.Email, new { @class = "required" })
+                    @Html.TextBoxFor(model => model.Email)
+                    @Html.ValidationMessageFor(model => model.Email)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.Phone, new { @class = "required" })
+                    @Html.TextBoxFor(model => model.Phone)
+                    @Html.ValidationMessageFor(model => model.Phone)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.MailRecipientAddress, new { @class = "required" })
+                    @Html.TextBoxFor(model => model.MailRecipientAddress)
+                    @Html.ValidationMessageFor(model => model.MailRecipientAddress)
+                </div>
+                <div class="inputWrapper">
+                    <label class="required">@MyMentorResources.lblTeachingArea</label>
+                    <div class="">
+                        <div id="residenceContainer" class="mentorInput">
+                            <a href="javascript:void(0);" id="teachingArea" data-placeholder="@MyMentorResources.phTeachingArea" data-clear-selection="@MyMentorResources.treeClearSelectrion"
+                               data-bind="click:showResidenceView,html:selectedResidenceName,event:{blur:residenceBlur, keydown:residencekeyDown}">@Model.ResidenceTitle</a>
+                            <div id="residenceView" style="display:none;"></div>
+                        </div>
+                        <input type="hidden" id="category6" data-bind="value:selectedResidenceName" />
+                        @Html.HiddenFor(model => model.Residence, new { id = "residenceId" })
+
+                        <input type="hidden" id="residenceTitleSaved" value="@Model.ResidenceTitle" />
+                        <input type="hidden" id="residenceIdSaved" value="@Model.Residence" />
+                    </div>
+
+                    @Html.ValidationMessageFor(model => model.Residence)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.ResidenceCountry)
+                    @Html.TextBoxFor(model => model.ResidenceCountry, new { @readonly = "readonly",@class="readonly" })
+                </div>
+                <div class="inputWrapper twoColumn clearfix">
+                    @Html.LabelFor(model => model.CityOfResidence, new { @class = "required floatR" })
+                    @Html.LabelFor(model => model.CityOfResidence_en_us, new { @class = "required floatL" })
+                    @Html.TextBoxFor(model => model.CityOfResidence, new { @class = "floatR" })
+                    @Html.TextBoxFor(model => model.CityOfResidence_en_us, new { @class = "englishInput dirLeft floatL" })
+                </div>
+                <div class="inputWrapper twoColumn clearfix">
+                    @Html.ValidationMessageFor(model => model.CityOfResidence)
+                    @Html.ValidationMessageFor(model => model.CityOfResidence_en_us)
+                </div>
+                
+                <div class="inputWrapper">
+                    <label>@MyMentorResources.phDeviceType</label>
+                    @Html.DropDownListFor(model => model.SelectedDeviceType, new SelectList(Model.DeviceTypes, "Key", "Value", Model.SelectedDeviceType), MyMentor.BL.App_GlobalResources.MyMentorResources.phDeviceType, new Dictionary<string, object>
+                      {
+                           {"data-bind", "value:selectedDeviceType"},
+                            {"data-unsupported-text",ViewBag.DeviceUnSupportedText},
+                         {"id", "deviceType"}
+                      })
+                    @Html.ValidationMessageFor(m => m.SelectedDeviceType)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.TeacherHomePage)
+                    @Html.TextBoxFor(model => model.TeacherHomePage)
+                    @Html.ValidationMessageFor(model => model.TeacherHomePage)
+                </div>
+
+
+                <div class="clearfix">
+                    <label class="inputLabel">@MyMentorResources.lblProfilePicture</label>
+                    <div class="image_stub floatR">
+                        <img src="@Model.PictureUrl" id="profileImage" alt="" />
+                    </div>
+                    <div class="userPickImage floatL">
+                        <div id="fileName">
+                            @MyMentorResources.lblFileName
+                        </div>
+                        <div class="inputFileWrapper">
+                            <input id="fileInput" type="file" name="file" data-bind="event:{change:imageFileSelected}" />
+                        </div>
+                        <div id="choosePicWrapper" class="left">
+                            <a id="choosePic" class="choosePic" data-bind="click:chooseImageFile" href="javascript:void(0);">@MyMentorResources.lblChangePicture</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portalPasswordWrap clearfix">
+                    <div class="portalWrap inputLabel floatR arial greyDark_text">
+                        @Html.CheckBoxFor(model => model.ShowContanctDetails)
+                        <label for="showPortal">
+                            @MyMentorResources.lblShowContactDetailsInPortal
+                        </label>
+                    </div>
+                    <a href="#" class="icon_question_blue floatL"></a>
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.TeacherDescription)
+                    @Html.TextAreaFor(model => model.TeacherDescription)
+                </div>
+
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.TeacherDescriptionEnglish)
+                    @Html.TextAreaFor(model => model.TeacherDescriptionEnglish)
+                </div>
+
+                <br />
+                <p class="turkiz font18">
+                    @MyMentorResources.ttlProffesionalData
+                </p>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.TeachesFromYear)
+                    @Html.TextBoxFor(model => model.TeachesFromYear)
+                </div>
+                <div class="checkboxWrapper clearfix">
+                    <div class="inputLabel arial greyDark_text">
+                        <span>@MyMentorResources.lblVersion</span>
+                        @Html.CheckBoxFor(model => model.Ashkenaz)
+                        @Html.LabelFor(model => model.Ashkenaz)
+
+                        @Html.CheckBoxFor(model => model.Sefaradi)
+                        @Html.LabelFor(model => model.Sefaradi)
+
+                        @Html.CheckBoxFor(model => model.Yemen)
+                        @Html.LabelFor(model => model.Yemen)
+
+                        @Html.CheckBoxFor(model => model.OtherTeachingNosah)
+                        @Html.LabelFor(model => model.OtherTeachingNosah)
+                    </div>
+                </div>
+
+                <div class="checkboxWrapper clearfix">
+                    <div class="inputLabel arial greyDark_text">
+                        <span>@MyMentorResources.lblTeachingPlace</span>
+                        @Html.CheckBoxFor(model => model.TeachesAtHome)
+                        @Html.LabelFor(model => model.TeachesAtHome)
+
+                        @Html.CheckBoxFor(model => model.TeachesAtStudentHouse)
+                        @Html.LabelFor(model => model.TeachesAtStudentHouse)
+                    </div>
+                </div>
+
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.LessonCost)
+                    @Html.TextBoxFor(model => model.LessonCost)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.ExtraFeeForStudentHouse)
+                    @Html.TextBoxFor(model => model.ExtraFeeForStudentHouse)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.TeachingLanguage1)
+                    @Html.DropDownListFor(model => model.TeachingLanguage1, new SelectList(Model.SugLanguages, "Key", "Value"))
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.TeachingLanguage2)
+                    @Html.DropDownListFor(model => model.TeachingLanguage2, new SelectList(Model.SugLanguages, "Key", "Value"))
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.TeachingLanguage3)
+                    @Html.DropDownListFor(model => model.TeachingLanguage3, new SelectList(Model.SugLanguages, "Key", "Value"))
+                </div>
+                @*<div class="inputWrapper">
+                    @Html.LabelFor(model => model.SelectedSugTav)
+                    @Html.DropDownListFor(model => model.SelectedSugTav, new SelectList(Model.SugTav, "Key", "Value"))
+                </div>*@
+                <br />
+                <p class="turkiz font18">
+                    @MyMentorResources.ttlStatus
+                </p>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.SelectedSugNirut)
+                    @Html.DropDownListFor(model => model.SelectedSugNirut, new SelectList(Model.SugNiruts, "Key", "Value"))
+
+                </div>
+                <br />
+                <p class="turkiz font18">
+                    @MyMentorResources.ttlPayments
+                </p>
+                @*<div class="inputWrapper">
+                    <label>@MyMentorResources.phSugTagmul</label>
+                    <select name="SelectedSugTagmul" id="selectedSugTagmul" data-bind="value:selectedSugTagmul">
+                        @foreach (var item in Model.SugTagmuls)
+                        {
+                            var selected = item.Key == Model.SelectedSugTagmul ? "selected=\"selected\"" : "";
+                            <option value="@item.Key" data-fields="@item.VisibleFields" @selected>@item.Value</option>
+                        }
+                    </select>
+                </div>
+                <div class="inputWrapper mtr-hidden" id="mutav">
+                    @Html.LabelFor(model => model.PaymentDetails.BeneficiaryFulllName)
+                    @Html.TextBoxFor(model => model.PaymentDetails.BeneficiaryFulllName)
+                </div>
+
+                <div class="inputWrapper clearfix mtr-hidden" id="bank">
+                    @Html.LabelFor(model => model.PaymentDetails.BankName, new { @class = "bankLabel" })
+                    @Html.LabelFor(model => model.PaymentDetails.BankBranch, new { @class = "bankLabel" })
+                    @Html.LabelFor(model => model.PaymentDetails.AccountNumber, new { @class = "bankLabel" })
+
+                    @Html.TextBoxFor(model => model.PaymentDetails.BankName, new { @class = "floatR bankInput" })
+                    @Html.TextBoxFor(model => model.PaymentDetails.BankBranch, new { @class = "floatR snifInput" })
+                    @Html.TextBoxFor(model => model.PaymentDetails.AccountNumber, new { @class = "floatR accountNumberInput" })
+                    <a class="icon_question_blue floatL" href="#"></a>
+                </div>
+
+                <div class="inputWrapper center arial grey_text margin10b mtr-hidden">
+                    או
+                </div>
+                <div class="inputWrapper mtr-hidden" id="paypal">
+                    @Html.LabelFor(model => model.PaymentDetails.PayPalEmail)
+                    @Html.TextBoxFor(model => model.PaymentDetails.PayPalEmail)
+                </div>
+                <div class="inputWrapper mtr-hidden" id="heshbon">
+                    @Html.LabelFor(model => model.PaymentDetails.AccountNumber)
+                    @Html.TextBoxFor(model => model.PaymentDetails.AccountNumber)
+                </div>
+                <div class="inputWrapper mtr-hidden" id="irs">
+                    @Html.LabelFor(model => model.PaymentDetails.IRSNumber)
+                    @Html.TextBoxFor(model => model.PaymentDetails.IRSNumber)
+                </div>
+                <div class="inputWrapper mtr-hidden" id="maam">
+                    @Html.LabelFor(model => model.PaymentDetails.VATNumber)
+                    @Html.TextBoxFor(model => model.PaymentDetails.VATNumber)
+                </div>*@
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.GovId, new { @class = "required" })
+                    @Html.TextBoxFor(model => model.GovId)
+                    @Html.ValidationMessageFor(model => model.GovId)
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.SelectedSugOsek, new { @class = "required" })
+                    <select id="SelectedSugOsek1" name="SelectedSugOsek1">
+                        <option value="">@MyMentorResources.chooseSugOsek</option>
+                        @foreach (var sugOsek in Model.SugOseks)
+                        {
+                            var selected = sugOsek.ObjectId == Model.SelectedSugOsek? "selected":"";
+                            <option data-israeli="@sugOsek.Israeli" value="@sugOsek.ObjectId" @selected>@sugOsek.Name</option>
+                        }
+                    </select>      
+                    @Html.HiddenFor(model => model.SelectedSugOsek)
+                    @Html.ValidationMessageFor(model => model.SelectedSugOsek)             
+                </div>
+                <p class="turkiz font18">
+                    @MyMentorResources.ttlPrefferences
+                </p>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.UserPrefferences.SelectedContentType)
+                    @Html.DropDownListFor(model => model.UserPrefferences.SelectedContentType, new SelectList(Model.UserPrefferences.ContentTypes, "Key", "Value"))
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.UserPrefferences.SelectedCurrency)
+                    @Html.DropDownListFor(model => model.UserPrefferences.SelectedCurrency, new SelectList(Model.UserPrefferences.Currencies, "Key", "Value"))
+                </div>
+                <div class="inputWrapper">
+                    @Html.LabelFor(model => model.UserPrefferences.SelectedLanguage)
+                    @Html.DropDownListFor(model => model.UserPrefferences.SelectedLanguage, new SelectList(Model.UserPrefferences.Languages, "Key", "Value"))
+                </div>
+                <br />
+
+                @if (!ViewBag.IsAdmin)
+                {
+                    <div class="clearfix saveCompWrapper inputLabel  arial grey_text">
+                        @Html.CheckBoxFor(m => m.ApproveTerms, new { @data_action = "terms" })
+                        @Html.Raw(MyMentorResources.lblTems)
+                        <span class="field-validation-valid" data-valmsg-for="ApproveTerms">
+                            <span class="">@MyMentorResources.validationRegistrationTermsApproval</span>
+                        </span>
+                    </div>
+                    <div class="clearfix">
+                        <a id="" href="#" class="btn_mentor floatL" data-bind="click:submitAccountUpdateForm">@MyMentorResources.btnSend</a>
+                        <a class="btn_mentor floatL marginLeftBtn" href="/" id="">@MyMentorResources.btnBack</a>
+                    </div>
+                    <div class="field-validation-error" data-bind="visible:!isValid()">@MyMentorResources.formValidationSummary</div>
+                }
+            </div>
+        </div>
+
+        if (ViewBag.IsAdmin)
+        {
+            <div class="adminWrapper">
+                <div class="fixedWidth">
+                    <div class="formContainer">
+                        <p class="white font18">
+                            @MyMentorResources.ttlManagerArea
+                        </p>
+
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.TCPTeacherCommission, new { @class = "white" })
+                            @Html.TextBoxFor(model => model.AdminData.TCPTeacherCommission)
+                        </div>
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.AgentUserName, new { @class = "white" })
+                            @Html.TextBoxFor(model => model.AdminData.AgentUserName)
+                        </div>
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.ACPAgentCommission, new { @class = "white" })
+                            @Html.TextBoxFor(model => model.AdminData.ACPAgentCommission)
+                        </div>
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.STRCommissionRatio, new { @class = "white" })
+                            @Html.TextBoxFor(model => model.AdminData.STRCommissionRatio)
+                            @Html.ValidationMessageFor(model => model.AdminData.STRCommissionRatio)
+                        </div>
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.UserPublishingStatus, new { @class = "white" })
+                            @Html.DropDownListFor(model => model.AdminData.UserPublishingStatus, new SelectList(Model.SugLessonPublishingStatus, "Key", "Value"))
+                        </div>
+
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.Group, new { @class = "white" })
+                            @Html.DropDownListFor(model => model.AdminData.Group,
+                    new SelectList(Model.Groups, "ObjectId", Language.CurrentLanguageCode == Cultures.HE_IL ? "Name" : "NameEnglish", "select value"),
+                            new
+                            {
+                                data_subgroups = Model.SubGroups.ConvertToUserGroupDtos().GetJson(),
+
+                                id = "userGroups"
+                            })
+                        </div>
+
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.SubGroup, new { @class = "white" })
+                            <select name="AdminData.SubGroup" id="userSubGroups" data-selected-subgroup="@Model.AdminData.SubGroup"></select>
+                        </div>
+                        
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.UserStatus, new { @class = "white" })
+                            @Html.DropDownListFor(model => model.AdminData.UserStatus, new SelectList(Model.UserStatusValues, "Key", "Value"))
+                        </div>
+                        
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.AdminRemarks, new { @class = "white" })
+                            @Html.TextAreaFor(model => model.AdminData.AdminRemarks, new { @rows = 5, @class = "account-admin-comments" })
+                        </div>
+
+
+                        <div class="inputWrapper">
+                            @Html.LabelFor(model => model.AdminData.OriginalTaxPercent, new { @class = "white"})
+                            @Html.TextBoxFor(model => model.AdminData.OriginalTaxPercent)
+                        </div>
+                        
+                        <div class="">
+                            @Html.CheckBoxFor(model => model.AdminData.LockCountry)
+                            @Html.LabelFor(model => model.AdminData.LockCountry, new { @class = "white" })
+                        </div>
+
+                        <div class="">
+                            @Html.CheckBoxFor(model => model.AdminData.LockCurrency)
+                            @Html.LabelFor(model => model.AdminData.LockCurrency, new { @class = "white" })
+                        </div>
+                        
+                        <div class="">
+                            @Html.CheckBoxFor(model => model.AdminData.LockSugNirut)
+                            @Html.LabelFor(model => model.AdminData.LockSugNirut, new { @class = "white" })
+                        </div>
+                        
+                        <div class="">
+                            @Html.CheckBoxFor(model => model.AdminData.LockSugOsek)
+                            @Html.LabelFor(model => model.AdminData.LockSugOsek, new { @class = "white" })
+                        </div>
+                        <br />
+
+                        @*<div class="clearfix saveCompWrapper inputLabel  arial grey_text">
+                                @Html.CheckBoxFor(m => m.ApproveTerms)
+                                @Html.Raw(MyMentor.BL.App_GlobalResources.MyMentorResources.lblTems)
+
+                            </div>*@
+                        <div class="clearfix">
+                            <a id="" href="#" class="btn_mentor floatL" data-bind="click:submitAccountAdminUpdateForm">@MyMentorResources.btnSend</a>
+                            <a class="btn_mentor floatL marginLeftBtn" href="/" id="">@MyMentorResources.btnBack</a>
+                        </div>
+                        <div class="field-validation-error" data-bind="visible:!isValid()">@MyMentorResources.formValidationSummary</div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</section>
+
+
+
+@if (!string.IsNullOrEmpty(ViewBag.ScriptToRun))
+{
+    @Html.Raw(ViewBag.ScriptToRun)
+}
+else if (ViewBag.UpdateSuccess != null)
+{
+    @Html.Raw(@ViewBag.UpdateStudentMessage)
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+    $(document).ready(function () {
+        _mymentor.initPage("update", {
+            "lockCountry": "@Model.AdminData.LockCountry",
+            "lockSugOsek": "@Model.AdminData.LockSugOsek",
+            "lockCurreny": "@Model.AdminData.LockCurrency",
+            "lockSugNirut": "@Model.AdminData.LockSugNirut",
+            "countryLockedMessage": "@Model.Messages.CountryLocked",
+            "sugOsekLockedMessage": "@Model.Messages.SugOsekLocked",
+            "currencyLockedMessage": "@Model.Messages.CurrencyLocked",
+            "sugNirutLockedMessage": "@Model.Messages.SugNirutLocked",
+            "agentNotFoundMessage":"@Model.Messages.AgentNotFound"
+        });
+    });
+    </script>
+}

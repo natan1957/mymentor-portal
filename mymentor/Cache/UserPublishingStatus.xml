@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfUserPublishingStatusDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UserPublishingStatusDto>
+    <ObjectId>EMy3CWCOSg</ObjectId>
+    <UserPublishingStatus>פעיל</UserPublishingStatus>
+    <UserPublishingStatus_en_us>Active</UserPublishingStatus_en_us>
+  </UserPublishingStatusDto>
+  <UserPublishingStatusDto>
+    <ObjectId>d9w9LsiN2B</ObjectId>
+    <UserPublishingStatus>חסום</UserPublishingStatus>
+    <UserPublishingStatus_en_us>Blocked</UserPublishingStatus_en_us>
+  </UserPublishingStatusDto>
+  <UserPublishingStatusDto>
+    <ObjectId>vL5YdA6Bbq</ObjectId>
+    <UserPublishingStatus>טעון אישור</UserPublishingStatus>
+    <UserPublishingStatus_en_us>Approval Required</UserPublishingStatus_en_us>
+  </UserPublishingStatusDto>
+</ArrayOfUserPublishingStatusDto>

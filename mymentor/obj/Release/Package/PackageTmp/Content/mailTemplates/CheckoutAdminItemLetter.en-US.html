@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .container {
+            width: 680px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img class="center" src="http://mymentorapp.com/content/images/email-template-icon.png" />
+        </div>
+        Event  – {event}<br />
+        Date  –   {dueDate} <br />
+        Item  – {itemCode}, {itemTitle} {itemName}<br />
+        Coupon  – {couponKey} Type – {couponType}<br />
+        Coupon item price  –  {itemPrice} {userCurrencySymbol}, {itemPriceNIS} {siteCurrencySymbol}<br />
+        Coupon site fee  – {siteCouponFee} {couponCurrencySymbol}, {siteCouponFeeNIS} {siteCurrencySymbol}<br />
+        Coupon teacher fee – {teacherCouponFee} {couponCurrencySymbol}, {teacherCouponFeeNIS} {siteCurrencySymbol}<br />
+        User  – {userUserName}, {userFirstName}, {userlastName}, email  – {userEmail}<br />
+        Student  – {studentUserName}, {studentFirstName}, {studentlastName}, email  – {studentEmail}<br />
+        Teacher  –   {teacherUserName}, {teacherFirstName}, {teacherlastName}, email  –  {teacherEmail}<br />
+        Teacher fee  – {TeacherFee} {teacherCurrencySymbol}, {teacherFeeNIS} {siteCurrencySymbol} <br />
+        Exchange fee  –  {teacherExchangeFee} {teacherCurrencySymbol}, {teacherExchangeFeeNIS} {siteCurrencySymbol}<br />
+        Agent  –  {agentUserName}, {agentFirstName}, {agentlastName}, email  –  {agentEmail}<br />
+        Agent fee   –  {agentFee} {agentCurrencySymbol}, {agentFeeNIS} {siteCurrencySymbol} <br />
+        Exchange fee  –  {agentExchangeFee} {agentCurrencySymbol}, {agentExchangeFeeNIS} {siteCurrencySymbol}<br />
+        VAT  – {maamItem} {maamCurrencySymbol}<br />
+
+        <br /><br />
+
+        Letter – {letterId}
+    </div>
+</body>
+</html>

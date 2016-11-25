@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<ArrayOfWorldContentTypeDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WorldContentTypeDto>
+    <ObjectId>woYLQPY5RU</ObjectId>
+    <Value_he_il>עולם התורה</Value_he_il>
+    <Value_en_us>Torah World</Value_en_us>
+    <ClipTitlePattern_he_il>[category2], [category3],[remarks], בנוסח [category4], על ידי [firstName] [lastName]</ClipTitlePattern_he_il>
+    <ClipTitlePattern_en_us>[category2], [category3], [remarks], [category4] version, by [firstName] [lastName]</ClipTitlePattern_en_us>
+    <SourceTitlePattern_he_il>[category1], [category2], [category3], [remarks]</SourceTitlePattern_he_il>
+    <SourceTitlePattern_en_us>[category1], [category2], [category3], [remarks]</SourceTitlePattern_en_us>
+    <ClipTitlePatternPart1_en_us>[category2]</ClipTitlePatternPart1_en_us>
+    <ClipTitlePatternPart2_en_us>[category3], [category4] version, [remarks], by [firstName] [lastName] from [cityOfResidence]</ClipTitlePatternPart2_en_us>
+    <ClipTitlePatternPart1_he_il>[category2]</ClipTitlePatternPart1_he_il>
+    <ClipTitlePatternPart2_he_il>[category3], בנוסח [category4], [remarks], על ידי [firstName] [lastName] מ[cityOfResidence]</ClipTitlePatternPart2_he_il>
+    <Description_he_il>לימוד ותרגול קריאה בתורה, הפטרות וברכות.</Description_he_il>
+    <Description_en_us>Studying and practicing the Torah reading, Haftarah and Blessings. </Description_en_us>
+    <Order>1</Order>
+    <IconFileName>icon_bible_dialog.png</IconFileName>
+    <FixedId>Tora</FixedId>
+    <Status>Active</Status>
+    <ReadingDates>true</ReadingDates>
+    <BundleTitlePattern_en_us>[category2], [category3], [remarks], [category4], [firstName] [lastName], [cityOfResidence]</BundleTitlePattern_en_us>
+    <BundleTitlePattern_he_il>[category2], [category3], [remarks], [category4], [firstName] [lastName], [cityOfResidence]</BundleTitlePattern_he_il>
+    <ReceiptNumerator>1000327</ReceiptNumerator>
+  </WorldContentTypeDto>
+  <WorldContentTypeDto>
+    <ObjectId>vU5s58NKwi</ObjectId>
+    <Value_he_il>עולם הקריאה</Value_he_il>
+    <Value_en_us>Reading world</Value_en_us>
+    <ClipTitlePattern_he_il>[category1], [category2], לגילאי[category3],[remarks], המורה [firstName] [lastName]</ClipTitlePattern_he_il>
+    <ClipTitlePattern_en_us>[category1], [category2], For[category3] ages, [remarks], teacher [firstName] [lastName]</ClipTitlePattern_en_us>
+    <SourceTitlePattern_he_il>[category1], [category2], [category3], [remarks]</SourceTitlePattern_he_il>
+    <SourceTitlePattern_en_us>[category1], [category2], [category3], [remarks]</SourceTitlePattern_en_us>
+    <ClipTitlePatternPart1_en_us>[category2]</ClipTitlePatternPart1_en_us>
+    <ClipTitlePatternPart2_en_us>For[category3] ages, [remarks]</ClipTitlePatternPart2_en_us>
+    <ClipTitlePatternPart1_he_il>[category2]</ClipTitlePatternPart1_he_il>
+    <ClipTitlePatternPart2_he_il>לגילאי[category3],[remarks], מגורי המורה ב[cityOfResidence]</ClipTitlePatternPart2_he_il>
+    <Description_he_il>עולם זה מיועד לתרגול קריאה בשפות שונות לגילאים שונים.</Description_he_il>
+    <Description_en_us>This world is intended for reading practice in different languages ​​for different ages.</Description_en_us>
+    <Order>2</Order>
+    <IconFileName>icon_reading_dialog.png</IconFileName>
+    <FixedId>Reading</FixedId>
+    <Status>test</Status>
+    <ReadingDates>false</ReadingDates>
+    <BundleTitlePattern_en_us>[category1], [category2], לגילאי[category3],[remarks]</BundleTitlePattern_en_us>
+    <BundleTitlePattern_he_il>[category1], [category2], לגילאי[category3],[remarks]</BundleTitlePattern_he_il>
+    <ReceiptNumerator>2000000</ReceiptNumerator>
+  </WorldContentTypeDto>
+  <WorldContentTypeDto>
+    <ObjectId>YipV1FgrP4</ObjectId>
+    <Value_he_il>הדגמה</Value_he_il>
+    <Value_en_us>Demo</Value_en_us>
+    <ClipTitlePattern_he_il>[category2], [category1], [category3], [description], בנוסח [category4], המורה [firstName] [lastName], גר ב[cityOfResidence], [remarks]</ClipTitlePattern_he_il>
+    <ClipTitlePattern_en_us>[category2], [category1], [category3], [description], בנוסח [category4], המורה [firstName] [lastName], גר ב[cityOfResidence], [remarks]</ClipTitlePattern_en_us>
+    <SourceTitlePattern_he_il>[category1], [category2], [category3], [description]</SourceTitlePattern_he_il>
+    <SourceTitlePattern_en_us>[category1], [category2], [category3], [description]</SourceTitlePattern_en_us>
+    <ClipTitlePatternPart1_en_us>[category2]</ClipTitlePatternPart1_en_us>
+    <ClipTitlePatternPart2_en_us>[category3],[remarks],[category4] version, teacher [firstName] [lastName] lives in [cityOfResidence]</ClipTitlePatternPart2_en_us>
+    <ClipTitlePatternPart1_he_il>[category2]</ClipTitlePatternPart1_he_il>
+    <ClipTitlePatternPart2_he_il>[category1], [category3], [description], בנוסח [category4], המורה [firstName] [lastName], גר ב[cityOfResidence], [remarks]</ClipTitlePatternPart2_he_il>
+    <Description_he_il />
+    <Description_en_us />
+    <Order>3</Order>
+    <IconFileName>icon_english_dialog.png</IconFileName>
+    <FixedId>Shira</FixedId>
+    <Status>test</Status>
+    <ReadingDates>false</ReadingDates>
+    <BundleTitlePattern_en_us>[category2], [category1], [category3], [description], version [category4], [remarks]</BundleTitlePattern_en_us>
+    <BundleTitlePattern_he_il>[category2], [category1], [category3], [description], בנוסח [category4], [remarks]</BundleTitlePattern_he_il>
+    <ReceiptNumerator>3000000</ReceiptNumerator>
+  </WorldContentTypeDto>
+</ArrayOfWorldContentTypeDto>

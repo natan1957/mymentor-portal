@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<CodeTableDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DataItems>
+    <CodeTableDataItem>
+      <Key>22Vl3cPoYD|False</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>iphone/tablet iOS8</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>אייפון/אייפוד/טאבלט 8</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+    <CodeTableDataItem>
+      <Key>6dHgUbNMRG|False</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>Other Apple device</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>מכשיר אפל אחר</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+    <CodeTableDataItem>
+      <Key>HHB0jE2Tip|False</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>iphone/tablet iOS7</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>אייפון/אייפוד/טאבלט 7</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+    <CodeTableDataItem>
+      <Key>ZpuVdF0evw|False</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>None Apple device</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>לא אפל</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+    <CodeTableDataItem>
+      <Key>t0CaYRqle6|False</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>iphone/tablet iOS6</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>אייפון/אייפוד/טאבלט 6</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+  </DataItems>
+</CodeTableDto>

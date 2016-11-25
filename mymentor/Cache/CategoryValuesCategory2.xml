@@ -1,0 +1,732 @@
+<?xml version="1.0"?>
+<ArrayOfCategoryValuesDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CategoryValuesDto>
+    <Key>1m27zb03pu</Key>
+    <Value_he_il>ב</Value_he_il>
+    <Value_en_us>b</Value_en_us>
+    <ParentCategoryId>HzVXRl9UOW</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>FwLxwnnHHV</Key>
+    <Value_he_il>אחרים</Value_he_il>
+    <Value_en_us>Other</Value_en_us>
+    <ParentCategoryId>f9LCnSk1Vh</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>Jy8bKB4CGs</Key>
+    <Value_he_il>בראשית</Value_he_il>
+    <Value_en_us>Bereshit</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>ALlmLxZGkj</Key>
+    <Value_he_il>נח</Value_he_il>
+    <Value_en_us>Noach</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>bFL36OXQTe</Key>
+    <Value_he_il>לך לך</Value_he_il>
+    <Value_en_us>Lech-Lecha</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>8KIjVrE47T</Key>
+    <Value_he_il>וירא</Value_he_il>
+    <Value_en_us>Vayeira</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>o8fB5LLNNv</Key>
+    <Value_he_il>חיי שרה</Value_he_il>
+    <Value_en_us>Chayei Sarah</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>3M4QdUBkfu</Key>
+    <Value_he_il>תולדות</Value_he_il>
+    <Value_en_us>Toledot</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>7hnfnxuiIc</Key>
+    <Value_he_il>ויצא</Value_he_il>
+    <Value_en_us>Vayetze</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>iaRhGmaLK6</Key>
+    <Value_he_il>וישלח</Value_he_il>
+    <Value_en_us>Vayishlach</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>5Hd4YILEk3</Key>
+    <Value_he_il>וישב</Value_he_il>
+    <Value_en_us>Vayeshev</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>8brZ1g2vQJ</Key>
+    <Value_he_il>עברית</Value_he_il>
+    <Value_en_us>Hebrew</Value_en_us>
+    <ParentCategoryId>Ea8eZ5xkXO</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>JutiCuVnf6</Key>
+    <Value_he_il>ערב ראש חודש</Value_he_il>
+    <Value_en_us>Erev Rosh Chodesh</Value_en_us>
+    <ParentCategoryId>rYGYl0UGnD</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>cCERwNwRNf</Key>
+    <Value_he_il>מקץ</Value_he_il>
+    <Value_en_us>Mikets</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>t6trH4CZYw</Key>
+    <Value_he_il>קדיש</Value_he_il>
+    <Value_en_us>Kaddish</Value_en_us>
+    <ParentCategoryId>W3VQpesPw8</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>EYtI7oqbcN</Key>
+    <Value_he_il>ויגש</Value_he_il>
+    <Value_en_us>Vayigash</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>AE1iSIDM7z</Key>
+    <Value_he_il>ויחי</Value_he_il>
+    <Value_en_us>Vayechi</Value_en_us>
+    <ParentCategoryId>W1AdxT9lMP</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>e3iXgFKsSx</Key>
+    <Value_he_il>שמות</Value_he_il>
+    <Value_en_us>Shemot</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>WDRYtHA8dL</Key>
+    <Value_he_il>וארא</Value_he_il>
+    <Value_en_us>Va'eira</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>Kv0X6TAwwS</Key>
+    <Value_he_il>בא</Value_he_il>
+    <Value_en_us>Bo</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>1pAjBcUJss</Key>
+    <Value_he_il>בשלח</Value_he_il>
+    <Value_en_us>Beshalach</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>ysekzJDoG0</Key>
+    <Value_he_il>יתרו</Value_he_il>
+    <Value_en_us>Yitro</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>z4CpmEsKf3</Key>
+    <Value_he_il>משפטים</Value_he_il>
+    <Value_en_us>Mishpatim</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>x4aIqy41Fz</Key>
+    <Value_he_il>תרומה</Value_he_il>
+    <Value_en_us>Terumah</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>7gaR4ADcox</Key>
+    <Value_he_il>ראש חודש</Value_he_il>
+    <Value_en_us>Rosh Chodesh</Value_en_us>
+    <ParentCategoryId>rYGYl0UGnD</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>RIlzNc4KIH</Key>
+    <Value_he_il>אנגלית</Value_he_il>
+    <Value_en_us>English</Value_en_us>
+    <ParentCategoryId>Ea8eZ5xkXO</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>nKZHxiiRKM</Key>
+    <Value_he_il>תצווה</Value_he_il>
+    <Value_en_us>Tetzaveh</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>GGpERF53Gm</Key>
+    <Value_he_il>כי תישא</Value_he_il>
+    <Value_en_us>Ki Tisa</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>l1sAHjC5cd</Key>
+    <Value_he_il>ויקהל</Value_he_il>
+    <Value_en_us>Vayakhal</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>vDisArxHbv</Key>
+    <Value_he_il>ויקהל-פקודי</Value_he_il>
+    <Value_en_us>vaykhal-Pekudei</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>oAkwBmqWJb</Key>
+    <Value_he_il>פקודי</Value_he_il>
+    <Value_en_us>Pekudei</Value_en_us>
+    <ParentCategoryId>npYcCoI3Dd</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>t78cvgVdp7</Key>
+    <Value_he_il>ויקרא</Value_he_il>
+    <Value_en_us>Vayikra</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>FMx4XIA9CE</Key>
+    <Value_he_il>צו</Value_he_il>
+    <Value_en_us>Tzav</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>fFLFhqy1Gk</Key>
+    <Value_he_il>שמיני</Value_he_il>
+    <Value_en_us>Shenini</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>yjCPYpUGvE</Key>
+    <Value_he_il>תזריע</Value_he_il>
+    <Value_en_us>Tazria</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>3LkIdQN12S</Key>
+    <Value_he_il>תזריע-מצורע</Value_he_il>
+    <Value_en_us>Tazria-Metzora</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>CSXSvpt2By</Key>
+    <Value_he_il>ערבית</Value_he_il>
+    <Value_en_us>Arabic</Value_en_us>
+    <ParentCategoryId>Ea8eZ5xkXO</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>dZJWjf22tm</Key>
+    <Value_he_il>מצורע</Value_he_il>
+    <Value_en_us>Metzora</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>7V4oC77xJi</Key>
+    <Value_he_il>אחרי מות</Value_he_il>
+    <Value_en_us>Acharey mot</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>TnLY7TKRVw</Key>
+    <Value_he_il>אחרי מות-קדושים</Value_he_il>
+    <Value_en_us>Acharey Mot-Kdoshim</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>TDmfefwpzM</Key>
+    <Value_he_il>קדושים</Value_he_il>
+    <Value_en_us>Kedoshim</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>qYakYLAYDs</Key>
+    <Value_he_il>אמור</Value_he_il>
+    <Value_en_us>Emor</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>GgHpu93JqY</Key>
+    <Value_he_il>בהר</Value_he_il>
+    <Value_en_us>Bahar</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>oRk2jImG0a</Key>
+    <Value_he_il>בהר-בחקותי</Value_he_il>
+    <Value_en_us>Bahar-Bechakotai</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>RETK5vhTkB</Key>
+    <Value_he_il>בחקותי</Value_he_il>
+    <Value_en_us>Bechukotai</Value_en_us>
+    <ParentCategoryId>ThN5a9Af5E</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>jr7jLp2oZ7</Key>
+    <Value_he_il>במדבר</Value_he_il>
+    <Value_en_us>Bemidbar</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>Gdzsqg5z91</Key>
+    <Value_he_il>נשא</Value_he_il>
+    <Value_en_us>neso</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>F4ga6onrPd</Key>
+    <Value_he_il>בהעלתך</Value_he_il>
+    <Value_en_us>Behaalotcha</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>ddXuVxymg1</Key>
+    <Value_he_il>שלח</Value_he_il>
+    <Value_en_us>Shlach</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>phx6M2x9WL</Key>
+    <Value_he_il>קרח</Value_he_il>
+    <Value_en_us>Korach</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>HwhXfCWfgL</Key>
+    <Value_he_il>חקת</Value_he_il>
+    <Value_en_us>Chukat</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>BvyIeptbpA</Key>
+    <Value_he_il>חקת-בלק</Value_he_il>
+    <Value_en_us>Chukat-Balak</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>vSGZlIWJK8</Key>
+    <Value_he_il>בלק</Value_he_il>
+    <Value_en_us>Balak</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>NUWQsxpUpN</Key>
+    <Value_he_il>פינחס</Value_he_il>
+    <Value_en_us>Pinchas</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>UGLqCam94c</Key>
+    <Value_he_il>מטות</Value_he_il>
+    <Value_en_us>Matot</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>jWNMhwIxIa</Key>
+    <Value_he_il>מטות-מסעי</Value_he_il>
+    <Value_en_us>Matot-Masei</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>zgCMe1Yl2n</Key>
+    <Value_he_il>מסעי</Value_he_il>
+    <Value_en_us>Masei</Value_en_us>
+    <ParentCategoryId>SU3p4W2O6F</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>XOdsGDfZzT</Key>
+    <Value_he_il>דברים</Value_he_il>
+    <Value_en_us>Devarim</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>eeGrSS1m88</Key>
+    <Value_he_il>ואתחנן</Value_he_il>
+    <Value_en_us>Va'etchanan</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>kH4ddsTNCT</Key>
+    <Value_he_il>עקב</Value_he_il>
+    <Value_en_us>Eikev</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>pqQUhCqSKE</Key>
+    <Value_he_il>ראה</Value_he_il>
+    <Value_en_us>Re'eh</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>LexB07SHjS</Key>
+    <Value_he_il>שופטים</Value_he_il>
+    <Value_en_us>Shoftim</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>hBtzMMhSob</Key>
+    <Value_he_il>כי תצא</Value_he_il>
+    <Value_en_us>Ki Teitzei</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>jPGm9hjTps</Key>
+    <Value_he_il>כי תבא</Value_he_il>
+    <Value_en_us>Ki Tavo</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>eyzzOkC43A</Key>
+    <Value_he_il>ניצבים</Value_he_il>
+    <Value_en_us>Nitzavim</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>cPp4z6C2qU</Key>
+    <Value_he_il>ניצבים-וילך</Value_he_il>
+    <Value_en_us>Nitzavim-Vayelech</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>eY3zBuYXOy</Key>
+    <Value_he_il>וילך</Value_he_il>
+    <Value_en_us>Vayelech</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>vjh0mbhEnE</Key>
+    <Value_he_il>האזינו</Value_he_il>
+    <Value_en_us>Haazinu</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>2kLffPcKUP</Key>
+    <Value_he_il>וזאת הברכה</Value_he_il>
+    <Value_en_us>V'Zot HaBerachah</Value_en_us>
+    <ParentCategoryId>ViqjXc2puc</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>troRh9I4lL</Key>
+    <Value_he_il>ראש השנה</Value_he_il>
+    <Value_en_us>Rosh Hashana</Value_en_us>
+    <ParentCategoryId>Mdq8vyNP1x</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>0RKIL57aD0</Key>
+    <Value_he_il>יום כיפור</Value_he_il>
+    <Value_en_us>Yom Kippur</Value_en_us>
+    <ParentCategoryId>Mdq8vyNP1x</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>6XWuImWIAe</Key>
+    <Value_he_il>סוכות</Value_he_il>
+    <Value_en_us>Succot</Value_en_us>
+    <ParentCategoryId>Mdq8vyNP1x</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>7crKqBoHqg</Key>
+    <Value_he_il>שמיני עצרת</Value_he_il>
+    <Value_en_us>Shmini Atzeret</Value_en_us>
+    <ParentCategoryId>Mdq8vyNP1x</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>PToIjPbFWE</Key>
+    <Value_he_il>שמחת תורה</Value_he_il>
+    <Value_en_us>Simchat Torah</Value_en_us>
+    <ParentCategoryId>Mdq8vyNP1x</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>BcsmaxphUp</Key>
+    <Value_he_il>חנוכה</Value_he_il>
+    <Value_en_us>Chanukah</Value_en_us>
+    <ParentCategoryId>Mdq8vyNP1x</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>e5IKWgiKi5</Key>
+    <Value_he_il>פורים</Value_he_il>
+    <Value_en_us>Purim</Value_en_us>
+    <ParentCategoryId>Mdq8vyNP1x</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>OcSduZoy4G</Key>
+    <Value_he_il>פסח</Value_he_il>
+    <Value_en_us>Passover</Value_en_us>
+    <ParentCategoryId>Mdq8vyNP1x</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>RxbNH0Sb3V</Key>
+    <Value_he_il>יום העצמאות</Value_he_il>
+    <Value_en_us>Yom Ha'Atzmaut</Value_en_us>
+    <ParentCategoryId>Mdq8vyNP1x</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>njxViadMDL</Key>
+    <Value_he_il>שבועות</Value_he_il>
+    <Value_en_us>Shavuot</Value_en_us>
+    <ParentCategoryId>Mdq8vyNP1x</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>bbDgXMpAKT</Key>
+    <Value_he_il>ברכות התורה</Value_he_il>
+    <Value_en_us>Torah Blessing</Value_en_us>
+    <ParentCategoryId>bxJKU2IAFO</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+  <CategoryValuesDto>
+    <Key>SlSOZ7iBH8</Key>
+    <Value_he_il>ברכות ההפטרה</Value_he_il>
+    <Value_en_us>Haftarah Blessing </Value_en_us>
+    <ParentCategoryId>bxJKU2IAFO</ParentCategoryId>
+    <LessonType />
+    <AdditionalInfo />
+    <ContentTypeId />
+  </CategoryValuesDto>
+</ArrayOfCategoryValuesDto>

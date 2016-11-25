@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfUserStatusDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UserStatusDto>
+    <ObjectId>3kFSz5moBB</ObjectId>
+    <Status>checking</Status>
+    <Order>200</Order>
+    <EmailMessage />
+  </UserStatusDto>
+  <UserStatusDto>
+    <ObjectId>6ub3IgHbha</ObjectId>
+    <Status>blocked</Status>
+    <Order>500</Order>
+    <EmailMessage />
+  </UserStatusDto>
+  <UserStatusDto>
+    <ObjectId>VBmlOVA3rK</ObjectId>
+    <Status>active</Status>
+    <Order>300</Order>
+    <EmailMessage />
+  </UserStatusDto>
+  <UserStatusDto>
+    <ObjectId>Xdfk4KGxtV</ObjectId>
+    <Status>hold</Status>
+    <Order>400</Order>
+    <EmailMessage />
+  </UserStatusDto>
+  <UserStatusDto>
+    <ObjectId>cxD3LCOnri</ObjectId>
+    <Status>app</Status>
+    <Order>500</Order>
+    <EmailMessage />
+  </UserStatusDto>
+</ArrayOfUserStatusDto>

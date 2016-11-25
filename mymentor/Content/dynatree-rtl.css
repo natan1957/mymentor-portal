@@ -1,0 +1,20 @@
+﻿.dynatree-container .dynatree-title {
+}
+
+ul.dynatree-container ul {
+    padding: 0 16px 0 0;
+}
+
+ul.dynatree-container li {
+    background-position: right 0;
+    background-image: url("/scripts/skin/vline-rtl.gif");
+}
+
+.dynatree-container span.dynatree-connector,
+.dynatree-container span.dynatree-expander,
+.dynatree-container span.dynatree-icon,
+.dynatree-container span.dynatree-drag-helper-img,
+.dynatree-container #dynatree-drop-marker {
+    background-image: url("/scripts/skin/icons-rtl.gif");
+}
+

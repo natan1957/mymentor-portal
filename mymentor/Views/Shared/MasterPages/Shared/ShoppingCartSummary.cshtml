@@ -1,0 +1,7 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@model int
+           
+<div class="shopping_cart">
+    <span class="numberOfProducts">@Model</span> @MyMentorResources.lessonsInBasket
+</div>
+<a class="shopping_cart_continue" href="~/checkout">@MyMentorResources.checkout »</a>

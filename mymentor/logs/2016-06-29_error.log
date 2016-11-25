@@ -1,0 +1,20 @@
+2016-06-29 18:57:32.9462 ERROR System.AggregateException: One or more errors occurred. ---> System.InvalidOperationException: Unable to save a ParseObject with a relation to a cycle.
+   at Parse.ParseObject.<>c__DisplayClass57.<>c__DisplayClass59.<DeepSaveAsync>b__4b()
+   at Parse.Internal.InternalExtensions.<>c__DisplayClassf.<WhileAsync>b__d(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MyMentor.Repository.ParseRepository.BulkSave(IEnumerable`1 objectsToSave) in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1417
+   at MyMentor.BL.Logic.CheckoutManager.SavePaymentRecords(List`1 completeCheckoutStatements, AccountStatementBuilder statementBuilder, CheckoutViewModel checkoutViewModel, String paymentData) in d:\Tfs_Workspace\MyMentor\MyMentor.BL\Logic\CheckoutManager.cs:line 1131
+   at MyMentor.Logic.CheckoutLogic.ExecuteCompleteCheckout(ParseUser loggedInUser, CheckoutViewModel checkoutViewModel, String worldId, Purchase[] userHistoricalPurchases, String& paymentUrl) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 56
+---> (Inner Exception #0) System.InvalidOperationException: Unable to save a ParseObject with a relation to a cycle.
+   at Parse.ParseObject.<>c__DisplayClass57.<>c__DisplayClass59.<DeepSaveAsync>b__4b()
+   at Parse.Internal.InternalExtensions.<>c__DisplayClassf.<WhileAsync>b__d(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+

@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBack" xml:space="preserve">
+    <value>חזור</value>
+  </data>
+  <data name="btnSend" xml:space="preserve">
+    <value>שלח</value>
+  </data>
+  <data name="btnUpdatePassword" xml:space="preserve">
+    <value>עדכן סיסמה</value>
+  </data>
+  <data name="captchaChangeImage" xml:space="preserve">
+    <value>שנה תמונה</value>
+  </data>
+  <data name="captchaInstructions" xml:space="preserve">
+    <value>הקלד את האותיות שבתמונה</value>
+  </data>
+  <data name="dlgEnglishFIrstName" xml:space="preserve">
+    <value>שם פרטי באנגלית</value>
+  </data>
+  <data name="emailRegistrationSuccessSubject" xml:space="preserve">
+    <value>הודעה מ MyMentorApp – נרשמת בהצלחה למערכת.</value>
+  </data>
+  <data name="footerAbout" xml:space="preserve">
+    <value>אודות</value>
+  </data>
+  <data name="footerApplication" xml:space="preserve">
+    <value>אפליקציות</value>
+  </data>
+  <data name="footerContactUs" xml:space="preserve">
+    <value>צור קשר</value>
+  </data>
+  <data name="footerLessonsAndPackages" xml:space="preserve">
+    <value>שעורים וחבילות</value>
+  </data>
+  <data name="footerMyAccounnt" xml:space="preserve">
+    <value>החשבון שלי</value>
+  </data>
+  <data name="footerRegulations" xml:space="preserve">
+    <value>תקנון</value>
+  </data>
+  <data name="footerRightsReserved" xml:space="preserve">
+    <value>&lt;div class="MyMentorRights"&gt;
+            כל הזכויות שמורות &amp;nbsp; | &amp;nbsp; &lt;span style="direction: ltr;"&gt;MyMentor&lt;/span&gt;&amp;nbsp;
+            &lt;span style="display: inline-block;"&gt;2014 &amp;copy;&lt;/span&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="footerTeachers" xml:space="preserve">
+    <value>מורים</value>
+  </data>
+  <data name="footerTeachersRegulations" xml:space="preserve">
+    <value>תקנון מורים</value>
+  </data>
+  <data name="lblAlreadyRegisterd" xml:space="preserve">
+    <value>&lt;div class="leftLink signInText"&gt;
+                    כבר רשום לאתר? &lt;a class="turkiz noUnderLine" href="login"&gt;הכנס עכשיו &amp;gt;&lt;/a&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="lblCaptchaInstructions" xml:space="preserve">
+    <value>הקלד את האותיות שבתמונה</value>
+  </data>
+  <data name="lblChangePicture" xml:space="preserve">
+    <value>שנה תמונה</value>
+  </data>
+  <data name="lblFileName" xml:space="preserve">
+    <value>שם קובץ</value>
+  </data>
+  <data name="lblForgotPassword" xml:space="preserve">
+    <value>שכחתי סיסמה</value>
+  </data>
+  <data name="lblNotRegisterdQuestion" xml:space="preserve">
+    <value>אינך רשום לאתר?</value>
+  </data>
+  <data name="lblProfilePicture" xml:space="preserve">
+    <value>תמונת פרופיל</value>
+  </data>
+  <data name="lblRegisterAsTeacher" xml:space="preserve">
+    <value>מבקש להרשם כמורה (מחייב אישור מערכת)</value>
+  </data>
+  <data name="lblRegisterNow" xml:space="preserve">
+    <value>הרשם עכשיו</value>
+  </data>
+  <data name="lblRegistrationConfirmationForStudent" xml:space="preserve">
+    <value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;
+        &lt;p class="font18 alefBold center"&gt;
+            שלום {0}. נרשמת בהצלחה!
+        &lt;/p&gt;
+        &lt;p&gt;
+            ברגעים אלה נשלחת אליך הודעה הכוללת קישור להורדת האפליקציה
+        &lt;/p&gt;
+        &lt;p&gt;
+            לאחר שתסיים להוריד אותה למכשיר שלך, תתבקש להזדהות כדי לרשום את המכשיר שלך לפורטל
+        &lt;/p&gt;
+        &lt;p&gt;
+            צוות MyMentor מאחל לך פעילות פורייה ומהנה
+        &lt;/p&gt;
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;המשך לפורטל &gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="lblRegistrationConfirmationForTeacher" xml:space="preserve">
+    <value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;
+        &lt;p class="font18 alefBold center"&gt;
+            שלום {0}. נרשמת בהצלחה!
+        &lt;/p&gt;
+        &lt;p&gt;
+            ברגעים אלה נשלחת אליך הודעה הכוללת קישור להורדת האפליקציה
+        &lt;/p&gt;
+        &lt;p&gt;
+            לאחר שתסיים להוריד אותה למכשיר שלך, תתבקש להזדהות כדי לרשום את המכשיר שלך לפורטל
+        &lt;/p&gt;
+       
+            &lt;p&gt;
+                הרשאות המורה ייכנסו לפועל לאחר בדיקת המערכת.
+            &lt;/p&gt;
+       
+        &lt;p&gt;
+            צוות MyMentor מאחל לך פעילות פורייה ומהנה
+        &lt;/p&gt;
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+               
+                    &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatL"
+                       href="/account/update"&gt;המשך לעדכון פרטי מורה &gt;&gt;&lt;/a&gt;
+                
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;המשך לפורטל &gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="lblSaveLogin" xml:space="preserve">
+    <value>שמור במחשב שלי</value>
+  </data>
+  <data name="lblShowContactDetailsInPortal" xml:space="preserve">
+    <value>הצג פרטי קשר בפורטל</value>
+  </data>
+  <data name="lblSiteRegistration" xml:space="preserve">
+    <value>הרשמה לאתר</value>
+  </data>
+  <data name="lblTeachingArea" xml:space="preserve">
+    <value>איזור הוראה</value>
+  </data>
+  <data name="lblTeachingPlace" xml:space="preserve">
+    <value>מקום לימוד:</value>
+  </data>
+  <data name="lblTems" xml:space="preserve">
+    <value>&lt;label for="ApproveTerms"&gt;
+                            קראתי את &lt;a href="#"&gt;התקנון&lt;/a&gt; ואני מסכים לתנאיו
+                        &lt;/label&gt;</value>
+  </data>
+  <data name="lblTitleChangePassword" xml:space="preserve">
+    <value>עדכון סיסמה</value>
+  </data>
+  <data name="lblTitleLogin" xml:space="preserve">
+    <value>כניסה לאתר</value>
+  </data>
+  <data name="lblUpdateStudent" xml:space="preserve">
+    <value>עדכון פרטים</value>
+  </data>
+  <data name="lblUpdateTeacher" xml:space="preserve">
+    <value>עדכון פרטי מורה</value>
+  </data>
+  <data name="lblVersion" xml:space="preserve">
+    <value>נוסח:</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>כניסה</value>
+  </data>
+  <data name="passwordIncorrect" xml:space="preserve">
+    <value>שם משתמש או סיסמה לא נכונים</value>
+  </data>
+  <data name="phAccountNumber" xml:space="preserve">
+    <value>מספר חשבון</value>
+  </data>
+  <data name="phACPAgentCommission" xml:space="preserve">
+    <value>עמלת סוכן ACP</value>
+  </data>
+  <data name="phAgentFullName" xml:space="preserve">
+    <value>סוכן</value>
+  </data>
+  <data name="phAshkenazi" xml:space="preserve">
+    <value>אשכנזי</value>
+  </data>
+  <data name="phBankName" xml:space="preserve">
+    <value>בנק</value>
+  </data>
+  <data name="phBeneficiaryFullName" xml:space="preserve">
+    <value>שם המוטב</value>
+  </data>
+  <data name="phBranch" xml:space="preserve">
+    <value>סניף</value>
+  </data>
+  <data name="phCityOfResidence" xml:space="preserve">
+    <value>יישוב מגורים</value>
+  </data>
+  <data name="phContentWorld" xml:space="preserve">
+    <value>עולם תוכן</value>
+  </data>
+  <data name="phCountry" xml:space="preserve">
+    <value>מדינה</value>
+  </data>
+  <data name="phCuponType" xml:space="preserve">
+    <value>סוג תו</value>
+  </data>
+  <data name="phCurrency" xml:space="preserve">
+    <value>מטבע</value>
+  </data>
+  <data name="phDeviceType" xml:space="preserve">
+    <value>סוג מכשיר</value>
+  </data>
+  <data name="phEmail" xml:space="preserve">
+    <value>דוא"ל</value>
+  </data>
+  <data name="phEnglishCityOfResidence" xml:space="preserve">
+    <value>יישוב מגורים באנגלית</value>
+  </data>
+  <data name="phEnglishFirstName" xml:space="preserve">
+    <value>שם פרטי באנגלית</value>
+  </data>
+  <data name="phEnglishLastName" xml:space="preserve">
+    <value>שם משפחה באנגלית</value>
+  </data>
+  <data name="phEnterEmailAddress" xml:space="preserve">
+    <value>אנא הזנ\י את כתובת הדואר האלקטרוני</value>
+  </data>
+  <data name="phExteaFeeForStudentHome" xml:space="preserve">
+    <value>תוספת בבית התלמיד</value>
+  </data>
+  <data name="phFirstName" xml:space="preserve">
+    <value>שם פרטי</value>
+  </data>
+  <data name="phFullAddress" xml:space="preserve">
+    <value>כתובת מלאה למשלוח דואר</value>
+  </data>
+  <data name="phGovId" xml:space="preserve">
+    <value>ת.ז</value>
+  </data>
+  <data name="phIRSNumber" xml:space="preserve">
+    <value>מספר מס הכנסה</value>
+  </data>
+  <data name="phLanguage" xml:space="preserve">
+    <value>שפת ממשק</value>
+  </data>
+  <data name="phLastName" xml:space="preserve">
+    <value>שם משפחה</value>
+  </data>
+  <data name="phLessonPrice" xml:space="preserve">
+    <value>מחיר שיעור</value>
+  </data>
+  <data name="phMorocan" xml:space="preserve">
+    <value>מרוקו</value>
+  </data>
+  <data name="phOtherVersion" xml:space="preserve">
+    <value>אחר</value>
+  </data>
+  <data name="phPassword" xml:space="preserve">
+    <value>סיסמה</value>
+  </data>
+  <data name="phPasswordConfirm" xml:space="preserve">
+    <value>הזן סיסמה שוב</value>
+  </data>
+  <data name="phPaypalEmail" xml:space="preserve">
+    <value>Paypal Email</value>
+  </data>
+  <data name="phPhone" xml:space="preserve">
+    <value>טלפון</value>
+  </data>
+  <data name="phPicture" xml:space="preserve">
+    <value>תמונה</value>
+  </data>
+  <data name="phResidence" xml:space="preserve">
+    <value>איזור</value>
+  </data>
+  <data name="phSalesStatus" xml:space="preserve">
+    <value>סטטוס מכירה</value>
+  </data>
+  <data name="phSefaradi" xml:space="preserve">
+    <value>ספרדי</value>
+  </data>
+  <data name="phShowContactDetailsInPortal" xml:space="preserve">
+    <value>הצג פרטי קשר בפורטל</value>
+  </data>
+  <data name="phSTRCommissionRate" xml:space="preserve">
+    <value>יחס עמלות STR</value>
+  </data>
+  <data name="phTeacherHomePage" xml:space="preserve">
+    <value>אתר הבית</value>
+  </data>
+  <data name="phTeacherTCPCommission" xml:space="preserve">
+    <value>עמלת מורה TCP</value>
+  </data>
+  <data name="phTeachesAtHome" xml:space="preserve">
+    <value>מלמד בביתו</value>
+  </data>
+  <data name="phTeachesAtOtherLocation" xml:space="preserve">
+    <value>במקום אחר</value>
+  </data>
+  <data name="phTeachesAtStudentsHome" xml:space="preserve">
+    <value>מלמד בבית התלמיד</value>
+  </data>
+  <data name="phTeachesSince" xml:space="preserve">
+    <value>מלמד משנת</value>
+  </data>
+  <data name="phTeachingLanguage1" xml:space="preserve">
+    <value>שפת לימוד 1</value>
+  </data>
+  <data name="phTeachingLanguage2" xml:space="preserve">
+    <value>שפת לימוד 2</value>
+  </data>
+  <data name="phTeachingLanguage3" xml:space="preserve">
+    <value>שפת לימוד 3</value>
+  </data>
+  <data name="phUserName" xml:space="preserve">
+    <value>שם משתמש (דוא"ל)</value>
+  </data>
+  <data name="phUserPublishStatus" xml:space="preserve">
+    <value>סטטוס העלאת שיעור</value>
+  </data>
+  <data name="phUserStatus" xml:space="preserve">
+    <value>סטטוס משתמש</value>
+  </data>
+  <data name="phVATNumber" xml:space="preserve">
+    <value>מספר מע"מ</value>
+  </data>
+  <data name="phVisibilityStatus" xml:space="preserve">
+    <value>סטטוס נראות</value>
+  </data>
+  <data name="phYemen" xml:space="preserve">
+    <value>תימני</value>
+  </data>
+  <data name="register" xml:space="preserve">
+    <value>רישום</value>
+  </data>
+  <data name="topnavAbout" xml:space="preserve">
+    <value>אודות</value>
+  </data>
+  <data name="topnavApplication" xml:space="preserve">
+    <value>אפליקציה</value>
+  </data>
+  <data name="topnavClipsAndBundles" xml:space="preserve">
+    <value>שיעורים וחבילות</value>
+  </data>
+  <data name="topnavContactUs" xml:space="preserve">
+    <value>צור קשר</value>
+  </data>
+  <data name="topnavGuides" xml:space="preserve">
+    <value>מדריכים</value>
+  </data>
+  <data name="topnavMyAccount" xml:space="preserve">
+    <value>החשבון שלי</value>
+  </data>
+  <data name="topnavTeachers" xml:space="preserve">
+    <value>מורים</value>
+  </data>
+  <data name="ttlManagerArea" xml:space="preserve">
+    <value>6. איזור מנהל</value>
+  </data>
+  <data name="ttlPayments" xml:space="preserve">
+    <value>4. סוג תגמול</value>
+  </data>
+  <data name="ttlPersonalDetails" xml:space="preserve">
+    <value>1. פרטים אישיים</value>
+  </data>
+  <data name="ttlPrefferences" xml:space="preserve">
+    <value>5. העדפות</value>
+  </data>
+  <data name="ttlProffesionalData" xml:space="preserve">
+    <value>2. פרטים מקצועיים</value>
+  </data>
+  <data name="ttlStatus" xml:space="preserve">
+    <value>3. סטטוסים</value>
+  </data>
+  <data name="validationCaptchaIsNotValid" xml:space="preserve">
+    <value>התוים שהוזנו לא תואמים לאלו שבתמונה</value>
+  </data>
+  <data name="validationChangePasswordError" xml:space="preserve">
+    <value>ארעה שגיאה בביצוע הפעולה ,אנא נסי/ה שוב מאוחר יותר</value>
+  </data>
+  <data name="validationChangePasswordSuccess" xml:space="preserve">
+    <value>שינוי הסיסמה בוצע בהצלחה, ברגעים אלו ישלח קישור לתיבת הדוא"ל שלך. להשלמת התהליך יש ללחוץ על הקישור </value>
+  </data>
+  <data name="validationEmail" xml:space="preserve">
+    <value>יש להזין כתובת מייל חוקית</value>
+  </data>
+  <data name="validationPasswordConfirmationField" xml:space="preserve">
+    <value>השדות סיסמה ואישור סיסמה אינם תואמים</value>
+  </data>
+  <data name="validationPasswordField" xml:space="preserve">
+    <value>יש להזין לפחות {2} תוים</value>
+  </data>
+  <data name="validationRegistrationTermsApproval" xml:space="preserve">
+    <value>על מנת להמשיך יש לאשר את התקנון</value>
+  </data>
+  <data name="validationRequiredField" xml:space="preserve">
+    <value>שדה חובה</value>
+  </data>
+  <data name="phSugTagmul" xml:space="preserve">
+    <value>סוג תגמול</value>
+  </data>
+  <data name="checkout" xml:space="preserve">
+    <value>לקופה</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>חפש</value>
+  </data>
+  <data name="lblSortBy" xml:space="preserve">
+    <value>מיון לפי</value>
+  </data>
+  <data name="lblSortByDate" xml:space="preserve">
+    <value>תאריך</value>
+  </data>
+  <data name="lessonsBuy" xml:space="preserve">
+    <value>רכישה</value>
+  </data>
+  <data name="lessonsInBasket" xml:space="preserve">
+    <value>פריטים בסל הקניות</value>
+  </data>
+  <data name="lessonsLessonOrBundle" xml:space="preserve">
+    <value>שיעור/חבילה</value>
+  </data>
+  <data name="lessonsPrice" xml:space="preserve">
+    <value>מחיר</value>
+  </data>
+  <data name="lessonsReadingDate" xml:space="preserve">
+    <value>נקרא&lt;br&gt; בתאריך</value>
+  </data>
+  <data name="lessonsTeacher" xml:space="preserve">
+    <value>מורה</value>
+  </data>
+  <data name="phSelectDate" xml:space="preserve">
+    <value>תאריך קריאה</value>
+  </data>
+  <data name="phTeachingArea" xml:space="preserve">
+    <value>איזור לימוד</value>
+  </data>
+  <data name="topnavHomePage" xml:space="preserve">
+    <value>עמוד הבית</value>
+  </data>
+  <data name="topnavMyLessons" xml:space="preserve">
+    <value>השיעורים שלי</value>
+  </data>
+  <data name="lblHello" xml:space="preserve">
+    <value>שלום</value>
+  </data>
+  <data name="lblHelloVisitor" xml:space="preserve">
+    <value>שלום אורח</value>
+  </data>
+  <data name="lblLogoff" xml:space="preserve">
+    <value>יציאה מהמערכת</value>
+  </data>
+  <data name="lblUpdateUserDetails" xml:space="preserve">
+    <value>עדכון פרטי משתמש</value>
+  </data>
+  <data name="lblClipSize" xml:space="preserve">
+    <value>גודל קובץ</value>
+  </data>
+  <data name="lblCreated" xml:space="preserve">
+    <value>תאריך הקמה</value>
+  </data>
+  <data name="lblDemoDownloads" xml:space="preserve">
+    <value>הורדות דמו</value>
+  </data>
+  <data name="lblDownloads" xml:space="preserve">
+    <value>הורדות</value>
+  </data>
+  <data name="lblExistsNikud" xml:space="preserve">
+    <value>השיעור מכיל ניקוד</value>
+  </data>
+  <data name="lblExistsTeamim" xml:space="preserve">
+    <value>השיעור מכיל טעמים</value>
+  </data>
+  <data name="lblExistsTeamimAndNukud" xml:space="preserve">
+    <value>השיעור מכיל טעמים וניקוד</value>
+  </data>
+  <data name="lblFileSize" xml:space="preserve">
+    <value>גודל קובץ</value>
+  </data>
+  <data name="lblItemId" xml:space="preserve">
+    <value>מזהה שיעור</value>
+  </data>
+  <data name="lblLessonInactive" xml:space="preserve">
+    <value>שיעור לא פעיל</value>
+  </data>
+  <data name="lblLessonManagementTitle" xml:space="preserve">
+    <value>איזור מורה/מנהל</value>
+  </data>
+  <data name="lblLessonRemarks" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="lblLessonVersion" xml:space="preserve">
+    <value>גירסה</value>
+  </data>
+  <data name="lblModified" xml:space="preserve">
+    <value>מתאריך</value>
+  </data>
+  <data name="lblPreformer" xml:space="preserve">
+    <value>מורה מבצע</value>
+  </data>
+  <data name="lblPurchases" xml:space="preserve">
+    <value>רכישות</value>
+  </data>
+  <data name="lblSendMessage" xml:space="preserve">
+    <value>שלח הודעה למורה</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>סטטוס</value>
+  </data>
+  <data name="lblSupport" xml:space="preserve">
+    <value>מחיר תמיכה</value>
+  </data>
+  <data name="lblTeacherDetails" xml:space="preserve">
+    <value>הצג פרטי מורה</value>
+  </data>
+  <data name="lblTeacherInactive" xml:space="preserve">
+    <value>מורה לא פעיל</value>
+  </data>
+  <data name="lblTeacherResidence" xml:space="preserve">
+    <value>ישוב מגורים</value>
+  </data>
+  <data name="lblTeachingArea2" xml:space="preserve">
+    <value>איזור מתן שיעורי לימוד</value>
+  </data>
+  <data name="phTeacherName" xml:space="preserve">
+    <value>שם מורה</value>
+  </data>
+  <data name="lblUpdated" xml:space="preserve">
+    <value>עודכן בתאריך</value>
+  </data>
+  <data name="lblChangeInterfaceLanguage" xml:space="preserve">
+    <value>החלף שפת ממשק</value>
+  </data>
+  <data name="lblChangeLanguage" xml:space="preserve">
+    <value>החלף לאנגלית</value>
+  </data>
+  <data name="phTeacherDescription" xml:space="preserve">
+    <value>תיאור מורה</value>
+  </data>
+  <data name="phTeacherDescriptionEnglish" xml:space="preserve">
+    <value>תיאור מורה באנגלית</value>
+  </data>
+  <data name="lessonUpdateCreated" xml:space="preserve">
+    <value>תאריך הקמה</value>
+  </data>
+  <data name="lessonUpdateDescription" xml:space="preserve">
+    <value>תיאור שיעור</value>
+  </data>
+  <data name="lessonUpdateDescriptionEnglish" xml:space="preserve">
+    <value>תיאור שיעור באנגלית</value>
+  </data>
+  <data name="lessonUpdateDialogTitle" xml:space="preserve">
+    <value>עדכון פרטי שיעור</value>
+  </data>
+  <data name="lessonUpdateLessonName" xml:space="preserve">
+    <value>שם שיעור</value>
+  </data>
+  <data name="lessonUpdateLessonPrice" xml:space="preserve">
+    <value>מחיר שיעור</value>
+  </data>
+  <data name="lessonUpdateMinPrice" xml:space="preserve">
+    <value>מחיר מינימום</value>
+  </data>
+  <data name="lessonUpdateModified" xml:space="preserve">
+    <value>תאריך עדכון</value>
+  </data>
+  <data name="lessonUpdatePerformaerEnglish" xml:space="preserve">
+    <value>מבצע באנגלית</value>
+  </data>
+  <data name="lessonUpdatePerformer" xml:space="preserve">
+    <value>מבצע</value>
+  </data>
+  <data name="lessonUpdateReadingDates" xml:space="preserve">
+    <value>תאריכי קריאה</value>
+  </data>
+  <data name="lessonUpdateReamrksEngilish" xml:space="preserve">
+    <value>תוספת לשם שיעור באנגלית</value>
+  </data>
+  <data name="lessonUpdateRemarks" xml:space="preserve">
+    <value>תוספת לשם שיעור</value>
+  </data>
+  <data name="lessonUpdateStatus" xml:space="preserve">
+    <value>סטטוס</value>
+  </data>
+  <data name="lessonUpdateSupportPrice" xml:space="preserve">
+    <value>מחיר תמיכה</value>
+  </data>
+  <data name="lessonUpdateTeacher" xml:space="preserve">
+    <value>מורה</value>
+  </data>
+  <data name="lessonUpdateVersion" xml:space="preserve">
+    <value>גרסה</value>
+  </data>
+  <data name="lblPleaseWait" xml:space="preserve">
+    <value>אנא המתן</value>
+  </data>
+  <data name="lblSave" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="lessonUpdateMinPriceValidation" xml:space="preserve">
+    <value>יש להזין מחיר גבוה ממחיר מינימום</value>
+  </data>
+  <data name="validationNumericField" xml:space="preserve">
+    <value>יש להזין מספרים בלבד</value>
+  </data>
+  <data name="emailNewTeacherSubject" xml:space="preserve">
+    <value>מורה חדש נרשם למערכת</value>
+  </data>
+  <data name="homepageApplication" xml:space="preserve">
+    <value>אפליקציה</value>
+  </data>
+  <data name="homepageHowWeTeach" xml:space="preserve">
+    <value>כך אנחנו מלמדים »</value>
+  </data>
+  <data name="homepageLessongsAndPackages" xml:space="preserve">
+    <value>שיעורים וחבילות</value>
+  </data>
+  <data name="homepageTeachers" xml:space="preserve">
+    <value>מורים</value>
+  </data>
+  <data name="lblChangeContentWorld" xml:space="preserve">
+    <value>החלף עולם תוכן</value>
+  </data>
+  <data name="lblChangeCurrency" xml:space="preserve">
+    <value>החלף מטבע</value>
+  </data>
+  <data name="lblWorldDisplayName" xml:space="preserve">
+    <value>עולם תוכן:</value>
+  </data>
+  <data name="worldBannerGeneralMainTitle" xml:space="preserve">
+    <value>לומדים ונהנים</value>
+  </data>
+  <data name="worldBannerGeneralSubTitle" xml:space="preserve">
+    <value>כל מה שצריך כדי ללמוד בקלות</value>
+  </data>
+  <data name="worldBannerToraMainTitle" xml:space="preserve">
+    <value>לומדים ונהנים</value>
+  </data>
+  <data name="worldBannerToraSubTitle" xml:space="preserve">
+    <value>כל מה שצריך כדי לעלות לתורה בקלות</value>
+  </data>
+  <data name="worldpickerSubTitle" xml:space="preserve">
+    <value>נא לבחור עולם תוכן</value>
+  </data>
+  <data name="worldpickerTitle" xml:space="preserve">
+    <value>ברוכים הבאים!</value>
+  </data>
+  <data name="btnPackageAddLesson" xml:space="preserve">
+    <value>הוסף שיעור</value>
+  </data>
+  <data name="btnPackageClose" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="btnPackageSave" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="btnPackageSaveAsNew" xml:space="preserve">
+    <value>שמור כחדש</value>
+  </data>
+  <data name="lblPackageCreated" xml:space="preserve">
+    <value>תאריך הקמה</value>
+  </data>
+  <data name="lblPackageDescription" xml:space="preserve">
+    <value>תיאור חבילה</value>
+  </data>
+  <data name="lblPackageDescriptionEnglish" xml:space="preserve">
+    <value>תיאור חבילה באנגלית</value>
+  </data>
+  <data name="lblPackageId" xml:space="preserve">
+    <value>מזהה חבילה:</value>
+  </data>
+  <data name="lblPackageLessonsListTitle" xml:space="preserve">
+    <value>רשימת שיעורים</value>
+  </data>
+  <data name="lblPackageMinPrice" xml:space="preserve">
+    <value>מחיר מינימום</value>
+  </data>
+  <data name="lblPackageModified" xml:space="preserve">
+    <value>תאריך עדכון</value>
+  </data>
+  <data name="lblPackageName" xml:space="preserve">
+    <value>שם חבילה:</value>
+  </data>
+  <data name="lblPackageNameAddition" xml:space="preserve">
+    <value>תוספת לשם חבילה</value>
+  </data>
+  <data name="lblPackageNameAdditionEnglish" xml:space="preserve">
+    <value>תוספת לשם חבילה באנגלית</value>
+  </data>
+  <data name="lblPackagePrice" xml:space="preserve">
+    <value>מחיר חבילה</value>
+  </data>
+  <data name="lblPackageStatus" xml:space="preserve">
+    <value>סטטוס</value>
+  </data>
+  <data name="lblPackageSupportPrice" xml:space="preserve">
+    <value>מחיר תמיכה</value>
+  </data>
+  <data name="lblPackageTeacher" xml:space="preserve">
+    <value>מורה</value>
+  </data>
+  <data name="lessonsCreateCupon" xml:space="preserve">
+    <value>צור קופון</value>
+  </data>
+  <data name="lessonsCreatePackage" xml:space="preserve">
+    <value>צור חבילה</value>
+  </data>
+  <data name="lessonsUpdateLesson" xml:space="preserve">
+    <value>עדכן שיעור</value>
+  </data>
+  <data name="errTooManyClipsInBundle" xml:space="preserve">
+    <value>לא ניתן להוסיף עוד שיעורים לחבילה ניתן להוסיף עד {0} שיעורים</value>
+  </data>
+  <data name="phSelecteCategory" xml:space="preserve">
+    <value>בחירת קטגוריה</value>
+  </data>
+  <data name="lblMinPriceWait" xml:space="preserve">
+    <value>מחשב מחיר מינימום...</value>
+  </data>
+  <data name="errCanotAddBundleGeneral" xml:space="preserve">
+    <value>ארעה שגיאה בהוספת החבילה, אנא נסה שוב מאוחר יותר או צור קשר עם מנהל המערכת</value>
+  </data>
+  <data name="errSameBundleName" xml:space="preserve">
+    <value>קיימת חבילה במערכת עם שם זה, יש להזין שם חבילה אחר</value>
+  </data>
+  <data name="lblBackToLessons" xml:space="preserve">
+    <value>חזרה לשיעורים</value>
+  </data>
+  <data name="lblIsInBundle" xml:space="preserve">
+    <value>הצג חבילת מבצע</value>
+  </data>
+  <data name="lblBundle" xml:space="preserve">
+    <value>חבילה</value>
+  </data>
+  <data name="lessonUpdatePackage" xml:space="preserve">
+    <value>עדכון חבילה</value>
+  </data>
+  <data name="lessonDeletePackage" xml:space="preserve">
+    <value>מחיקת חבילה</value>
+  </data>
+  <data name="addToBasket" xml:space="preserve">
+    <value>הוסף לסל</value>
+  </data>
+  <data name="addToBasketWithSupport" xml:space="preserve">
+    <value>הוסף לסל עם תמיכה</value>
+  </data>
+  <data name="errTeacherNotFound" xml:space="preserve">
+    <value>המורה שהוזן לא נמצא במערכת</value>
+  </data>
+  <data name="goToTeacherPage" xml:space="preserve">
+    <value>עבור לעמוד מורה</value>
+  </data>
+  <data name="orderDemo" xml:space="preserve">
+    <value>הזמן דמו חינם</value>
+  </data>
+  <data name="performerIsNotTeacher" xml:space="preserve">
+    <value>אם המבצע אינו מורה</value>
+  </data>
+  <data name="validationDateInPastError" xml:space="preserve">
+    <value>יש להזין תאריך עתידי בלבד</value>
+  </data>
+  <data name="writeMessage" xml:space="preserve">
+    <value>כתוב הודעה</value>
+  </data>
+  <data name="deleteBundleConfirm" xml:space="preserve">
+    <value>חבילה זו תמחק, האם להמשיך ?</value>
+  </data>
+  <data name="deleteLessonInPackage" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="pleaseWait" xml:space="preserve">
+    <value>אנא המתן...</value>
+  </data>
+  <data name="searchAddLessons" xml:space="preserve">
+    <value>הוסף שיעורים</value>
+  </data>
+  <data name="searchHasNotResults" xml:space="preserve">
+    <value>&lt;div&gt;
+                &lt;p&gt;לא נמצאו שיעורים&lt;/p&gt;
+                &lt;p&gt;אנא בחר\י קריטריונים לחיפוש בשדות שבראש העמוד&lt;/p&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="serachLessonTitle" xml:space="preserve">
+    <value>חיפוש שיעור</value>
+  </data>
+  <data name="updateBundleInactiveLessonInBundle" xml:space="preserve">
+    <value>חבילה זו מכילה שיעורים לא פעילים</value>
+  </data>
+  <data name="updateBundleNoLessonsSelected" xml:space="preserve">
+    <value>לא נבחרו שיעורים לחבילות</value>
+  </data>
+  <data name="updateBundleTeacherNotFound" xml:space="preserve">
+    <value>המורה לא נמצא</value>
+  </data>
+  <data name="updateLessonGeneralError" xml:space="preserve">
+    <value>ארעה שגיאה בעדכון השיעור</value>
+  </data>
+  <data name="phUserGroup" xml:space="preserve">
+    <value>קבוצה</value>
+  </data>
+  <data name="phUserSubGroup" xml:space="preserve">
+    <value>תת קבוצה</value>
+  </data>
+  <data name="managerAreaForStudent" xml:space="preserve">
+    <value>איזור מנהל</value>
+  </data>
+  <data name="treeClearSelectrion" xml:space="preserve">
+    <value>נקה בחירה</value>
+  </data>
+  <data name="lessonPriceIsZero" xml:space="preserve">
+    <value>יש להזין מחיר לשיעור</value>
+  </data>
+  <data name="formValidationSummary" xml:space="preserve">
+    <value>ארעו שגיאות במילוי הטופס</value>
+  </data>
+  <data name="illegalEmailAddress" xml:space="preserve">
+    <value>כתובת המייל שהוזנה איננה תקינה</value>
+  </data>
+  <data name="registrationGeneralError" xml:space="preserve">
+    <value>ארעה שגיאה כללית , אנא נסה שוב מאוחר יותר</value>
+  </data>
+  <data name="selectGroup" xml:space="preserve">
+    <value>בחירת קבוצה</value>
+  </data>
+  <data name="selectSubGroup" xml:space="preserve">
+    <value>בחירת תת קבוצה</value>
+  </data>
+  <data name="userExistsInTheSystem" xml:space="preserve">
+    <value>משתמש קיים במערכת</value>
+  </data>
+  <data name="userNotAllowedToLogin" xml:space="preserve">
+    <value>לא ניתן לבצע כניסה למערכת , המשתמש בסטטוס {0}</value>
+  </data>
+  <data name="clipDuration" xml:space="preserve">
+    <value>משך בדקות</value>
+  </data>
+  <data name="lblBundleInactive" xml:space="preserve">
+    <value>חבילה לא פעילה</value>
+  </data>
+  <data name="bundleNameNotSet" xml:space="preserve">
+    <value>לא נקבע שם חבילה,יש לבחור ערך בקטגוריות או להזין תוספת לשם חבילה</value>
+  </data>
+  <data name="idleTimeoutResume" xml:space="preserve">
+    <value>לחץ כאן על מנת להמשיך פעילות במערכת</value>
+  </data>
+  <data name="inactivityLogoff" xml:space="preserve">
+    <value>המערכת זיהתה חוסר פעילות ותבצע יציאה בעוד: &lt;span&gt;&lt;!-- countdown place holder --&gt;&lt;/span&gt;&amp;nbsp;שניות</value>
+  </data>
+  <data name="couponAmountForPayment" xml:space="preserve">
+    <value>סה"כ לתשלום:</value>
+  </data>
+  <data name="couponAmountToPay" xml:space="preserve">
+    <value>הפרש לתשלום:</value>
+  </data>
+  <data name="couponBack" xml:space="preserve">
+    <value>חזרה</value>
+  </data>
+  <data name="couponBundleName" xml:space="preserve">
+    <value>שם החבילה</value>
+  </data>
+  <data name="couponCreateCoupon" xml:space="preserve">
+    <value>צור קופון</value>
+  </data>
+  <data name="couponCurrentPrice" xml:space="preserve">
+    <value>מחיר נוכחי:</value>
+  </data>
+  <data name="couponDiscountToolittle" xml:space="preserve">
+    <value>על המחיר לתלמיד להיות קטן בלפחות 10% מהמחיר המקורי</value>
+  </data>
+  <data name="couponFor" xml:space="preserve">
+    <value>בעבור</value>
+  </data>
+  <data name="couponLessonName" xml:space="preserve">
+    <value>שם שיעור:</value>
+  </data>
+  <data name="couponMaxDiscountWarnning" xml:space="preserve">
+    <value>שים לב! סכום ההנחה שבחרת חורג מההנחה המירבית
+            &lt;br /&gt;
+            המותרת -</value>
+  </data>
+  <data name="couponNumber" xml:space="preserve">
+    <value>מספר קופון</value>
+  </data>
+  <data name="couponPay" xml:space="preserve">
+    <value>שלם</value>
+  </data>
+  <data name="couponPriceIsZero" xml:space="preserve">
+    <value>יש להזין מחיר לתלמיד</value>
+  </data>
+  <data name="couponRegularDiscountPrice" xml:space="preserve">
+    <value>מחיר בהנחה רגילה:</value>
+  </data>
+  <data name="couponRegularPriceForStudent" xml:space="preserve">
+    <value>מחיר לתלמיד:</value>
+  </data>
+  <data name="couponSentToYou" xml:space="preserve">
+    <value>נשלח אליך ול{0}</value>
+  </data>
+  <data name="couponStudentEmailAddress" xml:space="preserve">
+    <value>כתובת מייל של התלמיד</value>
+  </data>
+  <data name="couponStudentPrice" xml:space="preserve">
+    <value>מחיר לתלמיד</value>
+  </data>
+  <data name="couponTeacherDiscountPrice" xml:space="preserve">
+    <value>מחיר בהנחת מורה:</value>
+  </data>
+  <data name="couponTitle" xml:space="preserve">
+    <value>יצירת קופון לשיעור\חבילה</value>
+  </data>
+  <data name="couponUserNotFoundError" xml:space="preserve">
+    <value>המשתמש לא נמצא במערכת</value>
+  </data>
+  <data name="couponValidUntil" xml:space="preserve">
+    <value>הקופון הינו בתוקף לשבוע  עד התאריך</value>
+  </data>
+  <data name="couponWillBeChargedFromYourAccount" xml:space="preserve">
+    <value>יקוזז מחשבונך:</value>
+  </data>
+  <data name="couponYourBallance" xml:space="preserve">
+    <value>יתרתך:</value>
+  </data>
+  <data name="coupunIncludingSupport" xml:space="preserve">
+    <value>כולל תמיכה</value>
+  </data>
+  <data name="generalError" xml:space="preserve">
+    <value>ארעה שגיאה במערכת, אנא נסה שוב מאוחר יותר</value>
+  </data>
+  <data name="couponEmailSubject" xml:space="preserve">
+    <value>הודעה מMyMentorApp- {0} רכש עבורך קופון הנחה - {1}</value>
+  </data>
+  <data name="couponApprove" xml:space="preserve">
+    <value>אשר</value>
+  </data>
+  <data name="couponNumericValidation" xml:space="preserve">
+    <value>יש להזין מספר</value>
+  </data>
+  <data name="createCouponGeneralError" xml:space="preserve">
+    <value>ארעה שגיאה ביצירת הקופון , אנא נסה שוב במועד מאוחר יותר</value>
+  </data>
+  <data name="paypalCuponFor" xml:space="preserve">
+    <value>קופון בעבור:</value>
+  </data>
+  <data name="paypalCuponForBundle" xml:space="preserve">
+    <value>:קופון לחבילה</value>
+  </data>
+  <data name="shoppingCartBundleAdded" xml:space="preserve">
+    <value>החבילה הוספה לסל</value>
+  </data>
+  <data name="shoppingCartDemoAdded" xml:space="preserve">
+    <value>הדמו הועבר לאפליקציה</value>
+  </data>
+  <data name="shoppingCartDialogBack" xml:space="preserve">
+    <value>&lt;&lt; חזור לשיעורים וחבילות</value>
+  </data>
+  <data name="shoppingCartLessonAdded" xml:space="preserve">
+    <value>השיעור הוסף לסל</value>
+  </data>
+  <data name="coupon" xml:space="preserve">
+    <value>קופון</value>
+  </data>
+  <data name="itemFor" xml:space="preserve">
+    <value>בעבור</value>
+  </data>
+  <data name="myAccountAction" xml:space="preserve">
+    <value>פעולה</value>
+  </data>
+  <data name="myAccountAmount" xml:space="preserve">
+    <value>סכום</value>
+  </data>
+  <data name="myAccountCredit" xml:space="preserve">
+    <value>יתרה</value>
+  </data>
+  <data name="myAccountDate" xml:space="preserve">
+    <value>תאריך</value>
+  </data>
+  <data name="myAccountDueDate" xml:space="preserve">
+    <value>יום הערך</value>
+  </data>
+  <data name="myAccountEndDate" xml:space="preserve">
+    <value>עד</value>
+  </data>
+  <data name="myAccountEvent" xml:space="preserve">
+    <value>ארוע</value>
+  </data>
+  <data name="myAccountFill" xml:space="preserve">
+    <value>מלא</value>
+  </data>
+  <data name="myAccountItem" xml:space="preserve">
+    <value>פריט</value>
+  </data>
+  <data name="myAccountNoResults" xml:space="preserve">
+    <value>לא נמצאו תוצאות בעבור החיפוש המבוקש</value>
+  </data>
+  <data name="myAccountOrder" xml:space="preserve">
+    <value>סדר</value>
+  </data>
+  <data name="myAccountPrevCredit" xml:space="preserve">
+    <value>יתרה קודמת</value>
+  </data>
+  <data name="myAccountRemarks" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="myAccountShow" xml:space="preserve">
+    <value>הצג</value>
+  </data>
+  <data name="myAccountStartDate" xml:space="preserve">
+    <value>מ</value>
+  </data>
+  <data name="myAccountStatus" xml:space="preserve">
+    <value>סטטוס</value>
+  </data>
+  <data name="myAccountTitle" xml:space="preserve">
+    <value>החשבון שלי</value>
+  </data>
+  <data name="myAccountType" xml:space="preserve">
+    <value>סוג</value>
+  </data>
+  <data name="myAccountUser" xml:space="preserve">
+    <value>משתמש</value>
+  </data>
+  <data name="myAccountDateError" xml:space="preserve">
+    <value>תאריך ההתחלה גדול מתאריך הסיום</value>
+  </data>
+  <data name="userNameDoesNotExist" xml:space="preserve">
+    <value>שם המשתמש לא קיים במערכת</value>
+  </data>
+  <data name="myAccountCouponBundle" xml:space="preserve">
+    <value>חבילה</value>
+  </data>
+  <data name="myAccountCouponClip" xml:space="preserve">
+    <value>שיעור</value>
+  </data>
+  <data name="myAccountCouponCode" xml:space="preserve">
+    <value>קוד קופון</value>
+  </data>
+  <data name="myAccountCouponDiscountPrice" xml:space="preserve">
+    <value>מחיר הנחה</value>
+  </data>
+  <data name="myAccountCouponIssuedBy" xml:space="preserve">
+    <value>רוכש</value>
+  </data>
+  <data name="myAccountCouponIssuedByName" xml:space="preserve">
+    <value>שם רוכש</value>
+  </data>
+  <data name="myAccountCouponIssuedFor" xml:space="preserve">
+    <value>מקבל</value>
+  </data>
+  <data name="myAccountCouponIssuedForName" xml:space="preserve">
+    <value>שם מקבל</value>
+  </data>
+  <data name="myAccountCouponIssueEvent" xml:space="preserve">
+    <value>ארוע הקמה</value>
+  </data>
+  <data name="myAccountCouponOriginalPrice" xml:space="preserve">
+    <value>מחיר מקורי</value>
+  </data>
+  <data name="myAccountCouponSiteFee" xml:space="preserve">
+    <value>עמלת אתר</value>
+  </data>
+  <data name="myAccountCouponStatus" xml:space="preserve">
+    <value>סטטוס</value>
+  </data>
+  <data name="myAccountCouponTeacherFee" xml:space="preserve">
+    <value>עמלת מורה</value>
+  </data>
+  <data name="myAccountCouponType" xml:space="preserve">
+    <value>סוג קופון</value>
+  </data>
+  <data name="myAccountCouponUseDate" xml:space="preserve">
+    <value>תאריך ניצול</value>
+  </data>
+  <data name="myAccountCouponUseEvent" xml:space="preserve">
+    <value>אירוע ניצול</value>
+  </data>
+  <data name="myAccountEventCode" xml:space="preserve">
+    <value>קוד ארוע</value>
+  </data>
+  <data name="myAccountEventCouponCode" xml:space="preserve">
+    <value>קופון</value>
+  </data>
+  <data name="myAccountEventCreatedAt" xml:space="preserve">
+    <value>התחלה</value>
+  </data>
+  <data name="myAccountEventCreatedBy" xml:space="preserve">
+    <value>יוצר</value>
+  </data>
+  <data name="myAccountEventCreatedByDisplayName" xml:space="preserve">
+    <value>שם יוצר</value>
+  </data>
+  <data name="myAccountEventEndTime" xml:space="preserve">
+    <value>עדכון</value>
+  </data>
+  <data name="myAccountEventPaymentCode" xml:space="preserve">
+    <value>תשלום</value>
+  </data>
+  <data name="myAccountEventStartTime" xml:space="preserve">
+    <value>התחלה</value>
+  </data>
+  <data name="myAccountEventStatus" xml:space="preserve">
+    <value>סטטוס</value>
+  </data>
+  <data name="myAccountEventType" xml:space="preserve">
+    <value>סוג</value>
+  </data>
+  <data name="Min2LessonsInBundle" xml:space="preserve">
+    <value>יש לבחור לפחות 2 שיעורים בעבור חבילה זו</value>
+  </data>
+  <data name="myAccountEventAmount" xml:space="preserve">
+    <value>סכום לתשלום</value>
+  </data>
+  <data name="myAccountPaypalId" xml:space="preserve">
+    <value>מזהה תשלום פייפל</value>
+  </data>
+  <data name="myAccountPaypalStatus" xml:space="preserve">
+    <value>סטטוס תשלום</value>
+  </data>
+  <data name="couponAlreadyExists" xml:space="preserve">
+    <value>הקופון הזה כבר קיים. האם אתה בטוח שאתה רוצה להקים קופון נוסף ?  זה לא מומלץ</value>
+  </data>
+  <data name="collapse" xml:space="preserve">
+    <value>כווץ</value>
+  </data>
+  <data name="expand" xml:space="preserve">
+    <value>הרחב</value>
+  </data>
+  <data name="residenceCountry" xml:space="preserve">
+    <value>מדינה</value>
+  </data>
+  <data name="sugOsek" xml:space="preserve">
+    <value>סוג עוסק</value>
+  </data>
+  <data name="chooseSugOsek" xml:space="preserve">
+    <value>בחירת סוג עוסק</value>
+  </data>
+  <data name="phAdminRemarks" xml:space="preserve">
+    <value>הערות מנהל</value>
+  </data>
+  <data name="phLockCountry" xml:space="preserve">
+    <value>נעל מדינה</value>
+  </data>
+  <data name="phLockCurrency" xml:space="preserve">
+    <value>נעל מטבע</value>
+  </data>
+  <data name="phLockSugNirut" xml:space="preserve">
+    <value>נעל סוג נראות</value>
+  </data>
+  <data name="phLockSugOsek" xml:space="preserve">
+    <value>נעל סוג עוסק</value>
+  </data>
+  <data name="phOriginalTaxPercent" xml:space="preserve">
+    <value>אחוז מס במקור</value>
+  </data>
+  <data name="sugOsekRequired" xml:space="preserve">
+    <value>יש לבחור סוג עוסק</value>
+  </data>
+  <data name="teacherHidden" xml:space="preserve">
+    <value>מורה לא מוצג</value>
+  </data>
+  <data name="aboutPaypal" xml:space="preserve">
+    <value>אודות Paypal</value>
+  </data>
+  <data name="appUserMoreDetails" xml:space="preserve">
+    <value>&lt;div id="appuserMessage" class="dialog_mentor" title="MyMentor Registration"&gt;
+        &lt;p class="font18 alefBold center"&gt;
+	  שלום {0} , הרישום דרך האפליקציה בוצע בהצלחה
+        &lt;/p&gt;
+        &lt;p&gt;
+על מנת להשלים את הרישום לפורטל, יש למלא את שדות החובה בטופס
+        &lt;/p&gt;
+        
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;המשך לעדכון פרטים&gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="appUserUpdateDetails" xml:space="preserve">
+    <value>לעדכון פרטים</value>
+  </data>
+  <data name="chooseCurrency" xml:space="preserve">
+    <value>בחירת מטבע</value>
+  </data>
+  <data name="checkoutBackTolessons" xml:space="preserve">
+    <value>עבור לשיעורים וחבילות</value>
+  </data>
+  <data name="checkoutBalance" xml:space="preserve">
+    <value>יתרת חשבונך</value>
+  </data>
+  <data name="checkoutPay" xml:space="preserve">
+    <value>שלם</value>
+  </data>
+  <data name="checkoutPurchaseFor" xml:space="preserve">
+    <value>הרכישה עבור</value>
+  </data>
+  <data name="checkoutSubstractedFromBalance" xml:space="preserve">
+    <value>יקוזז מחשבונך</value>
+  </data>
+  <data name="checkoutTitle" xml:space="preserve">
+    <value>קופת תשלום</value>
+  </data>
+  <data name="checkoutTotalPayment" xml:space="preserve">
+    <value>סה"כ לתשלום</value>
+  </data>
+  <data name="checkoutTotalPurchase" xml:space="preserve">
+    <value>סה"כ קניה</value>
+  </data>
+  <data name="checkoutTotalPurchaseAfterCoupon" xml:space="preserve">
+    <value>לאחר הנחת קופון</value>
+  </data>
+  <data name="checkoutUnusedCouponsTitle" xml:space="preserve">
+    <value>ממתין לך קופון שטרם ניצלת!</value>
+  </data>
+  <data name="checkoutAddCoupon" xml:space="preserve">
+    <value>הוסף קופון</value>
+  </data>
+  <data name="checkoutBundle" xml:space="preserve">
+    <value>חבילה:</value>
+  </data>
+  <data name="checkoutCoupon" xml:space="preserve">
+    <value>קופון</value>
+  </data>
+  <data name="checkoutCouponTitleTemplate" xml:space="preserve">
+    <value>קופון ל{0}  {1}  מחיר מקורי- {2} מחיר שלך- {3} תאריך תפוגה {4}</value>
+  </data>
+  <data name="checkoutIncludingSupport" xml:space="preserve">
+    <value>כולל לימוד מרחוק</value>
+  </data>
+  <data name="checkoutLesson" xml:space="preserve">
+    <value>שיעור:</value>
+  </data>
+  <data name="checkoutPrice" xml:space="preserve">
+    <value>מחיר</value>
+  </data>
+  <data name="checkoutRemoveCoupon" xml:space="preserve">
+    <value>הסר קופון</value>
+  </data>
+  <data name="checkoutRemovePurchase" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="completeRegistration" xml:space="preserve">
+    <value>יש להשלים רישום</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>ביטול</value>
+  </data>
+  <data name="checkoutAddCouponConfirm" xml:space="preserve">
+    <value>האם ברצונך להשתמש בקופון זה ?</value>
+  </data>
+  <data name="checkoutConfirm" xml:space="preserve">
+    <value>אשר</value>
+  </data>
+  <data name="showMoreBundles" xml:space="preserve">
+    <value>הצג חבילות נוספות</value>
+  </data>
+  <data name="addupdateBundle" xml:space="preserve">
+    <value>הקמה/עדכון חבילה</value>
+  </data>
+  <data name="bundlePriceLessThanClipsSum" xml:space="preserve">
+    <value>מחיר חבילה חייב להיות קטן לפחות ב 10% ממחיר השיעורים</value>
+  </data>
+  <data name="showBundle" xml:space="preserve">
+    <value>הצג חבילת מבצע</value>
+  </data>
+  <data name="purchaseForUserDoesNotExist" xml:space="preserve">
+    <value>המשתמש {0} אינו קיים במערכת</value>
+  </data>
+  <data name="includingSupport" xml:space="preserve">
+    <value>כולל תמיכה</value>
+  </data>
+  <data name="notIncludingSupport" xml:space="preserve">
+    <value>לא כולל תמיכה</value>
+  </data>
+  <data name="maBundleId" xml:space="preserve">
+    <value>חבילה</value>
+  </data>
+  <data name="maBundleName" xml:space="preserve">
+    <value>שם חבילה</value>
+  </data>
+  <data name="maBundleStatus" xml:space="preserve">
+    <value>סטטוס חבילה</value>
+  </data>
+  <data name="maBuyerName" xml:space="preserve">
+    <value>שם רוכש</value>
+  </data>
+  <data name="maBuyerUserName" xml:space="preserve">
+    <value>רוכש</value>
+  </data>
+  <data name="maCouponId" xml:space="preserve">
+    <value>קופון</value>
+  </data>
+  <data name="maDownloadsCounter" xml:space="preserve">
+    <value>הורדות</value>
+  </data>
+  <data name="maEventId" xml:space="preserve">
+    <value>ארוע</value>
+  </data>
+  <data name="maFirstDownloadDate" xml:space="preserve">
+    <value>הורדה ראשונה</value>
+  </data>
+  <data name="maLessonId" xml:space="preserve">
+    <value>קוד שיעור</value>
+  </data>
+  <data name="maLessons" xml:space="preserve">
+    <value>שיעורים</value>
+  </data>
+  <data name="maLessontatus" xml:space="preserve">
+    <value>סטטוס שיעור</value>
+  </data>
+  <data name="maName" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="maPrice" xml:space="preserve">
+    <value>מחיר</value>
+  </data>
+  <data name="maPurchaseStatus" xml:space="preserve">
+    <value>סטטוס רכישה</value>
+  </data>
+  <data name="maRecieverName" xml:space="preserve">
+    <value>שם מקבל</value>
+  </data>
+  <data name="maRecieverUserName" xml:space="preserve">
+    <value>מקבל</value>
+  </data>
+  <data name="maStatusDate" xml:space="preserve">
+    <value>תאריך הסטטוס</value>
+  </data>
+  <data name="maSupportPrice" xml:space="preserve">
+    <value>מחיר תמיכה</value>
+  </data>
+  <data name="maTeacherName" xml:space="preserve">
+    <value>שם מורה</value>
+  </data>
+  <data name="maTeacherUserName" xml:space="preserve">
+    <value>מורה</value>
+  </data>
+  <data name="checkoutBalanceCover" xml:space="preserve">
+    <value>כיסוי יתרת חשבונך</value>
+  </data>
+  <data name="LetterCopy" xml:space="preserve">
+    <value>עותק</value>
+  </data>
+  <data name="LetterSource" xml:space="preserve">
+    <value>מקור</value>
+  </data>
+  <data name="errorCreatingCoupon" xml:space="preserve">
+    <value>שגיאה ביצירת קופון !! משתמש-{0}, באירוע-{1}</value>
+  </data>
+  <data name="teacherRegistrationEmailSubject" xml:space="preserve">
+    <value>בקשה לרישום מורה ע"י {0}</value>
+  </data>
+  <data name="couponErrAgentNotFound" xml:space="preserve">
+    <value>סוכן לא נמצא</value>
+  </data>
+  <data name="couponErrPaymentFailedDbError" xml:space="preserve">
+    <value>תשלום נכשל, עדכון בסיס הנתונים נכשל</value>
+  </data>
+  <data name="couponErrPaymentSuccessDbError" xml:space="preserve">
+    <value>תשלום בוצע, עדכון בסיס הנתונים נכשל</value>
+  </data>
+  <data name="couponErrUserCancelDbErrpr" xml:space="preserve">
+    <value>משתמש ביטל תשלום. עדכון בסיס הנתונים נכשל</value>
+  </data>
+  <data name="couponLetterEventPlaceholder" xml:space="preserve">
+    <value>, אירוע - {0}</value>
+  </data>
+  <data name="newTeacherEmailApprovalSubject" xml:space="preserve">
+    <value>הודעה מ MyMentorApp – {0} רישומך כמורה אושר.</value>
+  </data>
+</root>

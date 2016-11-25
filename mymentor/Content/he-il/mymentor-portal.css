@@ -1,0 +1,147 @@
+﻿body {
+    direction: rtl;
+}
+
+.mtr-container-main {
+    width: 80%;
+    float: right;
+    margin-left: 5px;
+    min-height: 40px;
+}
+
+.mtr-container-side {
+    float: left;
+    border-right: solid 2px #eeeeee;
+    min-height: 40px;
+}
+
+    .mtr-container-side ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .mtr-container-side li {
+        list-style: none;
+    }
+
+        .mtr-container-side li div {
+            margin-right: 5px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+            .mtr-container-side li div:first-child {
+                float: right;
+                width: 85px;
+            }
+
+            .mtr-container-side li div:last-child {
+                width: 100px;
+                float: right;
+                margin-right: 10px;
+            }
+
+        .mtr-container-side li img {
+            width: 85px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+.mtr-content-purchase-container li {
+    list-style: none;
+    float: right;
+    margin-left: 10px;
+}
+
+.mtr-clips-in-bundle-container {
+    margin-right: 35px;
+}
+
+.mtr-content-item-container {
+    border-bottom: solid 2px #eeeeee;
+}
+
+.mtr-top-search {
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+    .mtr-top-search li {
+        list-style: none;
+        float: right;
+        margin-left: 3px;
+    }
+
+        .mtr-top-search li.combo {
+            /*width:230px;*/
+        }
+
+.navbar-nav {
+    float: right;
+}
+
+    .navbar-nav li {
+        float: right;
+    }
+
+.navbar-header {
+    float: right;
+}
+
+.navbar-right {
+    float: left !important;
+}
+
+.ui-datepicker-trigger {
+    float: left;
+}
+
+.hasDatepicker {
+    float: right;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+    float: right;
+}
+
+#mtr-sucessMessage {
+    width: 400px;
+    display: none;
+}
+
+#password_complexity {
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    float: right;
+    margin: 6px 4px 0 0;
+    display: none;
+    position:absolute;
+    top: -1px;
+    left: 5px;
+}
+
+#Password {
+    display: inline-block;
+    float: right;
+}
+
+.mtr-show-clip-details {
+    float: right;
+}
+
+    .mtr-show-clip-details a {
+        background: url('../../Content/Images/combo_arrow.png') no-repeat center right;
+        display: block;
+        height: 107px;
+        width: 24px;
+        margin-top: -2px;
+        text-decoration: none;
+    }
+
+ 
+
+
+
+
+ 

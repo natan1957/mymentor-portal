@@ -1,0 +1,23 @@
+2016-08-11 09:34:02.6517 ERROR Parse.ParseException: Invalid username/password.
+   at Parse.Internal.ParseCommandRunner.<>c__DisplayClass2.<RunCommandAsync>b__1(Task`1 t)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MyMentor.Account.MyMentorUserManager.<Login>d__32.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.BL\DomainServices\MyMentorUserManager.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MyMentor.Controllers.AccountController.<Login>d__8.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\AccountController.cs:line 95

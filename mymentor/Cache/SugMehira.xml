@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<CodeTableDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DataItems>
+    <CodeTableDataItem>
+      <Key>QUFxxXLf5T</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>סוג מכירה 2</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+    <CodeTableDataItem>
+      <Key>nGeRN2StWu</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>סוג מכירה 1</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+  </DataItems>
+</CodeTableDto>

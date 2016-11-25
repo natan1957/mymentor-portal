@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNet.Identity
+@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Extentions
+@model MyMentor.Models.UserDetailsModel
+
+@if (Model != null)
+{
+
+    <div class="helloText">
+        @Html.ActionLink(MyMentorResources.lblHello + " " + 
+                   Model.FirstName,
+                    "Update", "Account", routeValues: null,
+                    htmlAttributes: new { title = MyMentorResources.lblUpdateUserDetails })
+
+    </div>
+    <div class="signInUp">
+        @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+        {
+         
+            <a href="javascript:document.getElementById('logoutForm').submit()">@MyMentorResources.lblLogoff</a>
+        }
+    </div>
+
+}
+else
+{
+    <div class="helloText">
+        @MyMentorResources.lblHelloVisitor,
+    </div>
+    <div class="signInUp">
+        @Html.ActionLink(MyMentorResources.login, "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
+        <span class="headerSeperator">|</span>@Html.ActionLink(MyMentorResources.register, "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })
+    </div>    
+}

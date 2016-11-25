@@ -1,0 +1,9 @@
+﻿@model string
+
+<script>
+    audiojs.events.ready(function () {
+        var as = audiojs.createAll();
+    });
+</script>
+
+<audio src="@Model" id="player" onended="playerEnded()"  preload="auto"></audio>

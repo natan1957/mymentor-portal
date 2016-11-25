@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .container {
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img class="center" src="http://mymentorapp.com/content/images/email-template-icon.png" />
+        </div>
+        <p>Hello {StudentFirstName}.</p>
+        <p>This is a system message from <b>MyMentorApp</b>. Do not replay this message</p>
+        <p>
+            We are happy to let you know that {TeacherFullName} bought you a discount coupon for {ItemType}: {ItemNamePart1} - {ItemNamePart2}.<br />
+            <br/>
+            The original price of the {ItemType} was {OriginalPrice} and with the coupon discount the price for you is  {StudentPrice}.
+        </p>
+        <p>
+            Coupon No. is {CouponNumber}.
+        </p>
+        <p>
+            You have to use this coupon not later than {ValidUntil} otherwise it may expire. In this case, the money that was invested in it will get lost.<br/>
+            For implementing the coupon, you have to login into <a href="http://www.mymentorapp.com">www.mymentorapp.com</a>, go to check-out and choose the coupon from the coupon list.
+        </p>
+        <p><b>MyMentorApp</b> team wishes you a pleasant learning.</p>
+        
+        <p>Date - {PurchaseDate}{Event}</p>
+    </div>
+</body>
+</html>

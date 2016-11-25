@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .container {
+            width: 680px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img class="center" src="http://mymentorapp.com/content/images/email-template-icon.png" />
+        </div>
+        <p>
+            Dear {studentFirstName} {studentLastName}.
+        </p>
+        <p>
+            We are happy to inform you that {userFirstName} {userLastName} purchased for you these lessons:<br/>
+            {baskeItems}
+        </p>
+        <p>
+            To view the lessons you have to refresh the lessons list at MyMentorApp App.<br />
+            MymentorApp team wishes you a joyful learning.
+        </p>
+        <p>
+            Event – {event} Letter – {Letter} Date - {dueDate}
+        </p>
+    </div>
+</body>
+</html>

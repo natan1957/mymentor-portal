@@ -1,0 +1,216 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Models
+@using MyMentor.Common
+@model MyMentor.BL.ViewModels.CheckoutViewModel
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            _mymentor.initPage("checkout", {});
+        });
+    </script>
+}
+
+
+<section role="main" class="main_content clearfix">
+    <div class="fixedWidth innerPageContainer">
+        <div class="formContainer ShoppingCartContainer">
+            <h1 class="mentor_header margin0">
+                @MyMentorResources.checkoutTitle
+            </h1>
+            @if (Model.CouponsForUser.Any())
+            {
+                <div id="couponSelectContainer" class="clearfix">
+                    <a class="icon_question_blue floatL whiteTooltip" href="https://dl.dropboxusercontent.com/u/11855903/mymentorapp/myMentor/ShoppingCart.html#" title="בחר קופון"></a>
+                    <div class="inputWrapper twoColumn ">
+                        <select id="couponSelect" class="couponSelect floatL" placeholder="" data-bind="value:selectedCoupon ,event:{change:openAddCouponConfirmDialog}">
+                            <option class="message" id="couponSelection" selected value="">@MyMentorResources.checkoutUnusedCouponsTitle</option>
+                            @foreach (var coupon in Model.CouponsForUser)
+                            {
+                                <option value="@coupon.Key">@coupon.Value</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+            }
+            
+            <div class="ShoppingCartTableContainer">
+                @foreach (var item in Model.PurchasesForUser)
+                {
+                    <div class="lessonWrapper">
+                        <div class="lessonTop nohover">
+                            <table border="0" cellspacing="0" cellpadding="0" class="lessonTable arial">
+                                <tbody>
+                                    <tr>
+                                        <td class="CartHeaderItem">
+                                            <div class="CartHeaderItemPadding alef font18">
+                                                <div class="CartHeaderItemFloat">
+                                                    @if (item.IncludingSupport)
+                                                    {
+                                                        <label>@MyMentorResources.checkoutIncludingSupport</label>
+                                                    }
+                                                </div>
+                                                <strong class="inlineLabelPadding lessonHeaderText">
+                                                    @if (item.IsLesson)
+                                                    {
+                                                        <label>@MyMentorResources.checkoutLesson</label>
+                                                    }
+                                                    else
+                                                    {
+                                                        <label>@MyMentorResources.checkoutBundle</label>
+                                                    }
+                                                    @item.ContentTitlePart1
+                                                </strong>
+                                                <br>
+                                                @item.ContentTitlePart2
+                                              
+                                            </div>
+                                        </td>
+                                        <td class="CartCouponDateItem">
+                                            <div class="CartCouponItemPadding">
+                                                @if (item.HasCoupon)
+                                                {
+                                                    @Html.ActionLink(MyMentorResources.checkoutRemoveCoupon, "RemoveCoupon", new { Id = item.Id }, new { @class = "bordo" })                                                    
+                                                }
+                                                @if (item.HasUnUsedCouopn)
+                                                {
+                                                    @Html.ActionLink(MyMentorResources.checkoutAddCoupon, "AddCouponFromContentItem", new { Id = item.Id }, new { @class = "bordo" })
+                                                }
+                                            </div>
+                                        </td>
+                                        <td class="CartPriceItem">
+                                            <div class="CartPriceItemPadding">
+                                                @if (item.PriceWithCoupon >= 0)
+                                                {
+                                                    @MyMentorResources.checkoutPrice
+                                                    <span class="middleLine">@item.RegularPriceString</span>
+                                                    <br>
+                                                    @MyMentorResources.checkoutCoupon
+                                                    <span class="bordo bold">@item.PriceWithCouponString</span>
+                                                }
+                                                else
+                                                {
+                                                    @MyMentorResources.checkoutPrice
+                                                    <span>@item.RegularPriceString</span>
+                                                }
+                                            </div>
+                                        </td>
+                                        <td class="CartRemoveItem">
+                                            <div class="CartRemoveItemPadding">
+                                                @Html.ActionLink(MyMentorResources.checkoutRemovePurchase,"RemovePurchace",new {Id=item.Id},new{@class="btn_mentor bordoBtn  smallBtn deleteFromCart arial bold"})
+                                               
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                }                            
+            </div>
+            @using (Html.BeginForm("CompleteCheckout", "Checkout"))
+            {
+                if (Model.PurchasesForUser.Any())
+                {
+                    <div class="ShoppingCartSummaryContainer clearfix">
+                        <div class="ShoppingCartFor arial font18">
+                            <span class="SummaryLabel"> @MyMentorResources.checkoutPurchaseFor:</span>
+                            <div class="inputWrapper clearfix inlineBlock">
+                                @*<input type="text" value="" id="ShoppingCartForInput">*@
+                                @Html.TextBoxFor(x => x.PurchaseFor, new {title = Model.PurchaseFor})
+                            </div>
+                        </div>
+                        <div class="ShoppingCartSummary arial font18 bold">
+                   
+                            <div>
+                                <span class="SummaryLabel">@MyMentorResources.checkoutTotalPayment</span> 
+                                @if (!string.IsNullOrEmpty(Model.BasketPriceWithCouopn))
+                                {
+                                    <span class="middleLine">@Model.BasketPrice</span>
+                                }
+                                else
+                                {
+                                    @Model.BasketPrice
+                                }
+                            </div>
+                  
+                            @if (!string.IsNullOrEmpty(Model.BasketPriceWithCouopn))
+                            {
+                                <div>
+                                    <span class="SummaryLabel">@MyMentorResources.checkoutTotalPurchaseAfterCoupon</span> @Model.BasketPriceWithCouopn
+                                </div>
+                            }
+                            <div>
+                                <span class="SummaryLabel">@MyMentorResources.checkoutBalance</span> @Model.Balance
+                            </div>
+                            <div>
+                                <span class="SummaryLabel">@MyMentorResources.checkoutSubstractedFromBalance</span> @Model.ReduceFromBalance
+                            </div>
+                            <div>
+                                <span class="SummaryLabel">@MyMentorResources.checkoutTotalPayment</span> <span class="bordo">@Model.PaymentTransaction</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <div class="payBtn clearfix">
+                    @if (Model.PurchasesForUser.Any())
+                    {
+                         if (Model.RequiresPayment)
+                         {
+                             @Html.ActionLink(" ", "", null, new {title = MyMentorResources.checkoutPay, id = "payBtn", @class = "floatL paymentBtn"})
+                             var url = string.Format("/Content/Images/horizontal_solution_PPeCheck.{0}.gif", Language.CurrentLanguageCode);
+                             <a href="https://www.paypal.com/uk/webapps/mpp/paypal-popup" target="_blank" id="paypallogo" title="@MyMentorResources.aboutPaypal"><img src="@url" class="paypal-logo-hoz" /></a>
+                         }
+                         else
+                         {
+                             @Html.ActionLink(MyMentorResources.checkoutConfirm, "completeCheckout", null, new {title = MyMentorResources.checkoutConfirm, id = "payConfirm", @class = "btn_mentor floatL", onclick = "$(this).closest('form')[0].submit();return false;"})
+                         }
+                    }
+                    else
+                    {
+                        if (!Model.PaymentSuccess.HasValue)
+                        {
+                            <div>@Strings.GetLocalizedString(Strings.ShoppingCartNoPurchases)</div>
+                        }
+                        else
+                        {
+                            if (Model.PaymentSuccess.Value)
+                            {
+                                <div>@Strings.GetLocalizedString(Strings.ShoppingCartPaymentSuccess)</div>
+                            }
+                            else
+                            {
+                                <div>@Strings.GetLocalizedString(Strings.ShoppingCartPaymentFailure)</div>
+                            }
+                        }
+                    }
+                    <a id="goToLessonsBtn" class="btn_mentor floatL" href="/lessons">@MyMentorResources.checkoutBackTolessons</a>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<div id="dialog_confirmCoupon" class="dialog_mentor">
+    <p class="font18 alefBold center title">@MyMentorResources.checkoutAddCouponConfirm</p>
+    <div class="dialog_btn_wrapper clearfix center">
+        <a class="btn_mentor turkizLightBtn smallBtn arial" href="javascript:void(0)" data-bind="click:addCoupon">
+            @MyMentorResources.checkoutAddCoupon
+        </a>
+        <a class="btn_mentor turkizLightBtn smallBtn arial" href="javascript:void(0)" data-bind="click:closeConfirmDialog">
+            @MyMentorResources.cancel
+        </a>
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div id="dialog_error" class="dialog_mentor">
+        <p class="font18 alefBold center">@Model.ErrorMessage</p>
+        <div class="dialog_btn_wrapper clearfix center">
+            <a class="btn_mentor turkizLightBtn smallBtn arial" href="javascript:void(0)" data-bind="click:closeConfirmDialog">
+                @MyMentorResources.cancel
+            </a>
+        </div>
+    </div>
+}

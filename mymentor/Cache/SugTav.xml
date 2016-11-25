@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<CodeTableDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DataItems>
+    <CodeTableDataItem>
+      <Key>2QtIKVJ9gy</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>rav</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>רב תו</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+    <CodeTableDataItem>
+      <Key>3Av7LP9L8C</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>other</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>אחר</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+    <CodeTableDataItem>
+      <Key>pffsdqj4cm</Key>
+      <CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>en-US</Key>
+          <Value>gold</Value>
+        </CodeTableDataItemValues>
+        <CodeTableDataItemValues>
+          <Key>he-IL</Key>
+          <Value>תוי זהב</Value>
+        </CodeTableDataItemValues>
+      </CodeTableDataItemValues>
+    </CodeTableDataItem>
+  </DataItems>
+</CodeTableDto>

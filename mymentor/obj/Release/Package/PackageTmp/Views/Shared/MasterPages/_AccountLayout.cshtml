@@ -1,0 +1,76 @@
+﻿@using MyMentor.BL.Extentions
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js innerPage">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewBag.Title - MyMentor</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="MyMentor">
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Sharing tags unmark when filled -->
+    <!-- <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">-->
+    @Styles.Render("~/Content/css")
+    @if (MyMentor.BL.Models.Language.Direction == MyMentor.BL.Models.LanguageDirection.LTR)
+    {
+        <link href="~/Content/css/ltr.css" rel="stylesheet" />
+    }
+    else
+    {
+        <link href="~/Content/dynatree-rtl.css" rel="stylesheet" />
+    }
+    <!--[if lt IE 9]>
+       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script> window.html5 || document.write('<script src="/js/vendor/html5shiv.js"><\/script>')</script>
+        -->
+    <script src="~/Scripts/vendor/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/vendor/jquery-ui-1.10.4.min.js"></script>
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/mymentor")
+    @RenderSection("scripts", required: false)
+
+
+    <!--remove in production-->
+
+
+
+</head>
+<body class="innerPage">
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    @Html.Partial("MasterPages/KeepAlive")
+    <header>
+        @if (!string.IsNullOrEmpty(Session.GetImpersonatingUserName()) && Session.GetLoggedInUser() != null)
+        {
+            <div id="impersonationDashboard">
+                <span>user @Session.GetImpersonatingUserName() is impersonating @Session.GetLoggedInUser().Username</span>
+                @Html.ActionLink("Stop Impersonation", "StopImpersonation", "Account")
+            </div>
+        }
+        <div class="topNavContainer" style="background: url('/content/images/inner_background_bible.png') no-repeat center bottom #2CBBC4;">
+            <div class="topNav fixedWidth">
+                <nav>
+                    <a class="MyMentor_logo ir" href="/">MyMentor</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    @RenderBody()
+
+    @Html.Partial("Navigation/SiteFooter")
+
+
+
+</body>
+</html>

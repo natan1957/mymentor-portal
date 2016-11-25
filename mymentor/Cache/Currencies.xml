@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ArrayOfCurrencyDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CurrencyDto>
+    <ObjectId>5UTtkaQxBH</ObjectId>
+    <CurrencySymbol>€</CurrencySymbol>
+    <Order>2</Order>
+    <ExchangeRate>5</ExchangeRate>
+    <CurrencyNameEnglish>EURO</CurrencyNameEnglish>
+    <CurrencyNameHebrew>יורו</CurrencyNameHebrew>
+    <PaypalCode>EUR</PaypalCode>
+    <RateDate>31/12/2016</RateDate>
+  </CurrencyDto>
+  <CurrencyDto>
+    <ObjectId>A1fcPWDCc4</ObjectId>
+    <CurrencySymbol>£</CurrencySymbol>
+    <Order>3</Order>
+    <ExchangeRate>6</ExchangeRate>
+    <CurrencyNameEnglish>UK-POUND</CurrencyNameEnglish>
+    <CurrencyNameHebrew>לירה שטרלינג</CurrencyNameHebrew>
+    <PaypalCode>GBP</PaypalCode>
+    <RateDate>31/12/2016</RateDate>
+  </CurrencyDto>
+  <CurrencyDto>
+    <ObjectId>K67StSNEYs</ObjectId>
+    <CurrencySymbol>₪</CurrencySymbol>
+    <Order>0</Order>
+    <ExchangeRate>1</ExchangeRate>
+    <CurrencyNameEnglish>ILS</CurrencyNameEnglish>
+    <CurrencyNameHebrew>שקל</CurrencyNameHebrew>
+    <PaypalCode>ILS</PaypalCode>
+    <RateDate>31/12/2016</RateDate>
+  </CurrencyDto>
+  <CurrencyDto>
+    <ObjectId>iAImQ3Oel8</ObjectId>
+    <CurrencySymbol>$</CurrencySymbol>
+    <Order>1</Order>
+    <ExchangeRate>4</ExchangeRate>
+    <CurrencyNameEnglish>USD</CurrencyNameEnglish>
+    <CurrencyNameHebrew>דולר ארה"ב</CurrencyNameHebrew>
+    <PaypalCode>USD</PaypalCode>
+    <RateDate>31/12/2016</RateDate>
+  </CurrencyDto>
+</ArrayOfCurrencyDto>

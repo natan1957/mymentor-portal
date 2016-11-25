@@ -1,0 +1,35 @@
+﻿@using MyMentor.BL.App_GlobalResources
+
+@model MyMentor.BL.ViewModels.AccountStatementViewModel
+
+<span class="hiddenToolTip">
+    <b>@MyMentorResources.myAccountEventCode</b>: <a class="eventUpdate" href="javascript:void(0)">@Model.EventData.ObjectId</a>
+    <br />
+    <b>@MyMentorResources.myAccountEventType</b>: @Model.EventData.EventType
+    <br />
+    <b>@MyMentorResources.myAccountEventCreatedBy</b>: <a class="myAccountUser" href="javascript:void(0)">@Model.EventData.EventUserName</a>
+    <br />
+    <b>@MyMentorResources.myAccountEventCreatedByDisplayName</b>: @Model.EventData.EventUserDisplayName    
+    <br />
+    <b>@MyMentorResources.myAccountEventStatus</b>: @Model.EventData.EventStatus
+    <br />
+    <b>@MyMentorResources.myAccountEventStartTime</b>: <a class="myAccountDateUpdate" href="javascript:void(0)">@Model.EventData.CreatedAt</a> @Model.EventData.CreatedAtTime
+    <br />
+    <b>@MyMentorResources.myAccountEventEndTime</b>: <a class="myAccountDateUpdate" href="javascript:void(0)">@Model.EventData.UpdatedAt</a> @Model.EventData.UpdatedAtTime
+    <br />
+
+    @if (!string.IsNullOrEmpty(Model.EventData.CouponId))
+    {
+        <b>@MyMentorResources.myAccountEventCouponCode</b><label>:</label>@Model.EventData.CouponId
+        <br />
+
+    }
+    <b>@MyMentorResources.myAccountEventAmount</b>: @Model.EventData.Amount
+    @if (Model.EventData.Amount != "₪" + @Model.EventData.AmountNIS)
+    {
+        <label> ₪@Model.EventData.AmountNIS</label>
+    }
+    <br />
+    @Html.Raw(Model.EventData.EventPaypalData)
+</span>
+

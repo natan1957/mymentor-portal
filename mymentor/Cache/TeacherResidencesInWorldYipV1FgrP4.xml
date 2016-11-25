@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ArrayOfResidenceDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResidenceDto>
+    <Name>רמת המורה</Name>
+    <NameEn>3</NameEn>
+    <ParentId>cW9PexIo2k</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+</ArrayOfResidenceDto>

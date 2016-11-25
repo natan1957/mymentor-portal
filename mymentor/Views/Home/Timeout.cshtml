@@ -1,0 +1,12 @@
+﻿@using MyMentor.BL.App_GlobalResources
+
+@{
+    ViewBag.Title = "Timeout";
+    Layout = "~/home/lessons/Views/Shared/MasterPages/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+{
+    <a href="javascript:document.getElementById('logoutForm').submit()">@MyMentorResources.lblLogoff</a>
+}

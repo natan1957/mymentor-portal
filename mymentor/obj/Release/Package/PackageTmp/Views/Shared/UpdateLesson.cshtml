@@ -1,0 +1,169 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Extentions
+
+<div id="dialog_editLesson" class="dialog_mentor" title="@MyMentorResources.lessonUpdateDialogTitle">
+    <div class="inputWrapper clearfix">
+        <label class="" for="">
+            @MyMentorResources.lessonUpdateLessonName: <span class="lessonName margin10b font18 alef">
+                                                           <span class="lessonHeaderText" data-bind="text:lessonTitlePart1Computed"></span>
+                                                           <br>
+                                                           <span data-bind="text:lessonTitlePart2Computed"></span>
+                                                       </span>
+        </label>
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+        <label for="" class="required floatR" data-bind="text:CategoryName1"></label>
+        <label for="" class="floatL">
+            @MyMentorResources.lessonUpdateCreated
+        </label>
+        <select class="floatR" data-bind="options:Category1Values,
+    optionsText:'Value',
+    optionsValue:'Key',
+    value:SelectedCategory1Value, visible:Category1VisibleComputed"></select>
+        <input type="text" class="floatL" placeholder="" value="" data-bind="value:Created" readonly="readonly">
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+        <label for="" class="required floatR" data-bind="text:CategoryName2, visible:Category1VisibleComputed"></label>
+        <label for="" class="floatL" data-bind="value:Updated">
+            @MyMentorResources.lessonUpdateModified
+        </label>
+        <select class="floatR" data-bind="options:ComputedCategory2Value,
+    optionsText:'Value',
+    optionsValue:'Key',
+    value:SelectedCategory2Value, visible:Category2VisibleComputed"></select>
+        <input type="text" class="floatL" placeholder="" value="" data-bind="value:Updated" readonly="readonly">
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+        <label for="" class="required floatR" data-bind="text:CategoryName3, visible:Category1VisibleComputed"></label>
+        <label for="" class="floatL">
+            @MyMentorResources.lessonUpdateVersion
+        </label>
+        <select class="floatR" data-bind="value:SelectedCategory3Value,foreach:Category3Values , visible:Category3VisibleComputed">
+            <option data-bind="value:Key,text:Value,attr:{'data-min-price':AdditionalInfo.minPrice}">קריאה</option>
+        </select>
+        <input type="text" class="floatL" placeholder="" value="" data-bind="value:Version" readonly="readonly">
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+        <label for="" class="required " data-bind="text:CategoryName4, visible:Category4VisibleComputed"></label>
+        <select class="floatR" data-bind="options:Category4Values,
+    optionsText:'Value',
+    optionsValue:'Key',
+    value:SelectedCategory4Value , visible:Category4VisibleComputed"></select>
+    </div>
+    <div class="inputWrapper">
+        <label for="">
+            @MyMentorResources.lessonUpdateRemarks
+        </label>
+        <input type="text" placeholder="" data-bind="value:Remarks_he_il">
+    </div>
+    <div class="inputWrapper">
+        <label for="">
+            @MyMentorResources.lessonUpdateReamrksEngilish
+        </label>
+        <input class="englishInput" type="text" placeholder="" data-bind="value:Remarks_en_us">
+    </div>
+    @*<div class="inputWrapper">
+            <label for="">
+                מילות מפתח
+            </label>
+            <input type="text" placeholder="מופרדות בפסיקים. לדוגמה: מפתח1,מפתח2,מפתח3" value="" data-bind="value:Keywords">
+        </div>*@
+    <div class="inputWrapper twoColumn clearfix">
+        <label for="" class="floatR">
+            @MyMentorResources.lessonUpdatePerformer
+        </label>
+        <label for="" class="floatL">
+            @MyMentorResources.lessonUpdatePerformaerEnglish
+        </label>
+        <input type="text" class="floatR" placeholder="@MyMentorResources.performerIsNotTeacher" value="" data-bind="value:Performer_he_il">
+        <input type="text" class="englishInput floatL" placeholder="@MyMentorResources.performerIsNotTeacher" value="" data-bind="value:Performer_en_us">
+    </div>
+    <div class="inputWrapper">
+        <label for="">
+            @MyMentorResources.lessonUpdateDescription
+        </label>
+        <textarea class="descriptionInput" placeholder="" data-bind="value:Description_he_il"></textarea>
+    </div>
+    <div class="inputWrapper">
+        <label for="">
+            @MyMentorResources.lessonUpdateDescriptionEnglish
+        </label>
+        <textarea class="descriptionInput englishInput" placeholder="" data-bind="value:Description_en_us"></textarea>
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+
+        <label for="" class="required " data-bind="visible:ShowReadingDates">
+            @MyMentorResources.lessonUpdateReadingDates
+        </label>
+
+        <select multiple="multiple" class="multipleSelect floatR" data-bind="options:ReadingDates,selectedOptions:SelectedReadingDate,visible:ShowReadingDates"></select>
+
+        <div class="multipleSelectBtns floatL" data-bind="visible:ShowReadingDates">
+
+            <input type="text" id="icon_calendar_dialog_input" class="invisbleInput" data-regional="@Model.CalendarRegional" data-isrtl="@Model.IsRTL" />
+            <a href="javascript:void(0)" class="icon_calendar_dialog"></a><a href="javascript:void(0)"
+                                                                             class="icon_remove_item"></a>
+        </div>
+        <label for="" class="required floatL">
+            @MyMentorResources.lessonUpdateStatus
+        </label>
+        <select class="floatL" data-bind="options:StatusValues,
+            optionsText:'Value',
+            optionsValue:'Key',
+            value:SelectedStatus"></select>        
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+        <span class="field-validation-error" data-bind='visible: ReadingDates.requiredError, text: "@MyMentorResources.validationRequiredField    "'></span>
+        <span class="field-validation-error" data-bind='visible: ReadingDates.dateError, text: "@MyMentorResources.validationDateInPastError    "'></span>
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+        <label for="" class="">
+            @MyMentorResources.lessonUpdateMinPrice
+        </label>
+        <input type="text" class="floatR inputPrice" value="" data-bind="value:MinimumPrice" readonly="readonly">
+        <span class="inputPriceText arial floatR">@Html.Action("GetUserCurrencySymbol", "Home")</span>
+    </div>
+    <div class="inputWrapper twoColumn clearfix">
+
+        <label for="" class="required floatR">
+            @MyMentorResources.lessonUpdateLessonPrice
+        </label>
+
+        <label for="" class="floatL">
+            @MyMentorResources.lessonUpdateSupportPrice
+        </label>
+        <input type="text" class="inputPrice floatR" placeholder="" value="" data-bind="value:LessonPrice">
+        <span class="inputPriceText arial floatR">@Html.Action("GetUserCurrencySymbol", "Home")</span>
+        <span class="inputPriceText arial floatL">@Html.Action("GetUserCurrencySymbol", "Home")</span>
+        <input type="text" class="inputPrice floatL" placeholder="" value="" data-bind="value:SupportPrice">
+
+        <div class="field-validation-error-wrapper floatR">
+            <div class="field-validation-error" data-bind='visible: LessonPrice.requiredError, text: "@MyMentorResources.validationRequiredField    "'></div>
+            <div class="field-validation-error" data-bind='visible: LessonPrice.numericError, text: "@MyMentorResources.validationNumericField    "'></div>
+            <div class="field-validation-error" data-bind='visible: LessonPrice.minPriceError, text: "@MyMentorResources.lessonUpdateMinPriceValidation    "'></div>
+        </div>
+
+        <div class="field-validation-error-wrapper floatL">
+            <div class="field-validation-error" data-bind='visible: SupportPrice.numericError, text: "@MyMentorResources.validationNumericField   "'></div>
+        </div>
+
+    </div>
+    <div class="inputWrapper">
+        <label for="" class="floatR">
+            @MyMentorResources.lessonUpdateTeacher
+        </label>
+        @if (Session.GetLoggedInUserRoleName() == MyMentor.BL.Models.RoleNames.ADMINISTRATORS)
+        {
+            <input type="text" placeholder="" value="" data-bind="value:TeacherName" data-teacher-not-found-error="@MyMentorResources.errTeacherNotFound" >
+        }
+        else
+        {
+            <input type="text" placeholder="" value="" data-bind="value:TeacherName" readonly="readonly">
+        }
+    </div>
+    <div class="dialog_btn_wrapper clearfix">
+        <a class="btn_mentor floatL" href="javascript:void(0);" id="saveLesson">@MyMentorResources.lblSave</a>
+    </div>
+    <div class="field-validation-error" data-bind="visible:!isValid()">@MyMentorResources.formValidationSummary</div>
+</div>
+

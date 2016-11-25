@@ -1,0 +1,42 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@model MyMentor.BL.ViewModels.AccountStatementViewModel
+@{
+    var bundle = Model.Bundle;
+}
+
+<span class="hiddenToolTip">
+    <b>@MyMentorResources.maBundleName: @bundle.Title</b>
+    <br/>
+    <b>@MyMentorResources.maBundleId</b>: @bundle.ContentId
+    <br />
+    <b>@MyMentorResources.maLessons</b>: @bundle.BundleLessons
+    <br />
+    <b>@MyMentorResources.maTeacherUserName</b>: <a class="myAccountUser" href="javascript:void(0)">@bundle.TeacherUserName</a>
+    <br />
+    <b>@MyMentorResources.maTeacherName</b>: @bundle.TeacherName
+    <br />
+    <b>@MyMentorResources.maBundleStatus</b>: @bundle.LessonStatus
+    <br />
+    <b>@MyMentorResources.maPrice</b>: @bundle.Price
+    <br />
+    <b>@MyMentorResources.maSupportPrice</b>: @bundle.SupportPrice
+    <br />
+    <b>@MyMentorResources.maPurchaseStatus</b>: @bundle.PurchaseStatus
+    <br />
+    <b>@MyMentorResources.maStatusDate</b>: <a class="myAccountDateUpdate" href="javascript:void(0)">@bundle.PurchaseStatusDate</a>
+    <br />
+    <b>@MyMentorResources.maBuyerUserName</b>: <a class="myAccountUser" href="javascript:void(0)">@bundle.BuyerUserName</a>
+    <br />
+    <b>@MyMentorResources.maBuyerName</b>: @bundle.BuyerName
+    <br />
+    <b>@MyMentorResources.maRecieverUserName</b>: <a class="myAccountUser" href="javascript:void(0)">@bundle.RecieverUserName</a>
+    <br />
+    <b>@MyMentorResources.maRecieverName</b>: @bundle.RecieverName
+    <br />
+    <b>@bundle.IncludingSupport</b>
+    <br />
+    <b>@MyMentorResources.maCouponId</b>: @bundle.CouponId
+    <br />
+    <b>@MyMentorResources.maEventId</b>: <a class="eventUpdate" href="javascript:void(0)">@bundle.Event</a>
+    <br />
+</span>

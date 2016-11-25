@@ -1,0 +1,1233 @@
+<?xml version="1.0"?>
+<ArrayOfResidenceDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResidenceDto>
+    <Id>38q0zrGNHJ</Id>
+    <Name>עיר מגורים 1</Name>
+    <ParentId>Ee42l21wfb</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>5qIuvXEXbU</Id>
+    <Name>England area</Name>
+    <ParentId>mNvgUSoWek</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>9jnzVJeC7c</Id>
+    <Name>Switzerland area</Name>
+    <ParentId>OuxHBryXrV</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>AVdCJK5zL8</Id>
+    <Name>גבעתיים</Name>
+    <ParentId>GzwJyQcZmR</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>AeWAPwNEMc</Id>
+    <Name>Ukraine area</Name>
+    <ParentId>X2Sdnn1i26</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>BQ3ODaZBc8</Id>
+    <Name>רמת המורה</Name>
+    <ParentId>cW9PexIo2k</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>IvpFHANGOX</Id>
+    <Name>עיר מגורים 115</Name>
+    <ParentId>2cF3sebo3a</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>LV9813rUdx</Id>
+    <Name>Italy area</Name>
+    <ParentId>DCYHIjhWvj</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>LaH00vbZ51</Id>
+    <Name>הרצלייה</Name>
+    <ParentId>5jEsYBCikV</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>SF6c33DIgl</Id>
+    <Name>South Africa area</Name>
+    <ParentId>rgPisnKgZW</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>Y8BZNvrAiA</Id>
+    <Name>Russia area</Name>
+    <ParentId>SSsa3ieRRt</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>aanzDIm5r3</Id>
+    <Name>Germany area</Name>
+    <ParentId>JNOehBCkHf</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>f6n8u5UO1A</Id>
+    <Name>France area</Name>
+    <ParentId>OT57N854Fr</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>lAhzMTfa6e</Id>
+    <Name>קצרין</Name>
+    <ParentId>Z6L1WbDZu9</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>rgPisnKgZW</Id>
+    <Name>South Africa areas</Name>
+    <ParentId>1oAUiOHk37</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>sqcfFI3UEE</Id>
+    <Name>הרצלייה</Name>
+    <ParentId>5jEsYBCikV</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>vSdtGwCaru</Id>
+    <Name>asd</Name>
+    <ParentId>qaIbAmlMWj</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>zlJmP98Xrw</Id>
+    <Name>ישראל</Name>
+    <ParentId />
+    <Israel>true</Israel>
+    <CurrencyId>K67StSNEYs</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>625jat21uf</Id>
+    <Name>CO</Name>
+    <ParentId>JB97woMENM</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>90zYU5sYkY</Id>
+    <Name>עמק חפר חדרה והסביבה</Name>
+    <ParentId>2cF3sebo3a</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>Afz4Lz0Mb6</Id>
+    <Name>USA
+</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>iAImQ3Oel8</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>B6yrv83Cjc</Id>
+    <Name>Argentina area</Name>
+    <ParentId>meHPpueHy2</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>ChG6b25Ge0</Id>
+    <Name>באר שבע והסביבה</Name>
+    <ParentId>QH9o99GV66</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>Db8sQoWMbW</Id>
+    <Name>IL</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>Fdg1GXj65J</Id>
+    <Name>ON area</Name>
+    <ParentId>J6aYZZJVoe</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>FkuKZU6ZXR</Id>
+    <Name>CT</Name>
+    <ParentId>dHvnRLj6GX</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>GzwJyQcZmR</Id>
+    <Name>תל אביב והסביבה</Name>
+    <ParentId>sf59sY6b9E</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>J6aYZZJVoe</Id>
+    <Name>Ontario</Name>
+    <ParentId>VD32ssvwrH</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>OT57N854Fr</Id>
+    <Name>France areas</Name>
+    <ParentId>KjGG2S4loS</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>T01iVOZPPD</Id>
+    <Name>AZ</Name>
+    <ParentId>bXfT8dRnVr</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>WnKiVBYgVn</Id>
+    <Name>צפון</Name>
+    <ParentId>zlJmP98Xrw</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>XRU4vfCALG</Id>
+    <Name>אשדוד והסביבה</Name>
+    <ParentId>v3ph1UocJe</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>XkH3gMAjDS</Id>
+    <Name>AL</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>YnFJnSuWvk</Id>
+    <Name>ירושלים והסביבה</Name>
+    <ParentId>HXwXSF29Hb</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>c7VESkTAcT</Id>
+    <Name>Europe</Name>
+    <ParentId>aYcnX0hIZV</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId>5UTtkaQxBH</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>dHvnRLj6GX</Id>
+    <Name>Northeast</Name>
+    <ParentId>Afz4Lz0Mb6</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>iBZhhhHcqk</Id>
+    <Name>Australya area
+</Name>
+    <ParentId>pYjmMYVfL6</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>kzpDHVNDej</Id>
+    <Name>Brazil area</Name>
+    <ParentId>kRDvYB2Rrw</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>meHPpueHy2</Id>
+    <Name>Argentina areas</Name>
+    <ParentId>2DG0FUYc51</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>pYjmMYVfL6</Id>
+    <Name>Australya areas
+</Name>
+    <ParentId>il5LW4DLRd</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>qaIbAmlMWj</Id>
+    <Name>חיפה, קריות והסביבה</Name>
+    <ParentId>WnKiVBYgVn</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>0Pimp3HeJq</Id>
+    <Name>DE</Name>
+    <ParentId>dHvnRLj6GX</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>7cXnPyqweU</Id>
+    <Name>אשקלון והסביבה</Name>
+    <ParentId>v3ph1UocJe</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>8nwRuIgULr</Id>
+    <Name>מודיעין והסביבה</Name>
+    <ParentId>HXwXSF29Hb</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>EFvHpPOVmA</Id>
+    <Name>QC area</Name>
+    <ParentId>cIBNW7nc7b</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>JW6M86AKIj</Id>
+    <Name>עוטף עזה</Name>
+    <ParentId>QH9o99GV66</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>KjGG2S4loS</Id>
+    <Name>France</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>5UTtkaQxBH</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>P4IpKMgjNJ</Id>
+    <Name>זכרון והסביבה</Name>
+    <ParentId>2cF3sebo3a</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>PdHI2cAq8C</Id>
+    <Name>AR</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>Q5p3A6FxmJ</Id>
+    <Name>ראשון לציון והסביבה</Name>
+    <ParentId>sf59sY6b9E</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>TYnk3kq8lz</Id>
+    <Name>WY</Name>
+    <ParentId>JB97woMENM</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>U5LhGkel7J</Id>
+    <Name>Southeast</Name>
+    <ParentId>Afz4Lz0Mb6</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>XcUxw130lR</Id>
+    <Name>America</Name>
+    <ParentId>aYcnX0hIZV</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId>iAImQ3Oel8</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>cIBNW7nc7b</Id>
+    <Name>Quebec</Name>
+    <ParentId>VD32ssvwrH</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>cW9PexIo2k</Id>
+    <Name>עכו נהריה והסביבה</Name>
+    <ParentId>WnKiVBYgVn</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>kRDvYB2Rrw</Id>
+    <Name>Brazil areas</Name>
+    <ParentId>7AXXUu0Tek</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>mNvgUSoWek</Id>
+    <Name>England areas</Name>
+    <ParentId>qQdAWu0Ueg</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>sf59sY6b9E</Id>
+    <Name>מרכז</Name>
+    <ParentId>zlJmP98Xrw</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>sxxUpVg0Sd</Id>
+    <Name>IN</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>wUyLneiadm</Id>
+    <Name>NM</Name>
+    <ParentId>bXfT8dRnVr</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>0jxw9MlSit</Id>
+    <Name>Nova Scotia</Name>
+    <ParentId>VD32ssvwrH</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>2cF3sebo3a</Id>
+    <Name>השרון</Name>
+    <ParentId>zlJmP98Xrw</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>4wsA9MAn9s</Id>
+    <Name>חולון בת ים והסביבה</Name>
+    <ParentId>sf59sY6b9E</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>BQnEAS5ldF</Id>
+    <Name>OK</Name>
+    <ParentId>bXfT8dRnVr</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>CN3rMMifno</Id>
+    <Name>Asia</Name>
+    <ParentId>aYcnX0hIZV</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId>iAImQ3Oel8</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>Ee42l21wfb</Id>
+    <Name>גליל ועמקים</Name>
+    <ParentId>WnKiVBYgVn</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>FsTHFt5LaP</Id>
+    <Name>IA</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>GpcWxzpNfl</Id>
+    <Name>Midwest</Name>
+    <ParentId>Afz4Lz0Mb6</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>LKP6FSEIhu</Id>
+    <Name>NS area</Name>
+    <ParentId>0jxw9MlSit</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>SSsa3ieRRt</Id>
+    <Name>Russia areas</Name>
+    <ParentId>N7emDqXZB0</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>VD32ssvwrH</Id>
+    <Name>Canada
+</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>iAImQ3Oel8</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>dNcI18YSko</Id>
+    <Name>בית שמש והסביבה</Name>
+    <ParentId>HXwXSF29Hb</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>eR5wqe1mfr</Id>
+    <Name>ME</Name>
+    <ParentId>dHvnRLj6GX</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>gKzkOLnYlE</Id>
+    <Name>Uruguay</Name>
+    <ParentId>XcUxw130lR</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>h6MBywA5IA</Id>
+    <Name>ערבה</Name>
+    <ParentId>QH9o99GV66</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>nZ84BuNFTo</Id>
+    <Name>FL</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>pumgRxcZnd</Id>
+    <Name>רמלה לוד והסביבה</Name>
+    <ParentId>v3ph1UocJe</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>vsSh95iWUi</Id>
+    <Name>MT</Name>
+    <ParentId>JB97woMENM</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>zPGBboTXxS</Id>
+    <Name>פרדס חנה-כרכור והסביבה</Name>
+    <ParentId>2cF3sebo3a</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>0yG4psRAZJ</Id>
+    <Name>Venezuela</Name>
+    <ParentId>XcUxw130lR</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>1NQStPzRNQ</Id>
+    <Name>Afrika</Name>
+    <ParentId>aYcnX0hIZV</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId>iAImQ3Oel8</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>2hrfyATWFB</Id>
+    <Name>יהודה ושומרון</Name>
+    <ParentId>HXwXSF29Hb</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>8OpAyuuRdj</Id>
+    <Name>TX</Name>
+    <ParentId>bXfT8dRnVr</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>ADGRvITWqV</Id>
+    <Name>השומרון</Name>
+    <ParentId>2cF3sebo3a</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>JNOehBCkHf</Id>
+    <Name>Germany areas</Name>
+    <ParentId>9OqlKuTQkA</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>RaIsYObM8I</Id>
+    <Name>גדרה ובנה והסביבה</Name>
+    <ParentId>v3ph1UocJe</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>XqyRP6fgSe</Id>
+    <Name>ר"ג גבעתיים והסביבה</Name>
+    <ParentId>sf59sY6b9E</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>ZLBx3BWnOo</Id>
+    <Name>אילת והסביבה</Name>
+    <ParentId>QH9o99GV66</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>bXfT8dRnVr</Id>
+    <Name>Southwest</Name>
+    <ParentId>Afz4Lz0Mb6</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>cyVu3wCaID</Id>
+    <Name>GA</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>dciuMQRY8Y</Id>
+    <Name>New Brunswick</Name>
+    <ParentId>VD32ssvwrH</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>ealUqu5l9G</Id>
+    <Name>ID</Name>
+    <ParentId>JB97woMENM</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>otPCRYO2hn</Id>
+    <Name>KS</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>qQdAWu0Ueg</Id>
+    <Name>England</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>A1fcPWDCc4</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>rqz2R2Oqfv</Id>
+    <Name>טבריה והסביבה</Name>
+    <ParentId>WnKiVBYgVn</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>v3ph1UocJe</Id>
+    <Name>השפלה</Name>
+    <ParentId>zlJmP98Xrw</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>wRKVe5VzdT</Id>
+    <Name>NB area</Name>
+    <ParentId>dciuMQRY8Y</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>yBkY7dOMia</Id>
+    <Name>MD</Name>
+    <ParentId>dHvnRLj6GX</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>53NdrAnEF1</Id>
+    <Name>KY</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>6UbUAg76bT</Id>
+    <Name>MB area</Name>
+    <ParentId>JDSa1Knjd9</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>9UY08dJkyr</Id>
+    <Name>פ"ת ראש העין והסביבה</Name>
+    <ParentId>sf59sY6b9E</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>DEii4Z2jzi</Id>
+    <Name>Columbia</Name>
+    <ParentId>XcUxw130lR</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>EVqDNTPrPu</Id>
+    <Name>נתניה והסביבה</Name>
+    <ParentId>2cF3sebo3a</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>EXxEbQjrvY</Id>
+    <Name>עמק יזראל</Name>
+    <ParentId>WnKiVBYgVn</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>EjzjDT2aJU</Id>
+    <Name>MI</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>HXwXSF29Hb</Id>
+    <Name>ירושלים</Name>
+    <ParentId>zlJmP98Xrw</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>J0UvlGSF48</Id>
+    <Name>Украина-Ukraine</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>5UTtkaQxBH</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>JB97woMENM</Id>
+    <Name>West</Name>
+    <ParentId>Afz4Lz0Mb6</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>JDSa1Knjd9</Id>
+    <Name>Manitoba</Name>
+    <ParentId>VD32ssvwrH</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>KlGCLyGRmJ</Id>
+    <Name>WA</Name>
+    <ParentId>JB97woMENM</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>X2Sdnn1i26</Id>
+    <Name>Ukraine areas</Name>
+    <ParentId>J0UvlGSF48</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>bv4aZgHDor</Id>
+    <Name>Oceania</Name>
+    <ParentId>aYcnX0hIZV</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId>iAImQ3Oel8</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>lTOvmXjAfP</Id>
+    <Name>MA</Name>
+    <ParentId>dHvnRLj6GX</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>1oAUiOHk37</Id>
+    <Name>South Africa</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>iAImQ3Oel8</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>2UIwo3d4LV</Id>
+    <Name>LA</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>5jEsYBCikV</Id>
+    <Name>הרצליה רמ"ש והסביבה</Name>
+    <ParentId>2cF3sebo3a</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>9kOtpbxw78</Id>
+    <Name>BC area</Name>
+    <ParentId>ekzT0MA7la</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>L5z6QhSXoz</Id>
+    <Name>NH</Name>
+    <ParentId>dHvnRLj6GX</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>OuxHBryXrV</Id>
+    <Name>Switzerland areas</Name>
+    <ParentId>MG4SMxmelx</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>QH9o99GV66</Id>
+    <Name>דרום</Name>
+    <ParentId>zlJmP98Xrw</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>VzbJSrfIgH</Id>
+    <Name>כרמיאל והסביבה</Name>
+    <ParentId>WnKiVBYgVn</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>ddKmnehqbu</Id>
+    <Name>בקעת אונו</Name>
+    <ParentId>sf59sY6b9E</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>ekzT0MA7la</Id>
+    <Name>British columbia</Name>
+    <ParentId>VD32ssvwrH</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>w163DET7vq</Id>
+    <Name>OR</Name>
+    <ParentId>JB97woMENM</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>z4ORZB5W8z</Id>
+    <Name>MN</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>2DG0FUYc51</Id>
+    <Name>Argentina</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>iAImQ3Oel8</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>6r3mvRhyOu</Id>
+    <Name>MS</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>8KynEG8YJj</Id>
+    <Name>PE area</Name>
+    <ParentId>D73UJ5YZAk</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>D73UJ5YZAk</Id>
+    <Name>Prince Edward Island</Name>
+    <ParentId>VD32ssvwrH</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>K9ZAiMZPjn</Id>
+    <Name>MJ</Name>
+    <ParentId>dHvnRLj6GX</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>KZJn9RcpLD</Id>
+    <Name>רעננה כס והסביבה</Name>
+    <ParentId>2cF3sebo3a</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>NhzA3rpH5M</Id>
+    <Name>MO</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>Z6L1WbDZu9</Id>
+    <Name>גולן</Name>
+    <ParentId>WnKiVBYgVn</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>ta92fgtNuo</Id>
+    <Name>UT</Name>
+    <ParentId>JB97woMENM</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>3c9uVDICEO</Id>
+    <Name>NC</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>7AXXUu0Tek</Id>
+    <Name>Brazil</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>iAImQ3Oel8</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>DCYHIjhWvj</Id>
+    <Name>Italy areas</Name>
+    <ParentId>7m1BAoU1Hg</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>MVMyf101cl</Id>
+    <Name>הוד השרון והסביבה</Name>
+    <ParentId>2cF3sebo3a</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>WJkv3Qr5yN</Id>
+    <Name>NE</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>kkPktjebyZ</Id>
+    <Name>SK atea</Name>
+    <ParentId>yN3nja2ztl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>uptMmtosCA</Id>
+    <Name>NV</Name>
+    <ParentId>JB97woMENM</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>yN3nja2ztl</Id>
+    <Name>Sackatchewan</Name>
+    <ParentId>VD32ssvwrH</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>ybfqH7MAwq</Id>
+    <Name>NY</Name>
+    <ParentId>dHvnRLj6GX</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>06s9gudfuE</Id>
+    <Name>SC</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>Dn7KCPJQEr</Id>
+    <Name>CA</Name>
+    <ParentId>JB97woMENM</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>bgAjee8Slh</Id>
+    <Name>Alberta</Name>
+    <ParentId>VD32ssvwrH</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>il5LW4DLRd</Id>
+    <Name>Australya
+</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>iAImQ3Oel8</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>kewvG8r9pu</Id>
+    <Name>AB area</Name>
+    <ParentId>bgAjee8Slh</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>nXlGknVSJl</Id>
+    <Name>PA</Name>
+    <ParentId>dHvnRLj6GX</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>pGAu0hQtgB</Id>
+    <Name>ND</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>9OqlKuTQkA</Id>
+    <Name>Deutschland-Germany</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>5UTtkaQxBH</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>ACTbWhq8EW</Id>
+    <Name>TN</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>JQ0h21YOrn</Id>
+    <Name>OH</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>KM6msr3BrM</Id>
+    <Name>AK</Name>
+    <ParentId>JB97woMENM</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>KsA2NITlkY</Id>
+    <Name>RI</Name>
+    <ParentId>dHvnRLj6GX</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>dV9t3mhrc4</Id>
+    <Name>Newfoundland and Labrador</Name>
+    <ParentId>VD32ssvwrH</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>wdmVIreWnd</Id>
+    <Name>NL area</Name>
+    <ParentId>dV9t3mhrc4</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>6S5yzc3mRE</Id>
+    <Name>VT</Name>
+    <ParentId>dHvnRLj6GX</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>N7emDqXZB0</Id>
+    <Name>Россия-Russia</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>5UTtkaQxBH</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>UxKRR21RJy</Id>
+    <Name>HI</Name>
+    <ParentId>JB97woMENM</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>XfDeAejril</Id>
+    <Name>SD</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>Zg89TGgYTv</Id>
+    <Name>VA</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>nCTQ3TXccI</Id>
+    <Name>Rest Of Europe</Name>
+    <ParentId>c7VESkTAcT</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>42EYERUDy7</Id>
+    <Name>Magyarország-Hungary</Name>
+    <ParentId>c7VESkTAcT</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>O8KzTfuzhI</Id>
+    <Name>WV</Name>
+    <ParentId>U5LhGkel7J</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>Y5SZvzsY56</Id>
+    <Name>WI</Name>
+    <ParentId>GpcWxzpNfl</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>7m1BAoU1Hg</Id>
+    <Name>Italia-Italy</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>5UTtkaQxBH</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>kdcCCGhO2c</Id>
+    <Name>Belgium</Name>
+    <ParentId>c7VESkTAcT</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>4AQE7Ov0pB</Id>
+    <Name>Nederland</Name>
+    <ParentId>c7VESkTAcT</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>MG4SMxmelx</Id>
+    <Name>Schweiz-Switzerland</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>5UTtkaQxBH</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>LybsCgDrym</Id>
+    <Name>Rest of America</Name>
+    <ParentId>XcUxw130lR</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>8Ji458ZFgl</Id>
+    <Name>Afrika area</Name>
+    <ParentId>1NQStPzRNQ</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>aYcnX0hIZV</Id>
+    <Name>Other countries</Name>
+    <ParentId />
+    <Israel>false</Israel>
+    <CurrencyId>iAImQ3Oel8</CurrencyId>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>gzf8u5WLIf</Id>
+    <Name>Oceania area</Name>
+    <ParentId>bv4aZgHDor</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+  <ResidenceDto>
+    <Id>lKRpiVpO4U</Id>
+    <Name>Asia area</Name>
+    <ParentId>CN3rMMifno</ParentId>
+    <Israel>false</Israel>
+    <CurrencyId />
+  </ResidenceDto>
+</ArrayOfResidenceDto>

@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .container {
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body >
+    <div class="container">
+        <div>
+            <img class="center" src="http://mymentorapp.com/content/images/email-template-icon.png" />
+        </div>
+        <div id="header">
+            <div class="float-left">
+                <div class="title">MyMentorApp</div>
+                <div>Company(VAT) ID  054766175</div>
+                <div>27 Arugot st' Herzliya Israel 4636475</div>
+            </div>
+            <div class="float-right">
+                {originalLetter}
+            </div>
+        </div>
+        <div class="clear">
+            <p>
+                {receiptNumber}
+            </p>
+            <p>
+                Received from :{userFirstName}, {userLastName}.<br />
+                For the items:
+                {baskeItems}               
+            </p>
+            <p>
+                Price: {userCurrencySymbolLetter} {basketPriceLetter}<br />
+                Reduced from balance: {userCurrencySymbolLetter} {reduceFromBalanceLetter}<br />
+                Paid: {userCurrencySymbolLetter} {paymentTransactionLetter}.<br />
+                {maamTitleAndAmount}<br />
+                Paid by Paypal<br />
+            </p>
+
+            <p>
+                Sincerely<br />
+                ____________<br />
+                MyMentorApp <br />
+                Date - {dueDateLetter} <br />                
+                Event – {event} Letter – {Letter}
+            </p>
+        </div>
+    </div>
+</body>
+</html>

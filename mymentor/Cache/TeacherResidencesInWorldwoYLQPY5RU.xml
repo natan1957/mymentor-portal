@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<ArrayOfResidenceDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResidenceDto>
+    <Name>קרית אונו</Name>
+    <NameEn>Kiryat Ono</NameEn>
+    <ParentId>ddKmnehqbu</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>קרית אונו</Name>
+    <NameEn>Kiryat Ono</NameEn>
+    <ParentId>ddKmnehqbu</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>ירושלים</Name>
+    <NameEn>Jerusalem</NameEn>
+    <ParentId>YnFJnSuWvk</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>מיאמי</Name>
+    <NameEn>Miami</NameEn>
+    <ParentId>nZ84BuNFTo</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>תל אביב</Name>
+    <NameEn>Tel Aviv</NameEn>
+    <ParentId>GzwJyQcZmR</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>ניו יורק</Name>
+    <NameEn>NY</NameEn>
+    <ParentId>ybfqH7MAwq</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>asd</Name>
+    <NameEn>123</NameEn>
+    <ParentId>qaIbAmlMWj</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>34</Name>
+    <NameEn>234</NameEn>
+    <ParentId>qaIbAmlMWj</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>ניו יורק</Name>
+    <NameEn>NY</NameEn>
+    <ParentId>ybfqH7MAwq</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>כפר סבא</Name>
+    <NameEn>Kfar Saba</NameEn>
+    <ParentId>KZJn9RcpLD</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>אריזונה</Name>
+    <NameEn>Arizona</NameEn>
+    <ParentId>T01iVOZPPD</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>london</Name>
+    <NameEn>london</NameEn>
+    <ParentId>5qIuvXEXbU</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>רעננהה</Name>
+    <NameEn>Ra'ananah</NameEn>
+    <ParentId>KZJn9RcpLD</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>עיר מגורים 1</Name>
+    <NameEn>234</NameEn>
+    <ParentId>GzwJyQcZmR</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>הרצליה</Name>
+    <NameEn>Herzliya</NameEn>
+    <ParentId>5jEsYBCikV</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>מודיעין עילית</Name>
+    <NameEn>modiin ilit</NameEn>
+    <ParentId>8nwRuIgULr</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>אלעד</Name>
+    <NameEn>Elad</NameEn>
+    <ParentId>9UY08dJkyr</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>ירושלים</Name>
+    <NameEn>Jerusalem</NameEn>
+    <ParentId>YnFJnSuWvk</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>rrr</Name>
+    <NameEn>rrr</NameEn>
+    <ParentId>GzwJyQcZmR</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>asd</Name>
+    <NameEn>asd</NameEn>
+    <ParentId>qaIbAmlMWj</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>7</Name>
+    <NameEn />
+    <ParentId>Ee42l21wfb</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>234</Name>
+    <NameEn>234</NameEn>
+    <ParentId>qaIbAmlMWj</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name />
+    <NameEn />
+    <ParentId />
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>הרצליה</Name>
+    <NameEn>Herzliya</NameEn>
+    <ParentId>5jEsYBCikV</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+  <ResidenceDto>
+    <Name>פריז</Name>
+    <NameEn>Paris</NameEn>
+    <ParentId>f6n8u5UO1A</ParentId>
+    <Israel>false</Israel>
+  </ResidenceDto>
+</ArrayOfResidenceDto>

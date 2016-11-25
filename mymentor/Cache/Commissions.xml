@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<CommissionsDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ActiveFrom>2014-08-16T11:08:00</ActiveFrom>
+  <ActiveUntil>0001-01-01T00:00:00</ActiveUntil>
+  <AgentCommission>0.1</AgentCommission>
+  <ClearingCommission>0.05</ClearingCommission>
+  <ConversionCommission>0.01</ConversionCommission>
+  <MinimumTransaction>10</MinimumTransaction>
+  <Status>active</Status>
+  <TeacherCommission>0.3</TeacherCommission>
+  <SiteAccountId>E6ukAfvppV</SiteAccountId>
+  <MaamAccountId>zOZkdyX0pF</MaamAccountId>
+  <Maam>17</Maam>
+  <MaamBalanceAccountId>XVbL22JCH1</MaamBalanceAccountId>
+</CommissionsDto>

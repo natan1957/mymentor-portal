@@ -1,0 +1,43 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@model IEnumerable<MyMentor.BL.ViewModels.ClipMinimalData>
+
+@if (Model != null)
+{
+    if (!Model.Any())
+    {
+       @Html.Raw(MyMentorResources.searchHasNotResults)
+    }
+    foreach (var result in Model)
+    {        
+        <div class="lessonSearchItem clearfix" >
+            <div class="cbSearch">
+                <input type="checkbox" data-lesson-details="@result.GetJson()"  />
+            </div>
+            <div class="lessonWrapper">
+                <div class="lessonTop">
+                    <table class="lessonTable" border="0" cellpadding="0" cellspacing="0">
+
+                        <tr>
+                            <td class="lessonHeaderItem">
+                                <div class="lessonHeaderItemPadding">
+                                    <div class="floatL arial center font14 biggerLineHeight">
+                                        @result.Price @Html.Action("GetUserCurrencySymbol", "Home")
+                                        <br>
+                                        @result.Status
+                                    </div>
+                                    <h3 class="lessonHeaderText">
+                                        @result.ClipNamePart1
+                                    </h3>
+                                    <div>
+                                        @result.ClipNamePart2
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+}

@@ -1,0 +1,313 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+    /* support: IE7 */
+    *height: 1.7em;
+    *top: 0.1em;
+}
+
+.custom-combobox-input {
+    margin: 0;
+    padding: 0.3em;
+}
+
+.mtr-text-container {
+    border: solid 1px gray;
+    width: 120px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#residenceView {
+    overflow: visible;
+    width: 250px;
+    position: absolute;
+    z-index: 100;
+}
+
+.dynatree-container {
+    overflow: hidden !important;
+}
+
+.preloader {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 300px;
+}
+
+    .preloader img {
+        left: 50%;
+        position: absolute;
+    }
+
+/*.ui-state-default, .ui-state-default :hover{
+     color:black !important;
+    background: none !important;
+}*/
+
+.custom-combobox-input, .hasDatepicker {
+    height: 20px;
+    line-height: 0px;
+}
+
+.hasDatepicker {
+    width: 100px;
+}
+
+.ui-button-icon-only {
+    width: 18px !important;
+    height: 20px !important;
+}
+
+.mtr-form3cols-container {
+    width: 900px;
+}
+
+    .mtr-form3cols-container div {
+        width: 299px;
+        display: block;
+        float: right;
+    }
+
+#password_complexity {
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    margin: 6px 4px 0 0;
+    display: none;
+    position: absolute;
+    top: -1px;
+    left: 5px;
+}
+
+.weak {
+    background-color: #b94a48;
+}
+
+.fair {
+    background-color: #ff6a00;
+}
+
+.good {
+    background-color: #b6ff00;
+}
+
+.strong {
+    background-color: #b6ff00;
+}
+
+.very-strong {
+    background-color: #b6ff00;
+}
+
+.form-group #residenceContainer {
+    position: relative;
+}
+
+.form-group #residenceView {
+    top: 20px;
+}
+
+.lessonSelects div.mentorInput {
+    color: #000000;
+    font-family: alef;
+    height: 22px;
+    margin-left: 6px;
+    padding: 0 3px 0 0;
+    width: 105px;
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+}
+
+.lessonSelects div.mentorInputContainer {
+    position: relative;
+    display: inline-block;
+    width: 114px;
+}
+
+
+
+
+#residenceContainer {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.lessonSelects input {
+    color: #000000;
+    font-family: alef;
+    height: 22px;
+    padding: 0 3px 0 0;
+    width: 105px !important;
+    position: absolute;
+    top: -1px;
+}
+
+.mtr-date-container {
+    display: inline-block;
+    direction: ltr;
+    position: relative;
+    width: 125px;
+}
+
+.mtr-hidden {
+    display: none;
+}
+
+
+
+
+.dynatree-container .dynatree-title, .dynatree-expander {
+    line-height: initial !important;
+    text-indent: initial !important;
+}
+
+ul.dynatree-container ul {
+    padding: 0 16px 0 0;
+    line-height: initial !important;
+    text-indent: initial !important;
+}
+
+ul.dynatree-container li {
+    background-position: right 0;
+    line-height: initial !important;
+    text-indent: initial !important;
+}
+
+.lesson-inactive {
+    color: #b94a48;
+}
+
+.bundle-inactive {
+    position: absolute;
+    right: 170px;
+    top: 2px;
+    color: #b94a48;
+    font-size: 1.2em;
+}
+
+.teacher-inactive {
+    color: #b94a48;
+    display: block;
+}
+
+.mentorDownloading {
+    display: none;
+    margin-left: 20px;
+}
+
+.mentorTextInput {
+    position: relative !important;
+    top: 3px !important;
+    margin-left: 3px !important;
+}
+
+.stopClip {
+    background: url("/content/images/lessons/stop8.png") no-repeat;
+    border: none;
+    width: 25px;
+    height: 25px;
+    display: none;
+    margin-left: 9px;
+}
+
+#impersonationDashboard {
+    direction: ltr;
+    background-color: yellow;
+    text-align: center;
+    padding: 5px;
+}
+
+.tree-clear-selection {
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 0 5px 0 5px;
+    cursor: pointer;
+}
+
+#idletimeout { background:#CC5100; border:3px solid #FF6500; color:#fff; font-family:arial, sans-serif; text-align:center; font-size:12px; padding:10px; position:relative; top:0px; left:0; right:0; z-index:100000; display:none; }
+#idletimeout a { color:#fff; font-weight:bold }
+#idletimeout span { font-weight:bold }
+
+.admin {
+    direction: ltr;
+    padding: 40px;
+}
+
+.admin table {
+    border-collapse: collapse;
+    width: 100%
+}
+.admin table, .admin th,.admin td{
+    border:1px solid #000000;
+    
+}
+
+.ltr-always {
+    direction: ltr;
+}
+
+.input-error {
+    background-color: #b94a48 !important;
+}
+
+.account-admin-comments {
+    height: 96px !important;
+}
+
+.readonly {
+    background-color: #d0cee0 !important;
+}

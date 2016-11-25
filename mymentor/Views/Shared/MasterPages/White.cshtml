@@ -1,0 +1,50 @@
+﻿@using System.Web.UI.HtmlControls
+@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Extentions
+@using MyMentor.BL.Models
+@using MyMentor.Controllers
+@using MyMentor.Factories
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewBag.Title - My Mentor</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="MyMentor">
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Sharing tags unmark when filled -->
+    <!-- <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">-->
+    @*@Styles.Render("~/Content/css")*@
+ 
+    @*<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">*@
+
+    <!--[if lt IE 9]>
+       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script> window.html5 || document.write('<script src="/Scripts/vendor/html5shiv.js"><\/script>')</script> <![endif]-->
+    @*  @Scripts.Render("~/bundles/modernizr")
+        <link href="/Content/he-il/mymentor-portal.css" rel="stylesheet" />
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+
+        <script type="text/html" src="//ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js">
+        </script>*@
+   
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    @Scripts.Render("~/bundles/mymentor")
+
+
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

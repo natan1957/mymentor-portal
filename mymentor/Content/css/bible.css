@@ -1,0 +1,31 @@
+﻿
+
+.mainTitle { background-color: #F49830; margin-top:95px;}
+
+.mainSubTitle {
+    background-color: #C4ECEF;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 24px;
+    margin-top: 10px;
+    min-height: 41px;
+    color:#1E1E1E;
+    
+     -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;   
+    
+      -moz-box-shadow: 1px 1px 7pxx #0998b6;
+    -webkit-box-shadow: 1px 1px 7px #0998b6;
+    box-shadow: 1px 1px 7px #0998b6;
+    filter: progid:DXImageTransform.Microsoft.Shadow(strength = 7, direction = 157.5, color = '#0998b6');
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 7, Direction = 157.5, Color = '#0998b6')";
+}
+
+.homepageBannerImage {min-height: 262px;
+}
+
+.topNavContainer {
+    background: url("../images/inner_background_bible.png") no-repeat scroll center -28px #2CBBC4;
+    padding-bottom: 18px;
+}

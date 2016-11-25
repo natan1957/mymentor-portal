@@ -1,0 +1,45 @@
+2016-07-29 17:17:10.0209 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.Controllers.CheckoutController.Index(String message) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\CheckoutController.cs:line 58
+2016-07-29 17:17:17.0901 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.Controllers.CheckoutController.Index(String message) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\CheckoutController.cs:line 58
+2016-07-29 17:17:18.6296 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.Controllers.CheckoutController.Index(String message) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\CheckoutController.cs:line 58
+2016-07-29 17:17:54.3670 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.Controllers.CheckoutController.Index(String message) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\CheckoutController.cs:line 58
+2016-07-29 17:18:13.7353 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyMentor.Controllers.CheckoutController.Index(String message) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\CheckoutController.cs:line 58
+2016-07-29 17:26:18.2188 ERROR System.AggregateException: One or more errors occurred. ---> System.ArgumentException: Cannot create a pointer to an object without an objectId
+   at Parse.Internal.PointerOrLocalIdEncoder.EncodeParseObject(ParseObject value)
+   at Parse.Internal.ParseEncoder.Encode(Object value)
+   at Parse.Internal.ParseEncoder.Encode(Object value)
+   at Parse.ParseObject.ToJSONObjectForSaving(IDictionary`2 operations)
+   at Parse.Internal.ParseObjectController.SaveAsync(IObjectState state, IDictionary`2 operations, String sessionToken, CancellationToken cancellationToken)
+   at Parse.ParseObject.<>c__DisplayClass3e.<SaveAsync>b__3d(Task _)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Repository.ParseRepository.<CreateUpdateEvent>d__167.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1353
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at MyMentor.Logic.CheckoutLogic.CancelPayment(CheckoutViewModel checkoutViewModel) in d:\Tfs_Workspace\MyMentor\MyMentor\Logic\CheckoutLogic.cs:line 113
+   at MyMentor.Controllers.CheckoutController.Index(String message) in d:\Tfs_Workspace\MyMentor\MyMentor\Controllers\CheckoutController.cs:line 64
+---> (Inner Exception #0) System.ArgumentException: Cannot create a pointer to an object without an objectId
+   at Parse.Internal.PointerOrLocalIdEncoder.EncodeParseObject(ParseObject value)
+   at Parse.Internal.ParseEncoder.Encode(Object value)
+   at Parse.Internal.ParseEncoder.Encode(Object value)
+   at Parse.ParseObject.ToJSONObjectForSaving(IDictionary`2 operations)
+   at Parse.Internal.ParseObjectController.SaveAsync(IObjectState state, IDictionary`2 operations, String sessionToken, CancellationToken cancellationToken)
+   at Parse.ParseObject.<>c__DisplayClass3e.<SaveAsync>b__3d(Task _)
+   at Parse.Internal.InternalExtensions.<>c__DisplayClass7`1.<OnSuccess>b__6(Task t)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MyMentor.Repository.ParseRepository.<CreateUpdateEvent>d__167.MoveNext() in d:\Tfs_Workspace\MyMentor\MyMentor.Repository\ParseRepository.cs:line 1353<---
+

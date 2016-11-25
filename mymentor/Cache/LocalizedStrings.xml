@@ -1,0 +1,2748 @@
+<?xml version="1.0"?>
+<ArrayOfLocalizedString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedString>
+    <Key>IPHONE_STRING_choosecontent_info</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>  </Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>  </Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessondetails_lessonstatus</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Download/
+Run
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הורד/הפעל
+שיעור
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_choosecontent_title</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Welcome to MyMentor app</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ברוכים הבאים לאפליקצייה MyMentor</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessondetails_title</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Details &amp; Recordings</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>פרטים והקלטות</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_UPDATE_STUDENT_FAIL</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="Update Details"&gt;         &lt;p&gt;            Update failed, the email is already in use         &lt;/p&gt;         &lt;div class="dialog_btn_wrapper clearfix"&gt;             &lt;div&gt;                 &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"                    href="/"&gt;Proceed to portal &gt;&gt;&lt;/a&gt;             &lt;/div&gt;         &lt;/div&gt;     &lt;/div&gt;
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="עדכון פרטים"&gt;
+        &lt;p&gt;
+            פרטי המשתמש לא עודכנו בהצלחה ,כתובת הדוא"ל כבר קיימת במערכת
+        &lt;/p&gt;
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;המשך לפורטל &gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_SUG_NIRUT_LOCKED</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Canont change sug nirut</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא ניתן לשנות סוג נראות</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_paragraphs</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>
+Paragraphs
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>
+פסקאות
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_DEMO_ALREADY_ORDERED</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>This demo has already been requested</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הזמנת דמו קיימת</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_showhighlightedwords</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Highlight Words at Solo</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הדגש מילים בהקלטת סולו</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_changeinterfacelanguage</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>עברית - English</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>עברית - English</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_login</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Login</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>כניסה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_sections</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>
+Sections
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>
+קטעים
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_playlesson_okay</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>OK</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אישור</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_playlesson_demomode-test</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>This lesson is in demo mode.  To activate the full version please purchase the full lesson through the portal at MyMentorApp.com </Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שיעור זה נמצא במצב הדגמה.
+להפעלת גרסה מלאה יש לרכוש אותו דרך הפורטל
+MyMentorApp.com
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_logout</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Logout</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>יציאה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_PUBLISH_NOT_SAVED</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>The lesson must be saved before it can be published
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>יש לבצע שמירה לשיעור לפני פרסום</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_AGENT_NOT_FOUND</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>The selected agent is not a registerd user</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הסוכן שהוזן לא קיים במערכת</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_username</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>username</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שם משתמש</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_listentomeagain</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Listen again</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הקשב לי שוב</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonadvancedsettings_okay</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>OK</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אישור</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_PUBLISH_NO_SCHEDULING_EXISTS</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>The lesson must be syncronized before it can be published
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>יש לבצע הקלטה ותזמון לשיעור לפני פרסומו</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonslist_searchplaceholder</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Search lessons</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>חפש שיעורים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_PUBLISH_UPDATE_CONFIRM</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Are you sure you want to publish an update to this lesson?
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>האם אתה בטוח לפרסם עדכון לשיעור זה ?</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_needtoreplacedevice</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Warning! You are signed in on another device.  Are you sure you want to sign in on this device?</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אתה רשום במכשיר אחר. 
+האם אתה בטוח שאתה רוצה להירשם למכשיר זה?
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_messagewhenswitching_test</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Warning! You are about to logout of the current user.  This action will delete the lessons that are installed on this device.</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שים לב !  אתה עומד לצאת מהמשתמש הנוכחי.
+פעולה זו תגרום למחיקת השיעורים הנמצאים במכשיר.
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_playlesson_paragraph</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Paragraph</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>פיסקה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cancel</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ביטול</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_PUBLISH_ILLEGAL_NAME</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>You need to change the name for the lesson
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>עליך לשנות את שם הקליפ</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>cancel</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ביטול</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessondetails_durationtitle</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Duration :</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>משך :</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_listentous_step1</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Let's together</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>  עכשיו  ביחד</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_worldcontent</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>World Content</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>עולם תוכן</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_CONTENT_ORDER_BY_TEACHER_NOT_ALLOWED</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>This content item cannot be purchased</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא ניתן לבצע רכישה עצמית של פריט תוכן זה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_audiosetuptitle</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Learning stages</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שלבי לימוד</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_arrowdirection</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Arrow Direction</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>כיוון החיצים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessondetails_lessonidtitle</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Purchase/Lesson ID :</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>מזהה שיעור/רכישה:</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_PUBLISH_CONFIRM</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Are you sure you want to publish this lesson?
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>האם אתה בטוח לפרסם שיעור זה ?</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_usernameandpasswordwrong_test</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Wrong username or password Forgot your password?  You can reset it at MyMentorApp.com  </Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שם משתמש וסיסמה אינם נכונים
+שכחת סיסמה? ניתן לחדש סיסמה
+בפורטל MyMentorApp.com 
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_REGISTRATION_UNSUPPORTED_DEVICE</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Please note, only apple devices are supported at this time (iphone, ipad, miniipad, etc.) Demo lessons or full lesson will not run on other devices. Even if you have a supported device you should download a free demo before purchasing a lesson to check that your device is compatible. </Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לתשומת לבך!! בשלב זה האפליקציה פועלת על מכשירי אפל (אייפון, אייפד, מיני אייפד, אייפוד-טאץ' וכו') שיעורי דמו או שיעורים מלאים לא יפעלו על מכשירים אחרים. בכל מקרה, גם אם ברשותך מכשיר מתאים, לפני רכישת שיעור יש להוריד דמו חינם ולבדוק האם הוא פועל באופן תקין במכשיר שלך. לא יינתנו החזרים בגין אי תאימות מכשיר.</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_step2title</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Enter new user details</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הכנס פרטי משתמש חדש</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_SHOPPING_CART_PAYMENT_SUCCESS</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Payment was completed successfully, in order to view the lessons in the app, please reload the lessons list</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>תהליך הרכישה הסתיים בהצלחה. השיעורים זמינים באפליקציה.ניתן לראות אותם ע"י ריענון הרשימה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_termsandcondition_approve</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Agree</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>מסכים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_TOO_MANY_CLIPS_IN_BUNDLE</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cannot add any more clips to this package, it is possible to add up to {0} lessons</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא ניתן להוסיף שיעורים אלה לחבילה, מספר השיעורים בחבילה מוגבל ל{0}</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_USER_REGISTRATION_INCOMPLETE</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Registration incomplete</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ההרשמה לפורטל לא הושלמה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_userstatuschecking</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>User under review</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>משתמש בבחינת המערכת</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>זמני</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value> &lt;div class="lessonPurchaseItemPadding whiteDialog"&gt;
+            &lt;div class="orderDemo"&gt;
+                לחצן ההפעלה שעל מארז המחשב שלך (או על קצה המחשב הנישא שלך) או על
+            &lt;/div&gt;
+            &lt;div class="addToBasket"&gt;
+                שינוי הגדרות העכבר עזרה עבור Microsoft Windows&lt;/div&gt;
+            &lt;div class="addToBasketSupport"&gt;
+                שינוי הגדרות העכבר עזרה עבור Microsoft Windows windows.microsoft.t.&lt;/div&gt;
+        &lt;/div&gt;</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_title1</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Logout / Switch user</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>יציאה / החלפת משתמש</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_userstatusblocked</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>User blocked</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>משתמש חסום</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_password</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Password</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>סיסמה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_voiceprompts</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Voice Prompts</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הנחיה קולית</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_okay</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>OK</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אישור</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_playlesson_section</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Section</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>קטע</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_PUBLISH_SUCCESFULLY</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Lesson published successfully!
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הסרטון פורסם בהצלחה !</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_user_exist_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Okay</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אוקי</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_COUPON_HELP</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>help for coupon</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אתה מכין קופון הנחה לתלמידך.
+אתה צריך למלא בשדה "מחיר לתלמיד" את המחיר שאתה מעוניין שתלמידך ישלם עבור השיעור/חבילה.
+אם תמלא מחיר זהה למחיר בהנחת מורה, עמלתך תהיה אפס. 
+אם תמלא מחיר גבוהה ממחיר הנחת מורה, עמלתך תהיה ההפרש בין המחירים. 
+אם תמלא מחיר נמוך מהנחת מורה (המחיר יכול להיות אפילו אפס), תידרש להשלים את ההפרש. במידה ויש לך יתרה, הסכום יקוזז ממנה.
+המחיר לתלמיד חייב לשקף הנחה של לפחות 10 אחוזים.
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_title</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>App Settings</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הגדרות אפליקציה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_switchuser</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Logout \ Switch User</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>צא / החלף משתמש</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_register</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Sign Up</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>רישום</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_REGISTRATION_SUCCESS_STUDENT</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;
+    &lt;p class="font18 alefBold center"&gt; Hello {0}, you are now registered to MyMentor portal &lt;/p&gt;
+    &lt;p&gt; In a few moments you will recieve an email with the application download link &lt;/p&gt;
+    &lt;p&gt; After downloading the app, some identification information will be requested in order to register your device to the portal &lt;/p&gt;
+    &lt;p&gt; MyMentor team wishes you a productive and an enjoyable experince &lt;/p&gt;
+    &lt;div class="dialog_btn_wrapper clearfix"&gt;
+        &lt;div&gt; &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR" href="/"&gt;Proceed to the Portal  &gt;&gt;&lt;/a&gt; &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;
+        &lt;p class="font18 alefBold center"&gt;
+            שלום {0}. נרשמת בהצלחה!
+        &lt;/p&gt;
+        &lt;p&gt;
+            ברגעים אלה נשלחת אליך הודעה הכוללת קישור להורדת האפליקציה
+        &lt;/p&gt;
+        &lt;p&gt;
+            לאחר שתסיים להוריד אותה למכשיר שלך, תתבקש להזדהות כדי לרשום את המכשיר שלך לפורטל
+        &lt;/p&gt;
+        &lt;p&gt;
+            צוות MyMentor מאחל לך פעילות פורייה ומהנה
+        &lt;/p&gt;
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;המשך לפורטל &gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_user_exist</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Username already exists
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>משתמש קיים במערכת</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_general_error</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>general error</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הודעה כללית</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_uninterruptedplaynotactive</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Manually</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ניגון ידני</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_playlesson_sentence</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Sentence</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>פסוקים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_chapter</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>All
+lesson
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>כל
+השיעור
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cancel</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ביטול</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_BUNDLE_ALREADY_IN_BASKET</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>This bundle is already in the basket</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>החבילה כבר קיימת בעגלת הקניות</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_SUG_OSEK_LOCKED</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cannot chage sug osek</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא ניתן לשנות סוג עוסק</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_saveuseraudio</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Save Student Recordings</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שמור הקלטת תלמיד</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_messagewhenswitching</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Are you sure?</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>האם את/ה בטוחה/ה ?</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_signed_up_failed</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Sign up failed</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הרישום נכשל</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_NO_SOURCES_FOUND</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Content cannot be found
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא נמצאו מקורות</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_nowyou_step2</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Listen to yourself</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הקשב לעצמך</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_favorites_title</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Favorites</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>מועדפים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_saveteacheranduser</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Save Teacher+Student</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שמור מורה+תלמיד</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_okay</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>OK</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אישור</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cancel</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ביטול</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonslist_pulltorefreshrelease</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Release to refresh</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שחרר בכדי לעדכן</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_uninterruptedplaynotactive</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Manually</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ניגון ידני</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonslist_pulltorefreshloading</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Loading...</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>טוען...</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonslist_unregisteruserview_title_test</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Welcome guest</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שלום אורח</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessondetails_descriptionname</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Lesson description :</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>תיאור השיעור :</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_needtoreplacedevice_test</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Warning! You are registered on another device.  User can be registered on one device only.  Registering to this device will cause you to disconnect from the other device and delete all lessons that are stored on it.</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שים לב !  אתה רשום במכשיר אחר. 
+משתמש יכול להיות רשום במכשיר אחד בלבד.
+רישום למכשיר זה יגרום לביטולך מהמכשיר האחר ומחיקת השיעורים הנמצאים בו.
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_choosecontent_choose</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Continue</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>המשך</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_CHAGNE_PASSWORD_FAIL</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>An error occured, please try again later</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ארעה שגיאה בביצוע הפעולה ,אנא נסי/ה שוב שנית מאוחר יותר</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_CURRENCY_LOCKED</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cannot change currency</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא ניתן לשנות מטבע</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_listentome</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Listen to me</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>  הקשב   לי</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_password</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Password</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>סיסמה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonslist_unregisteruserview_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Later</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אחר כך</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_uninterruptedplaytimes</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Times</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>פעמים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonslist_cancelsearch</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cancel</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ביטול</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_sentences</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>
+Sentences
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>פסוקים משפטים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_LESSON_ALREADY_IN_BASKET</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>This lesson is already in the basket</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>השיעור קיים בעגלת הקניות</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_login</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Login</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>כניסה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_CONTENT_TYPE_NOT_MATCH</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Warning! The lesson you opened belongs to another content world. Saving this lesson will transfer it to the current content world.</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שים לב! הקובץ שפתחת שייך לעולם תוכן אחר. אם תתבצע שמירה, הוא יועבר לעולם התוכן הנוכחי.</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_UPDATE_LESSON</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>
+&lt;div id="mtr-sucessMessage" class="dialog_mentor"&gt;
+    &lt;p&gt;
+        Be aware that changes made in the Portal are not updated in the Studio. In case of updating the lesson by uploading a new version from the Studio, all details will be replaced by the Studio version. It is highly recommended to visit the Studio and update the correct details.
+    &lt;/p&gt;        
+    &lt;div class="dialog_btn_wrapper clearfix"&gt;
+        &lt;div&gt;
+             &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR" href="javascript:void(0);"&gt;close &gt;&gt;&lt;/a&gt;             
+        &lt;/div&gt;         
+    &lt;/div&gt;
+&lt;/div&gt;</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;
+        &lt;p&gt;
+            לתשומת לבך, עדכון נתוני שיעור בפורטל לא מעלה את השיעור גרסה. כך שמשתמשים שהשיעור כבר מותקן אצלהם לא יידרשו לרענן אותו. 
+כמו כן,  הנתונים שעודכנו לא מעדכנים את קבצי הסטודיו. אם השיעור יתפרסם שוב דרך הסטודיו,  הנתונים ישתנו על פי מה שנקבע בסטודיו. לכן, מומלץ להיכנס לשיעור בסטודיו ולבצע גם שם את השינוי
+        &lt;/p&gt;
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="javascript:void(0);"&gt;סגור &gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_SEARCH_DESCRIPTION_POPUP_TEXT</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>coplete text</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>יש להשלים את ההסבר</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PRTL_general_messege_text_for_test</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Dear customer, this is a message for a test</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לקוח יקר, זה טקסט לבדיקה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_needtoreplacedeviceokbutton</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Continue</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>המשך</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_password</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>password</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>סיסמה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_termsandcondition_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Disagree</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא מסכים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_email_not_valid</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>email not valid</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>כתובת המייל אינה תקינה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_general_error_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Okay</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אוקי</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_lessonstartfrom</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Replay Starts From</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ניגון חוזר מתחיל מ</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonadvancedsettings_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cancel</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ביטול</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_nointernetfound</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Internet network has not been found
+This action requires an active network. 
+Turn off Airplane mode or use Wi-Fi to access Data.</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא נמצאה רשת אינטרנט. 
+פעולה זו מחייבת קישור פעיל לרשת.
+יש לכבות מצב טיסה או להפעיל רשת אינטרנט. 
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_listentous_step2</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Listen
+to us
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הקשב לשנינו</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_BUNDLE_ALREADY_PURCHASED</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>This bundle has already been purchased</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>החבילה כבר נרכשה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_AFTER_SOURCE_SELECTION</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Be aware that the content from the preexisting library may contain remarks and more text than needed for this particular lesson. Be sure to check it and delete superfluous content.</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שימו לב! התוכן שהגיע מהמאגר עשוי להכיל הערות ויותר מטקסט המבוקש. יש לבדוק ובמידת הצורך, יש למחוק את הטקסט המיותר.</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_title2</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Logout / Switch user</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>יציאה / החלפת משתמש</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessondetails_delete</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Delete
+Protection
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הגנת
+מחיקה
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_username</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Username</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שם משתמש</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessondetails_myrecording</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>My recordings for this lesson</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ההקלטות שלי לשיעור זה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_PUBLISH_NO_PERMISSIONS</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Access denied, you do not have the privilige to publish this lesson.
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אין לך הרשאות להעלות סוג שיעור זה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_password_not_valid</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Your password must contain at least six characters
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הסיסמא אינה מתאימה, חייבת לכלול לפחות ששב תווים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_changeinterfacelanguagetext</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>IPHONE_STRING_appsettings_changeinterfacelanguagetext</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>IPHONE_STRING_appsettings_changeinterfacelanguagetext</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_uninterruptedplay</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Auto Play</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ניגון רצוף</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_about_text2</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>The learning process is interactive, simple, and uses a bottom up approach. The student can adjust the steps and depth of progress according to his or her abilities. support@mymentorapp.com</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>התלמיד יכול להתאים לעצמו את אופן הלימוד וקצב הלימוד על פי יכולותיו והעדפותיו. התלמיד מתרגל בעזרת שיעור שהוכן ע"י המורה שלו וכולל את קולו של המורה.
+שאלות או בקשות ניתן לשלוח  support@mymentorapp.com 
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_playlesson_all</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>All</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הכל</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_uninterruptedplay</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Auto Play</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ניגון רצוף</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_about_text1</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>MyMentor application was designed to prepare young individuals for their bar-mitzvah readings including the Torah and Haftarah. The app helps the student learn and practice everything that is needed for the Bar Mitzva Shabbat.</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>האפליקציה MyMentor עוצבה להכנת נערי בר-מצווה לעליה לתורה ולקריאת ההפטרה. האפליקציה מסייעת בלימוד ובתרגול כל מה שנדרש מהנער לקראת שבת בר המצווה. הלימוד הוא אינטראקטיבי, נוח  במיוחד ומתבצע בשיטת מהקל אל הכבד. </Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_successfully_signed_up</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>You have successfully signed up</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>נרשמת בהצלחה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_BUNDLE_FAQ</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>&lt;div class="lessonPurchaseItemPadding whiteDialog"&gt;             &lt;div class="orderDemo"&gt;                 טקסט לחבילה.             &lt;/div&gt;             &lt;div class="addToBasket"&gt;               After clicking "add to basket" the lesson will wait for you at check out. Please visit check out in order to complete the transaction.  &lt;/div&gt;             &lt;div class="addToBasketSupport"&gt;                 Choosing "With distance learning" will provide you with distance learning (phone/chat/email/skype/etc.). The content of this service is described according to the teacher's details. &lt;/div&gt;         &lt;/div&gt; 
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>&lt;div class="lessonPurchaseItemPadding whiteDialog"&gt;
+            &lt;div class="orderDemo"&gt;
+                טקסט לחבילה.
+            &lt;/div&gt;
+            &lt;div class="addToBasket"&gt;
+                אחרי העברה לסל יש לגשת לסל הקניות ולבצע את הרכישה. בסיומה מיתן להוריד את השיעור המלא לאפליקציה 
+&lt;/div&gt;
+            &lt;div class="addToBasketSupport"&gt;
+                תמיכה מרחוק תהיה טלפונית, דרך סקייפ, או כל אמצעי שהמורה מציע. Microsoft Windows windows.microsoft.t.&lt;/div&gt;
+        &lt;/div&gt;
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_READING_DATES_NOT_VALID</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>One or more of the reading dates is not valid
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אחד או יותר מתאריכי הקריאה אינו חוקי</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_REGISTRATION_SUCCESS_TEACHER</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;         &lt;p class="font18 alefBold center"&gt;             Hello {0},          &lt;/p&gt;         &lt;p&gt;              In a few moments you will recieve an email with the application download link         &lt;/p&gt;         &lt;p&gt;             After downloading the app, some identification information will be requested in order to register your device to the portal         &lt;/p&gt;                     &lt;p&gt;                 Your privileges will come into effect after your request is reviewed by an administrator.             &lt;/p&gt;                 &lt;p&gt;          MyMentor team wishes you a productive and an enjoyable experince         &lt;/p&gt;         &lt;div class="dialog_btn_wrapper clearfix"&gt;             &lt;div&gt;                                     &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatL"                        href="/account/update"&gt; Proceed to teacher detail form &gt;&gt;&lt;/a&gt;                                  &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"                    href="/"&gt;Proceed to the portal &gt;&gt;&lt;/a&gt;             &lt;/div&gt;         &lt;/div&gt;     &lt;/div&gt;  
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;
+        &lt;p class="font18 alefBold center"&gt;
+            שלום {0}. נרשמת בהצלחה!
+        &lt;/p&gt;
+        &lt;p&gt;
+            ברגעים אלה נשלחת אליך הודעה הכוללת קישור להורדת האפליקציה
+        &lt;/p&gt;
+        &lt;p&gt;
+            לאחר שתסיים להוריד אותה למכשיר שלך, תתבקש להזדהות כדי לרשום את המכשיר שלך לפורטל
+        &lt;/p&gt;
+       
+            &lt;p&gt;
+                הרשאות המורה ייכנסו לפועל לאחר שתשלים את פרטי המורה ולאחר בדיקת המערכת.
+            &lt;/p&gt;
+       
+        &lt;p&gt;
+            צוות MyMentor מאחל לך פעילות פורייה ומהנה
+        &lt;/p&gt;
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+               
+                    &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatL"
+                       href="/account/update"&gt;המשך לעדכון פרטי מורה &gt;&gt;&lt;/a&gt;
+                
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;המשך לפורטל &gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_otherusermakelogin_test</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Warning! You are registered on another device.  User can be registered on one device only.  Registering to this device will cause you to disconnect from the other device and delete all lessons that are stored on it.
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שים לב !  נרשמת במכשיר אחר. 
+משתמש יכול להיות רשום במכשיר אחד בלבד.
+הרישום למכשיר האחר גרם לביטולך ממכשיר זה ומחיקת השיעורים הנמצאים בו. 
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_CHAGNE_PASSWORD_SUCCESS</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Password changed successfully, To complete this procedure please follow the link in the email
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שינוי הסיסמה בוצע בהצלחה, ברגעים אלו ישלח קישור לתיבת הדוא"ל שלך. להשלמת התהליך יש ללחוץ על הקישור </Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_playlistsetuptitle</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Learning units</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>יחידות לימוד</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_UPDATE_STUDENT</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="Update Details"&gt;         &lt;p&gt;             Your details have been updated successfully         &lt;/p&gt;         &lt;div class="dialog_btn_wrapper clearfix"&gt;             &lt;div&gt;                 &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"                    href="/"&gt;Proceed to portal &gt;&gt;&lt;/a&gt;             &lt;/div&gt;         &lt;/div&gt;     &lt;/div&gt;</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;
+        &lt;p&gt;
+            פרטיך עודכנו בהצלחה
+        &lt;/p&gt;
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;המשך לפורטל &gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_playlesson_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cancel</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ביטול</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_shownaturallanguage</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>display alternate content</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הצג תוכן חלופי</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_nowyou_step1</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>On your own</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>  עכשיו  אתה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessondetails_lessonname</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Lesson name :</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שם שיעור :</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_portal_480</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Sign Up</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>רישום</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_termsandcondition_description_test</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Terms of use were not approved.  The application will now be shut down.  To use the application, you must restart it and accept the Terms of Use.  The full regulations can be seen at MyMentorApp.com </Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>תנאי השימוש לא אושרו. האפליקציה תיסגר כעת. 
+על מנת להשתמש באפליקציה, יש להפעילה שוב ולאשר את תנאי השימוש.  את התקנון המלא ניתן לראות ב  MyMentorApp.com 
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_next</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Next</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>המשך</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_LOCK_COUNTRY</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cannot change country</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא ניתן לשנות מדינה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_username</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Username</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שם משתמש</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonslist_pulltorefreshpull</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Pull to update</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>משוך בכדי לעדכן</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_REGISTRATION_SUCCESS_STUDENT_BECOMES_TEACHER</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;        
+ &lt;p class="font18 alefBold center"&gt; Hello {0}, your request to register as a teacher was submitted.         
+ &lt;/p&gt;&lt;p&gt;You will receive teacher privileges after completing the form and administration approval.&lt;/p&gt;                 
+ &lt;p&gt;MyMentor team wishes you a pleasant experience&lt;/p&gt;&lt;div class="dialog_btn_wrapper clearfix"&gt;
+ &lt;div&gt;&lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatL" href="/account/update"&gt;Update teacher details &gt;&gt;&lt;/a&gt;
+ &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR" href=""/""&gt;Go to MyMentor  &gt;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;
+        &lt;p class="font18 alefBold center"&gt;
+            שלום {0}. בקשתך להירשם כמורה נרשמה.
+        &lt;/p&gt;            
+            &lt;p&gt;
+                הרשאות המורה ייכנסו לפועל לאחר שתשלים את פרטי המורה ולאחר בדיקת המערכת.
+            &lt;/p&gt;
+       
+        &lt;p&gt;
+            צוות MyMentor מאחל לך פעילות פורייה ומהנה
+        &lt;/p&gt;
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+               
+                    &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatL"
+                       href="/account/update"&gt;המשך לעדכון פרטי מורה &gt;&gt;&lt;/a&gt;
+                
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;המשך לפורטל &gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_LESSON_FAQ</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>&lt;div class="lessonPurchaseItemPadding whiteDialog"&gt;             &lt;div class="orderDemo"&gt;                 This free demo will help you decide which lesson is best for you. After clicking "order free demo" the demo will appear in the app upon refreshing the list.             &lt;/div&gt;             &lt;div class="addToBasket"&gt;                 After clicking "add to basket" the lesson will wait for you at check out. Please visit check out in order to complete the transaction.  &lt;/div&gt;             &lt;div class="addToBasketSupport"&gt;                Choosing "With distance learning" will provide you with distance learning (phone/chat/email/skype/etc.). The content of this service is described according to the teacher's details. &lt;/div&gt;         &lt;/div&gt; </Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>&lt;div class="lessonPurchaseItemPadding whiteDialog"&gt;
+            &lt;div class="orderDemo"&gt;
+                הזמנת דמו מאפשרת הורדה בחינם של שיעור חלקי לשם התרשמות. לאחר ביצוע ההורדה יש לרענן את רשימת השיעורים באפליקציה.
+            &lt;/div&gt;
+            &lt;div class="addToBasket"&gt;
+                אחרי העברה לסל יש לגשת לסל הקניות ולבצע את הרכישה. בסיומה מיתן להוריד את השיעור המלא לאפליקציה 
+&lt;/div&gt;
+            &lt;div class="addToBasketSupport"&gt;
+                תמיכה מרחוק תהיה טלפונית, דרך סקייפ, או כל אמצעי שהמורה מציע. Microsoft Windows windows.microsoft.t.&lt;/div&gt;
+        &lt;/div&gt;
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_REGISTRATION_SUCCESS_STUDENT_BECOMES_TEACHER_old</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;         &lt;p class="font18 alefBold center"&gt; Hello {0}, you have registered successfully         &lt;/p&gt;                         &lt;p&gt;                Your teacher permissions come into effect once the review is completed by administrator.             &lt;/p&gt;                 &lt;p&gt;  MyMentor team wishes you a pleasant experience         &lt;/p&gt;         &lt;div class="dialog_btn_wrapper clearfix"&gt;             &lt;div&gt;                                     &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatL"                        href="/account/update"&gt;Update teacher details &gt;&gt;&lt;/a&gt;                                  &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"                    href="/"&gt;Go to MyMentor  &gt;&gt;&lt;/a&gt;             &lt;/div&gt;         &lt;/div&gt;     &lt;/div&gt;</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>&lt;div id="mtr-sucessMessage" class="dialog_mentor" title="רישום למערכת MyMentor"&gt;
+        &lt;p class="font18 alefBold center"&gt;
+            שלום {0}. נרשמת בהצלחה!
+        &lt;/p&gt;            
+            &lt;p&gt;
+                הרשאות המורה ייכנסו לפועל לאחר שתשלים את פרטי המורה ולאחר בדיקת המערכת.
+            &lt;/p&gt;
+       
+        &lt;p&gt;
+            צוות MyMentor מאחל לך פעילות פורייה ומהנה
+        &lt;/p&gt;
+        &lt;div class="dialog_btn_wrapper clearfix"&gt;
+            &lt;div&gt;
+               
+                    &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatL"
+                       href="/account/update"&gt;המשך לעדכון פרטי מורה &gt;&gt;&lt;/a&gt;
+                
+                &lt;a class="btn_mentor turkizLightBtn  smallBtn arial bold floatR"
+                   href="/"&gt;המשך לפורטל &gt;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_USER_INACTIVE</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>User is currently inactive</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>המשתמש אינו פעיל</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonslist_unregisteruserview_login</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Login/Sign Up</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>כניסה/רישום</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_messagewhenswitchingokbutton</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Continue</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>המשך</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_title</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Sign Up</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>רישום</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessondetails_teachertitle</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Performer :</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>מבצע :</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_LESSON_ALREADY_PURCHASED</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>This lesson has already been purchased</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>השיעור כבר נרכש</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_NEED_TO_SELECT_CATEGORY2</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>You have to select Parasha
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>יש לבחור פרשה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_CANNOT_CHANGE_ACTIVE_STATUS_IN_ACTIVE_BUNDLE</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cannot change status, please remove this lesson from the active bundle</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא ניתן לשנות את הסטטוס ,יש להסיר את השיעור מחבילה פעילה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_userstatushold</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>User frozen</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>משתמש מוקפא</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_termsandcondition_description</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Terms of Use were not approved.  The application will now shut down.  </Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>תנאי השימוש לא אושרו. האפליקציה תיסגר כעת. </Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_title</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Login</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>כניסה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_SHOPPING_CART_PAYMENT_FAILURE</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Payment was not completed,please call the system administrator</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>תהליך הרכישה לא הסתיים במלואו, אנא פנה למנהלן</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_portalmessage</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Don't have a password? Forgot it?  You can register or reset your password at MyMentorApp.com </Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אין לך סיסמה ? שכחת אותה? 
+ניתן הירשם או לחדש סיסמה
+בפורטל MyMentorApp.com 
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_saveteacheranduser</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Save Teacher+Student</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שמור מורה+תלמיד</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonslist_unregisteruserview_info_test</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>A selection of demo lessons are available for your convenience. Download and run them to learn how MyMentorApp can deliver benefits to you. To download more lessons, please log in. Don’t have a password? Subscribe to MyMentor.co.il</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לרשותך מספר שיעורי הדגמה. 
+ניתן להוריד ולהפעיל אותם כדי ללמוד ולחוות את האופן בו MyMentorApp יכולה לעזור לך ולהביא לך תועלת.
+להורדת שיעורים נוספים יש להיכנס לאפליקציה
+
+אין לך סיסמה? הירשם ב  MyMentor.co.il
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_SOURCE_TEXT_ARE_YOU_SURE</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>You are about to replace the text. Are you sure you want to proceed?
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>כל הטקסט שקיים ידרס. האם אתה בטוח להמשיך ?</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_saveuseraudio</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Save Student Recordings</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שמור הקלטת תלמיד</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_about_title</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>About</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אודות</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_CONTENT_ITEM_NOT_ACTIVE</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>The requested item is not active</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>פריט התוכן המבוקש אינו פעיל</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_BUNDLE_LESSON_EXPLANATION</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>complete text</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הסבר על שיעורים יש לשהשלים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_termsandcondition_info</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Terms and Conditions: The use of this application is subject to your full agreement to what is written here. If you do not agree to all the terms, you must click on "Disagree" and exit the application. As a user you agree to act in good faith and comply with the spirit of these conditions All rights reserved. Do not copy or reproduce, photograph or record in any way information, content designs Etc. of the application. Do not give or sell any detail of the application, whether for commercial purposes any other purpose. It is strictly forbidden to carry anything that might affect the activity of the application or its users. </Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>תנאי שימוש
+השימוש באפליקציה זו כפוף להסכמה מלאה שלך לנאמר כאן. במידה ואינך מסכים לכל התנאים, עליך להקיש על "לא מסכים" ולצאת מהאפליקציה.  במידה ותבחר "מסכים" אתה מתחייב לפעול בתום לב, על פי ההנחיות באפליקציה ובתקנון באתר MyMentorApp. סיסמת הכניסה לאפליקציה היא אישית ואסור להעבירה לכל גורם אחר. כניסה עם אותה הסיסמה למכשירים רבים תגרום לנעילתה לצמיתות.
+כל הזכויות שמורות. אין להעתיק או לשכפל, לצלם או להקליט  בכל דרך פרטים, תכנים עיצובים וכל דבר אחר מהאפליקציה. אין למסור או למכור כל פרט מהאפליקציה בין אם לצרכים מסחריים ובין אם מסיבות אחרות. 
+חל איסור חמור לבצע דבר שעלול לפגוע בפעילות האפליקציה או בפעילות המשתמשים בה.
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_PUBLISH_ILLEGAL_STATUS</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Illegal status</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הסטטוס שבחרת אינו חוקי</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonsettings_title</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Settings</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הגדרות</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_lessonstartfrom</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Replay Starts From</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ניגון חוזר מתחיל מ</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_email_not_valid_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Okay</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אוקי</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_userstatusnew</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>New user</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>משתמש חדש</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessondetails_favorite</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Add/Remove
+Favorites
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הוסף/הסר
+מועדפים
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_otherusermakelogin</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>You are already registered to another device</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>נרשמת במכשיר אחר. </Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_NEED_TO_SELECT_CATEGORY</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>You need to select at least one category</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>יש לבחור קטגוריה לסינון</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonslist_unregisteruserview_info</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Here are a few demo lessons. 
+For more lessons, please login or sign up
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לרשותך שיעורים ללימוד ברכות העלייה לתורה וברכות ההפטרה. ניתן להשתמש בהם ללא הגבלה. לקבלת שיעורים נוספים יש להיכנס (לוג אין) לאפליקציה.
+אין לך סיסמה ? ניתן להירשם ולבחור שם משתמש (email) וסיסמה. לאחר הרישום יישלח אליך דוא"ל ובו הנחיות להמשך הפעילות.
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_CLIP_CURRENCY_CHANGED</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>This lesson's currency will be change to fits the teacher's currency</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>המטבע של השיעור נשמר במטבע של המורה.</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_needtoreplacedevicecancelbutton</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cancel</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>בטל</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_playlesson_demomode</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>This lesson is in Demo mode. </Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שיעור זה נמצא במצב הדגמה.</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_login_portal</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Sign Up</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>רישום</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_SHOPPING_CART_NO_PURCHASES</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>No items in shopping cart</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא קיימים פריטים בעגלת הקניות</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_messagewhenswitchingcancelbutton</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cancel</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>בטל</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessondetails_versiontitle</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Version :</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>גירסה :</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_choosecontent_description</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Please choose the Torah world and click "Continue"</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>נא בחר את עולם התורה והקש "המשך"</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Cancel</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ביטול</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_MANUALLY_ANCHORS_VALIDATION</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Attention! Delete/Insert failed. 
+
+Do not delete or add text containing anchors. 
+Add or delete anchors using toolbars only.
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לתשומת לב! המחיקה/הוספה נכשלה. 
+
+אין למחוק או להוסיף טקסט המכיל עוגנים. 
+הוספה וגריעת עוגנים תתבצע בעזרת סרגלי הכלים בלבד.
+</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_CLIP_NOT_SAVED_CONFIRM</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Are you sure you wish to continue without saving?</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>השיעור לא נשמר מהשינויים האחרונים. האם אתה בטוח להמשיך ?</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>STD_PUBLISH_NO_CHANGE</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Name has not changed
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>לא השתנה שם השיעור</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_register_password_not_valid_cancel</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Okay</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>אוקי</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_arrowdirection</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Arrow Direction</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>כיוון החיצים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_switchuser_step1title</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Enter current user password</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הכנס סיסמה נוכחית</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_lessonslist_unregisteruserview_title</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Welcome</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>ברוך/ה הבא/ה</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_usernameandpasswordwrong</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Wrong username or password</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>שם משתמש וסיסמה אינם נכונים</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>PORTAL_USER_NOT_REGISTERED</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>User not registered
+</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>המשתמש אינו רשום לפורטל</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+  <LocalizedString>
+    <Key>IPHONE_STRING_appsettings_showhighlightedwords</Key>
+    <Value>
+      <SerializableKeyValuePair>
+        <Key>en-US</Key>
+        <Value>Highlight in solo mode</Value>
+      </SerializableKeyValuePair>
+      <SerializableKeyValuePair>
+        <Key>he-IL</Key>
+        <Value>הדגש מילים בהקלטת סולו</Value>
+      </SerializableKeyValuePair>
+    </Value>
+  </LocalizedString>
+</ArrayOfLocalizedString>

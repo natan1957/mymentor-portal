@@ -1,0 +1,12 @@
+﻿@model  IEnumerable<MyMentor.BL.Models.Teacher> 
+<div class="mtr-container-side">
+    <ul>
+        @foreach (var teacher in Model)
+        {
+            <li class="clearfix">
+                <div><img src="@teacher.PictureUrl" /></div>
+                <div>@teacher.FirstName @teacher.LastName</div>
+            </li>
+        }
+    </ul>
+</div>

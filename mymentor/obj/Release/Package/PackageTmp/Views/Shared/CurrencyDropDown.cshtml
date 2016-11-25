@@ -1,0 +1,8 @@
+﻿@model MyMentor.BL.ViewModels.CurrencyDto[]
+
+<span class="dropdown_change_inner">
+    @foreach (var currency in @Model)
+{
+    <a href="/home/ChangeCurrency?currencyId=@currency.ObjectId">@currency.CurrencySymbol</a>
+}
+</span>

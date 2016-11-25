@@ -1,0 +1,644 @@
+﻿@using MyMentor.BL.App_GlobalResources
+@using MyMentor.BL.Extentions
+@using MyMentor.BL.Models
+@using PayPal
+@model MyMentor.BL.ViewModels.MyAccountViewModel
+@{
+
+}
+
+
+<section role="main" class="main_content clearfix">
+    <div class="fixedWidth">
+        <div class="formContainer myAccountContainer">
+            @using (Html.BeginForm("index", "MyAccount", FormMethod.Get, new { name = "myAccountForm", id = "myAccountForm" }))
+            {
+
+                <div class="myAccountHeader clearfix">
+                    <div class="clearfix">
+                        <div class="myAccountHeaderRight floatR arial">
+                            <div class="myAccountHeader">
+                                <h1 class="mentor_header margin0 inlineBlock">@MyMentorResources.myAccountTitle</h1>
+                                <span class="myAccountHeaderUserNameContainer">
+                                    @{
+                var readOnly = !Model.ShowAdminView ? "readonly" : string.Empty;
+                var style = readOnly == "readonly" ? "noStyleInput" : "";
+                <input id="myAccountUserName" type="text" name="uid" class="@style" value="@Model.UserName" @readOnly />
+                                    }
+                                    @if (string.IsNullOrEmpty(Model.ErrorMessage))
+                                    {
+                                        <span class="myAccountName">- @Model.UserDispalyName</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="field-validation-error">@Model.ErrorMessage</span>
+                                    }
+                                </span>
+                            </div>
+                            <div class="myAccountDates">
+                                <label for="">@MyMentorResources.myAccountStartDate</label>
+                                <div class="inputWrapper inlineBlock clearfix">
+                                    <input type="text" id="startDate" name="sd" style="" class="icon_calendar_input" value="@Model.MyAccountRequest.Sd">
+                                </div>
+                                <label for="">@MyMentorResources.myAccountEndDate</label>
+                                <div class="inputWrapper inlineBlock clearfix">
+                                    <input type="text" id="endDate" name="ed" value="@Model.MyAccountRequest.Ed" class="icon_calendar_input">
+                                </div>
+
+                                <a href="javascript:void(0)" id="order" class="btn_mentor arrowBtn greyBtn upArrow">@MyMentorResources.myAccountOrder</a>
+                                @Html.HiddenFor(x => x.MyAccountRequest.Asc, new { @Name = "asc", id = "orderval" })
+
+                                <a id="toggleTextBtn" href="javascript:void(0)" class="btn_mentor greyBtn">@MyMentorResources.expand</a>
+                                @if (!string.IsNullOrEmpty(Model.PrevBalance))
+                                {
+                                    <span class="PreviousSum font14">
+                                        @MyMentorResources.myAccountPrevCredit:
+                                        <span class="bordo" data-amount-nis="@Model.PrevBalanceNis">@Model.PrevBalance</span>
+                                    </span>
+                                }
+                            </div>
+                        </div>
+                        @if (Model.ShowAdminView)
+                        {
+                            <div class="myAccountHeaderLeft floatL arial">
+                                <div>
+                                    <label for="eventCodeInput">
+                                        @MyMentorResources.myAccountEvent
+                                    </label><div class="eventCodeInputWrapper inputWrapper clearfix inlineBlock">
+                                        <input id="eventCodeInput" name="Eid" type="text" value="@Model.MyAccountRequest.Eid">
+                                    </div>
+                                </div>
+                                <div class="currencyCheckBoxWrapper">
+                                    <span style="margin: 0 15px 0 15px;"> @Html.ActionLink(" fix errors", "transactionerrors", "admin")</span>
+                                    <label for="currencyCheckBox">₪</label>
+
+                                    <input id="currencyCheckBox" name="nis" type="checkbox">
+                                    <a class="btn_mentor" href="javascript:void(0)" id="showResults">@MyMentorResources.myAccountShow</a>
+                                </div>
+
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="myAccountHeaderLeft floatL arial">
+                                <div style="visibility: hidden">
+                                    <label for="eventCodeInput">
+                                        @MyMentorResources.myAccountEvent
+                                    </label><div class="eventCodeInputWrapper inputWrapper clearfix inlineBlock">
+                                        <input id="eventCodeInput" type="text" value="">
+                                    </div>
+                                </div>
+                                <div class="currencyCheckBoxWrapper">
+                                    <a class="btn_mentor" href="javascript:void(0)" id="showResults">@MyMentorResources.myAccountShow</a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    @if (Model.ShowAdminView)
+                    {
+                        <div class="myAccountFillters arial clearfix">
+                            <div class="myAccountFilltersColumn myAccountFilltersColumnFirst">
+                                <div class="myAccountFillter">
+                                    <label for="">
+                                        רכישות
+                                    </label>
+                                    <input type="checkbox">
+                                    <select>
+                                        <option>כל הסוגים</option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                </div>
+                                <div class="myAccountFillter">
+                                    <label for="">
+                                        קופונים
+                                    </label>
+                                    <input type="checkbox">
+                                    <select>
+                                        <option>כל הסוגים</option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                </div>
+                                <div class="myAccountFillter">
+                                    <label for="">
+                                        אירועים
+                                    </label>
+                                    <input type="checkbox">
+                                    <select>
+                                        <option>כל הסוגים</option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                </div>
+                                <div class="myAccountFillter">
+                                    <label for="">
+                                        תשלומים
+                                    </label>
+                                    <input type="checkbox">
+                                    <select>
+                                        <option>כל הסוגים</option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                </div>
+                                <div class="myAccountFillter">
+                                    <label for="">
+                                        משתמשים
+                                    </label>
+                                    <input type="checkbox">
+                                    <select>
+                                        <option>כל הסוגים</option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="myAccountFilltersColumn">
+                                <div class="myAccountFillter">
+                                    <label for="">
+                                        שיעורים
+                                    </label>
+                                    <input type="checkbox">
+                                    <select>
+                                        <option>כל הסוגים</option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                </div>
+                                <div class="myAccountFillter">
+                                    <label for="">
+                                        חבילות
+                                    </label>
+                                    <input type="checkbox">
+                                    <select>
+                                        <option>כל הסוגים</option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+
+                                </div>
+                                <div class="myAccountFillter">
+                                    <label for="">
+                                        לוג
+                                    </label>
+                                    <input type="checkbox">
+                                    <select>
+                                        <option>כל הסוגים</option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                </div>
+                                <div class="myAccountFillter">
+                                    <label for="">
+                                        עו"ש
+                                    </label>
+                                    <input type="checkbox">
+                                    <select>
+                                        <option>כל הסוגים</option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                    &nbsp;
+                                    <select>
+                                        <option>כל הסטטוסים </option>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+            <div class="MyAccountTableContainer clearfix">
+                @if (Model.ShowAdminView)
+                {
+                    <div class="MyAccountTableSummary arial">
+                        <span class="summaryLabel">סה"כ שורות:</span>
+                        <span class="summaryNumber">9999</span>
+
+                        <span class="summaryLabel">סה"כ זכות:</span>
+                        <span class="summaryNumber">999.99 ₪</span>
+
+                        <span class="summaryLabel">סה"כ חובה:</span>
+                        <span class="summaryNumber">999.99 ₪</span>
+
+                        <span class="summaryLabel">הפרש:</span>
+                        <span class="summaryNumber">999.99 ₪</span>
+
+                    </div>
+                }
+                <div class="lessonWrapper">
+                    <div class="lessonTop nohover">
+                        <table cellspacing="0" cellpadding="0" border="0" class="lessonTable arial">
+                            <tbody>
+                                <tr class="lessonTableHeader">
+                                    <td class="MyAccountTypeItem">
+                                        <div class="MyAccountTypeItemPadding">
+                                            @MyMentorResources.myAccountType
+                                        </div>
+                                    </td>
+                                    <td class="MyAccountUserItem">
+                                        <div class="MyAccountUserItemPadding">
+                                            @MyMentorResources.myAccountUser
+                                        </div>
+                                    </td>
+                                    <td class="MyAccountDateItem">
+                                        <div class="MyAccountDateItemPadding">
+                                            @MyMentorResources.myAccountDate
+                                        </div>
+                                    </td>
+                                    <td class="MyAccountActionItem">
+                                        <div class="MyAccountActionItemPadding">
+                                            @MyMentorResources.myAccountAction
+                                        </div>
+                                    </td>
+                                    <td class="MyAccountItem">
+                                        <div class="MyAccountItemPadding">
+                                            @MyMentorResources.myAccountItem
+                                        </div>
+                                    </td>
+                                    <td class="MyAccountStatusItem">
+                                        <div class="MyAccountStatusItemPadding">
+                                            @MyMentorResources.myAccountStatus
+                                        </div>
+                                    </td>
+                                    <td class="MyAccountSumItem">
+                                        <div class="MyAccountSumItemPadding">
+                                            @MyMentorResources.myAccountAmount
+                                        </div>
+                                    </td>
+                                    <td class="MyAccountSumLeftItem">
+                                        <div class="MyAccountSumLeftItemPadding">
+                                            @MyMentorResources.myAccountCredit
+                                        </div>
+                                    </td>
+                                    <td class="MyAccountNoteItem">
+                                        <div class="MyAccountNoteItemPadding">
+                                            @MyMentorResources.myAccountRemarks
+                                        </div>
+                                    </td>
+                                </tr>
+                                @if (Model.AccountStatements.Any())
+                                {
+                                    foreach (var accountStatement in Model.AccountStatements)
+                                    {
+                                        <tr>
+                                            <td class="MyAccountTypeItem">
+                                                <div class="MyAccountTypeItemPadding whiteTooltipClickable" title="@accountStatement.Id">
+                                                    @accountStatement.Type
+                                                </div>
+                                            </td>
+                                            <td class="MyAccountUserItem">
+                                                <div class="MyAccountUserItemPadding">
+                                                    @accountStatement.UserName
+                                                </div>
+                                            </td>
+                                            @if (accountStatement.ShowDueDateAlert)
+                                            {
+                                                <td class="MyAccountDateItem">
+                                                    <div class="MyAccountDateItemPadding whiteTooltip" title="@MyMentorResources.myAccountDueDate: @accountStatement.DueDate.ToString("dd/MM/yyyy")">
+                                                        @accountStatement.CreatedAt.ToString("dd/MM/yyyy")*
+                                                    </div>
+                                                </td>
+                                            }
+                                            else
+                                            {
+                                                <td class="MyAccountDateItem">
+                                                    <div class="MyAccountDateItemPadding">
+                                                        @accountStatement.CreatedAt.ToString("dd/MM/yyyy")
+                                                    </div>
+                                                </td>
+                                            }
+                                            <td class="MyAccountActionItem">
+
+                                                <div class="MyAccountActionItemPadding whiteTooltipClickable hasHiddenToolTip ">
+                                                    @accountStatement.Action
+                                                </div>
+
+                                                @if (accountStatement.EventData != null && Model.ShowAdminView)
+                                                {
+                                                    @Html.Partial("Shared/EventData", accountStatement)
+                                                }
+
+                                            </td>
+                                            <td class="MyAccountItem">
+                                                @{
+                                        var hasPopup = accountStatement.EventData != null || accountStatement.Lesson != null || accountStatement.Bundle != null || accountStatement.Coupon != null;
+                                                var clickable = hasPopup && Model.ShowAdminView ? "whiteTooltipClickable " : string.Empty;
+                                                }
+                                                <div class="MyAccountActionItemPadding @clickable" @*title="@accountStatement.Item"*@>
+                                                    @Html.Raw(accountStatement.Item)
+                                                </div>
+
+
+                                                @if (accountStatement.Coupon != null && Model.ShowAdminView)
+                                                {
+                                                    @Html.Partial("Shared/CouponData", accountStatement)
+                                                }
+                                                @if (accountStatement.Lesson != null && Model.ShowAdminView)
+                                                {
+                                                    @Html.Partial("Shared/ClipPurchaseData", accountStatement)
+                                                }
+                                                
+                                                @if (accountStatement.Bundle != null && Model.ShowAdminView)
+                                                {
+                                                    @Html.Partial("Shared/BundlePurchaseData", accountStatement)
+                                                }
+                                            </td>
+                                            <td class="MyAccountStatusItem">
+                                                <div class="MyAccountStatusItemPadding">
+                                                    @accountStatement.Status
+                                                </div>
+                                            </td>
+                                            <td class="MyAccountSumItem ltr-always">
+                                                @{
+                                                var sumColor = accountStatement.ActionType == AccountStatementActionType.Credit ? "" : "bordo";
+                                                if (!string.IsNullOrEmpty(accountStatement.AmountClassName))
+                                                {
+                                                    sumColor = accountStatement.AmountClassName;
+                                                }
+
+
+                                                }
+                                                <div class="MyAccountSumItemPadding @sumColor" data-amount-nis="@accountStatement.AmountNis">
+                                                    @accountStatement.Amount
+                                                </div>
+                                            </td>
+
+                                            <td class="MyAccountSumLeftItem ltr-always">
+                                                @{
+                                        var balaneColor = accountStatement.HasCredit ? "" : "bordo";
+
+                                                }
+                                                <div class="MyAccountSumLeftItemPadding @balaneColor" data-amount-nis="@accountStatement.BalanceNis">
+                                                    @accountStatement.Balance
+                                                </div>
+                                            </td>
+                                            <td class="MyAccountNoteItem">
+                                                <div class="MyAccountNoteItemPadding whiteTooltip" title="@accountStatement.Remarks">
+                                                    @if (!string.IsNullOrEmpty(accountStatement.Remarks))
+                                                    {
+                                                        <label>###</label>
+                                                    }
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="10">
+                                            @MyMentorResources.myAccountNoResults
+                                        </td>
+                                    </tr>
+                                }
+                                @*<tr>
+                                        <td class="MyAccountTypeItem">
+                                            <div class="MyAccountTypeItemPadding">
+                                                רכישה
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountUserItem">
+                                            <div class="MyAccountUserItemPadding">
+                                                נתן הלפמן
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountDateItem">
+                                            <div class="MyAccountDateItemPadding">
+                                                12/3/2015
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountActionItem">
+                                            <div class="MyAccountActionItemPadding">
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountItem">
+                                            <div class="MyAccountItemPadding">
+                                                חבילה: xt36yuyt8 בראשית, הפטרה ומפטיר,
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountStatusItem">
+                                            <div class="MyAccountStatusItemPadding">
+                                                נרכשה
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountSumItem">
+                                            <div class="MyAccountSumItemPadding">
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountSumLeftItem">
+                                            <div class="MyAccountSumLeftItemPadding">
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountNoteItem">
+                                            <div class="MyAccountNoteItemPadding">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="MyAccountTypeItem">
+                                            <div class="MyAccountTypeItemPadding whiteTooltipClickable" title="r45YUd58">
+                                                עו"ש
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountUserItem">
+                                            <div class="MyAccountUserItemPadding">
+                                                נתן הלפמן
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountDateItem">
+                                            <div class="MyAccountDateItemPadding whiteTooltip" title="יום ערך: 12/3/2015">
+                                                12/3/2015*
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountActionItem">
+                                            <div class="MyAccountActionItemPadding whiteTooltipClickable hasHiddenToolTip" title="">
+                                                רכישת חבילה - תשלום רכישה
+                                                <span class="hiddenToolTip"><b>קוד אירוע</b>: <a class="eventUpdate" href="javascript:void(0)">H43ytk870</a>
+                                                    <br />
+                                                    <b>סוג</b>: Coup_Purch
+                                                    <br />
+                                                    <b>יוצר</b>: <a class="myAccountUser" href="javascript:void(0)">chumi@net.net</a>
+                                                    <br />
+                                                    <b>שם יוצר</b>: חומי שרעבי
+                                                    <br />
+                                                    <b>נוצר ב</b>: <a class="myAccountDateUpdate" href="javascript:void(0)">5/4/2015</a>
+                                                    <br />
+                                                    <b>קוד תשלום</b>: g67ytr43k
+                                                    <br />
+                                                    <b>סטטוס</b>: success_event
+                                                    <br />
+                                                    <b>התחלה</b>: <a class="myAccountDateUpdate" href="javascript:void(0)">13/04/2014</a> 16:41:32:65
+                                                    <br />
+                                                    <b>סיום</b>: <a class="myAccountDateUpdate" href="javascript:void(0)">13/04/2014</a> 16:41:32:85
+                                                    <br />
+                                                    <b>קופון</b>: g67ytr43k
+                                                </span>
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountItem">
+                                            <div class="MyAccountItemPadding">
+                                                חבילה: xt36yuyt8 בראשית, הפט...
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountStatusItem">
+                                            <div class="MyAccountStatusItemPadding">
+                                                סטאטוס
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountSumItem">
+                                            <div class="MyAccountSumItemPadding">
+                                                124- ₪
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountSumLeftItem">
+                                            <div class="MyAccountSumLeftItemPadding">
+                                                132- ₪
+                                            </div>
+                                        </td>
+                                        <td class="MyAccountNoteItem">
+                                            <div class="MyAccountNoteItemPadding whiteTooltip" title="הערה חשובה מאוד מאוד">
+                                                הערה
+                                            </div>
+                                        </td>
+                                    </tr>*@
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="lesson_navigation_wrapper">
+                    @{
+                        var currentPage = Request.QueryString["pn"];
+                        if (string.IsNullOrEmpty(currentPage))
+                        {
+                            currentPage = "0";
+                        }
+                    }
+                    @if (int.Parse(currentPage) > 0)
+                    {
+                        @Html.ActionLink(" ", "Index", new
+                        {
+                            asc = Model.MyAccountRequest.Asc,
+                            Sd = Model.MyAccountRequest.Sd,
+                            Ed = Model.MyAccountRequest.Ed,
+                            Uid = Model.UserName,
+                            Nis = Model.MyAccountRequest.Nis,
+                            Pn = int.Parse(currentPage) - 1
+                        }, new { @class = "icon_right_arrow" })
+                    }
+                    @if (Model.PageCount > 1)
+                    {
+                        <span class="lesson_navigation">
+                            @for (var i = 0; i < Model.PageCount; i++)
+                            {
+                                var selected = currentPage == i.ToString() ? "selected" : "";
+                                @Html.ActionLink((i + 1).ToString(), "Index", new
+                            {
+                                asc = Model.MyAccountRequest.Asc,
+                                Sd = Model.MyAccountRequest.Sd,
+                                Ed = Model.MyAccountRequest.Ed,
+                                Uid = Model.UserName,
+                                Nis = Model.MyAccountRequest.Nis,
+                                Pn = i
+                            }, new { @class = selected })
+                            }
+                        </span>
+                    }
+                    @if (int.Parse(currentPage) + 1 < Model.PageCount)
+                    {
+                        @Html.ActionLink(" ", "Index", new
+                        {
+                            asc = Model.MyAccountRequest.Asc,
+                            Sd = Model.MyAccountRequest.Sd,
+                            Ed = Model.MyAccountRequest.Ed,
+                            Uid = Model.UserName,
+                            Nis = Model.MyAccountRequest.Nis,
+                            Pn = int.Parse(currentPage) + 1
+                        }, new { @class = "icon_left_arrow" })
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="/Scripts/plugins/jquery.dotdotdot.min.js"></script>
+<script>
+    $(document).ready(function () {
+        _mymentor.initPage("myAccount", {
+            "startDateBiggerAlert": "@MyMentorResources.myAccountDateError",
+            "collapseText": "@MyMentorResources.collapse",
+            "expandText": "@MyMentorResources.expand"
+        });
+    });
+</script>

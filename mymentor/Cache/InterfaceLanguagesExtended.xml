@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfInterfaceLanguageDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <InterfaceLanguageDto>
+    <ObjectId>VMHmR2UJHl</ObjectId>
+    <LanguageCode>he-IL</LanguageCode>
+    <Order>1</Order>
+    <Title>עברית</Title>
+    <TitleEn>Hebrew</TitleEn>
+  </InterfaceLanguageDto>
+  <InterfaceLanguageDto>
+    <ObjectId>NWUKr7bEgJ</ObjectId>
+    <LanguageCode>en-US</LanguageCode>
+    <Order>2</Order>
+    <Title>אנגלית</Title>
+    <TitleEn>English</TitleEn>
+  </InterfaceLanguageDto>
+</ArrayOfInterfaceLanguageDto>
